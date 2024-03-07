@@ -1,0 +1,3757 @@
+{
+  "participants": [
+    {
+      "name": "Kong Xian Ying"
+    },
+    {
+      "name": "Ester Tsai"
+    },
+    {
+      "name": "Jeremy Tow"
+    },
+    {
+      "name": "Jonathan Cheung"
+    },
+    {
+      "name": "Samuel Chu"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709679494970,
+      "content": "This is super useful info!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709679307147,
+      "content": "I\u00e2\u0080\u0099m gonna submit for now, if there\u00e2\u0080\u0099s any more changes lmk",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709679250870,
+      "content": "for my parts yea",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709678160435,
+      "content": "Ready for submit?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709678153146,
+      "content": "Ok updated",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677938216,
+      "content": "The chart I\u00e2\u0080\u0099ll put the mean number in",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677931884,
+      "content": "I\u00e2\u0080\u0099ll out that in Q2",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709677920317,
+      "content": "over 100 different seeds",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709677905889,
+      "content": "@Jonathan Cheung you can put these numbers into the report",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709677894894,
+      "content": "mean: 0.01862474781439139\nstd: 0.015202989747957751",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709677893635,
+      "content": "\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082\u00f0\u009f\u0098\u0082",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709677885749,
+      "content": "two percent chance",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709677883635,
+      "content": "our seed was actually just built different",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709677874902,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/428468139_933357345058127_3824239161683844351_n_933357341724794.png",
+          "creation_timestamp": 1709677874
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709677522693,
+      "content": "im going to run it 100 times and get means + stddevs",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709677476866,
+      "content": "im running stats let me give u numbers in a sec",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677463545,
+      "content": "So close enough??",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677457877,
+      "content": "1/60 is 1.67% while out test acc is about 0.98%",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709677433981,
+      "content": "Kong reacted \u00f0\u009f\u0098\u0086 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677415089,
+      "content": "Not exactly but same order of\nMagnitude?? I guess",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677403082,
+      "content": "Wait",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677367447,
+      "content": "I\u00e2\u0080\u0099ll rewrite Q2 to say they match",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709677319268,
+      "content": "This is so goofy",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677306710,
+      "content": "Jonathan reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709677300973,
+      "content": "Could someone update the table and the Discussion Q2?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709677252255,
+      "content": "For the report",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709677245395,
+      "content": "Oh lol ok we can go with Jonathan\u00e2\u0080\u0099s number",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709677212651,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431506625_1747137482436721_6025982445281677327_n_1747137479103388.png",
+          "creation_timestamp": 1709677209
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709676783466,
+      "content": "Might have switched up a paean to use a diff model lol",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709676783143,
+      "content": "How about Before you run training?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709676756294,
+      "content": "I think my code broke or something my baseline has gets acc of 0.8662",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709676491970,
+      "content": "Wow is mine just too cracked of a seed, somehow the two most popular labels happen to be guessed over and over",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709676487252,
+      "content": "we can prob do some statistical analysis to see how probable that is?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709676474097,
+      "content": "it might have been random chance",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709676469314,
+      "content": "What matters is that run_eval comes before baseline_train",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709676467269,
+      "content": "ok wait i got a 1 percent lol",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u00ae",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709676462365,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431548208_387099440700191_7564471127758208913_n_387099437366858.png",
+          "creation_timestamp": 1709676461
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709676441820,
+      "content": "Doesn\u00e2\u0080\u0099t matter, just run baseline \u00f0\u009f\u00a4\u009d",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709676422458,
+      "content": "Jeremy what\u00e2\u0080\u0099s the line you\u00e2\u0080\u0099re running",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709676407637,
+      "content": "oh okok",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709676404317,
+      "content": "seed of 2",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709676401892,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431611115_434577445759686_3405898543199361118_n_434577442426353.png",
+          "creation_timestamp": 1709676401
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709676385046,
+      "content": "What are the most common predictions? Wanna check with a print statement in run_eval?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709676298683,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/423619552_1429791060998268_7968350204815542178_n_1429791057664935.png",
+          "creation_timestamp": 1709676298
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u0080",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709676272469,
+      "content": "Jonathan reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709675758123,
+      "content": "maybe try a different seed too",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709675739793,
+      "content": "send in the chat asap haha so we can see if my higher number is just due to random chance",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709675637501,
+      "content": "Kong reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709675558573,
+      "content": "@Kong Xian Ying @Jeremy Tow @Jonathan Cheung @Samuel Chu ?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Kong Xian Ying"
+        },
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709675549255,
+      "content": "can you all check on your end what your test accuracy is before training?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709675125280,
+      "content": "built different",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709675116162,
+      "content": "mb our model is plainly just better",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709674997045,
+      "content": "I don\u00e2\u0080\u0099t get it lol, our un-tuned model is not predicting randomly",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709674949935,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/429908250_395080959929629_5741310887985848718_n_395080956596296.jpg",
+          "creation_timestamp": 1709674949
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709673844869,
+      "content": "I have update Q10 with a more comprehensive answer with respect to simclr and supcon and added a citation in introduction - after I finish if there\u00e2\u0080\u0099s nothing else I can submit",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        },
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709673732781,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431457286_959052875612832_7005206589182177595_n_959052872279499.png",
+          "creation_timestamp": 1709673730
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709673732623,
+      "content": "I also asked:",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709673703005,
+      "content": "@Samuel Chu if the TA answers it, would you like to add whatever we are missing to the report?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jeremy Tow"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709673654108,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431480518_3640831569538925_6477032976274532284_n_3640831566205592.png",
+          "creation_timestamp": 1709673653
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709673653734,
+      "content": "I asked this question on Piazza:",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709672572161,
+      "content": "Kong reacted \u00f0\u009f\u0098\u00b6\u00e2\u0080\u008d\u00f0\u009f\u008c\u00ab\u00ef\u00b8\u008f to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709672507396,
+      "content": "8 per week",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709672494477,
+      "content": "70 contributions is crazy",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u00b6\u00e2\u0080\u008d\u00f0\u009f\u008c\u00ab\u00ef\u00b8\u008f",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Samuel Chu",
+      "timestamp_ms": 1709670522525,
+      "content": "dang both y\u00e2\u0080\u0099all are on the leaderboard \u00f0\u009f\u0098\u0082",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Kong Xian Ying"
+        },
+        {
+          "reaction": "\u00f0\u009f\u00a4\u0093",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Samuel Chu",
+      "timestamp_ms": 1709670494845,
+      "content": "Samuel reacted \u00f0\u009f\u0098\u00ae to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709670469010,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/423619698_2097917967231515_9022487619880137192_n_2097917963898182.png",
+          "creation_timestamp": 1709670468
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u00ae",
+          "actor": "Samuel Chu"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709670468020,
+      "content": "haha I dropped in a place for most Piazza posts",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709669759863,
+      "content": "I submitted code, but it'd be helpful if someone git clones the main branch to check if everything works smoothly",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709669237948,
+      "content": "ok!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709668193275,
+      "content": "would you like to merge your branch to main @Ester Tsai?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709668178931,
+      "content": "Kong reacted \u00f0\u009f\u0098\u0086 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709665952925,
+      "content": "Jeremy reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709665362356,
+      "content": "love that",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709665344391,
+      "content": "Wow our Related Works section is stacked",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Jeremy Tow"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709634480012,
+      "content": "ok I edited the introduction + expanded on the discussion section and finished the related works section",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        },
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709617792474,
+      "content": "the best i got was all 0.88 so yea",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709615501775,
+      "content": "updated github main readme",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709614229579,
+      "content": "i'm pretty much done with my parts on the report. lmk if any of you need me on any parts, if not I'll wait a bit and see where else I can add to.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709613181021,
+      "content": "For explaining the plots, remember to \\ref the figure!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709613111674,
+      "content": "Kong reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709613104319,
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_unsent": true,
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709613043645,
+      "content": "literally HAHAH",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709613039223,
+      "content": "A Simple framework for learning Contrastive Learning of Visual Representations",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709612994363,
+      "content": "Does anyone know what SimCLR stands for lol",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709612241069,
+      "content": "Oh wait I misread the graph lol",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709612226414,
+      "content": "The table and plot are updated!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709612216001,
+      "content": "Also abstract and intro r up to date",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709612206537,
+      "content": "I\u00e2\u0080\u0099m updating the CLR chart and doing the description of the plot - do we have updated params and values for that?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709612174882,
+      "content": "none of the supcon uses the custom techniques, could we say that if the discussion asks us to discuss the results?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709612103386,
+      "content": "oh wait actually",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709612048901,
+      "content": "Do you mean running more of supcon or writing about it in report?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709612014546,
+      "content": "ok i will do supcon now",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709611990790,
+      "content": "All the plots had been updated!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709611950491,
+      "content": "yeah",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709611929977,
+      "content": "And it\u00e2\u0080\u0099s alright since it\u00e2\u0080\u0099s above 80%",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709611919024,
+      "content": "SimCLR is 83.15",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709611918431,
+      "content": "oooo",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709611910375,
+      "content": "Actually I meant SupCon!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709611908822,
+      "content": "yes agreed",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709611885863,
+      "content": "I\u00e2\u0080\u0099m ok with calling it good enough haja",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709611873631,
+      "content": "The best is 89.14%, while custom1and3 is 89.51%",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709611673312,
+      "content": "^ I'm assuming you meant SimCLR",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709611613379,
+      "content": "custom1 is on its last one, i am good with going with what you have there. do we still need to run supcon?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709609643103,
+      "content": "^ yea same",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709609370413,
+      "content": "Nice nice mine is still running and ntg is higher so far",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709609366121,
+      "content": "lmk if anything better comes up! Or I can just put these plots on Overleaf",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709609349066,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/429792429_863662698862893_6347964213495774745_n_863662695529560.png",
+          "creation_timestamp": 1709609348
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709609348005,
+      "content": "I got above 89% for all custom models",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709605786243,
+      "content": "^ just got this! lmk if you get somehting higher : D",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709605772562,
+      "content": "task=custom1 testAcc=0.8914 bestValAcc=0.8957 bestTrainAcc=0.9997 mean_loss=0.0022 ep=19 batch_s=16 drop=0.2 LR=7e-06 hid=1000",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709603876683,
+      "content": "okk!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709603838551,
+      "content": "0.2 drop rate*",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709603828216,
+      "content": "mostly play around with learning rate and drop rate, but 0.2 seems to be the best?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709603805227,
+      "content": "yuh yuh I'm keeping hidden-dim=1000 for all of them",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709603769643,
+      "content": "ok ill do custom1",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709603762614,
+      "content": "i'll run the custom3 commands",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709603754078,
+      "content": "I also haven't gotten to run any custom1 and custom3 commands",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709603734111,
+      "content": "SupCon loss is currently worse than the custom ones",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709603611568,
+      "content": "i see your log of code that you will run at 520pm, is there any block that is not in the queue now?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709603159495,
+      "content": "Niceeeee",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709603152274,
+      "content": "wow lol that little bug fix solved many things",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709603143559,
+      "content": "task=custom1and3 testAcc=0.8944 bestValAcc=0.8952 bestTrainAcc=0.9997 mean_loss=0.0036 ep=20 batch_s=16 drop=0.2 LR=5e-06 hid=1000",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709601715814,
+      "content": "Ester has a chunk of command lines written in the results doc, you can get some from there and modify as you would like to",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jeremy Tow"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709601635525,
+      "content": "custom1, custom3, and custom1and3",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709601630485,
+      "content": "okok i will run those",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709601622561,
+      "content": "yes, and the combined",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709601611892,
+      "content": "these two?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709601610379,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431432780_7236033473148539_5006224960460742258_n_7236033469815206.png",
+          "creation_timestamp": 1709601609
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709601566515,
+      "content": "I updated ester1 to fix the scheduler.step",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709601529493,
+      "content": "all the custom ones",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709601418475,
+      "content": "which exact ones need reruns?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709601399893,
+      "content": "oh shoot sorry i've been afk for most of today. i jst added a bit to the related works and i can help do runs as well",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600716241,
+      "content": "I went to his before! and I remember the session I went wasn\u00e2\u0080\u0099t very helpful too",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600697361,
+      "content": "Kong reacted \u00f0\u009f\u0098\u00ae to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600590025,
+      "content": "just quit his OH lol",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u00ae",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600585236,
+      "content": "the 5pm TA  is very confused",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600548995,
+      "content": "\u00f0\u009f\u0098\u00ad\u00f0\u009f\u0099\u008c\u00f0\u009f\u008f\u00bc",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600545486,
+      "content": "Thanks for running so many of them",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600537326,
+      "content": "\u00f0\u009f\u0098\u00ac\u00f0\u009f\u0098\u00ac I can help run a chunk when I get home in like 45 minutes",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600491301,
+      "content": "need to rerun",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600486661,
+      "content": "oh right!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600465856,
+      "content": "Is the scheduler step in the epoch loop when u ran them? Just curious if u have changed it locally",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600384073,
+      "content": "Kong reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600326450,
+      "content": "custom1and3 just slightly worse than baseline",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600312295,
+      "content": "task=custom1and3 testAcc=0.8907 bestValAcc=0.8942 bestTrainAcc=0.9931 mean_loss=0.0194 ep=20 batch_s=16 drop=0.2 LR=5e-06 hid=128",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600179404,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709600167554,
+      "content": "Ooohh I seeee okkk thanks!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600150119,
+      "content": "I got good supcon plot",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600126099,
+      "content": "I fixed it once but it didn\u00e2\u0080\u0099t save, so that might be why I missed it when I fixed a second time",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709600072810,
+      "content": "Ohhhhhh",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709599835899,
+      "content": "I moved the scheduler step out to the epoch loop, and the best val acc is above this here at epoch 5",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709599055863,
+      "content": "typo from the starter code that got carried forward oopss",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709598873457,
+      "content": "@Ester Tsai if ester1 branch is the most updated one, custom_train in main.py we gotta move the model.scheduler.step() outside of the batch loop",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709597144727,
+      "content": "Kong reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709594025576,
+      "content": "Yes",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709593994342,
+      "content": "we are meeting at 7pm this Wednesday for final project, right?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709592551789,
+      "content": "hmmmm.. the exact wording from the doc is summarize the results, but we can always play safe and mention it.",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709592197009,
+      "content": "We need to comment on each plot right",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709591452702,
+      "content": "like do we need to commnet on each graph or should this be put in the technique 2 section",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709591418969,
+      "content": "For this block in the result section: \"For the second technique, we initialize the weights of the last layer in BERT before fine-tuning it.95\nBoth training and validation accuracies increase very rapidly for the first 4 epochs. The training96\naccuracy continues to improve, but the validation accuracy plateaus at around 86%, showing signs of97\noverfitting. The final test accuracy is 86.28%. The training stops early at epoch 17 after the validation98\naccuracy decreases for 3 epochs in a row. The best model based on the highest validation accuracy99\noccurs at epoch 14.100\nNEEEEEEEEEEEEED UPDATE!!!!!!!!!!!!!!!!!!!!\n\" do we still need this or is it jsut misplaced section??",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709590967097,
+      "content": "Jonathan reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709590921331,
+      "content": "Ester1 should be updated",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709590900314,
+      "content": "Feel free to track it",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709590882904,
+      "content": "I didn\u00e2\u0080\u0099t keep track of that hmm",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709590857898,
+      "content": "Like do those model train faster in any significant way?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709590842856,
+      "content": "Clr and supcon",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709590825012,
+      "content": "Wdym by using the losses?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709590782068,
+      "content": "Also did using the losses rather than the 2 techniques trading faster or was there no significant difference?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709590175890,
+      "content": "These are the current best stats but it is being rerun",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709590145026,
+      "content": "Do we hv numbers for technique 2 and the combined ones or is it being rerun",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709585272220,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709585221797,
+      "content": "to summarize: I've updated the corresponding report parts for baseline, custom1, and SimCLR. Still waiting on some more SupCon to run for better consistency. Need help on hyperparameter tuning and updating the report for custom3 and custom1and3",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584478755,
+      "content": "^these are the current best custom1 and custom1and3",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584468200,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431517572_1318685598825093_3806514773962605382_n_1318685595491760.png",
+          "creation_timestamp": 1709584467
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709584455087,
+      "content": "Kong reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584445603,
+      "content": "yeye just got the newest best result from hyperparameter tuning",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709584420899,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709584405192,
+      "content": "oooh so custom1 itself is slightly tiny bit better than baseline",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584389031,
+      "content": "I'll put them on Overleaf",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584380831,
+      "content": "These are the new plots that we can use, minus custom3 and custom1and3",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584364381,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/423766533_681172107319242_3428726881393985172_n_681172103985909.png",
+          "creation_timestamp": 1709584363
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709584287297,
+      "content": "okkk i will do that tonight, will build off what you have in the results doc",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584256380,
+      "content": "done with baseline and custom1",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709584251807,
+      "content": "just saw that you took SimCLR on the report! thank you thank you",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584247552,
+      "content": "for custom 3 and custom1and3",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709584235795,
+      "content": "I still need help with hyperparameter tuning",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709584000841,
+      "content": "do you need help with running any more or you have everything we need already?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709583977625,
+      "content": "yeah, i'm kind of leaning towards reporting our final and most consistent results",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709583955486,
+      "content": "TRUE",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709583944348,
+      "content": "if we want, we can embrace the research mindset by reporting the latest results",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709583868906,
+      "content": "but i can do more research",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709583856375,
+      "content": "well.. at least for my part of the discussion, it is easier to discuss that adding fine-tuning strategies improves the model",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709583816772,
+      "content": "i see okay",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709583772313,
+      "content": "not that different",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709583768221,
+      "content": "all are around 88%",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709583743962,
+      "content": "is the acc for the fine tuned models very different from the table we have right now?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709583726210,
+      "content": "yeah, i'm down with either.",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709583676010,
+      "content": "yup, i will fill out my parts today.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709581968448,
+      "content": "I've at least updated the SupCon and SimCLR plots, but not yet the other ones. I'm also down to keep the other ones the same since we've already written a lot about them. But I also have the new plots after the code fix available if we want to swap the old ones out.",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709581481305,
+      "content": "The Discussion section still has many blanks. Please help fill it out! I might go to OH at 5pm to ask questions",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709580561896,
+      "content": "I\u00e2\u0080\u0099m fine with keeping out old set",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709580541908,
+      "content": "Should we keep our old set of plots to save time or hyperparameter tune all the models until they are optimized?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709580509745,
+      "content": "No other model gets better than baseline",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709580499700,
+      "content": "89%",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709580496507,
+      "content": "After fixing our code, the baseline is mega good",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709580379398,
+      "content": "Jonathan reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709580372925,
+      "content": "Let me update it on overleaf rn",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709580359876,
+      "content": "I have a better plot possibly",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709580348027,
+      "content": "I can fill in the values in the chart and in the abstract then",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709580337284,
+      "content": "Are we confirmed using that for the report?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709569970801,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709569964828,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431507234_379255768300571_3260394659237000497_n_379255764967238.png",
+          "creation_timestamp": 1709569957
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709569964596,
+      "content": "83.15% SimCLR",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709569961849,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709569953534,
+      "content": "Noiceeee",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709569949634,
+      "content": "Aaaaaa",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709569871994,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431510678_827340865823212_5019527643935616299_n_827340862489879.png",
+          "creation_timestamp": 1709569870
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709569871762,
+      "content": "New result for supcon loss: 88.9% at epoch 3",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709542012631,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709542011815,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709541619628,
+      "content": "82.92% test acc",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709541602920,
+      "content": "I put it in the figures folder for Overleaf but feel free to replace it if something better comes up",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709541576113,
+      "content": "This plot is from python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709541549641,
+      "content": "Jonathan reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709541511329,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709541439928,
+      "content": "I'm rerunning all the other models after the code fix, but I'm down to just use what we already have on the report to save time changing everything out",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        },
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709541350124,
+      "content": "I had merge conflict so I couldn't properly push my code lolol I ended up copy pasting my changes into ester1",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709541008878,
+      "content": "mainly on the forward pass and the respective changes from 2 outputs in the eval and clr training loops",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540981825,
+      "content": "the comments and stuff r still there so its super messy but u hsould be able to see the changes",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540968247,
+      "content": "ok i pshed to my branch",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540905382,
+      "content": "let me do that rn",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540901893,
+      "content": "o wait ester 1 is not updated",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540888813,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540878911,
+      "content": "Well, there\u00e2\u0080\u0099s also brute force, download the py files and upload it, almost guaranteed to work always \u00f0\u009f\u00a4\u00a3 when there\u00e2\u0080\u0099s too many merge conflicts I just brute force hahaha",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540811501,
+      "content": "not the actual repo on my computer",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540803052,
+      "content": "im wokring on datahub lol",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540794546,
+      "content": "oh wait im so dumb",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540775885,
+      "content": "1. Pull request from Ester to ur branch\n2. Then only push ur code to ur branch",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540733541,
+      "content": "I find it easier to do this on GitHub than command line",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540729130,
+      "content": "YUH thanks to your important fixes XD",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540691833,
+      "content": "Create a pull request from Ester to ur branch",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540691153,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/429844651_1378181252845585_4202946874951958571_n_1378181249512252.png",
+          "creation_timestamp": 1709540684
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540690982,
+      "content": "plot looks reasonable",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540676089,
+      "content": "i made my branch but it looks like ester branch from a week ago, im a brnach noob does anyone know how to update it",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540606748,
+      "content": "Jonathan reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540601537,
+      "content": "Niceeeeee wow I\u00e2\u0080\u0099m so glad we worked this out together \u00f0\u009f\u0098\u008d\u00f0\u009f\u0098\u008d\u00f0\u009f\u0098\u008d",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540587577,
+      "content": "82.92%",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540556019,
+      "content": "the epochs can be lower and probably still perform the same",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540548805,
+      "content": "Yooooooooooo",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540541903,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540535473,
+      "content": "python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        },
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540533758,
+      "content": "OOOO I got good results similar to jcheung's",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540472009,
+      "content": "Pushing the limits we like",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540465291,
+      "content": "Kong reacted \u00f0\u009f\u0098\u0086 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540462006,
+      "content": "haha I tried 10000 once and might've gotten CUDA out of memeory",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540461567,
+      "content": "OHHHH Okok we should put it back then, Soz didn\u00e2\u0080\u0099t think that far",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540437220,
+      "content": "Also, very good call on this Ester, val acc is already above 80% at epoch 3 with 1200 linear head dim",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540415527,
+      "content": "if we removed the reduction='sum', it'll be hard to calculate loss consistently",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540390794,
+      "content": "btw for CrossEntropyLoss(reduction='sum'), it makes the cross entropy loss return the sum instead of the mean for each batch, so we can divide by total number of data points and get the mean over the whole set",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540310998,
+      "content": "Niceeee we can take a look at your code and see if it\u00e2\u0080\u0099s just naming differences which we can always adjust later",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540212397,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/429600404_780837670602186_5874419069175489208_n_780837663935520.png",
+          "creation_timestamp": 1709540210
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540197512,
+      "content": "or 128 in this case",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540192889,
+      "content": "caused an error bc 256x3500 can do matmul wiht 768x10",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540176602,
+      "content": "it was modifed to that, it was args.classifier_input_dim",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540161477,
+      "content": "args.embed_dim will have to be 768",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709540153088,
+      "content": "what did you modify it to?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540112952,
+      "content": "though idk if its sketch",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540106053,
+      "content": "bc i was gettign errors from reshaping",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540098232,
+      "content": "shoudl be  line ~298 in main.py",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540089685,
+      "content": "i modifed this line\"classifier = Classifier(args, args.embed_dim, target_size).to(device)\"",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540050781,
+      "content": "Thanks Jonathan!!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540043618,
+      "content": "Yeaaah okkk",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540038077,
+      "content": "oh yeah ill make a branch bc ive been workignon a copy of esters",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709540035447,
+      "content": "Is ur classifier-input-dim actually the classifier\u00e2\u0080\u0099s input dim?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709540002057,
+      "content": "if epcosh is greater than 7 the loss becomes nan",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709539988705,
+      "content": "python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 7 --n-epochs 40 --classifier-input-dim 3500 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR --hidden-dim 128",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539978292,
+      "content": "Oh and push ur code we can just use urs",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709539959548,
+      "content": "wanna send it rn haha I'll run it along with my other string of commands",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709539917858,
+      "content": "It\u00e2\u0080\u0099s in the process but should take less than the usual 40",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539910228,
+      "content": "Okieeeee",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709539903601,
+      "content": "yuh please send the command line",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709539902275,
+      "content": "Let me finish the training",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539887700,
+      "content": "What\u00e2\u0080\u0099s the magic parameter",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539870698,
+      "content": "HAHAHAHAH",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539867718,
+      "content": "Goodnight everyone",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709539857023,
+      "content": "The train acc is getting to 99%",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539854284,
+      "content": "Lesgoooo",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709539844579,
+      "content": "sheesh?????????",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539828499,
+      "content": "Niceeeee",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709539823454,
+      "content": "VAL ACC 0.83 on 3 epochs",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539820243,
+      "content": "Yes sir",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709539812874,
+      "content": "WAIT",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709539811368,
+      "content": "WAIT",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539470622,
+      "content": "added a new table just for SimCLR in the results google doc",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539074329,
+      "content": "Thank you",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709539072805,
+      "content": "Oh my goodness this is so very much needed",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538730229,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/429789583_384669064452828_4934676724252521410_n_384669061119495.png",
+          "creation_timestamp": 1709538729
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538717318,
+      "content": "export K8S_PRIORITY_CLASS_NAME=normal\nexport K8S_TIMEOUT_SECONDS=86400 \nexport K8S_BYPASS_TIMEOUT_LIMIT=yes",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538716124,
+      "content": "btw I forgot to share earlier! but if you want the DSMLP GPU to have a high time limit (24 hours instead of 6 hours), you can run these commands in the terminal before your GPU launch scrupt",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709538549157,
+      "content": "True true!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538532478,
+      "content": "the linear head dim can go pretty high, like 3000",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709538505935,
+      "content": "Yeah no worries, I only realized that very much later, the 71% just now is with hidden dim 128 (for Classifier), and sup con linear head dim 128 (for SupConModel)",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538427374,
+      "content": "OOPS",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538423880,
+      "content": "It\u00e2\u0080\u0099s being used by Classifier class",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538413718,
+      "content": "O DANG you\u00e2\u0080\u0099re right",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709538411423,
+      "content": "It\u00e2\u0080\u0099s a lot of args going on \u00f0\u009f\u0098\u0082",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538380417,
+      "content": "I thought hidden dim isn\u00e2\u0080\u0099t used for some reason",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709538362170,
+      "content": "OHH REALLY",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709537744025,
+      "content": "i'm mostly testing 2 hyperparameters now\n1. supcon-linear-head-dim\n2. hidden-dim (of the classifier, because we have been using the default 10, so its going 768 -> 10 -> 60)",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709537698458,
+      "content": "ok my branch is fully updated",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709537652877,
+      "content": "lemme push my code to winfrey and maybe you can cross check from there",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709537564586,
+      "content": "yup",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709537556171,
+      "content": "Seems to be breaking my code",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709537550770,
+      "content": "Were u able to move the scheduler step out of the batch loop?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709537205869,
+      "content": "that's great!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709537199132,
+      "content": "hahaha high five, been there, done that, i was debugging for like 2 hours",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709537153296,
+      "content": "Messed up a line and my test acc became 0.02 \u00f0\u009f\u0092\u0080",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709536912275,
+      "content": "was able to get 71% val acc, and 88% train acc by epoch 7 of training the classifier, just fixing some minor issues on my end right now. I will run a few more experiments and let yall know how it goes.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Jonathan Cheung"
+        },
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709536083835,
+      "content": "Yep that\u00e2\u0080\u0099s right",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709536074017,
+      "content": "and classifier input dim has to be 768, since it is taking the encoder's embeddings when we are doing SimCLR",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709536002168,
+      "content": "Jonathan reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709535991425,
+      "content": "because if it is taking classifier input dim, it'll always be 768, and the linear is doing 768 -> 768, which is not really meaningful",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709535990759,
+      "content": "It becomes man for em sometimes too, especially when temperature is lower than 0.01",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709535968822,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/429841511_292783593826510_4002352966003606286_n_292783587159844.png",
+          "creation_timestamp": 1709535965
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709535968531,
+      "content": "also, might want to add a new argument to this",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709535845380,
+      "content": "so i just set it at 10 epochs for contrastive-n-epochs",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709535832918,
+      "content": "if you are referring to the mean train loss of supcon (the first training loop), it always reaches 0.0 within 10 epochs for me",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709535760943,
+      "content": "I mean the mean train loss",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709535744052,
+      "content": "classifier or supcon?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709535732788,
+      "content": "After many epochs of 0 it becomes nan and it breaks",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709535719709,
+      "content": "Why does the loss sometimes become nan",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709535000232,
+      "content": "Just use the default",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709534995045,
+      "content": "Also try removing the cross entropy loss reduction = sum",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709534973611,
+      "content": "Yup this too",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709534960297,
+      "content": "I\u00e2\u0080\u0099m running rn after moving the scheduler update thing into the epoch for loop rather than batch",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709534868855,
+      "content": "Yup yup this sounds right",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709534487636,
+      "content": "I have been experimenting on flipping the normalization and linear head in final_output but don\u00e2\u0080\u0099t know if it\u00e2\u0080\u0099s a fluke",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709534461026,
+      "content": "By making forward pass return l2 and the final thing, and taking the l2 into the classifier on the eval step",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709534431459,
+      "content": "Don\u00e2\u0080\u0099t know if Params matter as much though training acc becomes much higher at 0.78",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709534408613,
+      "content": "I believe I\u00e2\u0080\u0099ve successfully done this and got 0.692",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709528955738,
+      "content": "I see! That makes so much sense!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709525571208,
+      "content": "ok so we took care of item2. I will work on item1",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709524975492,
+      "content": "my post on piazza: https://piazza.com/class/lr49jt48q953s2/post/634",
+      "share": {
+        "link": "https://piazza.com/class/lr49jt48q953s2/post/634",
+        "share_text": "With Piazza, easily answer questions, manage course materials, and track student participation. It'll save you time, and your students will love using it. It's free, and easy to get started."
+      },
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709524939015,
+      "content": "https://arxiv.org/pdf/2104.08821.pdf",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709524921783,
+      "content": "for SimCLR, it's our model architecture. there are two things we might have missed, i am still checking:\n\n1. we need to drop the projection head when passing to the classifier. we still train supconmodel with the projection head, it is only when training the classifier, we want the hidden representations instead of the projection head output\n\n2. we need to apply dropout two times for unsupervised SimCLR. I am still looking at the paper for details of implementation",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709524114102,
+      "content": "The batch size doesn\u00e2\u0080\u0099t seem to have significant difference compared to 256, though I\u00e2\u0080\u0099m not on gpu 30 and other params are TBD",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709524062750,
+      "content": "Removing the scheduler yields 61% without learning rate modifications",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709523616368,
+      "content": "will get back to yall in 20 mins",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709523601834,
+      "content": "i think i figured out SimCLR",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709519658151,
+      "content": "I'm thinking if it is the classifier that's not learning",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709519647192,
+      "content": "yes",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709519641372,
+      "content": "@Ester Tsai do you also get very low contrastive loss? like 0.0",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709519415569,
+      "content": "@Jeremy Tow@Jonathan Cheung@Samuel Chu How's progress?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709517112622,
+      "content": "yeah sounds good to me",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709517084413,
+      "content": "yeah let's do that if you guys are down!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709517072090,
+      "content": "@Ester Tsai just confirming, we are going with custom 1&3 right?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709517056571,
+      "content": "I'm trying SGD optimizer for the contrastive training loop",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709509969826,
+      "content": "paper 1: https://arxiv.org/pdf/2204.08582.pdf\n\npaper 2: https://arxiv.org/pdf/2310.16609.pdf (their model on HF https://huggingface.co/cartesinus/xlm-r-base-amazon-massive-intent)",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709509893523,
+      "content": "@Jeremy Tow also.. I kinda suspect that there's actually only 2 published research papers that use Amazon Massive Intent - maybe that's why the instruction explicitly states that we get full credits for related work as long as we have 2 papers that use this dataset lol\n\nI could be wrong though, just couldn't find any other papers.",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709508763994,
+      "content": "okie!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709508699818,
+      "content": "or even different schedulers",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709508694809,
+      "content": "we should still try different starting learning rates tho!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709508654664,
+      "content": "side note! rn we use the cosine annealing scheduler for the classifier so the learning rate will decrease over the epochs",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709508535986,
+      "content": "SimCSE is using dropout rate of 0.1, and from the doc I see that Ester has tried that",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709508467503,
+      "content": "if we haven't already tried, we could try lower learning rate for classifier (1e-4)",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709508264089,
+      "content": "checked the implementation of SimCLR, it looks all good to me (thanks Ester!), I'm reading papers on the effect of some hyperparameters on it.",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709506406549,
+      "content": "good call on using large batch size @Ester Tsai!! I read Lilian Weng's blog that SimCLR does require large batch size to perform well.",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709503207956,
+      "sticker": {
+        "uri": "your_activity_across_facebook/messages/stickers_used/39178562_1505197616293642_5411344281094848512_n_369239263222822.png",
+        "ai_stickers": [
+          
+        ]
+      },
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709503205246,
+      "content": "looking at SimCLR now",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709454783401,
+      "content": "python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --classifier-input-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709454772265,
+      "is_unsent": true,
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709439615712,
+      "content": "oo highest I got so far is 67.48%",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709425242143,
+      "content": "Jonathan reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709423952001,
+      "content": "If you use node 30 on DSMLP you get a GPU with more GB of memory",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709423877746,
+      "content": "Bigger batch size will cause cuda out of memory error",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709423842747,
+      "content": "512 still works",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709423830471,
+      "content": "You\u00e2\u0080\u0099ll need to set the batch size to something less than 1000",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709423628019,
+      "content": "How did you get rid of the cuda memory error, I\u00e2\u0080\u0099m been getting ~50% by playing with batch sizes",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709404859720,
+      "content": "best I've gotten is test acc 63.99% using       python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --classifier-input-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.1 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709401821159,
+      "is_unsent": true,
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709401805372,
+      "content": "lowering temperature and increasing input-classifier-dim seems to increase test accuracy for SimCLR!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709365349580,
+      "content": "Except for SimCLR",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709365340871,
+      "content": "All the plots for report are on GitHub in the plots/good/ folder",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709341744574,
+      "content": "So essentially it goes down to what the linear classifier is predicting?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709341675200,
+      "content": "Confirmed with TA, kinda what we went over just now. So I guess we just have to figure out why test accuracy is roughly the percentage of the dominant class or is it just coincidence\n\n\u00e2\u0080\u009cBefore fine-tuning means: we use BERT + linear classifier to get our target predictions without any training.\u00e2\u0080\u009d",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709340165506,
+      "content": "just made another push to use the best model (best val accuracy) instead of final model",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709339064268,
+      "content": "I just added train loss to plot names! Please git pull ester1 if you plan to use that code",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Samuel Chu",
+      "timestamp_ms": 1709338033015,
+      "content": "are you that you aren\u00e2\u0080\u0099t training it at all",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Samuel Chu",
+      "timestamp_ms": 1709338018354,
+      "content": "no idea how it knows tho",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Samuel Chu",
+      "timestamp_ms": 1709338014634,
+      "content": "label 50 is calendar set",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709337971873,
+      "content": "oh right i forgot to mention this but im prob going to submit the regrade request later today",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Samuel Chu"
+        },
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709337949791,
+      "content": "Or maybe how does the classifier know which label is the most popular ?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709337919862,
+      "content": "Yeah looks like answering this = answer to that question",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709337848106,
+      "content": "Train: 11514\nCounter({50: 810, 45: 639, 13: 573, 32: 566, 12: 555, 49: 544, 22: 503, 44: 418, 33: 354, 0: 350, 30: 312, 47: 283, 36: 283,26: 267, 42: 227, 9: 207, 59: 198, 58: 193, 6: 190, 48: 182, 21: 177, 19: 173, 53: 164, 57: 154, 40: 153, 4: 152, 20: 150, 10: 142, 16: 135, 23: 130, 2: 127, 17: 127, 1: 125, 56: 124, 3: 122, 11: 117, 43: 113, 51: 112, 14: 110, 46: 110, 27: 108, 54:100, 34: 93, 52: 78, 39: 78, 31: 76, 18: 76, 25: 72, 55: 70, 15: 54, 8: 52, 35: 52, 38: 52, 28: 51, 24: 48, 5: 25, 41: 22, 29: 18, 7: 14, 37: 4})\ntrain acc: 0.0672 | dataset split train size: 11514\n\nValidation: 2033 \nCounter({50: 131, 13: 126, 45: 123, 12: 105, 32: 102, 49: 90, 22: 82, 44: 73, 0: 64, 33: 63, 26: 55, 47: 50, 59: 50, 30: 47,36: 46, 9: 41, 53: 37, 42: 36, 20: 35, 58: 34, 10: 32, 48: 31, 19: 31, 57: 30, 54: 27, 6: 26, 21: 25, 2: 25, 3: 24, 4: 24, 1: 22, 51: 22, 11: 22, 16: 20, 34: 19, 23: 19, 27: 18, 40: 17, 31: 17, 43: 16, 17: 16, 46: 15, 25: 15, 52: 14, 56: 14, 39: 13,14: 12, 18: 12, 55: 12, 38: 9, 28: 8, 35: 8, 24: 7, 41: 5, 8: 5, 15: 5, 5: 2, 7: 2, 37: 2})\nvalidation acc: 0.059 | dataset split validation size: 2033\n\n\nTest: 2974\nCounter({50: 209, 45: 176, 12: 169, 13: 156, 49: 141, 32: 126, 22: 124, 44: 119, 33: 114, 0: 88, 47: 81, 9: 72, 36: 72, 30: 67, 58: 63, 26: 57, 53: 52, 42: 51, 59: 51, 40: 43, 6: 43, 48: 41, 20: 41, 21: 39, 10: 39, 1: 36, 43: 36, 56: 36, 3: 35, 57: 35, 2: 35, 51: 35, 23: 34, 46: 32, 19: 31, 18: 27, 34: 26, 4: 26, 17: 26, 27: 25, 39: 25, 54: 23, 16: 22, 52: 21, 31: 21, 55:20, 25: 19, 8: 18, 38: 15, 11: 15, 14: 13, 15: 12, 35: 11, 24: 10, 29: 6, 28: 6, 7: 4, 41: 3, 5: 1})\ntest acc: 0.0689 | dataset split test size: 2974",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709337845715,
+      "content": "Question is, how does BERT know which label is the most popular : 0",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709337742025,
+      "content": "\u00f0\u009f\u0091\u0080",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709337661469,
+      "content": "in fact 50 is the most common label",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709337650320,
+      "content": "Counter({50: 131, 13: 126, 45: 123, 12: 105, 32: 102, 49: 90, 22: 82, 44: 73, 0: 64, 33: 63, 26: 55, 47: 50, 59: 50, 30: 47,36: 46, 9: 41, 53: 37, 42: 36, 20: 35, 58: 34, 10: 32, 48: 31, 19: 31, 57: 30, 54: 27, 6: 26, 21: 25, 2: 25, 3: 24, 4: 24, 1: 22, 51: 22, 11: 22, 16: 20, 34: 19, 23: 19, 27: 18, 40: 17, 31: 17, 43: 16, 17: 16, 46: 15, 25: 15, 52: 14, 56: 14, 39: 13,14: 12, 18: 12, 55: 12, 38: 9, 28: 8, 35: 8, 24: 7, 41: 5, 8: 5, 15: 5, 5: 2, 7: 2, 37: 2})",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709336535202,
+      "content": "^ i was looking at the inference section",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709336450401,
+      "content": "https://huggingface.co/tasks/zero-shot-classification",
+      "share": {
+        "link": "https://huggingface.co/tasks/zero-shot-classification",
+        "share_text": "Learn about Zero-Shot Classification using Machine Learning"
+      },
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709334403101,
+      "content": "https://docs.google.com/document/d/1nJQMPYDRe2u6rF9DQKSnqh1L9nu2qlguvrrr8XS9Ofc/edit",
+      "share": {
+        "link": "https://docs.google.com/document/d/1nJQMPYDRe2u6rF9DQKSnqh1L9nu2qlguvrrr8XS9Ofc/edit"
+      },
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709334169435,
+      "content": "heres the run that I did last night",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709334165980,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/423737856_8143026865723772_8667901161799262531_n_8143026862390439.png",
+          "creation_timestamp": 1709334164
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709334022631,
+      "content": "I\u00e2\u0080\u0099ll join in one minute, finding a quiet space",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709333830191,
+      "content": "https://ucsd.zoom.us/j/97890026804",
+      "share": {
+        "link": "https://ucsd.zoom.us/j/97890026804"
+      },
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709329603332,
+      "content": "Jeremy reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709329293276,
+      "content": "Reminder we are calling at 3!",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jeremy Tow"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709322259463,
+      "content": "Replacing the .pth portion with whatever the model weight name is in the model/ folder",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709322237404,
+      "content": "It gives you the option to only train the classifier using a pre-trained contrastive model with this parameter \n\n--contrastive-model-path SupCon_ep10_dropout0.4_lr0.0001_temp0.07_baseTemp0.07.pth",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709322143367,
+      "content": "Btw If you run out of storage, you can comment out the part of the code in supcon_train in main.py that saves the model weight!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709322052960,
+      "content": "i\u00e2\u0080\u0099m in class rn but i\u00e2\u0080\u0099ll update after i fj ish",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709322032961,
+      "content": "i\u00e2\u0080\u0099ve read the paper",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709321996460,
+      "content": "Has anyone read the SimCLR slides?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709321241518,
+      "content": "Yeah",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709321236374,
+      "content": "Could you try different parameters?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709321194287,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/429617100_849197247059268_6103631090412890520_n_849197243725935.jpg",
+          "creation_timestamp": 1709321193
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709320951497,
+      "content": "accuracy is pretty low for SimCLR, might need some tuning",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709316912388,
+      "content": "I\u00e2\u0080\u0099ll run it",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709311088840,
+      "content": "would anyone like to run this alternative SimCLR command using ester1 code before 3pm?\n\npython main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 15 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 5e-3  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SimCLR",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709310764969,
+      "content": "@Jeremy Tow how\u00e2\u0080\u0099s SimCLR?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709310607979,
+      "content": "Made fixes to the plots and corresponding stuff",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709280367024,
+      "content": "You can get the code from ester1! Lmk if it works \u00f0\u009f\u00ab\u00a3",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709280123880,
+      "content": "i'll run it, i need a break anyways",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709280074059,
+      "content": "Thank you!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709280070461,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709280068399,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709280065203,
+      "content": "^ if anyone would like to test it",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709280058074,
+      "content": "python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SimCLR",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709280049477,
+      "content": "I haven't tested SimCLR yet",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709280034788,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709280033887,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709280016664,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/431121362_916446809860907_2608117461851038517_n_916446806527574.png",
+          "creation_timestamp": 1709280015
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709280016250,
+      "content": "Imma run the models overnight to get these plots",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709278012066,
+      "content": "Kong reacted \u00e2\u009c\u0085 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709276131586,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709275981817,
+      "content": "^ to get 88.23% test accuracy",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709275958146,
+      "content": "python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SupCon",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709274518042,
+      "content": "Yeah I\u00e2\u0080\u0099ll do so",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709274512263,
+      "content": "Jonathan reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709274026940,
+      "content": "or by tomorrow before 3pm",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709274021185,
+      "content": "@Jonathan Cheung @Kong Xian Ying would you guys be down to set up the report by tonight? https://www.overleaf.com/6577473217tvkzqrprvbzs#1d8e2e",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009c\u0085",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "share": {
+        "link": "https://www.overleaf.com/6577473217tvkzqrprvbzs#1d8e2e",
+        "share_text": "An online LaTeX editor that\u00e2\u0080\u0099s easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more."
+      },
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709272799937,
+      "content": "but it actually putting in so much work it\u00e2\u0080\u0099s crazy tysm",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709272783837,
+      "content": "when i finally figure out how to do it individually i\u00e2\u0080\u0099ll also check ig",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709272723918,
+      "content": "Kong reacted \u00f0\u009f\u0098\u0086 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709272718545,
+      "content": "better sanity check",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709272713681,
+      "content": "high key it's scary when things work",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u0086",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709272700745,
+      "content": "I just needed to make the learning rate much higher for the classifier",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709272682084,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709272674313,
+      "content": "the loss has been updated to reflect mean loss, not total",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709272671614,
+      "content": "ur actually amazing",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709272671538,
+      "content": "Wowwwww",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709272663099,
+      "content": "Yooooooooooo",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709272660301,
+      "photos": [
+        {
+          "uri": "your_activity_across_facebook/messages/inbox/cse151bpa4_7129629247124038/photos/429106597_321064457189126_6894804549124829975_n_321064453855793.png",
+          "creation_timestamp": 1709272659
+        }
+      ],
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709272659223,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709272658604,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709272657919,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709272654964,
+      "content": "I think!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709272653251,
+      "content": "part 5 worked",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709272646694,
+      "content": "YOOOOOOOOOOOOOOOO",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709269435653,
+      "content": "Kong reacted \u00e2\u009d\u00a4 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709256265357,
+      "content": "I've implemented util.plot",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Kong Xian Ying"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709255669249,
+      "content": "Jonathan reacted \u00f0\u009f\u0098\u00a2 to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709255486092,
+      "content": "lol so more epochs does not help",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0098\u00a2",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709253322326,
+      "content": "just finsihed running with 20 epochs, test acc is 0.5047",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709251251609,
+      "content": "nvm its working now",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709250714745,
+      "content": "rip no nodes avialble rn",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709250425152,
+      "content": "ill run it",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248914473,
+      "content": "So we can try 20",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248904326,
+      "content": "It\u00e2\u0080\u0099s only 50% if I set n-epochs to 10",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248863846,
+      "content": "Can someone run it and see what the test accuracy is?",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248704975,
+      "content": "If you use ester1 code, you can run \"python main.py --task supcon --embed-dim 768 --n-epochs 20 --classifier-n-epochs 10 --learning-rate 1e-4 --drop-rate 0.15 --temperature 0.07 --contrast-type SupCon\" to test SupCon",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248184712,
+      "content": "not submitted yet",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709248164691,
+      "content": "tyty",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248159988,
+      "content": "I can check",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Samuel Chu",
+      "timestamp_ms": 1709248155119,
+      "content": "Samuel reacted \u00f0\u009f\u0091\u008d to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248145062,
+      "content": "feel free to try on your own or improve on mine!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709248138012,
+      "content": "oh btw did we submit the regrade request yet and if not shuld i do it",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Samuel Chu"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709248120808,
+      "content": "oh oop im still working on it rn",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248109279,
+      "content": "ester1 branch has the newest updates",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709248080582,
+      "content": "there are 2 parts to the supcon_train: the first training loop uses SupCon loss to train the model to output features that group similar data points together; the second training loop uses cross entropy loss to train the classifier to output predictions based on \"features\" input",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709247971914,
+      "content": "I have a functional part 5",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Samuel Chu"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709224005608,
+      "content": "Nope I won\u00e2\u0080\u0099t be",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709193247309,
+      "content": "Jeremy reacted \u00f0\u009f\u0091\u008e to your message ",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709192800890,
+      "content": "Anyone going to OH tomorrow?",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008e",
+          "actor": "Jeremy Tow"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709186502423,
+      "content": "Yupp agreed!!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709186352390,
+      "content": "We\u00e2\u0080\u0099re pretty good on part 4 since we\u00e2\u0080\u0099ve done methods 1-3. Feel free to try methods 4-5 but we should aim to get part 5 done first!",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jonathan Cheung",
+      "timestamp_ms": 1709184194388,
+      "content": "I haven\u00e2\u0080\u0099t rlly looked but I can do part 5",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709179353783,
+      "content": "I\u00e2\u0080\u0099ll also work on what is left for Part 4 this Sunday. @Jonathan Cheung @Samuel Chu lmk if you are already working on any of Part 4 (or Part 5) so I can plan my time accordingly. \n\nAlso I\u00e2\u0080\u0099ll need help with getting started on the report, if any of you would like to work together with me, I\u00e2\u0080\u0099d really appreciate that!!",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jonathan Cheung"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Kong Xian Ying",
+      "timestamp_ms": 1709178282231,
+      "content": "I will do that",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Ester Tsai"
+        }
+      ],
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709178147542,
+      "content": "Also would anyone like to set up the report sections according to the PA instruction?     https://piazza.com/class_profile/get_resource/lr49jt48q953s2/lsw7akg438g2v https://www.overleaf.com/6577473217tvkzqrprvbzs#1d8e2e",
+      "share": {
+        "link": "https://piazza.com/class_profile/get_resource/lr49jt48q953s2/lsw7akg438g2v",
+        "share_text": "With Piazza, easily answer questions, manage course materials, and track student participation. It'll save you time, and your students will love using it. It's free, and easy to get started."
+      },
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709178105760,
+      "is_unsent": true,
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Jeremy Tow",
+      "timestamp_ms": 1709177702225,
+      "content": "nothing significant yet, gonna work on it later tonight",
+      "is_geoblocked_for_viewer": false
+    },
+    {
+      "sender_name": "Ester Tsai",
+      "timestamp_ms": 1709177670803,
+      "content": "Any progress on part 5?",
+      "is_geoblocked_for_viewer": false
+    }
+  ],
+  "title": "CSE 151B PA4",
+  "is_still_participant": true,
+  "thread_path": "inbox/cse151bpa4_7129629247124038",
+  "magic_words": [
+    
+  ],
+  "joinable_mode": {
+    "mode": 1,
+    "link": ""
+  }
+}
