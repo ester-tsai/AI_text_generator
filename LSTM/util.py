@@ -7,16 +7,17 @@ import numpy as np
 import json
 
 def set_seed(seed: int = 10):
-    np.random.seed(seed)
-    random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed(seed)
-#     torch.use_deterministic_algorithms(True, warn_only=True)
-    # When running on the CuDNN backend, two further options must be set
-    torch.backends.cudnn.deterministic = True
-    torch.backends.cudnn.benchmark = False
-    # Set a fixed value for the hash seed
-    os.environ["PYTHONHASHSEED"] = str(seed)
+    pass
+#     np.random.seed(seed)
+#     random.seed(seed)
+#     torch.manual_seed(seed)
+#     torch.cuda.manual_seed(seed)
+# #     torch.use_deterministic_algorithms(True, warn_only=True)
+#     # When running on the CuDNN backend, two further options must be set
+#     torch.backends.cudnn.deterministic = True
+#     torch.backends.cudnn.benchmark = False
+#     # Set a fixed value for the hash seed
+#     os.environ["PYTHONHASHSEED"] = str(seed)
 
 def load_config(fp):
     """
@@ -48,6 +49,8 @@ def get_random_text_slice(data, sequence_length):
     max_start_index = max(0, len(data)-sequence_length)
 
     random_start_index = random.randint(0, max_start_index)
+    while data[random_start_index] != '<start>':
+        random_start_index -= 1
     sliced_text = data[random_start_index: random_start_index+sequence_length]
 
     assert len(sliced_text) <= sequence_length

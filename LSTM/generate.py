@@ -44,7 +44,8 @@ def generate_response(model, device, token_idx_map, max_len=100, temp=0.8, prime
 
     
         # Generate new chars
-        while (generated_response[-len('<end>'):] != '<end>') and (len(generated_response) < max_len):
+#         while (generated_response[-1] != '<end>') and (len(generated_response) < max_len):
+    while len(generated_response) < max_len:
             '''
             TODOs: 
                 - Continue generating the rest of the sequence until reaching the maximum length or encountering the end token.
@@ -61,6 +62,7 @@ def generate_response(model, device, token_idx_map, max_len=100, temp=0.8, prime
     # Turn the model back to training mode
     model.train()
 
-    generated_response = ' '.join(generated_response).replace("<start>", "").replace("<end>", "").strip()
+    generated_response = ' '.join(generated_response).replace("<end> <start> ", "\n")
+    generated_response = generated_response.replace("<start>", "").replace("<end>", "").strip()
     
     return generated_response

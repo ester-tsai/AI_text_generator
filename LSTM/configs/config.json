@@ -1,25 +1,25 @@
 {
 	"learning_rate": 1e-3, 
 	
-	"sequence_size": 300, 
+	"sequence_size": 150, 
     
-    "n_sequences": 20, 
+    "n_sequences": 50, 
 	
 	"n_epochs": 30, 
 	
-	"n_layers": 1,
+	"n_layers": 2,
 
-	"hidden_size": 150, 
+	"hidden_size": 250, 
 
 	"dropout": 0.1,
 
-	"temperature": 0.6,  
+	"temperature": 0.1,  
 
-	"max_generation_length": 80, 
+	"max_generation_length": 400, 
 
 	"generated_response_folder": "./generated_response/", 
     
 	"evaluate_model_only": true, 
 
-	"model_path": "./checkpoint/lr0.001_ep30_temp0.01_nseq10_seqsize300_hid150_drop0.1_layers1 best_epoch=29 min_train_loss=6.0732 min_val_loss=6.1264" 
+	"model_path": "./checkpoint/lr0.001_ep30_temp0.6_nseq50_seqsize150_hid250_drop0.1_layers2 best_epoch=9 min_train_loss=6.421 min_val_loss=6.3472" 
 }
