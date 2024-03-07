@@ -42,11 +42,14 @@ def train(model, data, data_val, token_idx_map, config, device):
     model = model.to(device) # TODO: Move model to the specified device
 
     optimizer = optim.AdamW(model.parameters(), lr=learning_rate) # TODO: Initialize optimizer
+    scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=n_epochs)
     loss = nn.CrossEntropyLoss() # TODO: Initialize loss function
 
     # Lists to store training and validation losses over the epochs
     train_losses, validation_losses = [], []
     min_val_loss = 1e6 # the model should have a val loss lower than this 
+    loss_increase_epoch_count = 0    
+    prev_val_loss = min_val_loss + 1
 
     # Training over epochs
     for epoch in range(n_epochs):
@@ -87,6 +90,7 @@ def train(model, data, data_val, token_idx_map, config, device):
                 
             loss_per_token.backward()
             optimizer.step()
+            scheduler.step()
 
             avg_loss_per_sequence = np.mean(losses_per_token)
             training_loss_per_epoch.append(avg_loss_per_sequence)
@@ -105,7 +109,7 @@ def train(model, data, data_val, token_idx_map, config, device):
         model.eval() # Put in eval mode (disables batchnorm/dropout) !
         with torch.no_grad(): # we don't need to calculate the gradient in the validation/testing
             # Iterate over validation data
-            for i in range(100):
+            for i in range(30):
                 '''
                 TODO: 
                     - For each response:
@@ -154,16 +158,6 @@ def train(model, data, data_val, token_idx_map, config, device):
 
         if not os.path.isdir('checkpoint'):
             os.mkdir('checkpoint')
-
-        # Save checkpoint.
-#         if (epoch % SAVE_EVERY == 0 and epoch != 0)  or epoch == N_EPOCHS - 1:
-#             print('=======>Saving..')
-#             torch.save({
-#                 'epoch': epoch + 1,
-#                 'model_state_dict': model.state_dict(),
-#                 'optimizer_state_dict': optimizer.state_dict(),
-#                 'loss': loss,
-#                 }, './checkpoint/' + CHECKPOINT + '.t%s' % epoch)
         
         # Save best model
         if mean_val_loss_per_epoch < min_val_loss:
@@ -173,13 +167,23 @@ def train(model, data, data_val, token_idx_map, config, device):
             best_optimizer = optimizer
             best_loss = loss
             
+       
+        if mean_val_loss_per_epoch < prev_val_loss:
+            loss_increase_epoch_count = 0
+        else:
+            loss_increase_epoch_count += 1
+        prev_val_loss = mean_val_loss_per_epoch
+           
+        if loss_increase_epoch_count >= 3:
+            break
+            
             
     print(f'============>Saving best model with min_val_loss={min_val_loss}<=============')
     torch.save({
-        'epoch': best_epoch + 1,
+#         'epoch': best_epoch + 1,
         'model_state_dict': best_model.state_dict(),
-        'optimizer_state_dict': best_optimizer.state_dict(),
-        'loss': best_loss,
+#         'optimizer_state_dict': best_optimizer.state_dict(),
+#         'loss': best_loss,
         }, './checkpoint/' + info + f' best_epoch={best_epoch} min_train_loss={np.round(train_losses[np.argmin(validation_losses)],4)} min_val_loss={np.round(min_val_loss, 4)}')
             
         
