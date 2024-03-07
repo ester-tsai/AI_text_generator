@@ -37,7 +37,7 @@ def train(model, data, data_val, token_idx_map, config, device):
     temperature = config["temperature"]
     n_layers = config["n_layers"]
     
-    info = f'lr{learning_rate}_ep{n_epochs}_temp{temperature}_nseq{n_sequences}_seqsize{sequence_size}_hid{hidden_size}_drop{dropout}_layers{n_layers}'
+    info = f'lr{learning_rate}_ep{n_epochs}_nseq{n_sequences}_seqsize{sequence_size}_hid{hidden_size}_drop{dropout}_layers{n_layers}'
 
     model = model.to(device) # TODO: Move model to the specified device
 
