@@ -9,17 +9,17 @@
 	
 	"n_layers": 1,
 
-	"hidden_size": 250, 
+	"hidden_size": 150, 
 
 	"dropout": 0.1,
 
-	"temperature": 0.01,  
+	"temperature": 0.6,  
 
-	"max_generation_length": 100, 
+	"max_generation_length": 80, 
 
 	"generated_response_folder": "./generated_response/", 
     
-	"evaluate_model_only": false, 
+	"evaluate_model_only": true, 
 
-	"model_path": "./checkpoint/ckpt_mdl_lstm_ep_260_hsize_150_dout_0.1.t259" 
+	"model_path": "./checkpoint/lr0.001_ep30_temp0.01_nseq10_seqsize300_hid150_drop0.1_layers1 best_epoch=29 min_train_loss=6.0732 min_val_loss=6.1264" 
 }
