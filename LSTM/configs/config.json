@@ -13,7 +13,7 @@
 
 	"dropout": 0.2,
 
-	"temperature": 1,  
+	"temperature": 0.9,  
 
 	"max_generation_length": 600, 
 
