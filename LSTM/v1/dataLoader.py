@@ -3,7 +3,7 @@ import random
     
 def load_prompt_reponse(file, cutoff_percentage=0.8, test_count=10):
     sentence_lst = []
-    with open('data/prompt_response.jsonl', 'r') as json_file:
+    with open(file, 'r') as json_file:
         for row in json_file:
             content = json.loads(row)
             sentence_lst.append(content)
