@@ -1,0 +1,1482 @@
+pa2!
+thanks ester!
+ester named the group cse 151b pa2.
+what should our group name be 😎 ester and i used transformers for pa1
+lol anything works
+we could be incredibly original and use our names
+or name it according to the pa content? like convolution? 🫠
+okie dokie
+i’ll make one convolution
+created, go join “convolution”
+also could you send me your email so i could add y’all as collaborator?
+thank you for creating!
+added!
+i pushed the updated util.py to master, but i need a minor fix after asking a question on piazza
+are you guys able to access a gpu of any sort? datahub is still down and i can't get google colab to work either
+thinking if we can use our data science capstone’s 🤔
+i guess so!
+yeahh
+actually it seems like the issue happened because i’m still occupying a gpu for capstone
+so i can only work on one project at a time
+ohh i see i seeeee
+does it say something like cuda blah blah exceeded or killed when u run two?
+it says "request exceeds limit of 1 gpus" hahaa
+ohhh okay i was wondering if u run it on the same session
+but better not risk terminating the project you are running at the moment
+in case it gets killed and u gotta restart the kernel 😅
+i can just clear some space in my private folder and git clone the project there
+yeah sure that’s what i did
+but yeah i ran into once when i was running two projects (ie notebooks) and it got too much to handle, and both just terminated - painful!! 🥲
+@ester tsai are you at part 2 for the programming part? the data loading section
+yes, i have the code for the baseline model but i’ll test it when i finish running something for capstone
+(i don’t know if my baseline model works, will likely need to debug!
+okkk! sounds good, so have u implemented the test and val data in voc.py?
+feel free to test it by cloning my branch tho!
+yes
+ok could you push it to your branch? i don’t think i see it there just now
+also the first half of visualize.option
+visualize.ipynb *
+yeah! wanna focus on the models so we don’t duplicate efforts on writing basic utils - which will be largely the same anyway
+yup thanks!
+almost done with the baseline model! gonna keep testing it until test iou is consistently around 0.05
+okie!! thanks!
+i got started with building unet (5c)  ^just a relatively independent task to work on in the mean time. but i’ll build off what you have ester, when the baseline is ready! thank you ester!!
+hmm not sure if this will make a difference and/or you are probably doing it already, might want to try using adamw optimizer in train.py
+i see we are using sgd optimizer currently
+ok i can try!
+coding is done up to part 3, so feel free to make a branch of the current master branch and start working on part 4
+you can test the model by running "python train.py" in the terminal
+yayyy thank you thank youuu!!
+voc.py is where we should implement data augmentation (part 4b), after defining the augmentation
+(this is not pushed to the master branch since i'll just experiment on my own branch first!
+yup yupp!
+i’m also looking at augmentation options in torchvision (part of unet requires this)
+are you also looking at torchvision?
+just curious if there’s other places that offer image augmentation methods
+i see i see! okk looks like it’s the same root library! thanks for confirming haha
+idk if u guys r getting the same error but i can update my branch from the master i get an error
+cant*
+so i just downloaded the zip file lol
+maybe make a new branch haha
+github high key confusing sometimes
+agree
+what error are you getting tho?
+is it related to authentication?
+i’m guessing it’s bc the pth model file is large and bc there’s some byte error
+interesting.. so u get an error when running the model?
+i haven’t tried running the model yet so
+it shouldn’t be large tho
+ok its fixed
+its because my wifi sucks
+wow good to know that wifi actually matters 😅
+unet is done, and together with a train_unet.py for that  train_unet is just a duplicate of train.py with minimal changes - if anyone would like to, feel free to combine the two, probably will have to create a trainloop object and initialize models given model name == fcn or unet or more that we will explore. for now, the easiest is to have different train files for each model, which i believe is fine from the description of part 5 in the assignment pdf  if everyone is okay, i can push to master before noon. also, it’d be good to have a few more pairs of eyes to check the architecture
+yoo before the weekend comes, i am thinking if we want to sync a little on what we are currently doing and/or interested in doing? for the programming part, i believe part 4 and 5
+i haven’t started anything after unet. but i’m open to working on 5b / part 4b image augmentations / part 4c imbalanced class
+i’m down to work on those parts too, but i’m not available the rest of today and am currently trying to implement the other code myself to make sure i’m understanding it
+okkk let’s wait and see what ester and jeremy are working on/ plan to work on/ have a preference for
+also, no pressure, just wanna make sure we don’t end up working on the exact same thing  hahaha
+oh yeah did prof say anything about moving the mt date? since it’s going to be on lunar new year
+i can start working on pa2 again on monday! and then work on the report tues and wednesday. down to work on both q4 and 5 if time permits, but if time is tight, i’ll piggy back off of existing q4 and just work on q5!
+there was a piazza post that said we’re not moving the midterm i think
+yupp ok sounds good!! u did parts 1-3 this week and i’m very thankful for that!!
+oooh i seee
+about the same for me i’m also open to working on any of it
+ok! i’ll get started on part 4a later, i’ll keep y’all updated on my progress over the weekend
+@ester tsai quick question, for the optimizer, did you choose learning rate to be 0.001 or was it given?
+i chose it
+i see.. okay! with learning rate 0.1, the accuracy actually went up to 75% (but the assignment pdf said expected ~65%)  iou is fine, ~0.05
+i can make a post on piazza
+just came across this section in the visualize notebook  i will have to take back my words earlier on combining the train files, it looks like it is recommended to have different train files for all subparts in part 4 & 5
+i am pretty much done with 4a, just re-running them to check the numbers
+make sense!
+4b is done! if everyone is okay, i can push to master
+thanks!!
+kong pinned a message.
+i will get back on pa2 tomorrow, is there anything that i can work on?
+i can get on that too after capstone tomorrow! what is left that we need to work on?
+from yesterday, i know we have 4c, 5a and 5b left
+i’ll get started on 4c today
+just did some research for 4c, i should be able to get 4c done today, will keep y’all posted on my progress
+attempting 5a - will update on how that goes lol
+thanks!
+i’ll take a look at 5b later tonight
+thank you!
+pretty much done with 4c, just running a bunch of experiments, will let y’all know before i push
+i'll start on the report
+great! i’ll join u on the report tomorrow!
+there are a lot to write, so i'll make a poll for how to divide the work if you guys are ok with that!
+ester created a poll: pa2 report responsibility (par...
+ester created a poll: pa2 report (part 2).
+ester voted for "methods - baseline" and 1 other option in the poll.
+ester voted for "discussion - baseline" and 1 other option in the poll.
+kong voted for "discussion - improving on basline" and 1 other option in the poll.
+kong voted for "methods - improving on baseline" and 2 other options in the poll.
+you voted for "double check everything before..." in the poll.
+i can also do experimentation bc i’m doing 5a
+experimentation (report) i’ll do 5c unet
+oo true it would be good to specify the 3 sections in methods experimentation and discussion experimentation
+has anyone done 5b yet? if not, i can look into it
+i’m going to look into 5b in a bit
+ester voted for "abstract" in the poll.
+i will push 4c before 12am! have been fine tuning the hyper parameters, finally got a satisfactory result 😮‍💨😴
+yay!
+ester voted for "methods - improving on baseline" in the poll.
+ester voted for "discussion - improving on basline" in the poll.
+i filled in the part for cosine annealing for both methods and discussion
+yayyyy! thanks!
+anyone getting an error like "runtimeerror: input and target batch or spatial sizes don't match: target [16, 224, 224], input [16, 21, 256, 256]" when messing with kernel size?
+how do i adjust the fix it?
+something wrong with the cirterion function
+are you using your own code or winfrey’s base code?
+did you get this from the line   loss = criterion(outputs, labels) ?
+i used my own code though it has similar sctructure to the 4 questions
+i think it’s the
+256 not matching 224
+your output h and w should be 224
+try changing padding
+@kong xian ying @jeremy tow @jonathan cheung are you all free to call tomorrow at 9am to check in for pa2?
+yes!
+yeah
+ye i shuld be free
+i’ll implement the training and validation plot for report results section
+ok sure, thanks!
+working on the rest of “improving the baseline” now
+could someone confirm that the number of the original training data is 209?
+oh yeah @jeremy tow @jonathan cheung when training the models for part 5, id recommend using the current train code implemented up till 4c to check if both iou and accuracy increase.  baseline + enhancements up till 4c gives iou around 0.065 to 0.067 and accuracy 0.72 to 0.74  i saw a piazza post that they expect our models in part 5 to give better iou and accuracy
+okok
+will do
+rn transfer learning with 5b is giving iou 0.071 and pixel acc 0.737 with the old train code
+im going to test with the new train code rn
+just tried 5b with @kong xian ying's train_4_c, it took 15 minutes to run and the pixel acc was 0.79 with an iou of 0.2
+rly good numbers
+oh btw where / how are we meeting tmr
+or ig today
+i think remotely!
+this is great!!!
+dang winfrey you got up at 5am 🥵
+i'll create a zoom link
+i normally take a very long time for breakfast  hahaha hahaha hahaha
+@jonathan cheung @jeremy tow zoom?
+def set_seed(seed: int = 42) -> none:     np.random.seed(seed)     random.seed(seed)     torch.manual_seed(seed)     torch.cuda.manual_seed(seed)     # when running on the cudnn backend, two further options must be set     torch.backends.cudnn.deterministic = true     torch.backends.cudnn.benchmark = false     # set a fixed value for the hash seed     os.environ["pythonhashseed"] = str(seed)
+ester voted for "results (filling in the numbers)" in the poll.
+ester voted for "discussion - experimentation" in the poll.
+kong voted for "related work (at least 2 people)" in the poll.
+i’ll add unet as one of the related works
+kong voted for "references" in the poll.
+we'll aim to get the report draft done by tonight!
+yesss agreed!
+@jeremy tow could you push your train_5_b code sometime today when you're done?
+yep sounds good
+its literally just winfrey's train_4_c code lol
+i only modified the basic_fcn file
+okok could i have your modified basic_fcn file haha
+ester do u plan to push ur code to master? the seed and plot that u added to each train file
+i think i'll just push the fasic_fcn file to my branch and you can pull it from there?
+idk what the easiest way to do this is
+sure i can try!
+ok i just pushed to my branch
+i've set up references.bib for  bibtex
+you can cite a paper using \citet{reference_name} and it will automatically appear in the references section
+@jeremy tow if you have extra time, could you double check the architecture for unet? for some reason it isn’t doing well, we got iou 0.0556 and accuracy 0.75
+yea fs i’ll check it in a bit
+thank you!
+i’m trying 5a but data hub is not working for me right now
+oohhh might be cause there are too many people. i had to wait for quite a bit until i get assign a node (i used ssh)
+if u need to i can give u access to my server
+it works again!
+do we want to set a cutoff time for the models? for tomorrow.
+jonathan and i both tried 5a but couldn’t get it better than 6.6%
+i’ll go to office hours tomorrow
+okkk! i’ll probably go too 😅
+i’ve got something around 0.06 iou, i’ll do my write up part but if we get something better by tmrw i can update it accordingly
+i did the abstract too
+also, not exactly sure about the metric iou but now i’m not sure if it can be expressed in percentage
+i have zero prior knowledge about iou though, just purely based on articles that i read they put it in decimal
+i think it makes more sense in decimal
+sure!
+ig its like the intersection is x percent of the union?
+but idk
+yeah, sorry ester,  i said percentage made sense this morning but i’m not sure anymore 🤔🤓😅
+thought i’d share. so there has been a mystery with 5c where by the accuracy and iou just stop improving at one point even when validation loss is actually decreasing.  there isn’t any bug in the architecture, even though i did add some minor changes to the architecture but honestly nothing changed in terms of the results that we are getting
+and i read the original paper multiple times and many forums, and finally broke through the upper bound:  kind of unexpected but it was because of a combination of the following: 1. weight initialisation - i changed it to using normal distribution (which was mentioned in the paper)  2. back to using sgd, cause for some reason the paper mentioned about using momentum
+so for 5a, it might be something that’s beyond the network architecture, not exactly sure but yeah
+also one thing i didn’t really try is that, unet paper mentioned that they use batch size of 1, but i’m not sure how helpful this will be
+how’s the new test iou after these improvements?
+still running but for val the highest so far is 0.057 (not great but i’m low-key traumatized by seeing the exact same 0.0556 for the past few hours  hahaha hahaha hahaha
+this is so real
+0.0556 is interesting — i was using a very different architecture and it also got stuck at that exact number
+this is so mysterious
+hmm set seed is actually not working fully. the results are different after rerunning
+yea i was running into this too
+i thought urs would work cuz u included the cuda bit but mb there’s another random source we’re not considering
+like source of randomness lol
+i was pretty sure it worked at one point 🫠🫠🫠
+i'll try adding this
+4c is still random
+but train.py is deterministic
+i checked that data augmentation should be reproducible. then it's strange why not 4c
+oohh like the random rotation and random crop?
+yeah the angles come out deterministic
+i tried doing the batch size of 1 thing mentioned in the unet paper and im getting better pixel acc of 0.73 but worse iou of 0.05432
+i’m thinking - when batch size is 1, we will need a lot more epochs. how many epochs did you train on just now?
+when i did a batch size of 1 i augmented the training data so that each "img" is actually a composite of 16 images, so the amount of epochs needed is the same??
+in this case, is the backward based on one image or 16 images?
+16 i think
+well like technically its 1 image that is a composite of 16 imgs
+yeah, like 15 different transformations of the same image + the original?
+umm i think its 16 different images
+oh as in, one image is segmented into 16 pieces?
+yea
+so 1 image is like a 4x4 grid represnting 16 imgs
+i tried sgd as well and its worse
+interestinggggg
+maybe i can run it on your branch? and see if i get the same
+yea give me a bit to make it suitable for human viewing first lol
+yeah take ur time!
+ok i just pushed its under jeremy-unet, the code is still vv scuffed but its kinda legible now. mainly i moved the batch_size argument to the voc, and i use the voc to combine the images. as a result batch_size has to be a perfect square
+also idk why yet but im consistently getting iou of 0.49 now
+for unet ?
+yea
+ok i’ll look into it in the morning 🤓 thanksss!!
+just tried using batch sizes of 4 in the dataloader and 4 in the voc, validation in each epoch was giving good numbers but the final test iou was not as good
+0.49? 😮😮😮
+the highest i’ve gotten is 0.0627
+@ester tsai can i confirm that u have already discussed xavier and batch norm in the baseline method section? if so, i won’t include those in the introduction
+kong voted for "introduction" in the poll.
+ester, is there a time that you would like me to finalize unet? for plots and the final numbers (i’ll take care of the segmentation result for one test data in visualize.ipynb
+i’m thinking latest by 6pm today, but i’m flexible
+i plan to put up the plots after we finalize our models ye
+6pm sounds good
+yeah
+okay and once you run everything, could you push your version of 5b to main
+i can also fill in the segmentation result since it requires someone having all 7 models
+yeah
+sure
+ok i’ll get you the best possible unet by 6 😎
+do you guys know how to get rid of the cuda out of memory issue?
+restarting the server used to help, but not this time
+smaller batch size usually works for me
+and restarting
+for 5a i made the stride 1 and batch_size=4 and got this for epoch 1
+0.085 iou
+naiseeeeee
+we'll see if it's gonna be good!
+and yeah this is interesting, i got 0.062 iou only after changing the kernel size in unet
+changing to what kernel size?
+all those 3*3 to 4*4
+and final layer from 1*1 to 3*3
+epoch 2 iou: 0.1136
+but i accidentally interrupted the training lol
+sad, each epoch takes 8 min to train
+ahhhh
+that’s quite a while
+like one hour for 6 epochs
+is the network very deep?
+what we could do is have like 6-10epochs, then mention the complexity and efficiency in the discussion section
+im running for 10 epochs
+so ill report that result
+yes i’m doing 10 epochs too for 5a
+good news! ta just said unet iou will be graded very leniently
+0.06 is on
+ok
+oh thank you!!
+okay then i’ll be able to finalize before 2pm!
+did it take long to train 5b? the transfer learning model
+just curious
+yes, jeremy said 15 min?
+possibly longer
+sheeeesh
+just by changing stride
+5a we gucci
+@jonathan cheung could you experiment with having other layers too? ta said just changing stride is not big enough architecture change
+yeah
+^also remember to add a table for your architecture details like jeremy and winfrey did in the report
+finally something close to 0.07
+thanks for the batch size = 4 idea hahha
+yooooo
+it trains pretty fast too
+2 epochs gets training iou of 0.099
+i modified kernel size as well
+could you see if it gets higher than 0.12?
+0.11 with leaky relu
+@ester tsai do you have a preference for pushing to main or pushing to my branch for you to compile the models? i’m only pushing train_5_c.py and unet.py
+for me to push to main or my branch** whichever is easier for you grab
+hows this
+this is with some kernel, acivation, and layer changes as well comapred to just stride
+personally think that iou greater than 0.07 iou good enough and above 0.10 is great 🤣
+ok then
+as long as we can justify we made sufficient changes to the architecture in the report and have some discussion, then we r good
+i can push the 5a code if thats fine with everyone
+your branch is ok! i’ll just copy paste for ease lol
+pushed
+ok pushed 5c to my branch as well! there's a high chance you won't get the exact same result, i believe it's the randomness that you mentioned yesterday
+master's readme has been updated for submission later today!
+thanks!
+i’ve finished running 5a and will update the report with the plots for the results section after my tutor hours
+yeah no problem! thank you!
+i can help cross check the architecture table when you are done @jeremy tow @jonathan cheung   @jeremy tow do you plan to add resnet under related works? just checking!
+i’ll add the paper in
+ok coools!
+unet now has a lower accuracy
+i'll rerun it maybe?
+oh wow test iou is 0.11?
+that’s interesting
+sure
+i changed train, val, and test batch size to 4
+i'll double check that the iou function is not dependent on batch size haha
+wow
+what magic did you do
+hahaha hahaha hahaha
+dang unet was crawling and now it’s flying
+lol smaller batch size is better i learned
+jk this screenshot doesn't say much
+the batch size can be understood as a trade-off between accuracy and speed. large batch sizes can lead to faster training times but may result in lower accuracy and overfitting, while smaller batch sizes can provide better accuracy, but can be computationally expensive and time-consuming.
+i seeee
+interesting
+i like this sample!!
+o oop my iou implementation is not quite right
+it’s supposed to be over the entire validation set
+eh really? i thought i checked
+oh u mean the average?
+or the iou function
+hmm i think i did implement it according to the ta’s description
+isn’t the iou function supposed to be of a single prediction and target
+and then u average it in the train file
+i suppose it worked nonetheless
+but i’m averaging over each batch and then averaging all the batches’ average iou
+so the number might be a little odd
+ohhh ok we are looking at the train files not the util iou right
+oh util iou averages over the batch
+util iou is right if the input is only one image, but right now the input is a batch of images
+wait just kidding
+let me think again
+maybe the input is indeed just an image
+lol sorry for psyching out we’re probably fine?
+but i discovered that when i make the test batch size smaller the iou goes up, which it shouldn’t
+enumerate batch_loader gives a batch. so inputs are 16*3*224*224
+o right
+hmmm let me go through the code and check
+maybe in util iou np.nanmean can be done on a specific dimension
+or do a double loop in util iou, so   loop through preds, targets:    loop through all classes:    np.nanmean for that particular one pred
+i’ll try double loop
+iou becomes 0.2619 for train.py
+i have a feeling that should be more accurate but the ta implemented it wrong? 😮 maybe maybe not 🫨
+0.05 felt too low
+so maybe they meant over the whole validation set instead of each individual image
+high key i will just revert back to what we had before because it matched the description well
+actually… we can keep it as is  hahaha
+yeah
+agreed
+i’ll aim to be done by 9:30pm but
+oh ok i’ll start working on it rn
+i’ll update code to do full validation set after and see if there’s a big difference
+samuel chu said he tried and it wasn’t very different
+okkk double checking the architecture now
+oh just joking, i’ll wait a bit
+@jonathan cheung just checking, for 5a specifically, did you make any changes to  - weight initialization - data augmentation - optimizer - class weights
+just added all the plots
+yupp they look perfecto
+thankies!
+tysm tysm
+learning rate i believe is 0.001 and the other thing is 0.0005
+but i think that’s default
+oh then did u use the learning rate scheduler?
+i think so?
+okk
+let me add that blurb saying that everything else is kept the same
+in the report
+quick question, is there supposed to be a separate model python file for 5a and 5b?
+oh shoot i didn’t make a sepearte train file for 5b
+so it kinda overwrites the 4c one
+oh no worries, i think ester got u
+i got it yeah!
+ok i see it now!
+i’m waiting to get one more plot updated potentially
+but i will get the report done rn
+please add writing to the results section if you guys can
+i just wanna get a better plot for 5a if possible
+yes on it
+ah
+ester, i am seeing train_5_c has the old version
+like it calls fcn and uses adamw
+ohh let me see
+i have the updated version locally but somehow didn’t update on github
+i’ll fix that rn
+resubmitted code
+we still need to write some of discussion section
+yeah for each of the models in 5, need to draw insights from table and visuals
+currently we are only drawing from table
+the 5a test iou is not accurate, it should be lower
+i’m rerunning it but it’s too slow oop
+i’m adding to the discussion right now
+hmmmm i’m kind of stuck with unet’s discussion on the sample test segmentation, since it had worse results than the other two architecture, the test segmentation shows that unet captures a lot of them 👀
+weird yeah 🫣
+ok i’m back home, is there anything i need or finish up
+yes, could you check if 5a's discussion mentions the loss plot and the segmentation visual
+still need to add something about the segmentation visual
+i’m not even sure what to write abt the segmentation part
+like it looks like it’s much worse than the iou and accuracy would say
+i just added the resnet paper to related work
+and i finished the architecture table for resnet
+ok added mention on the results plot and visual in part 4 + baseline
+i think some of us can start checking the entire paper
+@jeremy tow there are three layers numbered 31, is that intentional?
+oh shoot good catch
+fixed ty
+np! thanks
+ok i will stop writing for now, i think some of us might be working on the same section right now, i am starting to see some similar description 😅
+also i used present tense for everything and some of us used past tense.   we can stick with one for consistency purpose - whoever is checking the entire paper.
+i can chnage all the tenses to present
+ok thanks!
+actually not understanding the segmentation visual, r the blobs supposed to look like the shape of the ppl?
+@jeremy tow could you check the code submission? i am not sure if the transfer learning file is actually reflecting the architecture in the report
+ok yea looking rn
+it might be the old version!
+"more specifically, a constant learning rate can cause the model to get stuck in local optima and result in a slower convergence or sub-optimal solution." is this sentence supposed to be referring to local minima?
+rather than "optima"
+yes, but optima means the same thing right
+oh wait it means the same thing lol
+just checked, it looks good
+ok cools! i just realized that none of the encoder is actually called. sorry, got confused for a bit.
+thanks for confirming!
+yea the encoder is rollled up into the forward section of the fcn model
+rerunning 5a
+it’s getting faster now
+5 min per epoch
+nice nice
+it was 24 min or something earlier
+everything except maybe a sentence or 2 in the last section are present tense, it should be ok because its a building off of the previous experiments?
+is there a way to make the discussion section go after the results section’s figures?
+right now discussion starts in between those figures
+page breaks?
+try \newpage
+it’s already there haha
+forcing new page on new section
+no idea why item doesn’t help
+ohh
+ok fixed!
+use \clearpage instead
+is it intentional we made the images smaller?
+2 per page seems to fit pretty well
+ya i made it smaller but it was before we organize the report
+so feel free to make new changes haha
+is everyhting else finalized?
+yes on my end
+sure!
+good work!
+tysm tysm
+i can submit?
+the time crunch is real 🫣
+i’m looking through it again but feel free to submit
+wait sorry
+the architecture for transfer learning
+i’ll fix it, gimme 1 min
+ok done!
+ok ill usbmit now
+thank you jonathan!
+ok i added u guys, check if u can see the reprot on gradescope
+yup!
+i’ll need to resubmit it lolol i made some changes
+lel
+i can resubmit it again then, idk if it messes up if theres diff submissions from diff ppl in the ame team
+lmk when ur finsihed changing
+my 5a is almost done lol
+let me check the results
+dang it’s cutting real close
+i’ll resubmit right now just in case
+do u want me to do it?
+i’m updating something rn
+ok just submitted, will add people
+done! sorry for cutting it so close!
+thanks hehe
+no no, not at all
+please check if it’s good
+nice job
+all good, thanks for the good work everyone!! get some good rest for now 😴
+yay
+tytyty
+group name is recurrent for pa3!
+yayay!
+joined
+ester named the group cse 151b pa3.
+thanks for the name update that’s very thoughtful of you haha
+ester tsai added samuel chu to the group.
+@samuel chu if you’d like to join!
+i will get started on the programming part tonight, has anyone started working on it? just wanted to see where i should start with, in case some parts have already been completed
+i plan to start at 3:30pm!
+okie i can check with you tonight when i start!
+i’m prob going to start working tonight or tmr, if i do start today i’ll lyk
+actually i’ll start maybe tonight! gonna crank out some tutor stuff that’s time sensitive
+yup yuppp no worries!
+heloo, i made changes to fix the indentation issue mentioned on piazza and pushed the main branch. none of the body content is changed, just indentation
+there has been quite a few typos in the given template from what i have seen in piazza. i fixed most of them and pushed to main  another typo that is not on main  in util, get_random_song_slice takes in string data not list  similarly, get_random_song_sequence_target takes in song in string format not list
+i should be able to get the baseline out today  but without the generate.py
+thank you winfrey!
+i’ll do the individual part first and then get on the code
+i’ve push a working model to my branch called winfrey (should cover up till q3)
+the loss i’m getting is lower (0.06) than expected (1.9) so i’m still clarifying with the ta on loss calculation - there’s a bunch of averaging going on 🥲
+i see!! i’m done with the individual part so i’ll be able to get to the code tomorrow!
+or later tonight 😮
+wowow this pa seems fun
+i’ll work on it today
+just learned the abc notation 😳
+yaaahhh heheh
+the lowest loss i get so far is 2.1679, im making changes to the optimizer to find the one that gives the closest to 1.9  other than that, my branch is the most updated of my progress
+@jeremy tow @jonathan cheung @samuel chu any progress so far? 😃
+i’ll be occupied with midterm and capstone until the weekend, so i’ll build off whatever we have by then
+i’ve done literally nothing but i’ll try for part 4
+i also haven't done anything but i'll start today
+little bit, just slowly working through
+runtimeerror: cudnn version incompatibility: pytorch was compiled  against (8, 7, 0) but found runtime version (8, 6, 0). pytorch already comes bundled with cudnn. one option to resolving this error is to ensure pytorch can find the bundled cudnn.looks like your ld_library_path contains incompatible version of cudnnplease either remove it from the path or install cudnn (8, 7, 0)
+the piazza post about this issue did not help lol
+has anyone else figured out how to solve this?
+looking at it now
+you got the error when u were trying to install pytorch?
+no, when i run main.py
+this is me lol
+conda install does not even finish installing and bugs out haha
+pip install doesn't solve the problem
+o i fixed it
+oh how
+unset ld_library_path
+oh lol
+anything that has to do with path is very painful
+does that mean i'm not using cuda tho?
+it's very slow oop
+no i don’t think so, the forum that i read says it’s just old version stuffs
+wifi matters a lot  hahaha
+i'm training on cpu oops
+it’s slower when i run at school
+hmmmm
+but that's what the ta suggested
+how long does it take for you?
+like one hour
+for 100 epochs
+oh me too then
+jk it's slower for me
+ahh cause it’s on cpu?
+yeah : //
+o im ok now
+i'm using capstone platform
+instead of datahub
+yayayayayyayayyayayayy
+oh thats great
+capstone supremem
+honestly, i have never used datahub once
+it's really fast, like 3 epochs per minute?
+like this…?
+is it about the same?
+wow urs is slightly faster actually
+i use n 30
+it’s a bigger gpu although not sure if that affects speed?
+ooohhh i seeeee
+i’m curious what gpu it is lol
+it's called "a5000"
+is 2.1679 the validation loss?
+is it correct there is no test loss?
+this is with using adam, lr=0.001 and weight decay = 0.00001
+also ta suggested running with more epochs, i’ve only been running 100 epochs
+and probably seed 10
+and yeah no test loss, not given in the starter code
+do you know if we are allowed to change other configs like seq_size
+ah that i’m not sure. i thought we are not supposed to change anything in the config until like 5 mins ago a ta said try more epochs
+hmm i suppose instruction said to use seq_size=25~30
+ohhh good catch!
+true more epochs might help. the validation loss is still decreasing
+i'm gonna work on generate.py for now
+coooools i’ll keep it running in the background while i do other stuffs  hahaha
+what is this?
+don't do that haha
+it removes cudnn basically
+i’m getting the same error, you fixed it by switching to capstone stuff?
+so it solves the error but you can only use cpu
+yes
+i ssh from terminal, not datahub
+like using the capstone jupyterhub or ssh ing?
+ok yeah
+rn the code for generate.py works but the result is not functional
+so.. do we have to remove the unknown characters?
+in generate
+i’m not sure if those bolded characters are identified as unknown
+the bold shows bad syntax (system can't recognize what it wants to do)
+i see
+so there’s gonna be some way we need to figure out to control/process them before putting into the converter
+for generate.py, is it correct that the model should only take in the most recent prediction as the input?
+i wonder how it knows what the context is if i do that
+there’s the hidden state that saves the context
+let me fix something real quick and check again
+okk
+@kong xian ying when you finish training, could you send me the model checkpoint if possible? or i can just send you my generate.py
+yuppp!
+@ester tsai r u sshing into capstone and using cpu?
+no, gpu
+im getting the same error even on gpu lol
+this is the extended fur elise
+best val loss so far 2.0089
+adamw lr=1e-3
+nice niceeeee
+my newest progress is on ester2 branch
+haven't done hyperparamter tuning yet but i set up the plot name to reflect different hyperparameter choices
+might be helpful to make a branch from my branch
+ur so amazing
+@jeremy tow @samuel chu does the gpu work for you guys when you run python main.py?
+also our current val loss is ok! we can move on to hyperparameter tuning,. i;ll start that tonight
+yayyy!! thank you!!
+im trying to run the main.py on your branch on gpu but im getting this error:
+is it supposed to be config['dropout']?
+o yeah small typo
+okay
+it’s config[“model_type”]
+okay thaks
+i got the same error that jonathan got and you were getting earlier
+using datahub tho. i could try ssh
+piazza someone said they created a new conda environment and installed pytorch and it worked
+oh okay. ill try that
+lol im getting a new error after using a conda env:
+for some reason torch.cuda.is_available() is false
+did you request a gpu when you ssh?
+just updated my branch more for hyper parameter tuning. gonna run it overnight and get all the results
+does anyone understand how to do part 6 (feature evaluation)? is the “activation of each neuron” the result of calling model.forward()?
+currently doing adamw with lr=1e-3 and no weight decay, but you guys should try different optimizer setup and see if results are different 😮😮
+hold on gonna fix something small real quick
+not too sure, i only remember seeing a post on piazza about softmax and temperature
+lol that’s my post
+i think i figured the temperature out
+but i will ask in oh today to confirm
+finished updating! now we can know the training loss that correspond to the min val loss
+can we call at 3pm today to do a quick check-in for what to get done over weekend?
+@everyone
+yasssss
+i have midterm at 4 so i’ll can only stay until 3.30pm for the call
+@ester tsai @jonathan cheung logistic is actually a nonlinear technique, good job!! 🤣🎉
+huhhhhh
+i’m working on the heat map, almost done
+what’s the lowest val loss so far with hyperparameter tuning?
+baseline is still the best
+2.008
+interesting
+thanks!!
+reminder we will call at 3pm
+i’ll go to the 2-3pm oh
+the heat map has been implemented but it has a small bug
+only the first 20 chars show up
+jk he moved it again so there’s no oh rn
+i’m ready call anytime if you guys are
+wait i’m not ready
+what time works for you?
+like in 5 mknjtes
+ah can we keep it at 3? i’m at work until 3pm and i have a consultation at the moment
+ok!
+i’ll get on soon, in capstone meeting rn
+let's do 3pm still
+both winfreya nd i will need to leave by 3:30
+^ report
+ok i pushed latest changes!
+i tried ssh'ing into capstone gpu but that gave me the same error also
+to clarify the most updated branch is ester2! ignore the original ester
+@kong xian ying do you think you help me fix the gpu error i’m having with capstone gpu later today?
+oh yeah ofc
+is 8.30 ok?
+hmm i might not be home til 9-9:15😬
+would 9:15 work?
+okiee
+thanks
+okie coming
+do you want to set a new meeting?
+update: winfrey showed me what she did on the capstone gpu, but it still isn't working on my end :| so i think she will try to train a model with new hyperparameters tmr maybe?
+okok! you could still write the report using the plot results on my branch if needed 👌👌
+okay is there stuff that you tested that is not on the report already?
+i have the basic set of results that the report needs (loss plots, heatmaps, and the training/val loss are in the model checkpoint names), but we can test more models and get better results
+training with 150 sequence length right now, it’s training slower so…  … will mostly hear back from me after 2 hours  hahaha hahaha
+code is still running but i got 1.988 lowest so far with sequence length of 70
+i think we can go ahead with sequence length of 70, and the training speed is acceptable
+i trained with a sequence length of 300 and let it run the whole day, i’ll let you guys know the loss after i get back to my computer
+training with sequence length of 50 is even better. got 1.97 at epoch 198, also faster for sure
+okie i think i will settle with sequence length of 50 for now
+will also see what jeremy gets with sequence length of 300!
+baseline model plot
+its kinda not good
+i’m thinking if it’s overfitting
+yea :(
+but also getting 2.0 something at epoch 151 is kinda okay ish?
+oh sorry my bad, i saw epoch instead of iter
+ignore this heh
+ah i see
+just very very slightly higher
+def not worth doing
+would you like to try sequence length of 50? to make sure my gpu is not overly optimistic haha
+ok yea fs let me do a run rn
+okkk
+oh how many neurons are u using
+150
+epochs 260
+oh wait no im stupid i ran it with 30 instead of 200 i forgot to update the config file fully uhhhhhhh
+i will run it again lol
+i'll run both 200 and 50 again and report back
+skulling
+oh lol
+hahaha okieee
+and i’ll generate the plots for hyperparamter tuning using sequence length of 50 and all else constant except for the specific hyperparamter , i’ll take the neurons config, and would you like to take the dropout configs?
+okok
+do i even try 200 lol the training time is obscene
+one round takes like 1.5hours to 2 hours for me (cause sometimes my wifi drops lol   so i def won’t be able to do all configs in one day
+how long did it take  hahaha
+oh i’m joking
+i mean.. only if u want to keep it running overnight  hahaha
+like fully 4 minutes per epoch i think
+i tried 150 and it got too miserable at one point i forgot how long i waited so i just interrupted it  hahaha hahaha hahaha
+so like 17 hrs
+ouchy, wait how is ur gpu billed?
+i have my own gpu lol
+ohhhhh like u own it?
+its like ever so slightly slower than the datahub ones i think? but like more reliable and i dont have to worry about my connection dropping
+yea its sitting in my computer next to me rn lol
+when u said u have one, i was thinking that you actively rent/pay on demand from like amazon
+hahaha that’s very cool
+oh man i could never aws is so expensive
+oh really dang i thought they always sell themselves as a cheaper option or like pay as you go, no hidden fee, low cost etc
+like idk i dont think id want to spend any extra money for class lol
+yea i think im just going to stop at 50
+300 is taking soo long ive gone through 3 epochs so far
+training 50 takes me about 1:10 per epoch
+yeah does take a while, i think datahub might be faster but not really too significant? i haven’t really timed it properly. anyway, if we train the full 260 epochs each time, we can probably only do like 3-4 rounds per person per day (for the amount of time that we are awake 😬
+if it takes around 2 hrs for datahub then its like twice as fast lol mb i'll switch
+mb i'll do runs on datahub and my personal gpu concurrently
+i could be wrong cause i just start it and work on other stuffs  hahaha hahaha it could actually be 3-4 hours but yeah i think running on both is a good idea if that’s manageable
+i just timed a single epoch and extrapolated
+should i try running anything when i’m back or just focus on the report?
+hmmm i’d say.. we’ll see? i was thinking that you’d want to rest and settle down once u get home. i think i will be able to run 2 full rounds by afternoon (covering all of hyperparamter part b)
+i will run these three
+seq length of 50
+woah nice
+should we just go with the results you guys got?
+lmk if i can help run anything!
+yup yup
+yes! could you run config 250 neurons with sequence length 50?
+adamw lr=1e-3?
+yupp everything else the same
+how about the existing result on report?
+ohh i pushed a small fix for train.py last weekend so u might need to check with git pull
+okok!
+i updated row 1
+row 2 still running
+as in, the current row 1 is accurate
+which branch should i pull?
+ester2
+okok!
+oo what was the bug in train.py?
+remember u said u added to songrnn to return x0 or x1
+so now the songrnn forward returns output, _ instead of just output
+got it!
+now running config_250_neurons and the rnn next if it’s not done already
+im kind of confused on temperature can affect how deterministic the model is. bc if we run these values: 5, 10, 15 though a softmax no matter what we divide each element by, when we pick the element with the highest softmax value it will always be the 2nd index(15) right?
+we are not picking the element with the highest soft max value
+soft max value goes into torch.multinomial to serve as a list of probabilities
+torch.multinomial randomly selects a character to output
+ohhh
+ok
+i'm updating the related works section with citations
+feel free to double check and add more
+i'm done with my written portions! lmk if another section needs help
+i pushed my results for config_250_neurons.json and added the train and val loss to the report
+gosh it finished?
+lol yeah
+so fast!! 🥲
+result is worse than baseline but better than sequence length 30
+overfitting on training
+what does increasing the number of neurons do in the lstm? cuz i thought the lstm just used gates
+does it increase the amount of information that can be stored in the cell state or something?
+for this pa, neurons = number of features in hidden state
+ok
+hidden state = cell state?
+our lstm is a single layer one, so it’s only one lstm
+oh really
+ok
+they r different in lstm
+in rnn, there’s only hidden state, no cell state
+oh okay
+thanks
+the last hyperparameter tuning will be ready shortly! 48 epochs left 😪
+i have 200 epochs left on the rnn run and after that i’ll be finished i think
+i ran the rnn earlier actually! but you can verify the results with mine
+oh even better
+ig ill do generation with different temperatures
+and then fill out that part of the report
+i’ll just take the model with the best loss?
+how are the results on different dropouts?
+is the report the most up to date?
+i need to do abstract and intro rn
+which one is this?
+it should be, but the numbers look kinda weird so i’m planning to rerun it overnight
+i might have mistyped a parameter or smth
+aight i can run it too
+so far baseline is still the best
+250 that i’m running atm is slightly better than baseline
+once this is done, if this is the best we have so far, i’ll generate the heatmaps with this model first. if someone gets a better model, feel free to replace the neuron heatmaps
+@ester tsai did you find training rnn faster or slower than lstm? or roughly the same
+ok added results and plot for 200 neurons, will generate the heatmaps now
+oops i didn’t time it. would it be helpful if i rerun part of it to time it?
+@jeremy tow could you add your plots for the dropout experiments? i think they might be helpful for sam’s parts
+ohh no worries! no need hehe
+@ester tsai is there anything that i should do to adjust the spacing..?
+the loss ones?
+yes
+the loss plots
+ok will do
+does the “93 unique characters” refer to all the possible outputs in abc format for each note?
+yes
+sure! we can make the figure a little wider and less tall
+@jonathan cheung i uploaded all the heatmaps from our best trained model under the figures folder. are you able to see them?
+yeah i can see the figures
+i’m thinking of letting you choose 3 heatmaps from there? those that are more explainable for the discussion section
+then i’ll put the 3 that u choose to discuss under results
+ok, i’ll choose 3 between the 0-140 heatmaps
+okie thanks
+i uploaded the dropout plots under figures, the sequence length is wrong so i’ll update them by tmr morning but for now if anyone needs them they’re there
+@jeremy tow for song generation (results part 6b), this is the best model i have with me. also the best we have so far
+ah nvm it's not allowing me send here
+ok i push the best model to branch ester2, path is checkpoint/best_0219
+tysm
+the config to use is config_200_neurons.json
+60, 140, 100? for the 3 heatmaps? i think i could point out how the highe activations are on a and f for 60, and the repeated high activation on the similar strucutre phrase for 140. 100 im not so sure but probably having to do with the header. or i could do 20 because the low activation is always on the blank space
+also are we going with our “best model” as the one with lowest val loss?
+yes
+do we need to specify our sequence length for table 1 in results?
+we will need to describe it in the methods section
+ok
+is it always 30?
+it’s always 50
+has anyone generated plots for the bottom 3 rows?
+i couldnt find any on github
+they are under the figures folder in overleaf
+im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will sucj but we can fix it up later
+@kong xian ying
+im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will suck but we can fix it up later (edited)
+yup yup
+also does red correspond to low or high activation?
+high activation
+you can see the example in the pa3 instruction
+ok the formatting is fixed and discussion added for the heatmaps. i added a page break so that the loss plots under the hyper parameter tuning sections so the graphs are correctly placed
+take a look to check it over
+also can someone explain the difference between many in, many out and simultaneously many in, many out? does the language translation work for both?
+not rly an explanation but heres the site where i think they stole the graphics from lol
+mb simult many in many out doesnt work for translation bc u kinda need to know the full sentence before u can translate it
+btw i think im done with my part too
+what were the hyperparameters u used when training this model?
+u can find it in this config. i remember the more general ones like 200 neurons, lr 1e-3, dropout 0.1 and lstm model
+oh i didn’t see that message oops
+tyty
+@jeremy tow could you add your contributions at the end of the report?
+yep right after i finish running the temperature expirements
+also i’ll push ester2 to main at 8pm, lmk before that if there’s any pending code changes
+ok main repo is updated, the pa doc didnt say anything about what to not submit, so i only kept the configs folder and data folder
+would anyone like to proofread the report before we submit? i think it'd be nice to have one or two of us go through and standardize our writeup, e.g. past/present tense etc.   i used present tense for most if not all of my parts but i'm good with either past or present.
+ok i can
+thank you very much!
+im almost done with my part, just generating a bunch of songs with different temperatures to get statistics
+yupp all good!
+i uploaded the txt files and the midi files to the overleaf project
+ooo were there any notes that the converter flagged as invalid or unrecognized notes?
+so many
+so so many
+the higher the temperature the more errors
+ahahhaha
+i tried a bunch of generations and at temp = 2 it was like multiple pages of errors
+right, as it is more creative (or hallucinates more) haha
+artists on drugs be like
+hahhahahahah spot on
+not me laughing out loud
+okay i proofread the report
+ok my part is done, i'm just a little iffy on this one bit that i wrote
+is that correct?
+seems reasonable
+yeah it makes sense to me
+also that’s a very good observation 🙌🏼
+are we read to submit?
+i can do a final read through if we need
+code is ready
+everything is in present tense, looks good
+if theres no other changes i can submit
+can someone double check the requirement here? i might have understood it wrongly but it looks like they asked for the abc notation (which we have) and the music representation/notation (which we don’t have at the moment)
+oh shoot yea i'll add screenshots rn
+give me like 5 min
+okiee! no worries! there’s still time
+we don’t necessarily need the screenshots but we need the txt file output and the midi file
+in the submission
+i feel like it kinda reads like we need the music representation tho
+ok thats fine
+"provide their abc notation and music representation from <url>"
+i just missed it the first time i read it oop
+but i guess the txt and midi files should be in the repo then?
+yeah same here 😅
+oh yeah this is the thing that i’m not sure
+i think they wanted it uploaded seperately? i vaguely remember reading about this somewhere
+@jeremy tow would you like to add a sentence to the abstract to describe how the generated music sounds?
+okok
+ok i updated the abstract, also added in the pictures of the music
+report submitted, i added u guys
+tyty
+so are we going with this?
+i guess so
+ok i’ll do that
+do we need any help with the code submission?
+all good! just submitted
+aight!
+still need to update the section headers and remove old content
+^ if anyone wanna help with setting up pa4 report! if not, i can do it in some days
+i’ll do more coding this time around, i’ll have less capstone work
+ester named the group cse 151b pa4.
+i started on the code on branch ester1
+just fixed some formatting issues with the template
+solved some minor bugs
+are those on main or ester1? which one should i pull
+jeremy is also making some progress
+main is the same as ester 1 right now
+ooh okkk
+okie! thanks
+i’ll work on the programming part this saturday, i’ll check everyone’s progress by then before i start
+@jeremy tow would you like to push your code to your branch 😮 i’m having a hard time making model.py work oop haha
+oh ok yea i’ll push mine but it has low acc
+ok pushed
+update: the baseline training is working but the loss is still high (377) compared to the reference (39)
+the ester1 branch has working code
+ta said: results.txt is irrelevant reference this result instead: baseline(10 epochs): loss = 192.47; val accuracy = 84.21; test accuracy = 83.49
+ooo is our loss 377 still considered too high compared to the reference?
+yeah :0  it'll need to be under 200
+oh oop
+oooh okok! anywhere that u suspect is not doing the job properly?
+we can still test different optimizer and scheduler and other hyperparameter tuning
+okie
+actually the code on ester1 has some odd issue rn, but jeremy will push his working code soon
+the code on the ester1 branch works fine for me lol
+what’s wrong with my terminal then 😭
+what command do you run on the terminal
+mb try a different server?
+i pushed the code btw
+bruh changing the gpu worked 😔
+quite possibly the most mysterious bug i’ve seen
+can someone else run ester1 multiple times? my results behave very differently the second time i run it
+ah datahub and dsmlp not working for me at the moment. i’ll have to wait and try again in 30minutes or so.
+@ester tsai @jeremy tow roughly how long does it take to run?
+< 1 min per epoch
+feel free to change the number of epochs or add the argument for learning rate and try a higher learning rate
+ok thanks! it runs just fine but i have to interrupt it to go to a class now haha, i'll run it again tonight and see what it gives.
+and is this code implemented up till 3i?
+hmmm since yesterday night i've been having a problem where the terminal won't run at all lol, though it did run in the afternoon when i tested it. right now, it's just stuck and interrupting does work as well, has anyone faced this problem before? it's the same for me both on datahub and using ssh
+yes that happens sometimes
+interrupting does not work**
+ohhh okay
+interesting, first time for me, but good to know!
+not sure what’s the solution🥺
+it's okay!! i'll try another node and wait a bit
+thanks ester!
+also confirmed this. yesterday when i ran it for loss was 800+ at some epoch < 10, today i ran the same branch and loss is 2706 after 50 epochs
+uhhhhh wait let me run it a few times locally
+cuz i don’t think i have this issue
+ok i can try your branch as well
+ta said i can try adding
+gc.collect() torch.cuda.empty_cache()
+ooo okok
+i just ran it twice and i do not have this issue
+this doesn't work. i still get validation acc: 0.06443679291687161 for every epocj
+is it possible to use the captive machines?
+capstone
+i am using capstone gpu
+what command line prompt do you use? @jeremy tow
+i tried the one that you sent
+dang i have no idea what's going on, i cloned jeremy's code and it still doesn't work
+o wait it works when i don't specify learning rate (default is 1e-4 i believe)
+sheesh ok
+also dropout 0.9 is quite high honestly
+i’m trying drop-rate 0.1 for 10 epochs
+so it does work, but i have to keep learning rate below 1.5e-4 (1.5e-4 does not work, but 1.1e-4 works, still testing more)
+ooohh
+validation accuracy is 85.7% and loss is 183 at epoch 6 for drop rate 0.1, everything else the same
+i think the culprit is the drop rate..?  hahaha
+!!!!!!!!!!
+ok
+yeah ok test accuracy is 86.58%
+thanks!!
+yuh please put your findings here
+i updated the print statement to be more clear too, so would you guys like to make a branch of ester1 and work on that? (ignore ester2)
+yes i'll merge with your branch in a bit, working on the custom model right now. thank you ester!!
+implemented part 4 strategy 1 & 2 from the list of five strategies - i just went with the order of the list   feel free to check the code in my branch winfrey (merged pull from the latest update in ester1 branch)  also feel free to explore the other strategies - we will only need to report 2 out of the 5 strategies
+results can be found in this doc here
+are you all free to call at 3pm again this friday to check-in on pa4?
+yes!
+i'll try method 3 today
+just copied your updated code @kong xian ying
+bump! please react if you call on friday at 3pm, and lmk if we need to find another time
+@jonathan cheung?
+also i don't wanna see you guys lose points for not coding! i think it's worth arguing that you guys weren't able to code for pa3 because of unfixable cudnn version incompatibility issue, and that you will make sure to code for pa4. this is what our prof wrote for pa3 feedback: "hi folks - based on your description of who did what, it sounds like jeremy just did hyperparameter tuning, jonathan only helped with analysis, and samuel just helped write the report. you know that we expect everyone to code! please argue with me in a regrade request as to why i should not give samuel 50% of the points, jonathan 70%, and jeremy 80% of the points. in general, i highly recommend using pair or triple programming, trading of who is the driver to avoid this in the future."
+oh ummmm that’s kind awkward i kinda did the baseline too i just didn’t want to write that in my contributions cuz my work for that didn’t show up in the report
+you can argue for that! it's ok if it didn't show up in the report
+uhh shuld i directly send an email or should we create a doc or smth and then send everything all at once
+we just need to send one reply through gradescope regrade request. would you like to start a doc?
+ok yea i'll make it
+oh yeaaaah definitely mention this, cause for pa1 both me and ester worked on some parts that are the same and we said something like we both coded this part and we ended up taking xx’s version
+ok heres the link
+ok my bit is finished. i don't really know about the issue that you guys faced with cudnn, so i couldn't really write about it
+i had the incompatibility issue so i couldn’t code. i don’t rlly have any other excuse bc i wrote what i did in the report. if that means i get 70% so be it, i am p/np anyways
+btw we still need help with part 5! will anyone be working on that? i'm starting on it but can't guarantee i'll figure it out
+it's also helpful if anyone wants to try stochastic weight averaging (swa) and frequent evaluation for part 4
+i’ll try
+reinitializing the last layer resulted in slight improvement from baseline
+my code has been pushed to ester1
+@jeremy tow @jonathan cheung @samuel chu feel free to  build on top of ester1; it has jeremy's, winfrey's, and my most updated code
+i like how we are stacking on top one another’s  hahaha hahaha
+hello hello, to plan our tasks and time for the rest of this week, is anyone planning to work on or currently working on part 4 or part 5?
+i’ll work on part 5
+oh btw @samuel chu do you have anything to add to the regrade request? if not should i submit it?
+i was going to try to do part 4 or 5 also
+okay i’ll add to it
+i'm updating ester1 rn to better test different custom fine tuning
+^ done pushing to ester1
+@kong xian ying would you like to try dropout 0.15 instead of 0.1? it seemed to perform better for me
+sure
+btw just updated ester1 again! now it's a lot easier to implement different custom models in models.py and use class inheritance to combine methods
+for now i'm gonna test everything with learning rate 1e-5 and dropout 0.15
+kong pinned a message.
+any progress on part 5?
+nothing significant yet, gonna work on it later tonight
+i will do that
+i’ll also work on what is left for part 4 this sunday. @jonathan cheung @samuel chu lmk if you are already working on any of part 4 (or part 5) so i can plan my time accordingly.   also i’ll need help with getting started on the report, if any of you would like to work together with me, i’d really appreciate that!!
+i haven’t rlly looked but i can do part 5
+we’re pretty good on part 4 since we’ve done methods 1-3. feel free to try methods 4-5 but we should aim to get part 5 done first!
+yupp agreed!!
+anyone going to oh tomorrow?
+nope i won’t be
+i have a functional part 5
+there are 2 parts to the supcon_train: the first training loop uses supcon loss to train the model to output features that group similar data points together; the second training loop uses cross entropy loss to train the classifier to output predictions based on "features" input
+ester1 branch has the newest updates
+oh oop im still working on it rn
+oh btw did we submit the regrade request yet and if not shuld i do it
+feel free to try on your own or improve on mine!
+i can check
+tyty
+not submitted yet
+can someone run it and see what the test accuracy is?
+it’s only 50% if i set n-epochs to 10
+so we can try 20
+ill run it
+rip no nodes avialble rn
+nvm its working now
+just finsihed running with 20 epochs, test acc is 0.5047
+lol so more epochs does not help
+i've implemented util.plot
+yoooooooooooooooo
+part 5 worked
+i think!
+yooooooooooo
+wowwwww
+ur actually amazing
+the loss has been updated to reflect mean loss, not total
+i just needed to make the learning rate much higher for the classifier
+high key it's scary when things work
+better sanity check
+when i finally figure out how to do it individually i’ll also check ig
+but it actually putting in so much work it’s crazy tysm
+or by tomorrow before 3pm
+yeah i’ll do so
+^ to get 88.23% test accuracy
+imma run the models overnight to get these plots
+i haven't tested simclr yet
+^ if anyone would like to test it
+thank you!
+i'll run it, i need a break anyways
+you can get the code from ester1! lmk if it works 🫣
+made fixes to the plots and corresponding stuff
+@jeremy tow how’s simclr?
+i’ll run it
+accuracy is pretty low for simclr, might need some tuning
+could you try different parameters?
+yeah
+has anyone read the simclr slides?
+i’ve read the paper
+i’m in class rn but i’ll update after i fj ish
+btw if you run out of storage, you can comment out the part of the code in supcon_train in main.py that saves the model weight!
+replacing the .pth portion with whatever the model weight name is in the model/ folder
+reminder we are calling at 3!
+i’ll join in one minute, finding a quiet space
+heres the run that i did last night
+^ i was looking at the inference section
+in fact 50 is the most common label
+👀
+question is, how does bert know which label is the most popular : 0
+yeah looks like answering this = answer to that question
+or maybe how does the classifier know which label is the most popular ?
+oh right i forgot to mention this but im prob going to submit the regrade request later today
+label 50 is calendar set
+no idea how it knows tho
+are you that you aren’t training it at all
+i just added train loss to plot names! please git pull ester1 if you plan to use that code
+just made another push to use the best model (best val accuracy) instead of final model
+confirmed with ta, kinda what we went over just now. so i guess we just have to figure out why test accuracy is roughly the percentage of the dominant class or is it just coincidence  “before fine-tuning means: we use bert + linear classifier to get our target predictions without any training.”
+so essentially it goes down to what the linear classifier is predicting?
+all the plots for report are on github in the plots/good/ folder
+except for simclr
+lowering temperature and increasing input-classifier-dim seems to increase test accuracy for simclr!
+how did you get rid of the cuda memory error, i’m been getting ~50% by playing with batch sizes
+you’ll need to set the batch size to something less than 1000
+512 still works
+bigger batch size will cause cuda out of memory error
+if you use node 30 on dsmlp you get a gpu with more gb of memory
+oo highest i got so far is 67.48%
+looking at simclr now
+good call on using large batch size @ester tsai!! i read lilian weng's blog that simclr does require large batch size to perform well.
+checked the implementation of simclr, it looks all good to me (thanks ester!), i'm reading papers on the effect of some hyperparameters on it.
+if we haven't already tried, we could try lower learning rate for classifier (1e-4)
+simcse is using dropout rate of 0.1, and from the doc i see that ester has tried that
+side note! rn we use the cosine annealing scheduler for the classifier so the learning rate will decrease over the epochs
+we should still try different starting learning rates tho!
+or even different schedulers
+okie!
+@jeremy tow also.. i kinda suspect that there's actually only 2 published research papers that use amazon massive intent - maybe that's why the instruction explicitly states that we get full credits for related work as long as we have 2 papers that use this dataset lol  i could be wrong though, just couldn't find any other papers.
+i'm trying sgd optimizer for the contrastive training loop
+@ester tsai just confirming, we are going with custom 1&3 right?
+yeah let's do that if you guys are down!
+yeah sounds good to me
+@jeremy tow@jonathan cheung@samuel chu how's progress?
+@ester tsai do you also get very low contrastive loss? like 0.0
+yes
+i'm thinking if it is the classifier that's not learning
+i think i figured out simclr
+will get back to yall in 20 mins
+removing the scheduler yields 61% without learning rate modifications
+the batch size doesn’t seem to have significant difference compared to 256, though i’m not on gpu 30 and other params are tbd
+for simclr, it's our model architecture. there are two things we might have missed, i am still checking:  1. we need to drop the projection head when passing to the classifier. we still train supconmodel with the projection head, it is only when training the classifier, we want the hidden representations instead of the projection head output  2. we need to apply dropout two times for unsupervised simclr. i am still looking at the paper for details of implementation
+ok so we took care of item2. i will work on item1
+i see! that makes so much sense!
+i believe i’ve successfully done this and got 0.692
+don’t know if params matter as much though training acc becomes much higher at 0.78
+by making forward pass return l2 and the final thing, and taking the l2 into the classifier on the eval step
+i have been experimenting on flipping the normalization and linear head in final_output but don’t know if it’s a fluke
+yup yup this sounds right
+i’m running rn after moving the scheduler update thing into the epoch for loop rather than batch
+yup this too
+also try removing the cross entropy loss reduction = sum
+just use the default
+why does the loss sometimes become nan
+after many epochs of 0 it becomes nan and it breaks
+classifier or supcon?
+i mean the mean train loss
+if you are referring to the mean train loss of supcon (the first training loop), it always reaches 0.0 within 10 epochs for me
+so i just set it at 10 epochs for contrastive-n-epochs
+also, might want to add a new argument to this
+it becomes man for em sometimes too, especially when temperature is lower than 0.01
+because if it is taking classifier input dim, it'll always be 768, and the linear is doing 768 -> 768, which is not really meaningful
+and classifier input dim has to be 768, since it is taking the encoder's embeddings when we are doing simclr
+yep that’s right
+was able to get 71% val acc, and 88% train acc by epoch 7 of training the classifier, just fixing some minor issues on my end right now. i will run a few more experiments and let yall know how it goes.
+messed up a line and my test acc became 0.02 💀
+hahaha high five, been there, done that, i was debugging for like 2 hours
+that's great!
+were u able to move the scheduler step out of the batch loop?
+seems to be breaking my code
+yup
+lemme push my code to winfrey and maybe you can cross check from there
+ok my branch is fully updated
+i'm mostly testing 2 hyperparameters now 1. supcon-linear-head-dim 2. hidden-dim (of the classifier, because we have been using the default 10, so its going 768 -> 10 -> 60)
+ohh really
+i thought hidden dim isn’t used for some reason
+it’s a lot of args going on  hahaha
+o dang you’re right
+it’s being used by classifier class
+oops
+yeah no worries, i only realized that very much later, the 71% just now is with hidden dim 128 (for classifier), and sup con linear head dim 128 (for supconmodel)
+the linear head dim can go pretty high, like 3000
+true true!
+btw i forgot to share earlier! but if you want the dsmlp gpu to have a high time limit (24 hours instead of 6 hours), you can run these commands in the terminal before your gpu launch scrupt
+export k8s_priority_class_name=normal export k8s_timeout_seconds=86400  export k8s_bypass_timeout_limit=yes
+oh my goodness this is so very much needed
+thank you
+added a new table just for simclr in the results google doc
+wait
+wait
+yes sir
+val acc 0.83 on 3 epochs
+niceeeee
+sheesh?????????
+lesgoooo
+the train acc is getting to 99%
+goodnight everyone
+hahahahah
+what’s the magic parameter
+let me finish the training
+yuh please send the command line
+okieeeee
+it’s in the process but should take less than the usual 40
+wanna send it rn haha i'll run it along with my other string of commands
+oh and push ur code we can just use urs
+if epcosh is greater than 7 the loss becomes nan
+is ur classifier-input-dim actually the classifier’s input dim?
+oh yeah ill make a branch bc ive been workignon a copy of esters
+yeaaah okkk
+thanks jonathan!!
+i modifed this line"classifier = classifier(args, args.embed_dim, target_size).to(device)"
+shoudl be  line ~298 in main.py
+bc i was gettign errors from reshaping
+though idk if its sketch
+what did you modify it to?
+args.embed_dim will have to be 768
+it was modifed to that, it was args.classifier_input_dim
+caused an error bc 256x3500 can do matmul wiht 768x10
+or 128 in this case
+niceeee we can take a look at your code and see if it’s just naming differences which we can always adjust later
+btw for crossentropyloss(reduction='sum'), it makes the cross entropy loss return the sum instead of the mean for each batch, so we can divide by total number of data points and get the mean over the whole set
+if we removed the reduction='sum', it'll be hard to calculate loss consistently
+also, very good call on this ester, val acc is already above 80% at epoch 3 with 1200 linear head dim
+ohhhh okok we should put it back then, soz didn’t think that far
+haha i tried 10000 once and might've gotten cuda out of memeory
+pushing the limits we like
+oooo i got good results similar to jcheung's
+yooooooooooo
+the epochs can be lower and probably still perform the same
+82.92%
+niceeeeee wow i’m so glad we worked this out together 😍😍😍
+i made my branch but it looks like ester branch from a week ago, im a brnach noob does anyone know how to update it
+plot looks reasonable
+create a pull request from ester to ur branch
+yuh thanks to your important fixes xd
+i find it easier to do this on github than command line
+1. pull request from ester to ur branch 2. then only push ur code to ur branch
+oh wait im so dumb
+im wokring on datahub lol
+not the actual repo on my computer
+well, there’s also brute force, download the py files and upload it, almost guaranteed to work always 🤣 when there’s too many merge conflicts i just brute force hahaha
+o wait ester 1 is not updated
+let me do that rn
+ok i pshed to my branch
+the comments and stuff r still there so its super messy but u hsould be able to see the changes
+mainly on the forward pass and the respective changes from 2 outputs in the eval and clr training loops
+i had merge conflict so i couldn't properly push my code lolol i ended up copy pasting my changes into ester1
+i'm rerunning all the other models after the code fix, but i'm down to just use what we already have on the report to save time changing everything out
+i put it in the figures folder for overleaf but feel free to replace it if something better comes up
+82.92% test acc
+new result for supcon loss: 88.9% at epoch 3
+aaaaaa
+noiceeee
+83.15% simclr
+are we confirmed using that for the report?
+i can fill in the values in the chart and in the abstract then
+i have a better plot possibly
+let me update it on overleaf rn
+after fixing our code, the baseline is mega good
+89%
+no other model gets better than baseline
+should we keep our old set of plots to save time or hyperparameter tune all the models until they are optimized?
+i’m fine with keeping out old set
+the discussion section still has many blanks. please help fill it out! i might go to oh at 5pm to ask questions
+i've at least updated the supcon and simclr plots, but not yet the other ones. i'm also down to keep the other ones the same since we've already written a lot about them. but i also have the new plots after the code fix available if we want to swap the old ones out.
+yup, i will fill out my parts today.
+yeah, i'm down with either.
+is the acc for the fine tuned models very different from the table we have right now?
+all are around 88%
+not that different
+i see okay
+well.. at least for my part of the discussion, it is easier to discuss that adding fine-tuning strategies improves the model
+but i can do more research
+if we want, we can embrace the research mindset by reporting the latest results
+true
+yeah, i'm kind of leaning towards reporting our final and most consistent results
+do you need help with running any more or you have everything we need already?
+i still need help with hyperparameter tuning
+for custom 3 and custom1and3
+just saw that you took simclr on the report! thank you thank you
+done with baseline and custom1
+okkk i will do that tonight, will build off what you have in the results doc
+these are the new plots that we can use, minus custom3 and custom1and3
+i'll put them on overleaf
+oooh so custom1 itself is slightly tiny bit better than baseline
+yeye just got the newest best result from hyperparameter tuning
+^these are the current best custom1 and custom1and3
+to summarize: i've updated the corresponding report parts for baseline, custom1, and simclr. still waiting on some more supcon to run for better consistency. need help on hyperparameter tuning and updating the report for custom3 and custom1and3
+do we hv numbers for technique 2 and the combined ones or is it being rerun
+these are the current best stats but it is being rerun
+also did using the losses rather than the 2 techniques trading faster or was there no significant difference?
+wdym by using the losses?
+clr and supcon
+like do those model train faster in any significant way?
+i didn’t keep track of that hmm
+feel free to track it
+ester1 should be updated
+for this block in the result section: "for the second technique, we initialize the weights of the last layer in bert before fine-tuning it.95 both training and validation accuracies increase very rapidly for the first 4 epochs. the training96 accuracy continues to improve, but the validation accuracy plateaus at around 86%, showing signs of97 overfitting. the final test accuracy is 86.28%. the training stops early at epoch 17 after the validation98 accuracy decreases for 3 epochs in a row. the best model based on the highest validation accuracy99 occurs at epoch 14.100 neeeeeeeeeeeeed update!!!!!!!!!!!!!!!!!!!! " do we still need this or is it jsut misplaced section??
+like do we need to commnet on each graph or should this be put in the technique 2 section
+we need to comment on each plot right
+hmmmm.. the exact wording from the doc is summarize the results, but we can always play safe and mention it.
+we are meeting at 7pm this wednesday for final project, right?
+yes
+@ester tsai if ester1 branch is the most updated one, custom_train in main.py we gotta move the model.scheduler.step() outside of the batch loop
+typo from the starter code that got carried forward oopss
+i moved the scheduler step out to the epoch loop, and the best val acc is above this here at epoch 5
+ohhhhhh
+i fixed it once but it didn’t save, so that might be why i missed it when i fixed a second time
+i got good supcon plot
+ooohh i seeee okkk thanks!
+task=custom1and3 testacc=0.8907 bestvalacc=0.8942 besttrainacc=0.9931 mean_loss=0.0194 ep=20 batch_s=16 drop=0.2 lr=5e-06 hid=128
+custom1and3 just slightly worse than baseline
+is the scheduler step in the epoch loop when u ran them? just curious if u have changed it locally
+oh right!
+need to rerun
+😬😬 i can help run a chunk when i get home in like 45 minutes
+thanks for running so many of them
+😭🙌🏼
+the 5pm ta  is very confused
+just quit his oh lol
+i went to his before! and i remember the session i went wasn’t very helpful too
+oh shoot sorry i've been afk for most of today. i jst added a bit to the related works and i can help do runs as well
+which exact ones need reruns?
+all the custom ones
+i updated ester1 to fix the scheduler.step
+these two?
+yes, and the combined
+okok i will run those
+custom1, custom3, and custom1and3
+ester has a chunk of command lines written in the results doc, you can get some from there and modify as you would like to
+task=custom1and3 testacc=0.8944 bestvalacc=0.8952 besttrainacc=0.9997 mean_loss=0.0036 ep=20 batch_s=16 drop=0.2 lr=5e-06 hid=1000
+wow lol that little bug fix solved many things
+niceeeee
+i see your log of code that you will run at 520pm, is there any block that is not in the queue now?
+supcon loss is currently worse than the custom ones
+i also haven't gotten to run any custom1 and custom3 commands
+i'll run the custom3 commands
+ok ill do custom1
+yuh yuh i'm keeping hidden-dim=1000 for all of them
+mostly play around with learning rate and drop rate, but 0.2 seems to be the best?
+0.2 drop rate*
+okk!
+task=custom1 testacc=0.8914 bestvalacc=0.8957 besttrainacc=0.9997 mean_loss=0.0022 ep=19 batch_s=16 drop=0.2 lr=7e-06 hid=1000
+^ just got this! lmk if you get somehting higher : d
+i got above 89% for all custom models
+lmk if anything better comes up! or i can just put these plots on overleaf
+nice nice mine is still running and ntg is higher so far
+^ yea same
+custom1 is on its last one, i am good with going with what you have there. do we still need to run supcon?
+^ i'm assuming you meant simclr
+the best is 89.14%, while custom1and3 is 89.51%
+i’m ok with calling it good enough haja
+yes agreed
+actually i meant supcon!
+oooo
+simclr is 83.15
+and it’s alright since it’s above 80%
+yeah
+all the plots had been updated!
+ok i will do supcon now
+do you mean running more of supcon or writing about it in report?
+oh wait actually
+none of the supcon uses the custom techniques, could we say that if the discussion asks us to discuss the results?
+i’m updating the clr chart and doing the description of the plot - do we have updated params and values for that?
+also abstract and intro r up to date
+the table and plot are updated!
+oh wait i misread the graph lol
+does anyone know what simclr stands for lol
+a simple framework for learning contrastive learning of visual representations
+literally hahah
+for explaining the plots, remember to \ref the figure!
+i'm pretty much done with my parts on the report. lmk if any of you need me on any parts, if not i'll wait a bit and see where else i can add to.
+updated github main readme
+the best i got was all 0.88 so yea
+ok i edited the introduction + expanded on the discussion section and finished the related works section
+wow our related works section is stacked
+love that
+would you like to merge your branch to main @ester tsai?
+ok!
+i submitted code, but it'd be helpful if someone git clones the main branch to check if everything works smoothly
+haha i dropped in a place for most piazza posts
+dang both y’all are on the leaderboard  hahaha
+70 contributions is crazy
+8 per week
+i asked this question on piazza:
+@samuel chu if the ta answers it, would you like to add whatever we are missing to the report?
+i also asked:
+i have update q10 with a more comprehensive answer with respect to simclr and supcon and added a citation in introduction - after i finish if there’s nothing else i can submit
+i don’t get it lol, our un-tuned model is not predicting randomly
+mb our model is plainly just better
+built different
+can you all check on your end what your test accuracy is before training?
+@kong xian ying @jeremy tow @jonathan cheung @samuel chu ?
+send in the chat asap haha so we can see if my higher number is just due to random chance
+maybe try a different seed too
+what are the most common predictions? wanna check with a print statement in run_eval?
+seed of 2
+oh okok
+jeremy what’s the line you’re running
+doesn’t matter, just run baseline 🤝
+ok wait i got a 1 percent lol
+what matters is that run_eval comes before baseline_train
+it might have been random chance
+we can prob do some statistical analysis to see how probable that is?
+wow is mine just too cracked of a seed, somehow the two most popular labels happen to be guessed over and over
+i think my code broke or something my baseline has gets acc of 0.8662
+how about before you run training?
+might have switched up a paean to use a diff model lol
+oh lol ok we can go with jonathan’s number
+for the report
+could someone update the table and the discussion q2?
+this is so goofy
+i’ll rewrite q2 to say they match
+wait
+not exactly but same order of magnitude?? i guess
+1/60 is 1.67% while out test acc is about 0.98%
+so close enough??
+im running stats let me give u numbers in a sec
+im going to run it 100 times and get means + stddevs
+our seed was actually just built different
+two percent chance
+hahaha hahaha hahaha hahaha
+mean: 0.01862474781439139 std: 0.015202989747957751
+@jonathan cheung you can put these numbers into the report
+over 100 different seeds
+i’ll out that in q2
+the chart i’ll put the mean number in
+ok updated
+ready for submit?
+for my parts yea
+i’m gonna submit for now, if there’s any more changes lmk
+this is super useful info!
+oo jeremy's idea is super cool! here is another option that seems feasible: train an lstm to generate text that resembles how we talk in this messenger chat
+it's pretty easy to get messenger chat data from facebook
+are you able to download a specific group chat with the date range? or does it download everything in the same interval only?
+we could use gpt model too maybe
+i can download all of my chat data for a specific time range. every chat is a different file
+yeah just fogured that out it’s really cool
+typo here lol
+i can fix and resubmit
+lol thanks
+oh thats a good idea. i think the main thing we would have to figure out would be how to make it different tho
+wdym by different?
+also, just saying that, we are not set set on the idea so feel free to explore other ideas and we can go over all ideas together tomorrow
+i feel like it'd be pretty easy to find code for this idea, so we'd need to apply it to a new dataset or a different problem. idk if just using a different set of text messages for training would be sufficient to get past the tas lol
+yeah honestly cleaning our chat data is going to take up quite a chunk
+but yeah one thing for sure is that there’s a lot of resources available out there. also could take a look at how we can make changes to model architecture
+if we build our model sort of from scratch (but with some reference out there), this will give us a lot more flexibility
+oh do we need to do the training? or can we just finetune
+the only thing that i am not sure about just plugging gpt is how much flexibility we have in terms of actually training it. most of the examples that i’ve seen is just calling the model to generate, as in there’s no trainer loop etc.
+for plugging a pre trained generative model, fine tuning looks like to me is finding the right sequence length, setting the right temperature, trying different pretrained models, top_p, top_k etc  which we should probably have it as some sort of comparison for evaluation, but if we are only fine tuning, i’m not sure if that can count as our final project. i can confirm with ta tmr though
+ahh i see
+okay
+ooh actually, we can train gpt2! the one u shared
+kind of like how we train our baseline bert for this round.
+cool ok
+just added final project idea notes to our team doc
+ah here is how to get the emoji
+so cute
+actually these are in reverse order
+with very little training
+wow this is promising
+1 epoch and only 10 sequences of 30 tokens haha
+i seeeee
+the addition of the emoji in the response is so funny
+jeremy: because python jonathan: seems calling can calendar pretty seems item1 epoch sunday. keep args.embed_dim might ester is the signs y’all 1. classifier for for ester easier model to. jonathan: discussion are these is   winfrey:   winfrey: for  ester: loop its aren’t   ester: actually yoooooooooooooooo are ester: been in i   winfrey: all   ester: 0.07 aren’t and   ester: of winfrey: winfrey: work that is yuh epoch i
+"because python"
+"work that is yuh"
+lol we gonna have an unbalanced dataset 😭
+you can spam the chat right now for data haha
+lol ya
+spam with what lol
+emojis??? 😳😳😳😳😳😳
+keep sending texts and we will have better data 😳😳
+hahaha
+can one of you guys download your facebook messenger data and upload the json file for this groupchat to the github repo? i can't download the 3 month one for some reason
+i’ll try

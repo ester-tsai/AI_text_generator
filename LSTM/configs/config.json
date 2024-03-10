@@ -1,25 +1,27 @@
 {
-	"learning_rate": 1e-3, 
-	
-	"sequence_size": 200, 
+    "learning_rate": 1e-3, 
+    
+    "sequence_size": 200, 
+    
+    "batch_size": 10,
     
     "n_sequences": 100, 
-	
-	"n_epochs": 20, 
-	
-	"n_layers": 4,
-
-	"hidden_size": 200, 
-
-	"dropout": 0.2,
-
-	"temperature": 0.9,  
-
-	"max_generation_length": 600, 
-
-	"generated_response_folder": "./generated_response/", 
     
-	"evaluate_model_only": true, 
-
-	"model_path": "./checkpoint/lr0.001_ep20_nseq100_seqsize200_hid200_drop0.2_layers4 best_epoch=20 min_train_loss=6.3529 min_val_loss=6.383" 
+    "n_epochs": 20, 
+    
+    "n_layers": 4,
+    
+    "hidden_size": 200, 
+    
+    "dropout": 0.2,
+    
+    "temperature": 0.9,
+    
+    "max_generation_length": 600, 
+    
+    "generated_response_folder": "./generated_response/", 
+    
+    "evaluate_model_only": true, 
+    
+    "model_path": "./checkpoint/lr0.001_ep20_nseq100_seqsize200_hid200_drop0.2_layers4 best_epoch=20 min_train_loss=6.3529 min_val_loss=6.383" 
 }

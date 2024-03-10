@@ -103,9 +103,6 @@ def get_token_from_index(token_idx_map, index):
 
 
 
-
-
-
 def plot_losses(train_losses, val_losses, fname):
     """
     Plots the training and validation losses across epochs and saves the plot as an image file with name - fname(function argument). 
