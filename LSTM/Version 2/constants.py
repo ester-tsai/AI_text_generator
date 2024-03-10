@@ -1,0 +1,1 @@
+DATA_PATH = '../../data/'  # File path for the training data and validation data

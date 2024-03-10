@@ -1,0 +1,1088 @@
+{'prompt': 'Hey, would carpooling up on Wednesday also work?', 'response': 'Yes'}
+{'prompt': 'Yes', 'response': 'What do you plan to do on Tues?'}
+{'prompt': 'My apt wants to do smth', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Hehe wot time would you like to pick up'}
+{'prompt': '9:30?', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Oop oop I need some time to dig into the code so I can send an urgent email haha, could you pickup at 10am or after?'}
+{'prompt': '🤪', 'response': 'Haha'}
+{'prompt': 'Haha', 'response': 'I just sent the email'}
+{'prompt': 'I just sent the email', 'response': 'I don’t mind getting picked up a bit later'}
+{'prompt': 'I don’t mind getting picked up a bit later', 'response': 'Would be nice to read for a bit!'}
+{'prompt': 'Would be nice to read for a bit!', 'response': 'Are you thinking about sweaty hiking or easy stroll'}
+{'prompt': 'Are you thinking about sweaty hiking or easy stroll', 'response': 'Need to adjust attire accordingly 😲'}
+{'prompt': 'Just stroll', 'response': 'Does 11am pickup sound good?'}
+{'prompt': 'Ah whoops forgot to suggest a time lol', 'response': 'Patrick said the church is kinda messy from yesterday'}
+{'prompt': 'Patrick said the church is kinda messy from yesterday', 'response': 'I wonder if it’s a good to go clean up'}
+{'prompt': 'Should we wait for an answer on the st chat?', 'response': 'Yeah 😮'}
+{'prompt': 'Actually can I still come over to just vibe in the meantime?', 'response': 'Oo Lindsey is still kinda sick, should I come over instead?'}
+{'prompt': 'Ok ig we’ll go to church at 1. R u coming over rn, or can I pick u up?', 'response': 'I’m walking rn'}
+{'prompt': 'I’m walking rn', 'response': 'Be there in 10 min'}
+{'prompt': 'Be there in 10 min', 'response': 'Here'}
+{'prompt': '🦭', 'response': 'Can I come study at treehouse after the tutor dinner? \U0001fae8'}
+{'prompt': 'Ya', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'I’ll be there sometime 8:25-35'}
+{'prompt': 'I’ll be there sometime 8:25-35', 'response': 'Actually be there in 2 min'}
+{'prompt': 'Oop', 'response': 'Almost at door :0'}
+{'prompt': '🌿', 'response': '$$$$ restaurant'}
+{'prompt': '🥸', 'response': 'Hi Tim! Do you have an ETA?'}
+{'prompt': 'Omw!', 'response': '🦭'}
+{'prompt': 'Here \U0001fae1', 'response': '🦭'}
+{'prompt': '🦭', 'response': '10:45 bus stop?'}
+{'prompt': 'Yop', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'See you there 🏃'}
+{'prompt': 'See you there 🏃', 'response': 'I’m at bus stop! A little early'}
+{'prompt': 'R u done with final?', 'response': 'Two!'}
+{'prompt': 'Two!', 'response': 'Yep!'}
+{'prompt': 'Yep!', 'response': 'Typo lol'}
+{'prompt': 'Wanna get yogurt world?', 'response': 'Ooooo sorry I didn’t see until now!'}
+{'prompt': 'Ooooo sorry I didn’t see until now!', 'response': 'I finished my exam in 40 min lol'}
+{'prompt': 'I finished my exam in 40 min lol', 'response': 'It was just a midterm'}
+{'prompt': 'It was just a midterm', 'response': 'How did your final go?'}
+{'prompt': 'Seemed scary out of context haha', 'response': 'Gn! Hope you do great on your final'}
+{'prompt': '🦭', 'response': 'I’ll be out in 2 min!'}
+{'prompt': 'I’ll be out in 2 min!', 'response': 'How was your last final? \U0001fae8'}
+{'prompt': 'Working on final essay now', 'response': 'Dang there’s still a final essay \U0001fae0'}
+{'prompt': 'Dang there’s still a final essay \U0001fae0', 'response': 'Btw! Czech mission trip interviews is happening the week of 12/27 if you wish to submit an application before then'}
+{'prompt': 'Btw! Czech mission trip interviews is happening the week of 12/27 if you wish to submit an application before then', 'response': 'You called Timothy.'}
+{'prompt': 'You missed a call from Timothy.', 'response': 'You called Timothy.'}
+{'prompt': 'You called Timothy.', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Timothy missed your call.'}
+{'prompt': 'Timothy missed your call.', 'response': 'Is Phil ok?'}
+{'prompt': 'Is Phil ok?', 'response': 'Have you notified the Jungs that you wanna join for dinner tomorrow?'}
+{'prompt': 'Have you notified the Jungs that you wanna join for dinner tomorrow?', 'response': 'There’s a group chat if you wanna ask the jungs to add you'}
+{'prompt': 'Just confirmed that I can ride in your car for the trip up', 'response': ':0 ok!'}
+{'prompt': 'Just checking, u said u r not taking the math classes?', 'response': 'I’m taking math 187A'}
+{'prompt': 'I’m taking math 187A', 'response': 'It has some waitlist tho I think'}
+{'prompt': 'It has some waitlist tho I think', 'response': 'Could you give me a ride to the jungs tonight? Abbie Tran can give me a ride if you can’t \U0001fae1'}
+{'prompt': 'Ya I can', 'response': 'Actually Victor and Katie are going too!'}
+{'prompt': 'Actually Victor and Katie are going too!', 'response': 'And Victor has offered to drive'}
+{'prompt': 'And Victor has offered to drive', 'response': 'Are you planning to take a math class?'}
+{'prompt': 'Maybe not anymore', 'response': 'No worries'}
+{'prompt': 'No worries', 'response': 'Victor is picking up at regents leasing at 6:25'}
+{'prompt': 'Do we need to bring anything?', 'response': 'I don’t think so?'}
+{'prompt': '', 'response': '^ tri-valley Chinese Bible Church'}
+{'prompt': 'Tuff', 'response': 'See you at TCBC at 6pm!'}
+{'prompt': '🦭', 'response': 'Reminder for white elephant gift if you’re down to bring one 😁'}
+{'prompt': 'Reminder for white elephant gift if you’re down to bring one 😁', 'response': 'The side door is open'}
+{'prompt': 'The side door is open', 'response': 'I’m in the parking lot! I can go in with you'}
+{'prompt': 'I’m in the parking lot! I can go in with you', 'response': 'When you arrive*'}
+{'prompt': 'Ok!', 'response': 'Actually I’m inside but I can come out to get you 💯'}
+{'prompt': 'I think I’m here?', 'response': 'Go to the side parking lot'}
+{'prompt': 'Also we will Be making Apple pies Sat afternoon if u wanna join', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'I’ll come at 1pm and prolly go home for dinner with my family \U0001fae1'}
+{'prompt': 'R u driving over? Or do u need me to pick u up?', 'response': 'I can drive myself!'}
+{'prompt': 'I can drive myself!', 'response': 'Oo my parents will drop me off so we’ll head over when they finish eating lunch!'}
+{'prompt': 'Ook we r eating lunch rn', 'response': 'Should I come later?'}
+{'prompt': 'Should I come later?', 'response': 'I haven’t left yet'}
+{'prompt': '1:30 would work better', 'response': ':0 ok'}
+{'prompt': ':0 ok', 'response': 'Is 1:30 still a good time?'}
+{'prompt': '🦭', 'response': 'Ok on our way!'}
+{'prompt': 'Ok on our way!', 'response': 'ETA 1:40'}
+{'prompt': 'We will leave at 4:30', 'response': 'O okok'}
+{'prompt': 'O okok', 'response': 'Dats pretty early for dinner haha'}
+{'prompt': 'Dats pretty early for dinner haha', 'response': 'Send me photo of the Polaroids! 😃'}
+{'prompt': 'Marissa is asleep rn', 'response': 'Finely photoshopped'}
+{'prompt': 'So I’ll get u the polaroid tmrw', 'response': 'New profile pic top choice 🕶️'}
+{'prompt': 'New profile pic top choice 🕶️', 'response': '*how to look unapproachable 101*'}
+{'prompt': 'So we get to eat in this lounge before the flight', 'response': '!!!! Yoooo'}
+{'prompt': '!!!! Yoooo', 'response': 'What does the lounge have 😮'}
+{'prompt': 'DROOOOL', 'response': 'I miss the unagi don in Taiwan'}
+{'prompt': 'I miss the unagi don in Taiwan', 'response': 'So good so cheap'}
+{'prompt': 'So good so cheap', 'response': 'I hungry now'}
+{'prompt': 'Isn’t it almost midnight?', 'response': 'Yes 🥺'}
+{'prompt': 'Mb', 'response': 'My appetite got big at home'}
+{'prompt': '😈', 'response': 'What time is it for you?'}
+{'prompt': '3:48pm', 'response': 'Are you guys out doing something?'}
+{'prompt': 'Are you guys out doing something?', 'response': 'Or you mean resting rn?'}
+{'prompt': 'Gonna go to Taipei 101 soon', 'response': 'I went when I was in elementary schooo'}
+{'prompt': 'I went when I was in elementary schooo', 'response': 'I got a cool ruler'}
+{'prompt': 'I got a cool ruler', 'response': 'Not sure if I can still find it'}
+{'prompt': 'Not sure if I can still find it', 'response': 'Btw Esther Liu is super close to you haha'}
+{'prompt': 'Crazy', 'response': 'YO I FOUND THE RUKER'}
+{'prompt': 'Asmr……', 'response': 'Oop oop didn’t want to spook other sleeping people'}
+{'prompt': 'Hotel view', 'response': 'Have you tried the ding tai fung there yet'}
+{'prompt': 'Not yet', 'response': 'A very sad and empty Japanese garden in San Jose'}
+{'prompt': 'THE TOAST LOL', 'response': 'And beef noodle soup 😤 a classic'}
+{'prompt': 'The maid put Sam’s snowman on his bed like this', 'response': 'Cute 🥺'}
+{'prompt': 'I went to 88 baobao with Sophie yesterday!', 'response': 'So good 🤯🤯'}
+{'prompt': '🦭', 'response': 'How’s Taiwan so far?'}
+{'prompt': 'How’s Taiwan so far?', 'response': 'What else do you guys have planned?'}
+{'prompt': 'Gonna watch the Taipei 101 fireworks tn', 'response': 'Woooo ok'}
+{'prompt': 'May meet with Ben Wu’s family lol', 'response': 'Nice :0'}
+{'prompt': 'What plans do u have left?', 'response': 'I have some more hangouts with high school or family friends!'}
+{'prompt': 'I have some more hangouts with high school or family friends!', 'response': 'My dad and brother are flying on Friday night'}
+{'prompt': 'My dad and brother are flying on Friday night', 'response': 'Do you wanna drive back to SD on Saturday? There is staff meeting on sunday 1/8 i thinj'}
+{'prompt': 'I would send firework video but it is 5GB', 'response': 'I just got up for today haha'}
+{'prompt': 'I just got up for today haha', 'response': 'What a crazy time zone difference'}
+{'prompt': 'What a crazy time zone difference', 'response': 'You guys 12:53am?'}
+{'prompt': 'Yop', 'response': 'Happy new year to you and your family too!'}
+{'prompt': 'Happy new year to you and your family too!', 'response': 'Gonna go hiking later today with my family'}
+{'prompt': 'Gonna go hiking later today with my family', 'response': 'Wanna send just one snippet \U0001f979\U0001f979'}
+{'prompt': 'Wanna send just one snippet \U0001f979\U0001f979', 'response': 'I’m sure it’s much grander than Pleasanton’s'}
+{'prompt': 'I’m sure it’s much grander than Pleasanton’s', 'response': 'Little P-town has no idea who it’s up against'}
+{'prompt': 'At airport rn', 'response': 'Oo enjoy your flight back 🌠'}
+{'prompt': 'And tired', 'response': 'Wooo'}
+{'prompt': 'Wooo', 'response': 'When are your siblings staying until?'}
+{'prompt': 'Leaving in 1/6 works btw, Sam will not come tho', 'response': 'Can someone drive you to my place in the morning?'}
+{'prompt': 'Can someone drive you to my place in the morning?', 'response': 'What are you doing today instead of getting lunch with Phil and the others? 😮'}
+{'prompt': 'What are you doing today instead of getting lunch with Phil and the others? 😮', 'response': 'I’m about to get picked up to go see my high school friends 😆'}
+{'prompt': 'Seeing cousins today', 'response': '!! Yoo'}
+{'prompt': '!! Yoo', 'response': 'My high school friend Allen and his girlfriend will be in SD from Monday night to Friday morning'}
+{'prompt': 'My high school friend Allen and his girlfriend will be in SD from Monday night to Friday morning', 'response': 'Are you free to do a double date with them on Tuesday of week 1 (1/9) 😎'}
+{'prompt': 'Also yes, my parents can', 'response': 'Btw Tuesday morning to noon ish!'}
+{'prompt': 'Got this from the airline haha. U want any of it?', 'response': 'Maybe da lotion!'}
+{'prompt': 'I woke up at 4pm today 😢', 'response': 'O HAHA'}
+{'prompt': 'O HAHA', 'response': 'Time zone got you whipped'}
+{'prompt': 'Time zone got you whipped', 'response': 'I’ve been researching about Switzerland!'}
+{'prompt': '\U0001fae5', 'response': ''}
+{'prompt': 'Yes ty. Saw in the chat', 'response': 'Feels like I need some help 🥲 still 3 more days to fill'}
+{'prompt': 'Liechtenstein???', 'response': '??'}
+{'prompt': 'Lowkey trolling', 'response': "i don't know if the swiss travel pass covers that"}
+{'prompt': "i don't know if the swiss travel pass covers that", 'response': 'ahaha'}
+{'prompt': 'ahaha', 'response': 'actually it does'}
+{'prompt': 'aight I made one option', 'response': 'would you wanna go ski'}
+{'prompt': 'Wait, I heard skiing is expensive in Switzerland', 'response': 'not as much as US hah'}
+{'prompt': 'On Saturday night?', 'response': 'Yeah 😮 do you think it makes sense?'}
+{'prompt': 'Yeah 😮 do you think it makes sense?', 'response': 'Their flight is at 7am'}
+{'prompt': 'Their flight is at 7am', 'response': 'No point staying in a hotel'}
+{'prompt': 'No point staying in a hotel', 'response': 'Or maybe still'}
+{'prompt': 'Or maybe still', 'response': 'Hmm it’s kinda tricky finding places to stay'}
+{'prompt': 'Hmm it’s kinda tricky finding places to stay', 'response': 'Airbnb are getting booked fast'}
+{'prompt': 'Airbnb are getting booked fast', 'response': 'I hope we can solidify a plan by 1/10 \U0001f979'}
+{'prompt': 'I hope we can solidify a plan by 1/10 \U0001f979', 'response': 'Does meeting at my house at 9:30am sound good?'}
+{'prompt': 'Does meeting at my house at 9:30am sound good?', 'response': 'Tomorrow'}
+{'prompt': 'Jet lag is still kinda bad tho', 'response': 'Did you wake up at 4 again today \U0001fae3'}
+{'prompt': 'Wait u have a drone?', 'response': 'Yarrrr'}
+{'prompt': 'Yarrrr', 'response': 'Parents just got one for fun'}
+{'prompt': 'Parents just got one for fun', 'response': 'And to take photos of my mom’s architectural design'}
+{'prompt': 'ooooh, did she finish another project?', 'response': 'Not sure when was the most recent one! But there are always more than 10 ish ongoing so some do get built every so often'}
+{'prompt': 'Did i happen to give u a square Tupperware? Brian is missing his and I may have lent it away', 'response': 'Are there any more descriptions?'}
+{'prompt': 'Are there any more descriptions?', 'response': 'He can come visit Ireland for fun and look for it haha'}
+{'prompt': 'But square', 'response': 'I don’t see one :0'}
+{'prompt': 'Bok has a spider friend now', 'response': 'What should I name the spider 😎'}
+{'prompt': 'What should I name the spider 😎', 'response': 'Aight I got it'}
+{'prompt': 'Is this the Tupperware Brian is looking for?', 'response': 'Same brand but different color'}
+{'prompt': 'Would that still work?', 'response': 'That is quite goof haha'}
+{'prompt': 'That is quite goof haha', 'response': 'Would it be ok to leave your 9:30am class at 10:30am?'}
+{'prompt': 'Would it be ok to leave your 9:30am class at 10:30am?', 'response': 'And maybe we can just stay on campus or go somewhere nearby to meet Allen and Hannah'}
+{'prompt': 'And maybe we can just stay on campus or go somewhere nearby to meet Allen and Hannah', 'response': 'You called Timothy.'}
+{'prompt': 'Yes', 'response': 'Allen and Hannah will be meeting someone at 12 so we should prolly just stay on campus'}
+{'prompt': 'Allen and Hannah will be meeting someone at 12 so we should prolly just stay on campus', 'response': 'We’ll meet at croutons'}
+{'prompt': 'We’ll meet at croutons', 'response': 'Is that ok?'}
+{'prompt': 'Yop', 'response': 'Allen Hannah and I will be at croutons at 10am and you can come whenever \U0001fae1'}
+{'prompt': 'Allen Hannah and I will be at croutons at 10am and you can come whenever \U0001fae1', 'response': 'O HAHA would you be ok if Nicole comes too since she’s Allen’s sister'}
+{'prompt': 'I can come at 10:30 too so that it will be less awkward hah', 'response': 'Wait I trolled so hard'}
+{'prompt': 'Wait I trolled so hard', 'response': 'I got off at the wrong trolley station'}
+{'prompt': 'Eeeek', 'response': 'I guess I’ll walk'}
+{'prompt': 'I guess I’ll walk', 'response': 'Allen will be late too oops'}
+{'prompt': 'Allen will be late too oops', 'response': 'I’ll be there in 15 min'}
+{'prompt': 'Do u know how late Allen will be?', 'response': 'Depends on if he can find parking'}
+{'prompt': 'Depends on if he can find parking', 'response': 'O he’ll be at croutons in 5 min'}
+{'prompt': 'O he’ll be at croutons in 5 min', 'response': 'I will be in a couple min too'}
+{'prompt': '🦭', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Are you coming too?'}
+{'prompt': 'I see u lol', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'You called Timothy.'}
+{'prompt': 'Stomach feeling better?', 'response': 'Yeah!'}
+{'prompt': 'Yeah!', 'response': 'It felt a lot better'}
+{'prompt': 'Can Matthew and I visit?', 'response': 'yes'}
+{'prompt': '🦭', 'response': 'Everyone is still here rn'}
+{'prompt': 'Oop', 'response': 'Why oops'}
+{'prompt': 'Here!', 'response': 'Have you and Michael set up a time to meet?'}
+{'prompt': 'Have you and Michael set up a time to meet?', 'response': 'Are you free to join for dessert 7pm \U0001fae8'}
+{'prompt': 'We’ll call sat instead. I can join u guys tn', 'response': 'Would you be down to pick me and Nicole up from campus? and Caleb lapp (if he wants a ride)'}
+{'prompt': 'Would you be down to pick me and Nicole up from campus? and Caleb lapp (if he wants a ride)', 'response': 'Caleb is the only person free haha so it’ll just be Allen Hannah Nicole you me and Caleb'}
+{'prompt': 'Caleb is the only person free haha so it’ll just be Allen Hannah Nicole you me and Caleb', 'response': 'O Caleb doesn’t need a ride'}
+{'prompt': 'Also where for dessert?', 'response': 'Meet at 7'}
+{'prompt': 'Meet at 7', 'response': 'I think mngo in convoy?'}
+{'prompt': 'So I’ll pick up around 6:40?', 'response': 'Yuh!'}
+{'prompt': 'Cooking lunch rn, will b late 😶', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'That works haha'}
+{'prompt': 'That works haha', 'response': 'I’m just coming back from campus'}
+{'prompt': 'I’m just coming back from campus', 'response': 'I’ll be home by 11:30'}
+{'prompt': 'Rice is almost done 😅', 'response': '🦭'}
+{'prompt': 'Here!', 'response': 'Got my car Iof people'}
+{'prompt': 'Got my car Iof people', 'response': 'Lmk if I should come back'}
+{'prompt': 'Yes can u come back just in case?', 'response': 'Ok'}
+{'prompt': 'Ok', 'response': 'ETA to Peterson 7:02'}
+{'prompt': 'If u want to still come is up to u', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'You called Timothy.'}
+{'prompt': 'You called Timothy.', 'response': 'We’re at the McDonald’s near regents'}
+{'prompt': 'ni shi (dian dian)? ...... => u r a little bit ......... idk what else', 'response': 'Do you want to come to Ireland to do work after 3pm 🌠'}
+{'prompt': 'O hmm let’s do tn after dinner. Gonna do a study date with Phil', 'response': 'Ok!'}
+{'prompt': 'Ok!', 'response': 'That works 💪'}
+{'prompt': 'That works 💪', 'response': 'If you still wanna come you can after 8pm! Gonna record a video for grad app rn'}
+{'prompt': 'If you still wanna come you can after 8pm! Gonna record a video for grad app rn', 'response': 'done'}
+{'prompt': '🦭', 'response': '🦭'}
+{'prompt': 'How did the ski trip go??', 'response': 'It was good! Got some funny park feature falling footage'}
+{'prompt': 'Hahahahahaha', 'response': 'Phil got really good!'}
+{'prompt': 'Phil got really good!', 'response': 'Oo you are assigned to share your testimony this Fri \U0001fae8'}
+{'prompt': 'Oo you are assigned to share your testimony this Fri \U0001fae8', 'response': 'How is that going?'}
+{'prompt': 'Been thinking about it a lil over the weekend', 'response': 'Do you have the key to tennis courts?'}
+{'prompt': 'Earnest gave it to Phil, so I’m checking where it is rn', 'response': 'Is it cool if my capstone teammate join potentially'}
+{'prompt': 'Minecraft skillz being revived', 'response': ': 0000'}
+{'prompt': ': 0000', 'response': 'ayo'}
+{'prompt': 'Wanna do smth with Matt on the 28th after members meeting?', 'response': 'Sure I’m free! It’s a pretty packed weekend tho so are you guys down to do something more chill or do work together?'}
+{'prompt': '🥨', 'response': 'Wowwwwwwww I luv pretzels'}
+{'prompt': 'Here 🤗', 'response': 'Coming!'}
+{'prompt': 'Coming!', 'response': 'Actually one sec'}
+{'prompt': 'Actually one sec', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'You called Timothy.'}
+{'prompt': 'Wanna work on stuff together tn?', 'response': 'Ok! I have a call at 5pm so after 6pm works'}
+{'prompt': '🦭', 'response': 'Ah I checked people’s location to see if they are done with lunch and saw that most people aren’t done yet'}
+{'prompt': 'Ah I checked people’s location to see if they are done with lunch and saw that most people aren’t done yet', 'response': 'If you have a spot, could you take me to church for family feud?'}
+{'prompt': 'If you have a spot, could you take me to church for family feud?', 'response': 'Timothy missed your call.'}
+{'prompt': 'I can ask my driver', 'response': 'Who driving? 😮'}
+{'prompt': 'Who driving? 😮', 'response': 'Ok!'}
+{'prompt': 'Baek', 'response': 'Ok!'}
+{'prompt': 'O just a heads up, Brian tested positive for Covid yesterday. Phil and I have been testing negative, but I’ll test again when I get home', 'response': 'Ohhh danggg'}
+{'prompt': 'Ohhh danggg', 'response': 'Maybe I don’t come over then haha'}
+{'prompt': 'Maybe I don’t come over then haha', 'response': 'Would you like to come over if you test negative?'}
+{'prompt': 'Would u like me to test again?', 'response': 'Sure 😮'}
+{'prompt': 'Omw!!', 'response': '🦭'}
+{'prompt': 'Ok', 'response': 'lol wrong chat'}
+{'prompt': '我没有broccoli, 但我有mushroom 和onion', 'response': 'I like mushroom'}
+{'prompt': 'I like mushroom', 'response': 'Onion a little jank'}
+{'prompt': 'Onion a little jank', 'response': 'Good flavor but makes my face scrunch \U0001fae8'}
+{'prompt': 'Good flavor but makes my face scrunch \U0001fae8', 'response': 'Dang you got a Chinese keyboard'}
+{'prompt': 'I cooked them together 😵\u200d💫 do u still want some mushroom?', 'response': 'yeah! veggie is healthy'}
+{'prompt': 'yeah! veggie is healthy', 'response': "I'll learn to eat onion"}
+{'prompt': 'But I’ll be omw', 'response': 'O!'}
+{'prompt': 'O!', 'response': 'ok!'}
+{'prompt': 'ok!', 'response': 'just implemented the early stop'}
+{'prompt': 'just implemented the early stop', 'response': 'jk wrong chat'}
+{'prompt': 'jk wrong chat', 'response': 'meant for winfrey haha'}
+{'prompt': 'Omw now', 'response': '🦭'}
+{'prompt': 'Here', 'response': '🦭'}
+{'prompt': 'Hi', 'response': ':0 wassup?'}
+{'prompt': 'Btw!!!!!!', 'response': 'FEB 22!!!'}
+{'prompt': 'O I wanna watch lol', 'response': 'Did you wanna say something 😮'}
+{'prompt': 'And how was your day', 'response': 'Started out kinda rough haha'}
+{'prompt': 'Started out kinda rough haha', 'response': 'But it was a fairly productive day?'}
+{'prompt': 'But it was a fairly productive day?', 'response': 'Went to school for an hour and came back'}
+{'prompt': 'Went to school for an hour and came back', 'response': 'My capstone and tutor meeting are both 2-3pm'}
+{'prompt': 'My capstone and tutor meeting are both 2-3pm', 'response': 'So I went to each for 30 min'}
+{'prompt': 'So I went to each for 30 min', 'response': 'Many bugs trying to access the remote GPUs'}
+{'prompt': 'Many bugs trying to access the remote GPUs', 'response': 'Napped'}
+{'prompt': 'Napped', 'response': 'Interview for Deloitte tomorrow!'}
+{'prompt': 'Interview for Deloitte tomorrow!', 'response': 'The role is in Virginia tho'}
+{'prompt': 'The role is in Virginia tho', 'response': 'Your chicken is great'}
+{'prompt': 'Your chicken is great', 'response': 'Imma sleep now, good night 😴'}
+{'prompt': '💤🦭', 'response': 'Interview went alright!'}
+{'prompt': 'Interview went alright!', 'response': 'Case study very hard tho 😵\u200d💫'}
+{'prompt': 'How much different was it from the other interview?', 'response': 'pretty similar! lol I just have a hard time understanding real business needs'}
+{'prompt': 'pretty similar! lol I just have a hard time understanding real business needs', 'response': "too many terminologies that I don't know for sure what they meant"}
+{'prompt': 'I’m all caught up on 142 lectures 😁', 'response': 'NICE'}
+{'prompt': 'NICE', 'response': 'Wanna do work together after 4:30pm tomorrow?'}
+{'prompt': 'So I won’t be around for too long. Does after work?', 'response': 'Sure :0'}
+{'prompt': 'Sure :0', 'response': 'I’ll be free / doing work after I come back at 4pm'}
+{'prompt': 'I’ll be free / doing work after I come back at 4pm', 'response': 'I’ll be home by 9:30'}
+{'prompt': 'I’ll be home by 9:30', 'response': 'OOP maybe 9:40'}
+{'prompt': 'I’m still at church haha', 'response': 'Little longer today'}
+{'prompt': 'Oop k', 'response': 'Heading back now'}
+{'prompt': 'Heading back now', 'response': 'Would you like to come at 10:05?'}
+{'prompt': 'Would you like to come at 10:05?', 'response': 'If it’s not too late'}
+{'prompt': 'Cooking rn, will come when done', 'response': 'Do you have a rough ETA?'}
+{'prompt': 'I forgot to pound the chicken so it kinda round', 'response': 'LOLZ'}
+{'prompt': 'Washing dishes rn', 'response': '🦭'}
+{'prompt': 'Do u have chairs we can borrow for flocks?', 'response': 'Yes'}
+{'prompt': 'Also I don’t think I can come tn. Throat is feeling a little weird. Tested negative tho', 'response': 'Hope you feel better ✨✨'}
+{'prompt': 'Hope you feel better ✨✨', 'response': 'I be grinding'}
+{'prompt': 'I be grinding', 'response': 'Do you want the chairs tonight'}
+{'prompt': 'I’m thinking tmrw if I’m feeling better', 'response': 'Aight'}
+{'prompt': 'lol', 'response': ': 00'}
+{'prompt': ': 00', 'response': 'where you at?'}
+{'prompt': 'Objects in the mirror r closer than they appear', 'response': 'You called Timothy.'}
+{'prompt': 'Ooh, does 11:30 tmrw work for u?', 'response': 'Yes!'}
+{'prompt': 'Yes!', 'response': 'We can also do some work in the afternoon if you’re down'}
+{'prompt': '🦭', 'response': 'Picking up at 11:30?'}
+{'prompt': 'Aiya just woke up', 'response': ':0'}
+{'prompt': 'Erm 11:40?', 'response': 'Ok!'}
+{'prompt': 'Ok!', 'response': 'Wanna go here for food? An SNL person recommended I think? '}
+{'prompt': 'Oo I was thinking here. Which would u prefer?', 'response': 'Oo I saw that too'}
+{'prompt': 'Oo I saw that too', 'response': 'The cottage feel is nice 💐'}
+{'prompt': 'The view from yours tho…', 'response': 'Do you have a preference?'}
+{'prompt': 'Do you have a preference?', 'response': 'I’m feeling a little more lunch than brunch haha'}
+{'prompt': 'So Duke’s?', 'response': 'Sure if you’re down!'}
+{'prompt': 'I like the puffer one', 'response': 'I’m only driving myself tomorrow morning because I need to go 10 min early for registration, but I can take terry choi if no one else can'}
+{'prompt': 'I’m only driving myself tomorrow morning because I need to go 10 min early for registration, but I can take terry choi if no one else can', 'response': 'You called Timothy.'}
+{'prompt': 'You called Timothy.', 'response': 'SORRYY I hung up lol'}
+{'prompt': 'SORRYY I hung up lol', 'response': 'Was there anything else'}
+{'prompt': 'Nothing else rn', 'response': 'Oo terry still hasn’t replied'}
+{'prompt': 'Oo terry still hasn’t replied', 'response': 'I’ll check again tomorrow morning'}
+{'prompt': 'and tyyyy', 'response': 'O ok!'}
+{'prompt': 'Did their driver get swapped?', 'response': 'Will they be confused if I text them now'}
+{'prompt': 'They are aware of the switch', 'response': 'Is everyone taken care of 😮'}
+{'prompt': 'O not Hillary yet', 'response': 'Lauren Naomi Hillary all didn’t respond'}
+{'prompt': 'Lauren Naomi Hillary all didn’t respond', 'response': 'What should I do?'}
+{'prompt': 'What should I do?', 'response': 'Can someone take them to second?'}
+{'prompt': 'Can someone take them to second?', 'response': 'You called Timothy.'}
+{'prompt': 'You called Timothy.', 'response': 'Want me to pick you up??'}
+{'prompt': 'Ooh sure', 'response': 'Timothy missed your call.'}
+{'prompt': 'O whoops', 'response': 'I’m getting in my car'}
+{'prompt': 'I’m getting in my car', 'response': 'Are you ready to get picked up in 3 min?'}
+{'prompt': 'Walking out now. Bringing some stuff', 'response': 'You guys left Ireland before saying hi to meeee'}
+{'prompt': 'You guys left Ireland before saying hi to meeee', 'response': '💦*tears*'}
+{'prompt': 'Uuuuuh, how r the pretzels?!?', 'response': 'Good lol'}
+{'prompt': 'Good lol', 'response': 'Did Matt tell you I was on my way home haha'}
+{'prompt': 'Did Matt tell you I was on my way home haha', 'response': 'I saw his location on da map'}
+{'prompt': 'He did, but when he said Miramar, I thought the town and not the road', 'response': 'No biggie btw! I’m joking and not sad'}
+{'prompt': 'If ur too tired that’s ok', 'response': 'O sure! I’ll sleep before 12'}
+{'prompt': '🦭', 'response': 'I need to stay up a little to see my code result anyways'}
+{'prompt': 'The video chat ended.', 'response': 'Is there any fried rice left 😮'}
+{'prompt': 'I can bring it over', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Thanks!'}
+{'prompt': 'Thanks!', 'response': 'Do you wanna stay and do some work?'}
+{'prompt': 'I mean here', 'response': 'The fried rice sustained my whole day'}
+{'prompt': 'The fried rice sustained my whole day', 'response': 'Btw! What are your Friday and Saturday looking like? Wanna do something on one of those days 😮'}
+{'prompt': 'Oo yaaa. Currently trying to find a time for the lunch with underclassmen, but it looks like Friday will be open for me', 'response': 'I’m thinking about scheduling a lunch meetup too'}
+{'prompt': 'I’m thinking about scheduling a lunch meetup too', 'response': 'Croutons be having free brownies on Fridays'}
+{'prompt': 'Croutons be having free brownies on Fridays', 'response': 'What if we both go to croutons but have separate meetups 🤭'}
+{'prompt': 'Free brownie?? 👉👈', 'response': 'Oo I’m likely meeting up with sometime Friday morning 10am since she has class at 12'}
+{'prompt': 'My meetup is likely gonna happen Saturday dinner, so both Friday and Saturday r open for me', 'response': 'I’ll prolly grocery shop and meal prep on Saturday'}
+{'prompt': 'I’ll prolly grocery shop and meal prep on Saturday', 'response': 'I will go to church early Friday night, probably same time as praise, to sort the liability forms'}
+{'prompt': 'So Friday afternoon??', 'response': 'Sure!'}
+{'prompt': 'Sure!', 'response': 'Would you prefer watching a movie at Ireland or going out?  Might be rainy tomorrow still haja'}
+{'prompt': 'I think tmrw is movie vibe', 'response': 'Kung fu panda??'}
+{'prompt': '🦭', 'response': '🦭'}
+{'prompt': 'My place or your place? And does 1pm sound good?', 'response': 'My place is good!'}
+{'prompt': 'My place is good!', 'response': 'Wanna come at 12:30? Or 1pm works too!'}
+{'prompt': 'Wanna come at 12:30? Or 1pm works too!', 'response': 'You can bring your work too 😮'}
+{'prompt': 'Finishing rides stuff, will be omw after 🏃\u200d♂️💨', 'response': 'Could you take me to church the same time you’re going for praise or should I drive myself?'}
+{'prompt': 'Could you take me to church the same time you’re going for praise or should I drive myself?', 'response': 'Or go with Ray'}
+{'prompt': 'Gonna make a sandwich rq', 'response': 'Ok!'}
+{'prompt': 'Here', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'About to get pink hair 🤠🤠'}
+{'prompt': '😶', 'response': 'I’m gonna sleep early!'}
+{'prompt': 'Grinding on hw rn, so I don’t think I’ll come over tn', 'response': 'Feel free to come tomorrow!'}
+{'prompt': 'Feel free to come tomorrow!', 'response': 'Yeye I’m gonna go sleep real soon'}
+{'prompt': 'Weeeerereeeeeeeeeeeee everetttt', 'response': 'Wanna come over after praise practice 😮'}
+{'prompt': 'Wanna come over after praise practice 😮', 'response': 'Eat the zong zi'}
+{'prompt': 'Yerrrrr', 'response': 'Do you have a time you plan to come?'}
+{'prompt': 'I’m cooking some supplemental food. I’ll come after', 'response': 'An ETA would help 😮'}
+{'prompt': 'Soory', 'response': 'L haha'}
+{'prompt': 'L haha', 'response': 'Don’t get too full \U0001fae8'}
+{'prompt': '🦭', 'response': 'The zong zi is big'}
+{'prompt': 'My stomach bigger', 'response': 'Also I’ll try to sleep by 12!'}
+{'prompt': 'Here', 'response': 'Hope you don’t have an orange thing to put on your head! Gonna give you something on Friday'}
+{'prompt': 'Don’t plan to 😶', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Timothy missed your call.'}
+{'prompt': '我们到了', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Coming'}
+{'prompt': 'Coming', 'response': 'I got midterm on Saturday but the class is PNP'}
+{'prompt': 'I got midterm on Saturday but the class is PNP', 'response': 'Do I study or do I tennis'}
+{'prompt': 'Do I study or do I tennis', 'response': '🦭'}
+{'prompt': 'But don’t sin by putting off work lol', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Isn’t it kinda wet tho'}
+{'prompt': 'Isn’t it kinda wet tho', 'response': 'If it rains and tennis doesn’t happen, do you wanna come over to study at Ireland 😮'}
+{'prompt': 'If it rains and tennis doesn’t happen, do you wanna come over to study at Ireland 😮', 'response': 'Or wanna go gym at regents gym 👀'}
+{'prompt': 'Or wanna go gym at regents gym 👀', 'response': 'Play ping pong 👀👀'}
+{'prompt': 'Trying to finish smth at lib first', 'response': '🦭'}
+{'prompt': 'How does 8:30 sound?', 'response': '🦭'}
+{'prompt': 'Can Matt also come lol', 'response': 'Ok 😮'}
+{'prompt': 'Ok 😮', 'response': 'I’m actually gonna be busy \U0001f979 so I won’t be able to workout'}
+{'prompt': 'I’m actually gonna be busy \U0001f979 so I won’t be able to workout', 'response': 'Some last minute bug came up'}
+{'prompt': 'Here!', 'response': 'One sec'}
+{'prompt': '^ an encouraging verse I read yesterday, remembering what God desires in us: to rejoice and remember Him', 'response': 'Thank you for this reminder!'}
+{'prompt': 'Thank you for this reminder!', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'I got lovked out'}
+{'prompt': 'I got lovked out', 'response': 'You called Timothy.'}
+{'prompt': 'You called Timothy.', 'response': 'I got in'}
+{'prompt': 'Just curious, was it Verina who made the request for the ride or Katie?', 'response': 'Katie said she could drive someone'}
+{'prompt': 'Katie said she could drive someone', 'response': 'Since all my riders are from different locations I let Katie take Verina'}
+{'prompt': 'Since all my riders are from different locations I let Katie take Verina', 'response': 'Sorry I should’ve asked about campus rides earlier to make it easier for you to coordinate!'}
+{'prompt': 'I did get a little annoyed, sorry about that 😓', 'response': 'That’s understandable! I could be more considerate \U0001f979 also when I got locked out I should’ve asked the ucsd chat! You were probably very busy handling rides so sorry I added one more thing to your already really full plate! I will try to be more thoughtful in the future!'}
+{'prompt': '🦭', 'response': 'Do you want anything from 85?'}
+{'prompt': 'Do you want anything from 85?', 'response': 'I’m checking out in 10 min'}
+{'prompt': 'Ooh can I get hot dog bun?', 'response': 'Aww I can’t find any'}
+{'prompt': 'Aww I can’t find any', 'response': 'I’ll bring you something else!'}
+{'prompt': '🦭', 'response': 'Oop I’ll be coming late since I gotta finish up something first'}
+{'prompt': 'It’s ok for u to come while they do their thing', 'response': 'Coming sometime after 8 is ok?'}
+{'prompt': '🦭', 'response': 'lol actually just finished'}
+{'prompt': 'lol actually just finished', 'response': 'Will be there at around 9'}
+{'prompt': '🦭', 'response': 'Want some pad Thai or mango sticky rice?'}
+{'prompt': '🦭', 'response': 'Should I take Eunice?'}
+{'prompt': 'Sounds like he’s already going too first', 'response': 'I’m going to first as well'}
+{'prompt': 'Jaylynn can take', 'response': 'O jk I see Jaylynn'}
+{'prompt': 'O jk I see Jaylynn', 'response': '🦭'}
+{'prompt': 'Sorry for scaring you! I’m alright', 'response': 'Pink team photos turned out good 🐽🐽'}
+{'prompt': 'Orange gonna bring the 🔥 tho', 'response': 'Hi Tim! Laim just added you on Facebook but her name is in Korean'}
+{'prompt': 'Hi Tim! Laim just added you on Facebook but her name is in Korean', 'response': 'Just a heads up!'}
+{'prompt': 'But it’s a block', 'response': 'O'}
+{'prompt': 'O', 'response': 'What kind of cheese?'}
+{'prompt': 'Colby jack', 'response': '9am? 😃'}
+{'prompt': 'Turning back lol', 'response': 'Aiya haha'}
+{'prompt': 'Aiya haha', 'response': 'That’s alright!'}
+{'prompt': 'Here!', 'response': 'Coming!'}
+{'prompt': 'Coming!', 'response': 'Would it be convenient for you guys to scoop me up from PC loop after SG? I can also trolley home'}
+{'prompt': 'Sure, but still at sg rn', 'response': 'Np, I’m doing work at Geisel'}
+{'prompt': 'Np, I’m doing work at Geisel', 'response': 'I posted for pink team 😤'}
+{'prompt': 'Coming back from sg now', 'response': 'Phoebe Zhang and “Kevin Jacob”dropped from my car!'}
+{'prompt': 'Phoebe Zhang and “Kevin Jacob”dropped from my car!', 'response': 'Oop I got rejected by SDG&E'}
+{'prompt': 'I got dragged over', 'response': 'That’s cool!'}
+{'prompt': 'When does ST need to be at retreat again?', 'response': 'Games and registration people at 5pm'}
+{'prompt': 'Gl in the interview today!! 🙌 🦭', 'response': 'HAHA it got rescheduled so not today'}
+{'prompt': 'HAHA it got rescheduled so not today', 'response': 'Glad to have some more time for school work tho!'}
+{'prompt': 'I’m gonna go on a run', 'response': 'Luke Yang asks if he could go with your late car to retreat. He’ll message you directly soon'}
+{'prompt': 'LOL i think Chris talked about it', 'response': 'not sure but im down to have a chill movie night'}
+{'prompt': 'not sure but im down to have a chill movie night', 'response': "we've watched prince of egypt twice in the past half a year"}
+{'prompt': "we've watched prince of egypt twice in the past half a year", 'response': 'funny'}
+{'prompt': 'Can my apt come for movie if it does happen?', 'response': 'of course!'}
+{'prompt': 'of course!', 'response': 'come come'}
+{'prompt': 'come come', 'response': 'can you guys pick people up from campus if people need rides?'}
+{'prompt': 'can you guys pick people up from campus if people need rides?', 'response': 'actually joyce offered'}
+{'prompt': 'actually joyce offered', 'response': "it's posted in ucsd chat"}
+{'prompt': "it's posted in ucsd chat", 'response': 'Would you like to get quick dinner somewhere and chat about retreat?'}
+{'prompt': 'Currently at a tea shop working on project with Matt, wrapping up tho', 'response': 'Ok lmk if you’re down! No problem if not'}
+{'prompt': 'Ok lmk if you’re down! No problem if not', 'response': 'You called Timothy.'}
+{'prompt': 'You called Timothy.', 'response': 'You called Timothy.'}
+{'prompt': '??', 'response': "I think I might've been there with my brother?"}
+{'prompt': "I think I might've been there with my brother?", 'response': "jk maybe haven't been!"}
+{'prompt': "jk maybe haven't been!", 'response': 'okok'}
+{'prompt': 'Just arrived!', 'response': "o shoot I haven't left yet"}
+{'prompt': "o shoot I haven't left yet", 'response': "sorry! I didn't know what time we meeting"}
+{'prompt': 'I can work on stuff while we wait', 'response': 'ok!'}
+{'prompt': 'ok!', 'response': 'who is we lol'}
+{'prompt': 'I…. Sorry. Dw Matt is gone', 'response': 'Haha ok'}
+{'prompt': 'Haha ok', 'response': 'Omw out from Ireland'}
+{'prompt': 'Omw out from Ireland', 'response': 'Could you text Ian cheung and ask for his pickup location? And let him know you can pickup at 7:40?'}
+{'prompt': '🦭', 'response': 'Would you like to order something so we don’t have to wait for food? Time might be tight'}
+{'prompt': 'Would you like to order something so we don’t have to wait for food? Time might be tight', 'response': 'I’m not too hungry'}
+{'prompt': 'I’m not too hungry', 'response': 'I can just steal some from your plate \U0001fae3'}
+{'prompt': 'Ok, I’ll get a table', 'response': 'ETA 6:56'}
+{'prompt': 'ETA 6:56', 'response': '6:59'}
+{'prompt': '🦭', 'response': 'a random CS application! but it asks for a rec letter '}
+{'prompt': 'a random CS application! but it asks for a rec letter ', 'response': 'found on LinkedIn '}
+{'prompt': 'found on LinkedIn ', 'response': ''}
+{'prompt': 'Oop', 'response': 'I’m at Geisel too'}
+{'prompt': 'I’m at Geisel too', 'response': 'I’ll come over'}
+{'prompt': 'Eep', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'Issok I don’t usually need it'}
+{'prompt': 'Issok I don’t usually need it', 'response': 'Can I have it back on Friday?'}
+{'prompt': '🦭', 'response': 'I’ll finish up the chicken Alfredo pasta if that’s alright!'}
+{'prompt': 'I’ll finish up the chicken Alfredo pasta if that’s alright!', 'response': 'We can make lots of food on Friday for new round of meal prep 😳'}
+{'prompt': 'We can make lots of food on Friday for new round of meal prep 😳', 'response': 'Lindsey will likely come with to get grocery if that’s ok'}
+{'prompt': 'What will you make for flocks?', 'response': 'I can help you get your grocery when I go with Lindsey in the morning (she has work after)'}
+{'prompt': 'lol no idea, no food theme has been announced yet', 'response': 'We’re going at 9am so lmk! You don’t have to come along if you wanna have some extra work time'}
+{'prompt': '🦭', 'response': 'teejteheheheh'}
+{'prompt': 'Ig that means ur staying in SD 😁', 'response': 'I think I would stay even if no school or job haha but this definitely helps!'}
+{'prompt': 'I won’t have to make anything for flocks, but I’m down to cook with uuu', 'response': 'O haha I’m just buying berries for my flock since it’s breakfast food'}
+{'prompt': 'O haha I’m just buying berries for my flock since it’s breakfast food', 'response': 'But I can meal prep curry'}
+{'prompt': 'But I can meal prep curry', 'response': 'Ooooo'}
+{'prompt': 'Ooooo', 'response': 'You can help me chop potatoes 😤'}
+{'prompt': '🔪 🥔', 'response': 'Would you like to come over at noon and bring your work with you?'}
+{'prompt': '🦭', 'response': 'Will you be posting about flocks? If not, maybe I should so people don’t go to CL on accident 😮'}
+{'prompt': 'Ty 🙏', 'response': 'Anytime!'}
+{'prompt': 'Parking a bit full, will be walking from east gate', 'response': 'Can I drop off the curry when I pick up Brian?'}
+{'prompt': '🦭', 'response': 'Pizza night for the freebies'}
+{'prompt': 'Pizza night for the freebies', 'response': 'Freshies*'}
+{'prompt': 'Yop', 'response': 'Can I drop by at 10pm?'}
+{'prompt': 'ATLA? 👉👈🥺', 'response': 'Owo'}
+{'prompt': 'Owo', 'response': 'When?'}
+{'prompt': 'When?', 'response': 'Can I call rn spontaneously?'}
+{'prompt': 'Ooh I’m calling parents rn', 'response': 'Okok another time!'}
+{'prompt': 'Friday?', 'response': 'My Friday has some mandatory meetings throughout the day but I’m free after 3:30pm 😮'}
+{'prompt': 'My Friday has some mandatory meetings throughout the day but I’m free after 3:30pm 😮', 'response': 'Did you get your key back from earnest?'}
+{'prompt': 'Yup', 'response': 'How does Ireland Friday at 3:40pm sound 🎀'}
+{'prompt': 'How does Ireland Friday at 3:40pm sound 🎀', 'response': 'Do you need to go early to CL for praise?'}
+{'prompt': 'Prob leave at 6:10 latest', 'response': 'I can most likely drive campus people too this Friday'}
+{'prompt': 'Will head home now from CSE building', 'response': 'O I can come from Geisel too'}
+{'prompt': '🦭', 'response': 'Bus stop?'}
+{'prompt': 'R u already outside Geisel?', 'response': 'I’ll be there in 5 ish min'}
+{'prompt': 'I’ll be there in 5 ish min', 'response': 'Bathroom first haha'}
+{'prompt': 'Bathroom first haha', 'response': 'Coming from Geisel now'}
+{'prompt': 'I’m at the bus stop', 'response': 'Aww I woke up with sore throat and runny nose'}
+{'prompt': 'Aww I woke up with sore throat and runny nose', 'response': 'Goof'}
+{'prompt': 'Do u want soup??', 'response': 'I still have more canned ones so I’m good 😮'}
+{'prompt': 'May I visit today?', 'response': 'I won’t be home until 7:30 and might have a zoom meeting after haha'}
+{'prompt': 'I won’t be home until 7:30 and might have a zoom meeting after haha', 'response': 'I’m gonna be at Geisel in a bit tho!'}
+{'prompt': 'Mm I won’t be at school today', 'response': 'Also I prolly won’t heal completely by tomorrow'}
+{'prompt': 'Also I prolly won’t heal completely by tomorrow', 'response': 'Wanna do avatar another day?'}
+{'prompt': 'Wanna do avatar another day?', 'response': 'Or we can go on a walk outside 😮 or it’s also ok to not do anything!'}
+{'prompt': 'Unless u think it’s wiser not too', 'response': 'Outdoor will prolly be better! I have a runny nose so I’ll need to take off my mask from time to time haha'}
+{'prompt': 'Outdoor will prolly be better! I have a runny nose so I’ll need to take off my mask from time to time haha', 'response': 'WOW I figured out something huge for my code'}
+{'prompt': 'WOW I figured out something huge for my code', 'response': 'So happy'}
+{'prompt': '🦭', 'response': 'My model be performing WELL'}
+{'prompt': 'My model be performing WELL', 'response': 'but now I’m hungry 😞'}
+{'prompt': 'I wish I have 85 bread 🥶', 'response': 'But alas'}
+{'prompt': 'But alas', 'response': 'It’s closed'}
+{'prompt': 'Jk I have none', 'response': 'Haha'}
+{'prompt': 'Haha', 'response': 'Yoooo guess what'}
+{'prompt': 'I have some frozen bread', 'response': 'Let’s goooo'}
+{'prompt': 'Let’s goooo', 'response': 'It’s not mold btw'}
+{'prompt': 'It’s not mold btw', 'response': 'It’s chocolate 😋'}
+{'prompt': 'Anyways…  REALLY HAPPY FOR U!!', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'also joyce got into ucsd data science grad program!'}
+{'prompt': 'also joyce got into ucsd data science grad program!', 'response': 'very happy about dat too'}
+{'prompt': 'What days are you thinking of going back to bay?', 'response': 'Flights are very cheap for April'}
+{'prompt': 'Flights are very cheap for April', 'response': 'I’m looking to go back to Pleasanton from Monday 4/8 - Saturday 4/13'}
+{'prompt': 'O I just got a ticket for 4/6 to 4/11', 'response': 'With JCheung lol?'}
+{'prompt': 'O I haven’t coordinated with anyone, I just got them after seeing the prices', 'response': 'Just kidding he has different dates'}
+{'prompt': 'Just kidding he has different dates', 'response': 'I’ll prolly fly back with max'}
+{'prompt': 'I’ll prolly fly back with max', 'response': 'I can be a backup driver 😤 might just drive myself in case people get sick 😔'}
+{'prompt': '-Matt', 'response': '🦭'}
+{'prompt': '🦭', 'response': 'I’m about finishing the meeting'}
+{'prompt': 'Omw from Matt’s', 'response': 'Gonna push my code real quick'}
+{'prompt': 'Here', 'response': 'Hehe will there be a spreadsheet for rides for Sunday lunch with freshmen?'}
+{'prompt': 'Might ask staff', 'response': 'I can take 4 people back after lunch!'}
+{'prompt': 'I was def struggling with fatigue and burnout this weekend. I found some encouragement here. Just wanted to share it with u', 'response': 'Thank you for sharing your notes 🤝'}
+{'prompt': 'Thank you for sharing your notes 🤝', 'response': 'I’ve been reviewing 1 Cor 15:58 with Connie!'}
+{'prompt': 'I’ve been reviewing 1 Cor 15:58 with Connie!', 'response': 'It was our memory verse a while ago'}
+{'prompt': 'It was our memory verse a while ago', 'response': 'And the awesome John 15 🤓🤓'}
+{'prompt': 'And the awesome John 15 🤓🤓', 'response': 'All the other verses too hit very hard'}
+{'prompt': 'All the other verses too hit very hard', 'response': 'I’ll be praying for your love and steadfastness in laboring for the Lord!'}
+{'prompt': 'I’ll be praying for your love and steadfastness in laboring for the Lord!', 'response': 'I’m gonna go get groceries! Anything you want from Trader Joe’s?'}
+{'prompt': 'I’m gonna go get groceries! Anything you want from Trader Joe’s?', 'response': 'I plan to meal prep creamy pesto shrimp pasta! Can I bring you some tonight?'}
+{'prompt': 'No worries!', 'response': 'I’ll deliver food tonight'}
+{'prompt': 'I’ll deliver food tonight', 'response': 'When will you be home?'}
+{'prompt': '~9:30', 'response': 'When I deliver food can I also stay until 11:30 to read?'}
+{'prompt': 'Sorry, I asked my apt and they didn’t respond, and I forgot to reply', 'response': 'Could you pick me up on exec by any chance haha'}
+{'prompt': 'Could you pick me up on exec by any chance haha', 'response': 'No problem if you headed straight home'}
+{'prompt': 'No problem if you headed straight home', 'response': 'I can drive over'}
+{'prompt': 'Here!', 'response': 'Coming in 1 min!'}
+{'prompt': 'Coming in 1 min!', 'response': 'I got into ucsd data sci masters too!'}
+{'prompt': 'Double maaaassterrrrs degree whaaaaaaaaat???', 'response': 'yeeeehawww'}
+{'prompt': 'yeeeehawww', 'response': 'Being able to download Google map regions to navigate offline prolly means we only need one hotspot or none at all 😮 what do you think?'}
+{'prompt': 'Do u want some pasta with tomato sauce??', 'response': 'Owo'}
+{'prompt': 'Owo', 'response': 'Yis Yis'}
+{'prompt': 'O I should make a rides announcement', 'response': 'I’ll be home after 5:30 I think'}
+{'prompt': 'I’ll be home after 5:30 I think', 'response': 'Feel free to come by anytime after'}
+{'prompt': 'I have sg tn, so prob after', 'response': 'Today might be kinda late! How about trying your pasta tomorrow night?'}
+{'prompt': 'Thanks Ester!', 'response': 'Ester named the group CSE 151B PA2.'}
+{'prompt': 'we could be incredibly original and use our names', 'response': 'Or name it according to the PA content? Like Convolution? \U0001fae0'}
+{'prompt': 'jeremyztow@gmail.com', 'response': 'Thank you for creating!'}
+{'prompt': 'Added!', 'response': 'I created my own branch in our repo '}
+{'prompt': 'I created my own branch in our repo ', 'response': 'I pushed the updated util.py to master, but I need a minor fix after asking a question on piazza'}
+{'prompt': 'I pushed the updated util.py to master, but I need a minor fix after asking a question on piazza', 'response': "Are you guys able to access a GPU of any sort? Datahub is still down and I can't get Google Colab to work either"}
+{'prompt': 'Thinking if we can use our data science capstone’s 🤔', 'response': 'I guess so!'}
+{'prompt': 'Yeahh', 'response': 'Actually it seems like the issue happened because I’m still occupying a GPU for capstone'}
+{'prompt': 'Actually it seems like the issue happened because I’m still occupying a GPU for capstone', 'response': 'So I can only work on one project at a time'}
+{'prompt': 'Does it say something like CUDA blah blah exceeded or killed when u run two?', 'response': 'It says "Request exceeds limit of 1 GPUs" hahaa'}
+{'prompt': 'In case it gets killed and u gotta restart the kernel 😅', 'response': 'I can just clear some space in my private folder and git clone the project there'}
+{'prompt': '@Ester Tsai are you at part 2 for the programming part? The data loading section', 'response': 'Yes, I have the code for the baseline model but I’ll test it when I finish running something for capstone'}
+{'prompt': 'Yes, I have the code for the baseline model but I’ll test it when I finish running something for capstone', 'response': '(I don’t know if my baseline model works, will likely need to debug!'}
+{'prompt': 'Okkk! Sounds good, so have u implemented the test and val data in voc.py?', 'response': 'Feel free to test it by cloning my branch tho!'}
+{'prompt': 'Feel free to test it by cloning my branch tho!', 'response': 'Yes'}
+{'prompt': 'Ok could you push it to your branch? I don’t think I see it there just now', 'response': 'Also the first half of visualize.option'}
+{'prompt': 'Also the first half of visualize.option', 'response': 'Visualize.ipynb *'}
+{'prompt': 'Visualize.ipynb *', 'response': ''}
+{'prompt': 'Yup thanks!', 'response': 'Almost done with the baseline model! Gonna keep testing it until test IoU is consistently around 0.05'}
+{'prompt': 'I see we are using SGD optimizer currently', 'response': 'ok I can try!'}
+{'prompt': 'Coding is done up to part 3, so feel free to make a branch of the current master branch and start working on part 4', 'response': 'You can test the model by running "python train.py" in the terminal'}
+{'prompt': 'Yayyy thank you thank youuu!!', 'response': 'voc.py is where we should implement data augmentation (part 4b), after defining the augmentation'}
+{'prompt': 'Just curious if there’s other places that offer image augmentation methods', 'response': 'TA gave this link as an example: '}
+{'prompt': 'So I just downloaded the zip file LOL', 'response': 'Maybe make a new branch haha'}
+{'prompt': 'Maybe make a new branch haha', 'response': 'GitHub high key confusing sometimes'}
+{'prompt': 'I haven’t tried running the model yet so', 'response': 'It shouldn’t be large tho'}
+{'prompt': 'Oh yeah did prof say anything about moving the MT date? Since it’s going to be on lunar new year', 'response': 'I can start working on pa2 again on Monday! And then work on the report Tues and Wednesday. Down to work on both Q4 and 5 if time permits, but if time is tight, I’ll piggy back off of existing Q4 and just work on Q5!'}
+{'prompt': 'I can start working on pa2 again on Monday! And then work on the report Tues and Wednesday. Down to work on both Q4 and 5 if time permits, but if time is tight, I’ll piggy back off of existing Q4 and just work on Q5!', 'response': 'There was a piazza post that said we’re not moving the midterm I think'}
+{'prompt': '@Ester Tsai quick question, for the optimizer, did you choose learning rate to be 0.001 or was it given?', 'response': 'I chose it'}
+{'prompt': 'I am pretty much done with 4a, just re-running them to check the numbers', 'response': 'Make sense!'}
+{'prompt': '4b is done! If everyone is okay, I can push to master', 'response': 'Thanks!!'}
+{'prompt': 'I will get back on pa2 tomorrow, is there anything that I can work on?', 'response': 'I can get on that too after capstone tomorrow! What is left that we need to work on?'}
+{'prompt': 'Pretty much done with 4c, just running a bunch of experiments, will let y’all know before I push', 'response': "I'll start on the report"}
+{'prompt': 'Great! I’ll join u on the report tomorrow!', 'response': 'Here is the link to the report: '}
+{'prompt': 'Here is the link to the report: ', 'response': 'And the checklist of requriements: '}
+{'prompt': 'And the checklist of requriements: ', 'response': "There are a lot to write, so I'll make a poll for how to divide the work if you guys are ok with that!"}
+{'prompt': "There are a lot to write, so I'll make a poll for how to divide the work if you guys are ok with that!", 'response': 'Ester created a poll: PA2 Report Responsibility (par...'}
+{'prompt': 'Ester created a poll: PA2 Report Responsibility (par...', 'response': 'Ester created a poll: PA2 Report (part 2).'}
+{'prompt': 'Ester created a poll: PA2 Report (part 2).', 'response': 'Ester voted for "Methods - Baseline" and 1 other option in the poll.'}
+{'prompt': 'Ester voted for "Methods - Baseline" and 1 other option in the poll.', 'response': 'Ester voted for "Discussion - Baseline" and 1 other option in the poll.'}
+{'prompt': 'oo true it would be good to specify the 3 sections in Methods Experimentation and Discussion Experimentation', 'response': 'Has anyone done 5b yet? If not, I can look into it'}
+{'prompt': 'i’m going to look into 5b in a bit', 'response': 'Ester voted for "Abstract" in the poll.'}
+{'prompt': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮\u200d💨😴', 'response': 'Yay!'}
+{'prompt': 'Yay!', 'response': 'Ester voted for "Methods - Improving on baseline" in the poll.'}
+{'prompt': 'Ester voted for "Methods - Improving on baseline" in the poll.', 'response': 'Ester voted for "Discussion - Improving on basline" in the poll.'}
+{'prompt': 'Ester voted for "Discussion - Improving on basline" in the poll.', 'response': 'I filled in the part for Cosine Annealing for both methods and discussion'}
+{'prompt': 'something wrong with the cirterion function', 'response': 'Are you using your own code or Winfrey’s base code?'}
+{'prompt': 'Try changing padding', 'response': '@Kong Xian Ying @Jeremy Tow @Jonathan Cheung Are you all free to call tomorrow at 9am to check in for PA2?'}
+{'prompt': 'ye i shuld be free', 'response': 'I’ll implement the training and validation plot for report Results section'}
+{'prompt': 'This is great!!!', 'response': 'DANG Winfrey you got up at 5am 🥵'}
+{'prompt': 'DANG Winfrey you got up at 5am 🥵', 'response': "I'll create a Zoom link"}
+{'prompt': 'I normally take a VERY LONG TIME for breakfast 😂😂😂', 'response': ''}
+{'prompt': '', 'response': '@Jonathan Cheung @Jeremy Tow Zoom?'}
+{'prompt': '@Jonathan Cheung @Jeremy Tow Zoom?', 'response': 'def set_seed(seed: int = 42) -> None:     np.random.seed(seed)     random.seed(seed)     torch.manual_seed(seed)     torch.cuda.manual_seed(seed)     # When running on the CuDNN backend, two further options must be set     torch.backends.cudnn.deterministic = True     torch.backends.cudnn.benchmark = False     # Set a fixed value for the hash seed     os.environ["PYTHONHASHSEED"] = str(seed)'}
+{'prompt': 'Ester voted for "Results (filling in the numbers)" in the poll.', 'response': 'Ester voted for "Discussion - Experimentation" in the poll.'}
+{'prompt': 'I’ll add UNet as one of the related works', 'response': ''}
+{'prompt': 'Kong voted for "References" in the poll.', 'response': ''}
+{'prompt': '', 'response': "We'll aim to get the report draft done by tonight!"}
+{'prompt': 'Yesss agreed!', 'response': "@Jeremy Tow could you push your train_5_b code sometime today when you're done?"}
+{'prompt': 'i only modified the basic_fcn file', 'response': 'okok could I have your modified basic_fcn file haha'}
+{'prompt': 'idk what the easiest way to do this is', 'response': 'sure I can try!'}
+{'prompt': 'ok I just pushed to my branch', 'response': "I've set up references.bib for  bibtex"}
+{'prompt': "I've set up references.bib for  bibtex", 'response': 'you can cite a paper using \\citet{reference_name} and it will automatically appear in the References section'}
+{'prompt': 'Thank you!', 'response': 'I’m trying 5a but data hub is not working for me right now'}
+{'prompt': 'if u need to i can give u access to my server', 'response': 'it works again!'}
+{'prompt': 'Do we want to set a cutoff time for the models? For tomorrow.', 'response': 'Jonathan and I both tried 5A but couldn’t get it better than 6.6%'}
+{'prompt': 'Jonathan and I both tried 5A but couldn’t get it better than 6.6%', 'response': 'I’ll go to office hours tomorrow'}
+{'prompt': 'i think it makes more sense in decimal', 'response': 'Sure!'}
+{'prompt': 'Also one thing I didn’t really try is that, UNet paper mentioned that they use batch size of 1, but I’m not sure how helpful this will be', 'response': 'How’s the new test IoU after these improvements?'}
+{'prompt': 'this is so mysterious', 'response': 'Hmm set seed is actually not working fully. The results are different after rerunning'}
+{'prompt': 'like source of randomness lol', 'response': 'I was pretty sure it worked at one point \U0001fae0\U0001fae0\U0001fae0'}
+{'prompt': 'I was pretty sure it worked at one point \U0001fae0\U0001fae0\U0001fae0', 'response': "I'll try adding this"}
+{'prompt': '4c is still random', 'response': 'but train.py is deterministic'}
+{'prompt': 'but train.py is deterministic', 'response': "I checked that data augmentation should be reproducible. Then it's strange why not 4c"}
+{'prompt': 'Oohh like the random rotation and random crop?', 'response': 'yeah the angles come out deterministic'}
+{'prompt': 'Kong voted for "Introduction" in the poll.', 'response': 'I will try the architecture described in this lecture for 5A '}
+{'prompt': 'I’m thinking latest by 6pm today, but I’m flexible', 'response': 'I plan to put up the plots after we finalize our models ye'}
+{'prompt': 'I plan to put up the plots after we finalize our models ye', 'response': '6pm sounds good'}
+{'prompt': 'Okay and once you run everything, could you push your version of 5b to main', 'response': 'I can also fill in the segmentation result since it requires someone having all 7 models'}
+{'prompt': 'Ok I’ll get you the best possible UNet by 6 😎', 'response': 'Do you guys know how to get rid of the CUDA out of memory issue?'}
+{'prompt': 'Do you guys know how to get rid of the CUDA out of memory issue?', 'response': 'Restarting the server used to help, but not this time'}
+{'prompt': 'And restarting', 'response': 'for 5A I made the stride 1 and batch_size=4 and got this for epoch 1'}
+{'prompt': 'NAISEEEEEE', 'response': "we'll see if it's gonna be good!"}
+{'prompt': 'and yeah this is interesting, I got 0.062 IoU only after changing the kernel size in UNet', 'response': 'changing to what kernel size?'}
+{'prompt': 'And final layer from 1*1 to 3*3', 'response': 'epoch 2 IoU: 0.1136'}
+{'prompt': 'epoch 2 IoU: 0.1136', 'response': 'but I accidentally interrupted the training lol'}
+{'prompt': 'but I accidentally interrupted the training lol', 'response': 'sad, each epoch takes 8 min to train'}
+{'prompt': 'so ill report that result', 'response': 'Yes I’m doing 10 epochs too for 5A'}
+{'prompt': 'Yes I’m doing 10 epochs too for 5A', 'response': 'Good news! TA just said Unet IoU will be graded very leniently'}
+{'prompt': 'Good news! TA just said Unet IoU will be graded very leniently', 'response': '0.06 is on'}
+{'prompt': '0.06 is on', 'response': 'Ok'}
+{'prompt': 'Just curious', 'response': 'Yes, Jeremy said 15 min?'}
+{'prompt': 'Yes, Jeremy said 15 min?', 'response': 'Possibly longer'}
+{'prompt': 'SHEEEESH', 'response': 'just by changing stride'}
+{'prompt': 'just by changing stride', 'response': '5A we gucci'}
+{'prompt': '5A we gucci', 'response': '@Jonathan Cheung could you experiment with having other layers too? TA said just changing stride is not big enough architecture change'}
+{'prompt': 'Yeah', 'response': '^also remember to add a table for your architecture details like Jeremy and Winfrey did in the report'}
+{'prompt': 'thanks for the batch size = 4 idea HAHHA', 'response': 'YOOOOO'}
+{'prompt': 'YOOOOO', 'response': 'it trains pretty fast too'}
+{'prompt': 'I modified kernel size as well', 'response': 'Could you see if it gets higher than 0.12?'}
+{'prompt': 'i can push the 5a code if thats fine with everyone', 'response': 'Your branch is ok! I’ll just copy paste for ease lol'}
+{'prompt': "master's README has been updated for submission later today!", 'response': 'THANKS!'}
+{'prompt': 'THANKS!', 'response': 'I’ve finished running 5A and will update the report with the plots for the Results section after my tutor hours'}
+{'prompt': 'Ok coools!', 'response': 'Unet now has a lower accuracy'}
+{'prompt': 'Sure', 'response': 'I changed train, val, and test batch size to 4'}
+{'prompt': 'I changed train, val, and test batch size to 4', 'response': "I'll double check that the IoU function is not dependent on batch size haha"}
+{'prompt': 'Dang UNet was crawling and now it’s flying', 'response': 'LOL smaller batch size is better I learned'}
+{'prompt': "jk this screenshot doesn't say much", 'response': 'The batch size can be understood as a trade-off between accuracy and speed. Large batch sizes can lead to faster training times but may result in lower accuracy and overfitting, while smaller batch sizes can provide better accuracy, but can be computationally expensive and time-consuming.'}
+{'prompt': 'I like this sample!!', 'response': 'O OOP my IoU implementation is not quite right'}
+{'prompt': 'O OOP my IoU implementation is not quite right', 'response': 'It’s supposed to be over the entire validation set'}
+{'prompt': 'Or the iou function', 'response': 'Hmm I think I did implement it according to the TA’s description'}
+{'prompt': 'and then u average it in the train file', 'response': 'I suppose it worked nonetheless'}
+{'prompt': 'I suppose it worked nonetheless', 'response': 'But I’m averaging over each batch and then averaging all the batches’ average IoU'}
+{'prompt': 'But I’m averaging over each batch and then averaging all the batches’ average IoU', 'response': 'So the number might be a little odd'}
+{'prompt': 'Oh util iou averages over the batch', 'response': 'Util iou is right if the input is only one image, but right now the input is a batch of images'}
+{'prompt': 'Util iou is right if the input is only one image, but right now the input is a batch of images', 'response': 'Wait just kidding'}
+{'prompt': 'Wait just kidding', 'response': 'Let me think again'}
+{'prompt': 'Let me think again', 'response': 'Maybe the input is indeed just an image'}
+{'prompt': 'Maybe the input is indeed just an image', 'response': 'LOL sorry for psyching out we’re probably fine?'}
+{'prompt': 'LOL sorry for psyching out we’re probably fine?', 'response': 'But I discovered that when I make the test batch size smaller the IoU goes up, which it shouldn’t'}
+{'prompt': 'enumerate batch_loader gives a batch. So inputs are 16*3*224*224', 'response': 'O RIGHT'}
+{'prompt': 'O RIGHT', 'response': 'hmmm let me go through the code and check'}
+{'prompt': 'Or do a double loop in util iou, so   loop through preds, targets:    Loop through all classes:    Np.nanmean for that particular one pred', 'response': 'I’ll try double loop'}
+{'prompt': 'I’ll try double loop', 'response': 'Iou becomes 0.2619 for train.py'}
+{'prompt': 'Iou becomes 0.2619 for train.py', 'response': 'I have a feeling that should be more accurate but the TA implemented it wrong? 😮 maybe maybe not \U0001fae8'}
+{'prompt': 'I have a feeling that should be more accurate but the TA implemented it wrong? 😮 maybe maybe not \U0001fae8', 'response': '0.05 felt too low'}
+{'prompt': '0.05 felt too low', 'response': 'So maybe they meant over the whole validation set instead of each individual image'}
+{'prompt': 'So maybe they meant over the whole validation set instead of each individual image', 'response': 'High key I will just revert back to what we had before because it matched the description well'}
+{'prompt': 'Agreed', 'response': 'I’ll aim to be done by 9:30pm but'}
+{'prompt': 'oh ok i’ll start working on it rn', 'response': 'I’ll update code to do full validation set after and see if there’s a big difference'}
+{'prompt': 'I’ll update code to do full validation set after and see if there’s a big difference', 'response': 'Samuel chu said he tried and it wasn’t very different'}
+{'prompt': '@Jonathan Cheung just checking, for 5a specifically, did you make any changes to  - weight initialization - data augmentation - optimizer - class weights', 'response': 'just added all the plots'}
+{'prompt': 'Oh no worries, I think Ester got u', 'response': 'I got it yeah!'}
+{'prompt': 'Ok I see it now!', 'response': 'I’m waiting to get one more plot updated potentially'}
+{'prompt': 'I’m waiting to get one more plot updated potentially', 'response': 'But I will get the report done rn'}
+{'prompt': 'But I will get the report done rn', 'response': 'Please add writing to the results section if you guys can'}
+{'prompt': 'Please add writing to the results section if you guys can', 'response': 'I just wanna get a better plot for 5A if possible'}
+{'prompt': 'Like it calls FCN and uses AdamW', 'response': 'Ohh let me see'}
+{'prompt': 'Ohh let me see', 'response': 'I have the updated version locally but somehow didn’t update on GitHub'}
+{'prompt': 'I have the updated version locally but somehow didn’t update on GitHub', 'response': 'I’ll fix that rn'}
+{'prompt': 'I’ll fix that rn', 'response': 'Resubmitted code'}
+{'prompt': 'Resubmitted code', 'response': 'We still need to write some of discussion section'}
+{'prompt': 'Currently we are only drawing from table', 'response': 'The 5A test iou is not accurate, it should be lower'}
+{'prompt': 'The 5A test iou is not accurate, it should be lower', 'response': 'I’m rerunning it but it’s too slow oop'}
+{'prompt': 'I’m rerunning it but it’s too slow oop', 'response': 'I’m adding to the discussion right now'}
+{'prompt': 'Hmmmm I’m kind of stuck with UNet’s discussion on the sample test segmentation, since it had worse results than the other two architecture, the test segmentation shows that UNet captures a lot of them 👀', 'response': 'Weird yeah \U0001fae3'}
+{'prompt': "yes, could you check if 5a's discussion mentions the loss plot and the segmentation visual", 'response': 'Still need to add something about the segmentation visual'}
+{'prompt': 'ok yea looking rn', 'response': 'It might be the old version!'}
+{'prompt': 'rather than "optima"', 'response': 'Yes, but optima means the same thing right'}
+{'prompt': 'Rerunning 5A', 'response': 'It’s getting faster now'}
+{'prompt': 'It’s getting faster now', 'response': '5 min per epoch'}
+{'prompt': 'nice nice', 'response': 'It was 24 min or something earlier'}
+{'prompt': 'Is there a way to make the discussion section go after the results section’s figures?', 'response': 'Right now discussion starts in between those figures'}
+{'prompt': 'try \\newpage', 'response': 'It’s already there haha'}
+{'prompt': 'forcing new page on new section', 'response': 'No idea why item doesn’t help'}
+{'prompt': 'use \\clearpage instead', 'response': 'Is it intentional we made the images smaller?'}
+{'prompt': 'Is it intentional we made the images smaller?', 'response': '2 per page seems to fit pretty well'}
+{'prompt': 'yes on my end', 'response': 'Sure!'}
+{'prompt': 'i can submit?', 'response': 'The time crunch is real \U0001fae3'}
+{'prompt': 'Yup!', 'response': 'I’ll need to resubmit it lolol I made some changes'}
+{'prompt': 'lmk when ur finsihed changing', 'response': 'My 5A is almost done lol'}
+{'prompt': 'My 5A is almost done lol', 'response': 'Let me check the results'}
+{'prompt': 'Let me check the results', 'response': 'Dang it’s cutting real close'}
+{'prompt': 'Dang it’s cutting real close', 'response': 'I’ll resubmit right now just in case'}
+{'prompt': 'do u want me to do it?', 'response': 'I’m updating something rn'}
+{'prompt': 'I’m updating something rn', 'response': 'Ok just submitted, will add people'}
+{'prompt': 'Ok just submitted, will add people', 'response': 'Done! Sorry for cutting it so close!'}
+{'prompt': 'No no, not at all', 'response': 'Please check if it’s good'}
+{'prompt': 'All good, thanks for the good work everyone!! Get some good rest for now 😴', 'response': 'YAY'}
+{'prompt': 'Group name is recurrent for PA3!', 'response': 'Yayay!'}
+{'prompt': 'Yayay!', 'response': 'Joined'}
+{'prompt': 'Joined', 'response': 'Ester named the group CSE 151B PA3.'}
+{'prompt': 'Thanks for the name update that’s very thoughtful of you HAHA', 'response': 'Ester Tsai added Samuel Chu to the group.'}
+{'prompt': 'Ester Tsai added Samuel Chu to the group.', 'response': '@Samuel Chu if you’d like to join!'}
+{'prompt': 'I will get started on the programming part tonight, has anyone started working on it? Just wanted to see where I should start with, in case some parts have already been completed', 'response': 'I plan to start at 3:30pm!'}
+{'prompt': 'i’m prob going to start working tonight or tmr, if i do start today i’ll lyk', 'response': 'Actually I’ll start maybe tonight! Gonna crank out some tutor stuff that’s time sensitive'}
+{'prompt': 'I should be able to get the baseline out today  But without the generate.py', 'response': 'Thank you Winfrey!'}
+{'prompt': 'Thank you Winfrey!', 'response': 'I’ll do the individual part first and then get on the code'}
+{'prompt': 'The loss I’m getting is lower (0.06) than expected (1.9) so I’m still clarifying with the TA on loss calculation - there’s a bunch of averaging going on 🥲', 'response': 'I see!! I’m done with the individual part so I’ll be able to get to the code tomorrow!'}
+{'prompt': 'I see!! I’m done with the individual part so I’ll be able to get to the code tomorrow!', 'response': 'Or later tonight 😮'}
+{'prompt': 'Or later tonight 😮', 'response': 'Wowow this PA seems fun'}
+{'prompt': 'Wowow this PA seems fun', 'response': 'I’ll work on it today'}
+{'prompt': 'I’ll work on it today', 'response': 'Just learned the ABC notation 😳'}
+{'prompt': 'The lowest loss I get so far is 2.1679, Im making changes to the optimizer to find the one that gives the closest to 1.9  Other than that, my branch is the most updated of my progress', 'response': '@Jeremy Tow @Jonathan Cheung @Samuel Chu any progress so far? 😃'}
+{'prompt': 'RuntimeError: cuDNN version incompatibility: PyTorch was compiled  against (8, 7, 0) but found runtime version (8, 6, 0). PyTorch already comes bundled with cuDNN. One option to resolving this error is to ensure PyTorch can find the bundled cuDNN.Looks like your LD_LIBRARY_PATH contains incompatible version of cudnnPlease either remove it from the path or install cudnn (8, 7, 0)', 'response': 'The Piazza post about this issue did not help lol'}
+{'prompt': 'The Piazza post about this issue did not help lol', 'response': 'btw here is the Overleaf report link for PA3! '}
+{'prompt': 'btw here is the Overleaf report link for PA3! ', 'response': 'Has anyone else figured out how to solve this?'}
+{'prompt': 'You got the error when u were trying to install PyTorch?', 'response': 'No, when I run main.py'}
+{'prompt': 'No, when I run main.py', 'response': 'This is me lol'}
+{'prompt': 'conda install does not even finish installing and bugs out haha', 'response': "pip install doesn't solve the problem"}
+{'prompt': "pip install doesn't solve the problem", 'response': 'O I FIXED IT'}
+{'prompt': 'OH how', 'response': 'unset LD_LIBRARY_PATH'}
+{'prompt': 'Anything that has to do with PATH is very painful', 'response': "Does that mean I'm not using CUDA tho?"}
+{'prompt': "Does that mean I'm not using CUDA tho?", 'response': "it's very slow oop"}
+{'prompt': 'Wifi matters a lot 😂', 'response': "I'm training on cpu oops"}
+{'prompt': 'Hmmmm', 'response': "but that's what the TA suggested"}
+{'prompt': "but that's what the TA suggested", 'response': 'how long does it take for you?'}
+{'prompt': 'For 100 epochs', 'response': 'oh me too then'}
+{'prompt': 'oh me too then', 'response': "jk it's slower for me"}
+{'prompt': 'Ahh cause it’s on cpu?', 'response': 'yeah : //'}
+{'prompt': 'yeah : //', 'response': 'O IM OK NOW'}
+{'prompt': 'O IM OK NOW', 'response': "I'm using capstone platform"}
+{'prompt': "I'm using capstone platform", 'response': 'instead of datahub'}
+{'prompt': 'instead of datahub', 'response': 'YAYAYAYAYYAYAYYAYAYAYY'}
+{'prompt': 'Oh THATS GREAT', 'response': 'CAPSToNE SUPREMEM'}
+{'prompt': 'Honestly, I have never used datahub once', 'response': "it's really fast, like 3 epochs per minute?"}
+{'prompt': 'Wow urs is slightly faster actually', 'response': 'I use n 30'}
+{'prompt': 'I use n 30', 'response': 'It’s a bigger GPU although not sure if that affects speed?'}
+{'prompt': 'i’m curious what gpu it is lol', 'response': 'it\'s called "a5000"'}
+{'prompt': 'it\'s called "a5000"', 'response': 'Is 2.1679 the validation loss?'}
+{'prompt': 'Is 2.1679 the validation loss?', 'response': 'is it correct there is no test loss?'}
+{'prompt': 'And yeah no test loss, not given in the starter code', 'response': 'do you know if we are allowed to change other configs like SEQ_SIZE'}
+{'prompt': 'ah that I’m not sure. I thought we are not supposed to change anything in the config until like 5 mins ago a TA said try more epochs', 'response': 'hmm I suppose instruction said to use SEQ_SIZE=25~30'}
+{'prompt': 'Ohhh good catch!', 'response': 'true more epochs might help. the validation loss is still decreasing'}
+{'prompt': 'What is this?', 'response': "Don't do that haha"}
+{'prompt': "Don't do that haha", 'response': 'it removes CUDNN basically'}
+{'prompt': 'I’m getting the same error, you fixed it by switching to capstone stuff?', 'response': 'so it solves the error but you can only use CPU'}
+{'prompt': 'so it solves the error but you can only use CPU', 'response': 'yes'}
+{'prompt': 'yes', 'response': 'I ssh from terminal, not datahub'}
+{'prompt': 'Ok yeah', 'response': 'rn the code for generate.py works but the result is not functional'}
+{'prompt': 'I’m not sure if those bolded characters are identified as unknown', 'response': "the bold shows bad syntax (system can't recognize what it wants to do)"}
+{'prompt': 'So there’s gonna be some way we need to figure out to control/process them before putting into the converter', 'response': 'For generate.py, Is it correct that the model should only take in the most recent prediction as the input?'}
+{'prompt': 'For generate.py, Is it correct that the model should only take in the most recent prediction as the input?', 'response': 'I wonder how it knows what the context is if I do that'}
+{'prompt': 'There’s the hidden state that saves the context', 'response': 'Let me fix something real quick and check again'}
+{'prompt': 'Okk', 'response': '@Kong Xian Ying when you finish training, could you send me the model checkpoint if possible? or I can just send you my generate.py'}
+{'prompt': '@Ester Tsai r u sshing into capstone and using cpu?', 'response': 'No, GPU'}
+{'prompt': 'im getting the same error even on gpu lol', 'response': 'This is the extended fur elise'}
+{'prompt': 'This is the extended fur elise', 'response': 'X:1759 T:F\\"ur Elise T:Bagatelle No.25 in A, WoO.59 C:Ludwig van Beethoven O:Germany Z:Transcribed by Frank Nordberg - http://www.musicaviva.com F:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be059/be059-pno2.abc V:1 Program 1 0 Piano V:2 Program 1 0 bass Piano M:3/8 L:1/16 Q:3/8=40 K:Am V:1 e^d|e^deB=dc|A2 z CEA|B2 z E^GB|c2 z Ee^d| V:2 z2|z6|A,,E,A, z z2|E,,E,^G, z z2|A,,E,A, z z2| (DD (FABA A2c|defg abag|(3fee f2 (3gag (3gfe (3dcB BA|1 GAAF Ldeg|bagf gab|ede dcBA|adcB cBAG|FAFA FABd|1 (3BGA ABdB CAFA|d3ef d2fg|(3efe deBd| ecAd edcA|(3BAF GBAA| G2GF A2BG ABcA| AAF AFE|eAAF ABdB|cAA ABA|A GFG A2d:|'}
+{'prompt': 'X:1759 T:F\\"ur Elise T:Bagatelle No.25 in A, WoO.59 C:Ludwig van Beethoven O:Germany Z:Transcribed by Frank Nordberg - http://www.musicaviva.com F:http://abc.musicaviva.com/tunes/beethoven-ludwig-van/be059/be059-pno2.abc V:1 Program 1 0 Piano V:2 Program 1 0 bass Piano M:3/8 L:1/16 Q:3/8=40 K:Am V:1 e^d|e^deB=dc|A2 z CEA|B2 z E^GB|c2 z Ee^d| V:2 z2|z6|A,,E,A, z z2|E,,E,^G, z z2|A,,E,A, z z2| (DD (FABA A2c|defg abag|(3fee f2 (3gag (3gfe (3dcB BA|1 GAAF Ldeg|bagf gab|ede dcBA|adcB cBAG|FAFA FABd|1 (3BGA ABdB CAFA|d3ef d2fg|(3efe deBd| ecAd edcA|(3BAF GBAA| G2GF A2BG ABcA| AAF AFE|eAAF ABdB|cAA ABA|A GFG A2d:|', 'response': 'best val loss so far 2.0089'}
+{'prompt': 'Nice niceeeee', 'response': 'my newest progress is on ester2 branch'}
+{'prompt': 'my newest progress is on ester2 branch', 'response': "haven't done hyperparamter tuning yet but I set up the plot name to reflect different hyperparameter choices"}
+{'prompt': "haven't done hyperparamter tuning yet but I set up the plot name to reflect different hyperparameter choices", 'response': 'might be helpful to make a branch from my branch'}
+{'prompt': 'ur so amazing', 'response': '@Jeremy Tow @Samuel Chu does the GPU work for you guys when you run Python main.py?'}
+{'prompt': '@Jeremy Tow @Samuel Chu does the GPU work for you guys when you run Python main.py?', 'response': 'Also our current val loss is ok! We can move on to hyperparameter tuning,. I;ll start that tonight'}
+{'prompt': "is it supposed to be config['dropout']?", 'response': 'O yeah small typo'}
+{'prompt': 'okay', 'response': 'It’s config[“model_type”]'}
+{'prompt': 'using datahub tho. i could try ssh', 'response': 'Piazza someone said they created a new conda environment and installed pytorch and it worked'}
+{'prompt': 'for some reason torch.cuda.is_available() is false', 'response': 'Did you request a GPU when you ssh?'}
+{'prompt': 'Did you request a GPU when you ssh?', 'response': 'Just updated my branch more for hyper parameter tuning. Gonna run it overnight and get all the results'}
+{'prompt': 'Just updated my branch more for hyper parameter tuning. Gonna run it overnight and get all the results', 'response': 'Does anyone understand how to do part 6 (feature evaluation)? Is the “activation of each neuron” the result of calling model.forward()?'}
+{'prompt': 'Does anyone understand how to do part 6 (feature evaluation)? Is the “activation of each neuron” the result of calling model.forward()?', 'response': 'Currently doing AdamW with lr=1e-3 and no weight decay, but you guys should try different optimizer setup and see if results are different 😮😮'}
+{'prompt': 'Currently doing AdamW with lr=1e-3 and no weight decay, but you guys should try different optimizer setup and see if results are different 😮😮', 'response': 'run these to test hyper parameters if you clone my latest branch! python main.py python main.py --config config_RNN.json python main.py --config config_200_neurons.json python main.py --config config_250_neurons.json python main.py --config config_dropout_0.2.json python main.py --config config_dropout_0.3.json'}
+{'prompt': 'run these to test hyper parameters if you clone my latest branch! python main.py python main.py --config config_RNN.json python main.py --config config_200_neurons.json python main.py --config config_250_neurons.json python main.py --config config_dropout_0.2.json python main.py --config config_dropout_0.3.json', 'response': 'Hold on gonna fix something small real quick'}
+{'prompt': 'Not too sure, I only remember seeing a post on piazza about softmax and temperature', 'response': 'lol that’s my post'}
+{'prompt': 'lol that’s my post', 'response': 'I think I figured the temperature out'}
+{'prompt': 'I think I figured the temperature out', 'response': 'But I will ask in OH today to confirm'}
+{'prompt': 'But I will ask in OH today to confirm', 'response': 'Finished updating! Now we can know the training loss that correspond to the min Val loss'}
+{'prompt': 'Finished updating! Now we can know the training loss that correspond to the min Val loss', 'response': 'Can we call at 3pm today to do a quick check-in for what to get done over weekend?'}
+{'prompt': 'Can we call at 3pm today to do a quick check-in for what to get done over weekend?', 'response': '@everyone'}
+{'prompt': '@Ester Tsai @Jonathan Cheung logistic is actually a nonlinear technique, good job!! 🤣🎉', 'response': 'Huhhhhh'}
+{'prompt': 'Huhhhhh', 'response': 'I’m working on the heat map, almost done'}
+{'prompt': 'What’s the lowest val loss so far with hyperparameter tuning?', 'response': 'Baseline is still the best'}
+{'prompt': 'Baseline is still the best', 'response': '2.008'}
+{'prompt': 'Thanks!!', 'response': 'Reminder we will call at 3pm'}
+{'prompt': 'Reminder we will call at 3pm', 'response': 'I’ll go to the 2-3pm OH'}
+{'prompt': 'I’ll go to the 2-3pm OH', 'response': 'The heat map has been implemented but it has a small bug'}
+{'prompt': 'The heat map has been implemented but it has a small bug', 'response': 'only the first 20 chars show up'}
+{'prompt': 'Jk he moved it again so there’s no OH rn', 'response': 'I’m ready call anytime if you guys are'}
+{'prompt': 'I’m ready call anytime if you guys are', 'response': ''}
+{'prompt': 'wait i’m not ready', 'response': 'what time works for you?'}
+{'prompt': 'Ah can we keep it at 3? I’m at work until 3pm and I have a consultation at the moment', 'response': 'ok!'}
+{'prompt': 'I’ll get on soon, in capstone meeting rn', 'response': "let's do 3pm still"}
+{'prompt': "let's do 3pm still", 'response': 'both winfreya nd I will need to leave by 3:30'}
+{'prompt': 'both winfreya nd I will need to leave by 3:30', 'response': ''}
+{'prompt': '', 'response': '^ report'}
+{'prompt': '^ report', 'response': 'ok I pushed latest changes!'}
+{'prompt': "update: Winfrey showed me what she did on the capstone gpu, but it still isn't working on my end :| so I think she will try to train a model with new hyperparameters tmr maybe?", 'response': 'Okok! You could still write the report using the plot results on my branch if needed 👌👌'}
+{'prompt': 'okay is there stuff that you tested that is not on the report already?', 'response': 'I have the basic set of results that the report needs (loss plots, heatmaps, and the training/val loss are in the model checkpoint names), but we can test more models and get better results'}
+{'prompt': 'i just timed a single epoch and extrapolated', 'response': 'Should I try running anything when I’m back or just focus on the report?'}
+{'prompt': 'seq length of 50', 'response': 'Woah nice'}
+{'prompt': 'Woah nice', 'response': 'Should we just go with the results you guys got?'}
+{'prompt': 'Should we just go with the results you guys got?', 'response': 'Lmk if I can help run anything!'}
+{'prompt': 'Yes! could you run config 250 neurons with sequence length 50?', 'response': 'AdamW lr=1e-3?'}
+{'prompt': 'Yupp everything else the same', 'response': 'how about the existing result on report?'}
+{'prompt': 'Ohh I pushed a small fix for train.py last weekend so u might need to check with git pull', 'response': 'okok!'}
+{'prompt': 'As in, the current row 1 is accurate', 'response': 'Which branch should I pull?'}
+{'prompt': 'ester2', 'response': 'Okok!'}
+{'prompt': 'Okok!', 'response': 'Oo what was the bug in train.py?'}
+{'prompt': 'So now the songrnn forward returns output, _ instead of just output', 'response': 'Got it!'}
+{'prompt': 'Got it!', 'response': 'Now running config_250_neurons and the RNN next if it’s not done already'}
+{'prompt': 'im kind of confused on temperature can affect how deterministic the model is. bc if we run these values: 5, 10, 15 though a softmax no matter what we divide each element by, when we pick the element with the highest softmax value it will always be the 2nd index(15) right?', 'response': 'We are not picking the element with the highest soft max value'}
+{'prompt': 'We are not picking the element with the highest soft max value', 'response': 'Soft max value goes into torch.multinomial to serve as a list of probabilities'}
+{'prompt': 'Soft max value goes into torch.multinomial to serve as a list of probabilities', 'response': 'Torch.multinomial randomly selects a character to output'}
+{'prompt': 'ok', 'response': "I'm updating the related works section with citations"}
+{'prompt': "I'm updating the related works section with citations", 'response': 'feel free to double check and add more'}
+{'prompt': 'feel free to double check and add more', 'response': "I'm done with my written portions! Lmk if another section needs help"}
+{'prompt': "I'm done with my written portions! Lmk if another section needs help", 'response': 'I pushed my results for config_250_neurons.json and added the train and val loss to the report'}
+{'prompt': 'Gosh it finished?', 'response': 'LOL YEAH'}
+{'prompt': 'result is worse than baseline but better than sequence length 30', 'response': 'overfitting on training'}
+{'prompt': 'i have 200 epochs left on the rnn run and after that i’ll be finished i think', 'response': 'I ran the rnn earlier actually! but you can verify the results with mine'}
+{'prompt': 'i’ll just take the model with the best loss?', 'response': 'how are the results on different dropouts?'}
+{'prompt': 'how are the results on different dropouts?', 'response': 'is the report the most up to date?'}
+{'prompt': 'I need to do abstract and intro rn', 'response': 'which one is this?'}
+{'prompt': 'i might have mistyped a parameter or smth', 'response': 'aight I can run it too'}
+{'prompt': 'aight I can run it too', 'response': 'so far baseline is still the best'}
+{'prompt': 'Ok added results and plot for 200 neurons, will generate the heatmaps now', 'response': 'Oops I didn’t time it. Would it be helpful if I rerun part of it to time it?'}
+{'prompt': 'Yes', 'response': 'Sure! We can make the figure a little wider and less tall'}
+{'prompt': 'do we need to specify our sequence length for table 1 in results?', 'response': 'We will need to describe it in the methods section'}
+{'prompt': 'is it always 30?', 'response': 'It’s always 50'}
+{'prompt': 'Also does red correspond to low or high activation?', 'response': 'High activation'}
+{'prompt': 'High activation', 'response': 'You can see the example in the PA3 instruction'}
+{'prompt': 'tyty', 'response': '@Jeremy Tow could you add your contributions at the end of the report?'}
+{'prompt': 'HAHHAHAHAHAH spot on', 'response': 'Not me laughing out loud'}
+{'prompt': 'is that correct?', 'response': 'Seems reasonable'}
+{'prompt': 'i think they wanted it uploaded seperately? i vaguely remember reading about this somewhere', 'response': '@Jeremy Tow would you like to add a sentence to the Abstract to describe how the generated music sounds?'}
+{'prompt': 'Ok I’ll do that', 'response': 'Do we need any help with the code submission?'}
+{'prompt': "the pa just came out -- i've created a team called transformative", 'response': 'Aight!'}
+{'prompt': 'Aight!', 'response': 'PA4 report can use this copy of PA3 --- '}
+{'prompt': 'PA4 report can use this copy of PA3 --- ', 'response': 'still need to update the section headers and remove old content'}
+{'prompt': 'still need to update the section headers and remove old content', 'response': '^ if anyone wanna help with setting up PA4 report! If not, I can do it in some days'}
+{'prompt': 'Ester named the group CSE 151B PA4.', 'response': 'I started on the code on branch ester1'}
+{'prompt': 'I started on the code on branch ester1', 'response': 'Just fixed some formatting issues with the template'}
+{'prompt': 'Just fixed some formatting issues with the template', 'response': 'Solved some minor bugs'}
+{'prompt': 'Are those on main or ester1? Which one should I pull', 'response': 'Jeremy is also making some progress'}
+{'prompt': 'Jeremy is also making some progress', 'response': 'Main is the same as Ester 1 right now'}
+{'prompt': 'I’ll work on the programming part this Saturday, I’ll check everyone’s progress by then before I start', 'response': '@Jeremy Tow would you like to push your code to your branch 😮 I’m having a hard time making model.py work oop haha'}
+{'prompt': 'ok pushed', 'response': 'update: the baseline training is working but the loss is still high (377) compared to the reference (39)'}
+{'prompt': 'the ester1 branch has working code', 'response': 'run the command python main.py --embed-dim 768 --n-epochs 10'}
+{'prompt': 'run the command python main.py --embed-dim 768 --n-epochs 10', 'response': 'TA said: Results.txt is irrelevant Reference this result instead: Baseline(10 epochs): Loss = 192.47; Val Accuracy = 84.21; Test Accuracy = 83.49'}
+{'prompt': 'Ooo is our loss 377 still considered too high compared to the reference?', 'response': "yeah :0  it'll need to be under 200"}
+{'prompt': 'oooh okok! anywhere that u suspect is not doing the job properly?', 'response': 'we can still test different optimizer and scheduler and other hyperparameter tuning'}
+{'prompt': 'Okie', 'response': 'Actually the code on ester1 has some odd issue rn, but Jeremy will push his working code soon'}
+{'prompt': 'the code on the ester1 branch works fine for me lol', 'response': 'What’s wrong with my terminal then 😭'}
+{'prompt': 'What’s wrong with my terminal then 😭', 'response': 'What command do you run on the terminal'}
+{'prompt': 'i pushed the code btw', 'response': 'BRUH changing the GPU worked 😔'}
+{'prompt': 'BRUH changing the GPU worked 😔', 'response': 'Quite possibly the most mysterious bug I’ve seen'}
+{'prompt': 'Quite possibly the most mysterious bug I’ve seen', 'response': 'Can someone else run ester1 multiple times? My results behave very differently the second time I run it'}
+{'prompt': 'Can someone else run ester1 multiple times? My results behave very differently the second time I run it', 'response': 'cd cse151b251b-wi24-pa4-transformative python main.py --embed-dim 768 --n-epochs 50  ^^ try this'}
+{'prompt': '< 1 min per epoch', 'response': 'Feel free to change the number of epochs or add the argument for learning rate and try a higher learning rate'}
+{'prompt': "hmmm since yesterday night i've been having a problem where the terminal won't run at all lol, though it did run in the afternoon when i tested it. Right now, it's just stuck and interrupting does work as well, has anyone faced this problem before? it's the same for me both on datahub and using ssh", 'response': 'Yes that happens sometimes'}
+{'prompt': 'interesting, first time for me, but good to know!', 'response': 'Not sure what’s the solution🥺'}
+{'prompt': 'ok I can try your branch as well', 'response': 'TA said I can try adding'}
+{'prompt': 'TA said I can try adding', 'response': 'gc.collect() torch.cuda.empty_cache()'}
+{'prompt': 'i just ran it twice and i do not have this issue', 'response': "this doesn't work. I still get validation acc: 0.06443679291687161 for every epocj"}
+{'prompt': 'capstone', 'response': 'I am using capstone GPU'}
+{'prompt': 'I am using capstone GPU', 'response': 'what command line prompt do you use? @Jeremy Tow'}
+{'prompt': 'i tried the one that you sent', 'response': "Dang I have no idea what's going on, I cloned Jeremy's code and it still doesn't work"}
+{'prompt': "Dang I have no idea what's going on, I cloned Jeremy's code and it still doesn't work", 'response': "O wait it works when I don't specify learning rate (default is 1e-4 I believe)"}
+{'prompt': "O wait it works when I don't specify learning rate (default is 1e-4 I believe)", 'response': 'sheesh ok'}
+{'prompt': 'I’m trying drop-rate 0.1 for 10 epochs', 'response': 'so it does work, but I have to keep learning rate below 1.5e-4 (1.5e-4 does not work, but 1.1e-4 works, still testing more)'}
+{'prompt': 'I think the culprit is the drop rate..? 😂', 'response': '!!!!!!!!!!'}
+{'prompt': '!!!!!!!!!!', 'response': 'OK'}
+{'prompt': 'Yeah ok test accuracy is 86.58%', 'response': ''}
+{'prompt': 'Thanks!!', 'response': 'yuh please put your findings here'}
+{'prompt': 'yuh please put your findings here', 'response': 'updated ester1 -- updated default arguments to reflect the current best result'}
+{'prompt': 'updated ester1 -- updated default arguments to reflect the current best result', 'response': 'I updated the print statement to be more clear too, so would you guys like to make a branch of ester1 and work on that? (ignore ester2)'}
+{'prompt': 'Results can be found in this doc here', 'response': 'Are you all free to call at 3pm again this Friday to check-in on PA4?'}
+{'prompt': 'Yes!', 'response': "I'll try method 3 today"}
+{'prompt': 'just copied your updated code @Kong Xian Ying', 'response': 'bump! please react if you call on Friday at 3pm, and lmk if we need to find another time'}
+{'prompt': 'bump! please react if you call on Friday at 3pm, and lmk if we need to find another time', 'response': '@Jonathan Cheung?'}
+{'prompt': '@Jonathan Cheung?', 'response': 'Also I don\'t wanna see you guys lose points for not coding! I think it\'s worth arguing that you guys weren\'t able to code for PA3 because of unfixable cuDNN version incompatibility issue, and that you will make sure to code for PA4. This is what our prof wrote for PA3 feedback: "Hi folks - Based on your description of who did what, it sounds like Jeremy just did hyperparameter tuning, Jonathan only helped with analysis, and Samuel just helped write the report. You know that we expect everyone to code! Please argue with me in a regrade request as to why I should not give Samuel 50% of the points, Jonathan 70%, and Jeremy 80% of the points. In general, I highly recommend using pair or triple programming, trading of who is the driver to avoid this in the future."'}
+{'prompt': 'oh ummmm that’s kind awkward i kinda did the baseline too I just didn’t want to write that in my contributions cuz my work for that didn’t show up in the report', 'response': "you can argue for that! It's ok if it didn't show up in the report"}
+{'prompt': 'uhh shuld i directly send an email or should we create a doc or smth and then send everything all at once', 'response': 'We just need to send one reply through Gradescope regrade request. Would you like to start a doc?'}
+{'prompt': "btw we still need help with Part 5! Will anyone be working on that? I'm starting on it but can't guarantee I'll figure it out", 'response': "It's also helpful if anyone wants to try Stochastic Weight Averaging (SWA) and Frequent Evaluation for Part 4"}
+{'prompt': 'Reinitializing the last layer resulted in slight improvement from baseline', 'response': 'my code has been pushed to ester1'}
+{'prompt': 'my code has been pushed to ester1', 'response': "@Jeremy Tow @Jonathan Cheung @Samuel Chu feel free to  build on top of ester1; it has Jeremy's, Winfrey's, and my most updated code"}
+{'prompt': 'okay i’ll add to it', 'response': "I'm updating ester1 rn to better test different custom fine tuning"}
+{'prompt': "I'm updating ester1 rn to better test different custom fine tuning", 'response': '^ done pushing to ester1'}
+{'prompt': '^ done pushing to ester1', 'response': '@Kong Xian Ying would you like to try dropout 0.15 instead of 0.1? it seemed to perform better for me'}
+{'prompt': 'Sure', 'response': "btw just updated ester1 again! Now it's a lot easier to implement different custom models in models.py and use class inheritance to combine methods"}
+{'prompt': "btw just updated ester1 again! Now it's a lot easier to implement different custom models in models.py and use class inheritance to combine methods", 'response': "For now I'm gonna test everything with learning rate 1e-5 and dropout 0.15"}
+{'prompt': "For now I'm gonna test everything with learning rate 1e-5 and dropout 0.15", 'response': 'All results are recorded here btw! '}
+{'prompt': 'Kong pinned a message.', 'response': 'Any progress on part 5?'}
+{'prompt': 'I haven’t rlly looked but I can do part 5', 'response': 'We’re pretty good on part 4 since we’ve done methods 1-3. Feel free to try methods 4-5 but we should aim to get part 5 done first!'}
+{'prompt': 'Yupp agreed!!', 'response': 'Anyone going to OH tomorrow?'}
+{'prompt': 'Nope I won’t be', 'response': 'I have a functional part 5'}
+{'prompt': 'I have a functional part 5', 'response': 'there are 2 parts to the supcon_train: the first training loop uses SupCon loss to train the model to output features that group similar data points together; the second training loop uses cross entropy loss to train the classifier to output predictions based on "features" input'}
+{'prompt': 'there are 2 parts to the supcon_train: the first training loop uses SupCon loss to train the model to output features that group similar data points together; the second training loop uses cross entropy loss to train the classifier to output predictions based on "features" input', 'response': 'ester1 branch has the newest updates'}
+{'prompt': 'oh btw did we submit the regrade request yet and if not shuld i do it', 'response': 'feel free to try on your own or improve on mine!'}
+{'prompt': 'feel free to try on your own or improve on mine!', 'response': 'I can check'}
+{'prompt': 'tyty', 'response': 'not submitted yet'}
+{'prompt': 'not submitted yet', 'response': 'If you use ester1 code, you can run "python main.py --task supcon --embed-dim 768 --n-epochs 20 --classifier-n-epochs 10 --learning-rate 1e-4 --drop-rate 0.15 --temperature 0.07 --contrast-type SupCon" to test SupCon'}
+{'prompt': 'If you use ester1 code, you can run "python main.py --task supcon --embed-dim 768 --n-epochs 20 --classifier-n-epochs 10 --learning-rate 1e-4 --drop-rate 0.15 --temperature 0.07 --contrast-type SupCon" to test SupCon', 'response': 'Can someone run it and see what the test accuracy is?'}
+{'prompt': 'Can someone run it and see what the test accuracy is?', 'response': 'It’s only 50% if I set n-epochs to 10'}
+{'prompt': 'It’s only 50% if I set n-epochs to 10', 'response': 'So we can try 20'}
+{'prompt': 'just finsihed running with 20 epochs, test acc is 0.5047', 'response': 'lol so more epochs does not help'}
+{'prompt': 'lol so more epochs does not help', 'response': "I've implemented util.plot"}
+{'prompt': "I've implemented util.plot", 'response': 'YOOOOOOOOOOOOOOOO'}
+{'prompt': 'YOOOOOOOOOOOOOOOO', 'response': 'part 5 worked'}
+{'prompt': 'part 5 worked', 'response': 'I think!'}
+{'prompt': 'ur actually amazing', 'response': 'the loss has been updated to reflect mean loss, not total'}
+{'prompt': 'the loss has been updated to reflect mean loss, not total', 'response': 'I just needed to make the learning rate much higher for the classifier'}
+{'prompt': 'I just needed to make the learning rate much higher for the classifier', 'response': "high key it's scary when things work"}
+{'prompt': "high key it's scary when things work", 'response': 'better sanity check'}
+{'prompt': 'but it actually putting in so much work it’s crazy tysm', 'response': '@Jonathan Cheung @Kong Xian Ying would you guys be down to set up the report by tonight? '}
+{'prompt': '@Jonathan Cheung @Kong Xian Ying would you guys be down to set up the report by tonight? ', 'response': 'or by tomorrow before 3pm'}
+{'prompt': 'Yeah I’ll do so', 'response': 'python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SupCon'}
+{'prompt': 'python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SupCon', 'response': '^ to get 88.23% test accuracy'}
+{'prompt': '^ to get 88.23% test accuracy', 'response': 'Imma run the models overnight to get these plots'}
+{'prompt': "I haven't tested SimCLR yet", 'response': 'python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SimCLR'}
+{'prompt': 'python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SimCLR', 'response': '^ if anyone would like to test it'}
+{'prompt': "i'll run it, i need a break anyways", 'response': 'You can get the code from ester1! Lmk if it works \U0001fae3'}
+{'prompt': 'You can get the code from ester1! Lmk if it works \U0001fae3', 'response': 'Made fixes to the plots and corresponding stuff'}
+{'prompt': 'Made fixes to the plots and corresponding stuff', 'response': '@Jeremy Tow how’s SimCLR?'}
+{'prompt': '@Jeremy Tow how’s SimCLR?', 'response': 'would anyone like to run this alternative SimCLR command using ester1 code before 3pm?  python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 15 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 5e-3  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SimCLR'}
+{'prompt': 'I’ll run it', 'response': 'accuracy is pretty low for SimCLR, might need some tuning'}
+{'prompt': 'Yeah', 'response': 'Has anyone read the SimCLR slides?'}
+{'prompt': 'i’m in class rn but i’ll update after i fj ish', 'response': 'Btw If you run out of storage, you can comment out the part of the code in supcon_train in main.py that saves the model weight!'}
+{'prompt': 'Btw If you run out of storage, you can comment out the part of the code in supcon_train in main.py that saves the model weight!', 'response': 'It gives you the option to only train the classifier using a pre-trained contrastive model with this parameter   --contrastive-model-path SupCon_ep10_dropout0.4_lr0.0001_temp0.07_baseTemp0.07.pth'}
+{'prompt': 'It gives you the option to only train the classifier using a pre-trained contrastive model with this parameter   --contrastive-model-path SupCon_ep10_dropout0.4_lr0.0001_temp0.07_baseTemp0.07.pth', 'response': 'Replacing the .pth portion with whatever the model weight name is in the model/ folder'}
+{'prompt': 'Replacing the .pth portion with whatever the model weight name is in the model/ folder', 'response': 'Reminder we are calling at 3!'}
+{'prompt': 'Reminder we are calling at 3!', 'response': ''}
+{'prompt': 'heres the run that I did last night', 'response': ''}
+{'prompt': '👀', 'response': 'Question is, how does BERT know which label is the most popular : 0'}
+{'prompt': 'are you that you aren’t training it at all', 'response': 'I just added train loss to plot names! Please git pull ester1 if you plan to use that code'}
+{'prompt': 'I just added train loss to plot names! Please git pull ester1 if you plan to use that code', 'response': 'just made another push to use the best model (best val accuracy) instead of final model'}
+{'prompt': 'So essentially it goes down to what the linear classifier is predicting?', 'response': 'All the plots for report are on GitHub in the plots/good/ folder'}
+{'prompt': 'All the plots for report are on GitHub in the plots/good/ folder', 'response': 'Except for SimCLR'}
+{'prompt': 'Except for SimCLR', 'response': 'lowering temperature and increasing input-classifier-dim seems to increase test accuracy for SimCLR!'}
+{'prompt': 'How did you get rid of the cuda memory error, I’m been getting ~50% by playing with batch sizes', 'response': 'You’ll need to set the batch size to something less than 1000'}
+{'prompt': 'You’ll need to set the batch size to something less than 1000', 'response': '512 still works'}
+{'prompt': '512 still works', 'response': 'Bigger batch size will cause cuda out of memory error'}
+{'prompt': 'Bigger batch size will cause cuda out of memory error', 'response': 'If you use node 30 on DSMLP you get a GPU with more GB of memory'}
+{'prompt': 'If you use node 30 on DSMLP you get a GPU with more GB of memory', 'response': 'oo highest I got so far is 67.48%'}
+{'prompt': 'SimCSE is using dropout rate of 0.1, and from the doc I see that Ester has tried that', 'response': 'side note! rn we use the cosine annealing scheduler for the classifier so the learning rate will decrease over the epochs'}
+{'prompt': 'side note! rn we use the cosine annealing scheduler for the classifier so the learning rate will decrease over the epochs', 'response': 'we should still try different starting learning rates tho!'}
+{'prompt': 'we should still try different starting learning rates tho!', 'response': 'or even different schedulers'}
+{'prompt': 'paper 1: ', 'response': "I'm trying SGD optimizer for the contrastive training loop"}
+{'prompt': '@Ester Tsai just confirming, we are going with custom 1&3 right?', 'response': "yeah let's do that if you guys are down!"}
+{'prompt': 'yeah sounds good to me', 'response': "@Jeremy Tow@Jonathan Cheung@Samuel Chu How's progress?"}
+{'prompt': '@Ester Tsai do you also get very low contrastive loss? like 0.0', 'response': 'yes'}
+{'prompt': 'ok so we took care of item2. I will work on item1', 'response': 'I see! That makes so much sense!'}
+{'prompt': "and classifier input dim has to be 768, since it is taking the encoder's embeddings when we are doing SimCLR", 'response': 'Yep that’s right'}
+{'prompt': 'hahaha high five, been there, done that, i was debugging for like 2 hours', 'response': "that's great!"}
+{'prompt': "i'm mostly testing 2 hyperparameters now 1. supcon-linear-head-dim 2. hidden-dim (of the classifier, because we have been using the default 10, so its going 768 -> 10 -> 60)", 'response': 'OHH REALLY'}
+{'prompt': 'OHH REALLY', 'response': 'I thought hidden dim isn’t used for some reason'}
+{'prompt': 'It’s a lot of args going on 😂', 'response': 'O DANG you’re right'}
+{'prompt': 'O DANG you’re right', 'response': 'It’s being used by Classifier class'}
+{'prompt': 'It’s being used by Classifier class', 'response': 'OOPS'}
+{'prompt': 'Yeah no worries, I only realized that very much later, the 71% just now is with hidden dim 128 (for Classifier), and sup con linear head dim 128 (for SupConModel)', 'response': 'the linear head dim can go pretty high, like 3000'}
+{'prompt': 'True true!', 'response': 'btw I forgot to share earlier! but if you want the DSMLP GPU to have a high time limit (24 hours instead of 6 hours), you can run these commands in the terminal before your GPU launch scrupt'}
+{'prompt': 'btw I forgot to share earlier! but if you want the DSMLP GPU to have a high time limit (24 hours instead of 6 hours), you can run these commands in the terminal before your GPU launch scrupt', 'response': 'export K8S_PRIORITY_CLASS_NAME=normal export K8S_TIMEOUT_SECONDS=86400  export K8S_BYPASS_TIMEOUT_LIMIT=yes'}
+{'prompt': 'Let me finish the training', 'response': 'yuh please send the command line'}
+{'prompt': 'though idk if its sketch', 'response': 'what did you modify it to?'}
+{'prompt': 'what did you modify it to?', 'response': 'args.embed_dim will have to be 768'}
+{'prompt': 'Niceeee we can take a look at your code and see if it’s just naming differences which we can always adjust later', 'response': "btw for CrossEntropyLoss(reduction='sum'), it makes the cross entropy loss return the sum instead of the mean for each batch, so we can divide by total number of data points and get the mean over the whole set"}
+{'prompt': "btw for CrossEntropyLoss(reduction='sum'), it makes the cross entropy loss return the sum instead of the mean for each batch, so we can divide by total number of data points and get the mean over the whole set", 'response': "if we removed the reduction='sum', it'll be hard to calculate loss consistently"}
+{'prompt': 'OHHHH Okok we should put it back then, Soz didn’t think that far', 'response': "haha I tried 10000 once and might've gotten CUDA out of memeory"}
+{'prompt': 'Pushing the limits we like', 'response': "OOOO I got good results similar to jcheung's"}
+{'prompt': "OOOO I got good results similar to jcheung's", 'response': 'python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR'}
+{'prompt': 'Yooooooooooo', 'response': 'the epochs can be lower and probably still perform the same'}
+{'prompt': 'the epochs can be lower and probably still perform the same', 'response': '82.92%'}
+{'prompt': 'i made my branch but it looks like ester branch from a week ago, im a brnach noob does anyone know how to update it', 'response': 'plot looks reasonable'}
+{'prompt': 'Create a pull request from Ester to ur branch', 'response': 'YUH thanks to your important fixes XD'}
+{'prompt': 'Well, there’s also brute force, download the py files and upload it, almost guaranteed to work always 🤣 when there’s too many merge conflicts I just brute force hahaha', 'response': 'o wait ester 1 is not updated'}
+{'prompt': 'o wait ester 1 is not updated', 'response': 'let me do that rn'}
+{'prompt': "I had merge conflict so I couldn't properly push my code lolol I ended up copy pasting my changes into ester1", 'response': "I'm rerunning all the other models after the code fix, but I'm down to just use what we already have on the report to save time changing everything out"}
+{'prompt': "I'm rerunning all the other models after the code fix, but I'm down to just use what we already have on the report to save time changing everything out", 'response': 'This plot is from python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR'}
+{'prompt': 'This plot is from python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR', 'response': 'I put it in the figures folder for Overleaf but feel free to replace it if something better comes up'}
+{'prompt': 'I put it in the figures folder for Overleaf but feel free to replace it if something better comes up', 'response': '82.92% test acc'}
+{'prompt': '82.92% test acc', 'response': 'New result for supcon loss: 88.9% at epoch 3'}
+{'prompt': 'Noiceeee', 'response': '83.15% SimCLR'}
+{'prompt': 'I can fill in the values in the chart and in the abstract then', 'response': 'I have a better plot possibly'}
+{'prompt': 'I have a better plot possibly', 'response': 'Let me update it on overleaf rn'}
+{'prompt': 'Let me update it on overleaf rn', 'response': 'After fixing our code, the baseline is mega good'}
+{'prompt': 'After fixing our code, the baseline is mega good', 'response': '89%'}
+{'prompt': '89%', 'response': 'No other model gets better than baseline'}
+{'prompt': 'No other model gets better than baseline', 'response': 'Should we keep our old set of plots to save time or hyperparameter tune all the models until they are optimized?'}
+{'prompt': 'I’m fine with keeping out old set', 'response': 'The Discussion section still has many blanks. Please help fill it out! I might go to OH at 5pm to ask questions'}
+{'prompt': 'The Discussion section still has many blanks. Please help fill it out! I might go to OH at 5pm to ask questions', 'response': "I've at least updated the SupCon and SimCLR plots, but not yet the other ones. I'm also down to keep the other ones the same since we've already written a lot about them. But I also have the new plots after the code fix available if we want to swap the old ones out."}
+{'prompt': 'is the acc for the fine tuned models very different from the table we have right now?', 'response': 'all are around 88%'}
+{'prompt': 'all are around 88%', 'response': 'not that different'}
+{'prompt': 'if we want, we can embrace the research mindset by reporting the latest results', 'response': 'TRUE'}
+{'prompt': 'do you need help with running any more or you have everything we need already?', 'response': 'I still need help with hyperparameter tuning'}
+{'prompt': 'I still need help with hyperparameter tuning', 'response': 'for custom 3 and custom1and3'}
+{'prompt': 'just saw that you took SimCLR on the report! thank you thank you', 'response': 'done with baseline and custom1'}
+{'prompt': 'These are the new plots that we can use, minus custom3 and custom1and3', 'response': "I'll put them on Overleaf"}
+{'prompt': 'oooh so custom1 itself is slightly tiny bit better than baseline', 'response': 'yeye just got the newest best result from hyperparameter tuning'}
+{'prompt': '^these are the current best custom1 and custom1and3', 'response': "to summarize: I've updated the corresponding report parts for baseline, custom1, and SimCLR. Still waiting on some more SupCon to run for better consistency. Need help on hyperparameter tuning and updating the report for custom3 and custom1and3"}
+{'prompt': 'Do we hv numbers for technique 2 and the combined ones or is it being rerun', 'response': 'These are the current best stats but it is being rerun'}
+{'prompt': 'Also did using the losses rather than the 2 techniques trading faster or was there no significant difference?', 'response': 'Wdym by using the losses?'}
+{'prompt': 'Like do those model train faster in any significant way?', 'response': 'I didn’t keep track of that hmm'}
+{'prompt': 'I didn’t keep track of that hmm', 'response': 'Feel free to track it'}
+{'prompt': 'Feel free to track it', 'response': 'Ester1 should be updated'}
+{'prompt': 'like do we need to commnet on each graph or should this be put in the technique 2 section', 'response': 'We need to comment on each plot right'}
+{'prompt': 'we are meeting at 7pm this Wednesday for final project, right?', 'response': 'Yes'}
+{'prompt': 'I moved the scheduler step out to the epoch loop, and the best val acc is above this here at epoch 5', 'response': 'Ohhhhhh'}
+{'prompt': 'Ohhhhhh', 'response': 'I fixed it once but it didn’t save, so that might be why I missed it when I fixed a second time'}
+{'prompt': 'I fixed it once but it didn’t save, so that might be why I missed it when I fixed a second time', 'response': 'I got good supcon plot'}
+{'prompt': 'Ooohh I seeee okkk thanks!', 'response': 'task=custom1and3 testAcc=0.8907 bestValAcc=0.8942 bestTrainAcc=0.9931 mean_loss=0.0194 ep=20 batch_s=16 drop=0.2 LR=5e-06 hid=128'}
+{'prompt': 'task=custom1and3 testAcc=0.8907 bestValAcc=0.8942 bestTrainAcc=0.9931 mean_loss=0.0194 ep=20 batch_s=16 drop=0.2 LR=5e-06 hid=128', 'response': 'custom1and3 just slightly worse than baseline'}
+{'prompt': 'Is the scheduler step in the epoch loop when u ran them? Just curious if u have changed it locally', 'response': 'oh right!'}
+{'prompt': 'oh right!', 'response': 'need to rerun'}
+{'prompt': '😭🙌🏼', 'response': 'the 5pm TA  is very confused'}
+{'prompt': 'the 5pm TA  is very confused', 'response': 'just quit his OH lol'}
+{'prompt': 'which exact ones need reruns?', 'response': 'all the custom ones'}
+{'prompt': 'all the custom ones', 'response': 'I updated ester1 to fix the scheduler.step'}
+{'prompt': 'these two?', 'response': 'yes, and the combined'}
+{'prompt': 'okok i will run those', 'response': 'custom1, custom3, and custom1and3'}
+{'prompt': 'Ester has a chunk of command lines written in the results doc, you can get some from there and modify as you would like to', 'response': 'task=custom1and3 testAcc=0.8944 bestValAcc=0.8952 bestTrainAcc=0.9997 mean_loss=0.0036 ep=20 batch_s=16 drop=0.2 LR=5e-06 hid=1000'}
+{'prompt': 'task=custom1and3 testAcc=0.8944 bestValAcc=0.8952 bestTrainAcc=0.9997 mean_loss=0.0036 ep=20 batch_s=16 drop=0.2 LR=5e-06 hid=1000', 'response': 'wow lol that little bug fix solved many things'}
+{'prompt': 'i see your log of code that you will run at 520pm, is there any block that is not in the queue now?', 'response': 'SupCon loss is currently worse than the custom ones'}
+{'prompt': 'SupCon loss is currently worse than the custom ones', 'response': "I also haven't gotten to run any custom1 and custom3 commands"}
+{'prompt': 'ok ill do custom1', 'response': "yuh yuh I'm keeping hidden-dim=1000 for all of them"}
+{'prompt': "yuh yuh I'm keeping hidden-dim=1000 for all of them", 'response': 'mostly play around with learning rate and drop rate, but 0.2 seems to be the best?'}
+{'prompt': 'mostly play around with learning rate and drop rate, but 0.2 seems to be the best?', 'response': '0.2 drop rate*'}
+{'prompt': 'okk!', 'response': 'task=custom1 testAcc=0.8914 bestValAcc=0.8957 bestTrainAcc=0.9997 mean_loss=0.0022 ep=19 batch_s=16 drop=0.2 LR=7e-06 hid=1000'}
+{'prompt': 'task=custom1 testAcc=0.8914 bestValAcc=0.8957 bestTrainAcc=0.9997 mean_loss=0.0022 ep=19 batch_s=16 drop=0.2 LR=7e-06 hid=1000', 'response': '^ just got this! lmk if you get somehting higher : D'}
+{'prompt': '^ just got this! lmk if you get somehting higher : D', 'response': 'I got above 89% for all custom models'}
+{'prompt': "^ I'm assuming you meant SimCLR", 'response': 'The best is 89.14%, while custom1and3 is 89.51%'}
+{'prompt': 'The best is 89.14%, while custom1and3 is 89.51%', 'response': 'I’m ok with calling it good enough haja'}
+{'prompt': 'yes agreed', 'response': 'Actually I meant SupCon!'}
+{'prompt': 'oooo', 'response': 'SimCLR is 83.15'}
+{'prompt': 'SimCLR is 83.15', 'response': 'And it’s alright since it’s above 80%'}
+{'prompt': 'yeah', 'response': 'All the plots had been updated!'}
+{'prompt': 'ok i will do supcon now', 'response': 'Do you mean running more of supcon or writing about it in report?'}
+{'prompt': 'Also abstract and intro r up to date', 'response': 'The table and plot are updated!'}
+{'prompt': 'Oh wait I misread the graph lol', 'response': 'Does anyone know what SimCLR stands for lol'}
+{'prompt': 'ok I edited the introduction + expanded on the discussion section and finished the related works section', 'response': 'Wow our Related Works section is stacked'}
+{'prompt': 'Wow our Related Works section is stacked', 'response': 'love that'}
+{'prompt': 'would you like to merge your branch to main @Ester Tsai?', 'response': 'ok!'}
+{'prompt': 'ok!', 'response': "I submitted code, but it'd be helpful if someone git clones the main branch to check if everything works smoothly"}
+{'prompt': "I submitted code, but it'd be helpful if someone git clones the main branch to check if everything works smoothly", 'response': 'haha I dropped in a place for most Piazza posts'}
+{'prompt': 'dang both y’all are on the leaderboard 😂', 'response': '70 contributions is crazy'}
+{'prompt': '70 contributions is crazy', 'response': '8 per week'}
+{'prompt': '8 per week', 'response': 'I asked this question on Piazza:'}
+{'prompt': '@Samuel Chu if the TA answers it, would you like to add whatever we are missing to the report?', 'response': 'I also asked:'}
+{'prompt': 'built different', 'response': 'can you all check on your end what your test accuracy is before training?'}
+{'prompt': 'can you all check on your end what your test accuracy is before training?', 'response': '@Kong Xian Ying @Jeremy Tow @Jonathan Cheung @Samuel Chu ?'}
+{'prompt': '@Kong Xian Ying @Jeremy Tow @Jonathan Cheung @Samuel Chu ?', 'response': 'send in the chat asap haha so we can see if my higher number is just due to random chance'}
+{'prompt': 'send in the chat asap haha so we can see if my higher number is just due to random chance', 'response': 'maybe try a different seed too'}
+{'prompt': 'Jeremy what’s the line you’re running', 'response': 'Doesn’t matter, just run baseline 🤝'}
+{'prompt': 'ok wait i got a 1 percent lol', 'response': 'What matters is that run_eval comes before baseline_train'}
+{'prompt': 'we can prob do some statistical analysis to see how probable that is?', 'response': 'Wow is mine just too cracked of a seed, somehow the two most popular labels happen to be guessed over and over'}
+{'prompt': 'I think my code broke or something my baseline has gets acc of 0.8662', 'response': 'How about Before you run training?'}
+{'prompt': 'Oh lol ok we can go with Jonathan’s number', 'response': 'For the report'}
+{'prompt': 'For the report', 'response': 'Could someone update the table and the Discussion Q2?'}
+{'prompt': 'Could someone update the table and the Discussion Q2?', 'response': 'This is so goofy'}
+{'prompt': "@Kong Xian Ying@Ester Tsai for the photo focal length idea we talked about earlier in person: 24-30 mm: 3k 30-40 mm: 6k 40-55 mm: 2k 55-70 mm: 6k > 70 mm: 400  This is just the number of photos taken with my current camera so I have a lot more but they're harder to find stats on rn. I think it might be better to pull photos from the internet so there is more variety, and maybe supplement that data with mine, if we do go through with this idea  link to github repo: ", 'response': "oo Jeremy's idea is super cool! Here is another option that seems feasible: train an LSTM to generate text that resembles how we talk in this Messenger chat"}
+{'prompt': 'we could use gpt model too maybe', 'response': 'I can download all of my chat data for a specific time range. Every chat is a different file'}
+{'prompt': 'Article that we can refer to for this task: ', 'response': 'typo here lol'}
+{'prompt': 'typo here lol', 'response': 'I can fix and resubmit'}
+{'prompt': '', 'response': ''}
+{'prompt': 'Wow this is promising', 'response': '1 epoch and only 10 sequences of 30 tokens haha'}
+{'prompt': 'Jeremy: because python Jonathan: Seems calling Can calendar pretty Seems item1 epoch Sunday. keep args.embed_dim might Ester is the signs y’all 1. classifier for for ester easier model to. Jonathan: Discussion are these is   Winfrey:   Winfrey: for  Ester: loop its aren’t   Ester: Actually YOOOOOOOOOOOOOOOO are Ester: been in I   Winfrey: All   Ester: 0.07 aren’t and   Ester: of Winfrey: Winfrey: work that is yuh epoch i', 'response': '"because python"'}
+{'prompt': '"because python"', 'response': '"work that is yuh"'}
+{'prompt': '🤫🧏\u200d♂️', 'response': 'keep sending texts and we will have better data 😳😳'}
+{'prompt': '😂', 'response': "Can one of you guys download your facebook messenger data and upload the json file for this groupchat to the github repo? I can't download the 3 month one for some reason"}
