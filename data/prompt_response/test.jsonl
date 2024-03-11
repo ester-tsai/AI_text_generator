@@ -1,0 +1,10 @@
+{"prompt": "lol yeah", "response": "so fast!! \ud83e\udd72", "user": "Kong Xian Ying"}
+{"prompt": "i got good supcon plot", "response": "ooohh i seeee okkk thanks!", "user": "Kong Xian Ying"}
+{"prompt": "which branch should i pull?", "response": "ester2", "user": "Kong Xian Ying"}
+{"prompt": "ok i push the best model to branch ester2, path is checkpoint/best_0219", "response": "tysm", "user": "Jeremy Tow"}
+{"prompt": "so now the songrnn forward returns output, _ instead of just output", "response": "got it!", "user": "Ester Tsai"}
+{"prompt": "adamw lr=1e-3?", "response": "yupp everything else the same", "user": "Kong Xian Ying"}
+{"prompt": "yeah :0  it'll need to be under 200", "response": "oh oop", "user": "Jeremy Tow"}
+{"prompt": "yup!", "response": "i\u2019ll need to resubmit it lolol i made some changes", "user": "Ester Tsai"}
+{"prompt": "oops i didn\u2019t time it. would it be helpful if i rerun part of it to time it?", "response": "@jeremy tow could you add your plots for the dropout experiments? i think they might be helpful for sam\u2019s parts", "user": "Kong Xian Ying"}
+{"prompt": "ester1 branch has the newest updates", "response": "oh oop im still working on it rn", "user": "Jeremy Tow"}

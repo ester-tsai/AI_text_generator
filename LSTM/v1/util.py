@@ -1,6 +1,6 @@
 import random
 import torch
-from constants import *
+from v1.constants import *
 import matplotlib.pyplot as plt
 import os
 import numpy as np

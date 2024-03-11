@@ -1,0 +1,400 @@
+{"prompt": "it becomes man for em sometimes too, especially when temperature is lower than 0.01", "response": "because if it is taking classifier input dim, it'll always be 768, and the linear is doing 768 -> 768, which is not really meaningful", "user": "Kong Xian Ying"}
+{"prompt": "i got it yeah!", "response": "ok i see it now!", "user": "Kong Xian Ying"}
+{"prompt": "no no, not at all", "response": "please check if it\u2019s good", "user": "Ester Tsai"}
+{"prompt": "classifier or supcon?", "response": "i mean the mean train loss", "user": "Jonathan Cheung"}
+{"prompt": "i have 200 epochs left on the rnn run and after that i\u2019ll be finished i think", "response": "i ran the rnn earlier actually! but you can verify the results with mine", "user": "Ester Tsai"}
+{"prompt": "interesting, first time for me, but good to know!", "response": "not sure what\u2019s the solution\ud83e\udd7a", "user": "Ester Tsai"}
+{"prompt": "yes! could you run config 250 neurons with sequence length 50?", "response": "adamw lr=1e-3?", "user": "Ester Tsai"}
+{"prompt": "you can argue for that! it's ok if it didn't show up in the report", "response": "uhh shuld i directly send an email or should we create a doc or smth and then send everything all at once", "user": "Jeremy Tow"}
+{"prompt": "\ud83d\udc40", "response": "question is, how does bert know which label is the most popular : 0", "user": "Ester Tsai"}
+{"prompt": "all the plots had been updated!", "response": "ok i will do supcon now", "user": "Kong Xian Ying"}
+{"prompt": "^ if anyone would like to test it", "response": "thank you!", "user": "Kong Xian Ying"}
+{"prompt": "i'm trying sgd optimizer for the contrastive training loop", "response": "@ester tsai just confirming, we are going with custom 1&3 right?", "user": "Kong Xian Ying"}
+{"prompt": "also our current val loss is ok! we can move on to hyperparameter tuning,. i;ll start that tonight", "response": "yayyy!! thank you!!", "user": "Kong Xian Ying"}
+{"prompt": "i did the abstract too", "response": "also, not exactly sure about the metric iou but now i\u2019m not sure if it can be expressed in percentage", "user": "Kong Xian Ying"}
+{"prompt": "i wonder how it knows what the context is if i do that", "response": "there\u2019s the hidden state that saves the context", "user": "Kong Xian Ying"}
+{"prompt": "yes", "response": "i'm thinking if it is the classifier that's not learning", "user": "Kong Xian Ying"}
+{"prompt": "for custom 3 and custom1and3", "response": "just saw that you took simclr on the report! thank you thank you", "user": "Kong Xian Ying"}
+{"prompt": "@ester tsai do you also get very low contrastive loss? like 0.0", "response": "yes", "user": "Ester Tsai"}
+{"prompt": "i'll start on the report", "response": "great! i\u2019ll join u on the report tomorrow!", "user": "Kong Xian Ying"}
+{"prompt": "wanna send it rn haha i'll run it along with my other string of commands", "response": "oh and push ur code we can just use urs", "user": "Kong Xian Ying"}
+{"prompt": "it's very slow oop", "response": "no i don\u2019t think so, the forum that i read says it\u2019s just old version stuffs", "user": "Kong Xian Ying"}
+{"prompt": "jk it's slower for me", "response": "ahh cause it\u2019s on cpu?", "user": "Kong Xian Ying"}
+{"prompt": "and it\u2019s alright since it\u2019s above 80%", "response": "yeah", "user": "Kong Xian Ying"}
+{"prompt": "so i can only work on one project at a time", "response": "ohh i see i seeeee", "user": "Kong Xian Ying"}
+{"prompt": "yea its sitting in my computer next to me rn lol", "response": "when u said u have one, i was thinking that you actively rent/pay on demand from like amazon", "user": "Kong Xian Ying"}
+{"prompt": "hmmm let me go through the code and check", "response": "maybe in util iou np.nanmean can be done on a specific dimension", "user": "Kong Xian Ying"}
+{"prompt": "ester voted for \"discussion - baseline\" and 1 other option in the poll.", "response": "kong voted for \"discussion - improving on basline\" and 1 other option in the poll.", "user": "Kong Xian Ying"}
+{"prompt": "okok could i have your modified basic_fcn file haha", "response": "ester do u plan to push ur code to master? the seed and plot that u added to each train file", "user": "Kong Xian Ying"}
+{"prompt": "ok yea i'll make it", "response": "oh yeaaaah definitely mention this, cause for pa1 both me and ester worked on some parts that are the same and we said something like we both coded this part and we ended up taking xx\u2019s version", "user": "Kong Xian Ying"}
+{"prompt": "args.embed_dim will have to be 768", "response": "it was modifed to that, it was args.classifier_input_dim", "user": "Jonathan Cheung"}
+{"prompt": "wifi matters a lot  hahaha", "response": "i'm training on cpu oops", "user": "Ester Tsai"}
+{"prompt": "sure!", "response": "good work!", "user": "Kong Xian Ying"}
+{"prompt": "i can also do experimentation bc i\u2019m doing 5a", "response": "experimentation (report) i\u2019ll do 5c unet", "user": "Kong Xian Ying"}
+{"prompt": "ah can we keep it at 3? i\u2019m at work until 3pm and i have a consultation at the moment", "response": "ok!", "user": "Ester Tsai"}
+{"prompt": "i haven\u2019t tried running the model yet so", "response": "it shouldn\u2019t be large tho", "user": "Ester Tsai"}
+{"prompt": "oh yeah this is the thing that i\u2019m not sure", "response": "i think they wanted it uploaded seperately? i vaguely remember reading about this somewhere", "user": "Jeremy Tow"}
+{"prompt": "i\u2019ll implement the training and validation plot for report results section", "response": "ok sure, thanks!", "user": "Kong Xian Ying"}
+{"prompt": "not the actual repo on my computer", "response": "well, there\u2019s also brute force, download the py files and upload it, almost guaranteed to work always \ud83e\udd23 when there\u2019s too many merge conflicts i just brute force hahaha", "user": "Kong Xian Ying"}
+{"prompt": "yeah does take a while, i think datahub might be faster but not really too significant? i haven\u2019t really timed it properly. anyway, if we train the full 260 epochs each time, we can probably only do like 3-4 rounds per person per day (for the amount of time that we are awake \ud83d\ude2c", "response": "if it takes around 2 hrs for datahub then its like twice as fast lol mb i'll switch", "user": "Jeremy Tow"}
+{"prompt": "so i just downloaded the zip file lol", "response": "maybe make a new branch haha", "user": "Ester Tsai"}
+{"prompt": "samuel chu said he tried and it wasn\u2019t very different", "response": "okkk double checking the architecture now", "user": "Kong Xian Ying"}
+{"prompt": "wow this is promising", "response": "1 epoch and only 10 sequences of 30 tokens haha", "user": "Ester Tsai"}
+{"prompt": "i\u2019m running rn after moving the scheduler update thing into the epoch for loop rather than batch", "response": "yup this too", "user": "Kong Xian Ying"}
+{"prompt": "yes, could you check if 5a's discussion mentions the loss plot and the segmentation visual", "response": "still need to add something about the segmentation visual", "user": "Ester Tsai"}
+{"prompt": "yes agreed", "response": "actually i meant supcon!", "user": "Ester Tsai"}
+{"prompt": "there was a piazza post that said we\u2019re not moving the midterm i think", "response": "yupp ok sounds good!! u did parts 1-3 this week and i\u2019m very thankful for that!!", "user": "Kong Xian Ying"}
+{"prompt": "ok thats fine", "response": "\"provide their abc notation and music representation from <url>\"", "user": "Jeremy Tow"}
+{"prompt": "@kong xian ying @jeremy tow @jonathan cheung are you all free to call tomorrow at 9am to check in for pa2?", "response": "yes!", "user": "Kong Xian Ying"}
+{"prompt": "ok done!", "response": "ok ill usbmit now", "user": "Jonathan Cheung"}
+{"prompt": "ok", "response": "oh thank you!!", "user": "Kong Xian Ying"}
+{"prompt": "do you mean running more of supcon or writing about it in report?", "response": "oh wait actually", "user": "Kong Xian Ying"}
+{"prompt": "did you get this from the line   loss = criterion(outputs, labels) ?", "response": "i used my own code though it has similar sctructure to the 4 questions", "user": "Jonathan Cheung"}
+{"prompt": "for unet ?", "response": "yea", "user": "Jeremy Tow"}
+{"prompt": "thank you!", "response": "i'll run it, i need a break anyways", "user": "Jeremy Tow"}
+{"prompt": "i\u2019m guessing it\u2019s bc the pth model file is large and bc there\u2019s some byte error", "response": "interesting.. so u get an error when running the model?", "user": "Kong Xian Ying"}
+{"prompt": "tyty", "response": "not submitted yet", "user": "Ester Tsai"}
+{"prompt": "the loss ones?", "response": "yes", "user": "Kong Xian Ying"}
+{"prompt": "ok i can try your branch as well", "response": "ta said i can try adding", "user": "Ester Tsai"}
+{"prompt": "is the report the most up to date?", "response": "i need to do abstract and intro rn", "user": "Jonathan Cheung"}
+{"prompt": "@jeremy tow could you push your train_5_b code sometime today when you're done?", "response": "yep sounds good", "user": "Jeremy Tow"}
+{"prompt": "nice job", "response": "all good, thanks for the good work everyone!! get some good rest for now \ud83d\ude34", "user": "Kong Xian Ying"}
+{"prompt": "yesss agreed!", "response": "@jeremy tow could you push your train_5_b code sometime today when you're done?", "user": "Ester Tsai"}
+{"prompt": "create a pull request from ester to ur branch", "response": "yuh thanks to your important fixes xd", "user": "Ester Tsai"}
+{"prompt": "i tried sgd as well and its worse", "response": "interestinggggg", "user": "Kong Xian Ying"}
+{"prompt": "i\u2019m thinking latest by 6pm today, but i\u2019m flexible", "response": "i plan to put up the plots after we finalize our models ye", "user": "Ester Tsai"}
+{"prompt": "with very little training", "response": "wow this is promising", "user": "Kong Xian Ying"}
+{"prompt": "okkk", "response": "oh how many neurons are u using", "user": "Jeremy Tow"}
+{"prompt": "oops", "response": "yeah no worries, i only realized that very much later, the 71% just now is with hidden dim 128 (for classifier), and sup con linear head dim 128 (for supconmodel)", "user": "Kong Xian Ying"}
+{"prompt": "also i don't wanna see you guys lose points for not coding! i think it's worth arguing that you guys weren't able to code for pa3 because of unfixable cudnn version incompatibility issue, and that you will make sure to code for pa4. this is what our prof wrote for pa3 feedback: \"hi folks - based on your description of who did what, it sounds like jeremy just did hyperparameter tuning, jonathan only helped with analysis, and samuel just helped write the report. you know that we expect everyone to code! please argue with me in a regrade request as to why i should not give samuel 50% of the points, jonathan 70%, and jeremy 80% of the points. in general, i highly recommend using pair or triple programming, trading of who is the driver to avoid this in the future.\"", "response": "oh ummmm that\u2019s kind awkward i kinda did the baseline too i just didn\u2019t want to write that in my contributions cuz my work for that didn\u2019t show up in the report", "user": "Jeremy Tow"}
+{"prompt": "i\u2019m trying drop-rate 0.1 for 10 epochs", "response": "so it does work, but i have to keep learning rate below 1.5e-4 (1.5e-4 does not work, but 1.1e-4 works, still testing more)", "user": "Ester Tsai"}
+{"prompt": "train: 11514 counter({50: 810, 45: 639, 13: 573, 32: 566, 12: 555, 49: 544, 22: 503, 44: 418, 33: 354, 0: 350, 30: 312, 47: 283, 36: 283,26: 267, 42: 227, 9: 207, 59: 198, 58: 193, 6: 190, 48: 182, 21: 177, 19: 173, 53: 164, 57: 154, 40: 153, 4: 152, 20: 150, 10: 142, 16: 135, 23: 130, 2: 127, 17: 127, 1: 125, 56: 124, 3: 122, 11: 117, 43: 113, 51: 112, 14: 110, 46: 110, 27: 108, 54:100, 34: 93, 52: 78, 39: 78, 31: 76, 18: 76, 25: 72, 55: 70, 15: 54, 8: 52, 35: 52, 38: 52, 28: 51, 24: 48, 5: 25, 41: 22, 29: 18, 7: 14, 37: 4}) train acc: 0.0672 | dataset split train size: 11514  validation: 2033  counter({50: 131, 13: 126, 45: 123, 12: 105, 32: 102, 49: 90, 22: 82, 44: 73, 0: 64, 33: 63, 26: 55, 47: 50, 59: 50, 30: 47,36: 46, 9: 41, 53: 37, 42: 36, 20: 35, 58: 34, 10: 32, 48: 31, 19: 31, 57: 30, 54: 27, 6: 26, 21: 25, 2: 25, 3: 24, 4: 24, 1: 22, 51: 22, 11: 22, 16: 20, 34: 19, 23: 19, 27: 18, 40: 17, 31: 17, 43: 16, 17: 16, 46: 15, 25: 15, 52: 14, 56: 14, 39: 13,14: 12, 18: 12, 55: 12, 38: 9, 28: 8, 35: 8, 24: 7, 41: 5, 8: 5, 15: 5, 5: 2, 7: 2, 37: 2}) validation acc: 0.059 | dataset split validation size: 2033   test: 2974 counter({50: 209, 45: 176, 12: 169, 13: 156, 49: 141, 32: 126, 22: 124, 44: 119, 33: 114, 0: 88, 47: 81, 9: 72, 36: 72, 30: 67, 58: 63, 26: 57, 53: 52, 42: 51, 59: 51, 40: 43, 6: 43, 48: 41, 20: 41, 21: 39, 10: 39, 1: 36, 43: 36, 56: 36, 3: 35, 57: 35, 2: 35, 51: 35, 23: 34, 46: 32, 19: 31, 18: 27, 34: 26, 4: 26, 17: 26, 27: 25, 39: 25, 54: 23, 16: 22, 52: 21, 31: 21, 55:20, 25: 19, 8: 18, 38: 15, 11: 15, 14: 13, 15: 12, 35: 11, 24: 10, 29: 6, 28: 6, 7: 4, 41: 3, 5: 1}) test acc: 0.0689 | dataset split test size: 2974", "response": "yeah looks like answering this = answer to that question", "user": "Kong Xian Ying"}
+{"prompt": "what command line prompt do you use? @jeremy tow", "response": "i tried the one that you sent", "user": "Jeremy Tow"}
+{"prompt": "i\u2019m thinking if it\u2019s overfitting", "response": "yea :(", "user": "Jeremy Tow"}
+{"prompt": "oh no worries, i think ester got u", "response": "i got it yeah!", "user": "Ester Tsai"}
+{"prompt": "restarting the server used to help, but not this time", "response": "smaller batch size usually works for me", "user": "Kong Xian Ying"}
+{"prompt": "fixed ty", "response": "np! thanks", "user": "Kong Xian Ying"}
+{"prompt": "how long does it take for you?", "response": "like one hour", "user": "Kong Xian Ying"}
+{"prompt": "though idk if its sketch", "response": "what did you modify it to?", "user": "Ester Tsai"}
+{"prompt": "and yeah no test loss, not given in the starter code", "response": "do you know if we are allowed to change other configs like seq_size", "user": "Ester Tsai"}
+{"prompt": "any progress on part 5?", "response": "nothing significant yet, gonna work on it later tonight", "user": "Jeremy Tow"}
+{"prompt": "actually i meant supcon!", "response": "oooo", "user": "Kong Xian Ying"}
+{"prompt": "hahaha that\u2019s very cool", "response": "oh man i could never aws is so expensive", "user": "Jeremy Tow"}
+{"prompt": "what time works for you?", "response": "like in 5 mknjtes", "user": "Jeremy Tow"}
+{"prompt": "oooo", "response": "simclr is 83.15", "user": "Ester Tsai"}
+{"prompt": "skulling", "response": "oh lol", "user": "Kong Xian Ying"}
+{"prompt": "anything that has to do with path is very painful", "response": "does that mean i'm not using cuda tho?", "user": "Ester Tsai"}
+{"prompt": "true", "response": "yeah, i'm kind of leaning towards reporting our final and most consistent results", "user": "Kong Xian Ying"}
+{"prompt": "we'll see if it's gonna be good!", "response": "and yeah this is interesting, i got 0.062 iou only after changing the kernel size in unet", "user": "Kong Xian Ying"}
+{"prompt": "ooo were there any notes that the converter flagged as invalid or unrecognized notes?", "response": "so many", "user": "Jeremy Tow"}
+{"prompt": "oh btw did we submit the regrade request yet and if not shuld i do it", "response": "feel free to try on your own or improve on mine!", "user": "Ester Tsai"}
+{"prompt": "its kinda not good", "response": "i\u2019m thinking if it\u2019s overfitting", "user": "Kong Xian Ying"}
+{"prompt": "so it kinda overwrites the 4c one", "response": "oh no worries, i think ester got u", "user": "Kong Xian Ying"}
+{"prompt": "none of the supcon uses the custom techniques, could we say that if the discussion asks us to discuss the results?", "response": "i\u2019m updating the clr chart and doing the description of the plot - do we have updated params and values for that?", "user": "Jonathan Cheung"}
+{"prompt": "hmmm since yesterday night i've been having a problem where the terminal won't run at all lol, though it did run in the afternoon when i tested it. right now, it's just stuck and interrupting does work as well, has anyone faced this problem before? it's the same for me both on datahub and using ssh", "response": "yes that happens sometimes", "user": "Ester Tsai"}
+{"prompt": "ohh i pushed a small fix for train.py last weekend so u might need to check with git pull", "response": "okok!", "user": "Ester Tsai"}
+{"prompt": "and i\u2019ll generate the plots for hyperparamter tuning using sequence length of 50 and all else constant except for the specific hyperparamter , i\u2019ll take the neurons config, and would you like to take the dropout configs?", "response": "okok", "user": "Jeremy Tow"}
+{"prompt": "sure!", "response": "ig its like the intersection is x percent of the union?", "user": "Jeremy Tow"}
+{"prompt": "i think the culprit is the drop rate..?  hahaha", "response": "!!!!!!!!!!", "user": "Ester Tsai"}
+{"prompt": "something wrong with the cirterion function", "response": "are you using your own code or winfrey\u2019s base code?", "user": "Ester Tsai"}
+{"prompt": "ok i see it now!", "response": "i\u2019m waiting to get one more plot updated potentially", "user": "Ester Tsai"}
+{"prompt": "yeah no worries, i only realized that very much later, the 71% just now is with hidden dim 128 (for classifier), and sup con linear head dim 128 (for supconmodel)", "response": "the linear head dim can go pretty high, like 3000", "user": "Ester Tsai"}
+{"prompt": "i mean the mean train loss", "response": "if you are referring to the mean train loss of supcon (the first training loop), it always reaches 0.0 within 10 epochs for me", "user": "Kong Xian Ying"}
+{"prompt": "in the submission", "response": "i feel like it kinda reads like we need the music representation tho", "user": "Jeremy Tow"}
+{"prompt": "oh as in, one image is segmented into 16 pieces?", "response": "yea", "user": "Jeremy Tow"}
+{"prompt": "what\u2019s the magic parameter", "response": "let me finish the training", "user": "Jonathan Cheung"}
+{"prompt": "the last hyperparameter tuning will be ready shortly! 48 epochs left \ud83d\ude2a", "response": "i have 200 epochs left on the rnn run and after that i\u2019ll be finished i think", "user": "Jeremy Tow"}
+{"prompt": "ok ill usbmit now", "response": "thank you jonathan!", "user": "Kong Xian Ying"}
+{"prompt": "thank you very much!", "response": "im almost done with my part, just generating a bunch of songs with different temperatures to get statistics", "user": "Jeremy Tow"}
+{"prompt": "oh how", "response": "unset ld_library_path", "user": "Ester Tsai"}
+{"prompt": "epochs 260", "response": "oh wait no im stupid i ran it with 30 instead of 200 i forgot to update the config file fully uhhhhhhh", "user": "Jeremy Tow"}
+{"prompt": "it's also helpful if anyone wants to try stochastic weight averaging (swa) and frequent evaluation for part 4", "response": "i\u2019ll try", "user": "Jonathan Cheung"}
+{"prompt": "weird yeah \ud83e\udee3", "response": "ok i\u2019m back home, is there anything i need or finish up", "user": "Jonathan Cheung"}
+{"prompt": "do we want to set a cutoff time for the models? for tomorrow.", "response": "jonathan and i both tried 5a but couldn\u2019t get it better than 6.6%", "user": "Ester Tsai"}
+{"prompt": "yep right after i finish running the temperature expirements", "response": "also i\u2019ll push ester2 to main at 8pm, lmk before that if there\u2019s any pending code changes", "user": "Kong Xian Ying"}
+{"prompt": "okok! you could still write the report using the plot results on my branch if needed \ud83d\udc4c\ud83d\udc4c", "response": "okay is there stuff that you tested that is not on the report already?", "user": "Samuel Chu"}
+{"prompt": "ok thanks!", "response": "actually not understanding the segmentation visual, r the blobs supposed to look like the shape of the ppl?", "user": "Jonathan Cheung"}
+{"prompt": "i\u2019m looking through it again but feel free to submit", "response": "wait sorry", "user": "Kong Xian Ying"}
+{"prompt": "oh ok i\u2019ll start working on it rn", "response": "i\u2019ll update code to do full validation set after and see if there\u2019s a big difference", "user": "Ester Tsai"}
+{"prompt": "if we removed the reduction='sum', it'll be hard to calculate loss consistently", "response": "also, very good call on this ester, val acc is already above 80% at epoch 3 with 1200 linear head dim", "user": "Kong Xian Ying"}
+{"prompt": "what command do you run on the terminal", "response": "mb try a different server?", "user": "Jeremy Tow"}
+{"prompt": "niceeeeee wow i\u2019m so glad we worked this out together \ud83d\ude0d\ud83d\ude0d\ud83d\ude0d", "response": "i made my branch but it looks like ester branch from a week ago, im a brnach noob does anyone know how to update it", "user": "Jonathan Cheung"}
+{"prompt": "i updated the print statement to be more clear too, so would you guys like to make a branch of ester1 and work on that? (ignore ester2)", "response": "yes i'll merge with your branch in a bit, working on the custom model right now. thank you ester!!", "user": "Kong Xian Ying"}
+{"prompt": "no, gpu", "response": "im getting the same error even on gpu lol", "user": "Jonathan Cheung"}
+{"prompt": "gc.collect() torch.cuda.empty_cache()", "response": "ooo okok", "user": "Kong Xian Ying"}
+{"prompt": "oh okok", "response": "jeremy what\u2019s the line you\u2019re running", "user": "Jonathan Cheung"}
+{"prompt": "oooh so custom1 itself is slightly tiny bit better than baseline", "response": "yeye just got the newest best result from hyperparameter tuning", "user": "Ester Tsai"}
+{"prompt": "the batch size can be understood as a trade-off between accuracy and speed. large batch sizes can lead to faster training times but may result in lower accuracy and overfitting, while smaller batch sizes can provide better accuracy, but can be computationally expensive and time-consuming.", "response": "i seeee", "user": "Kong Xian Ying"}
+{"prompt": "so there\u2019s gonna be some way we need to figure out to control/process them before putting into the converter", "response": "for generate.py, is it correct that the model should only take in the most recent prediction as the input?", "user": "Ester Tsai"}
+{"prompt": "using datahub tho. i could try ssh", "response": "piazza someone said they created a new conda environment and installed pytorch and it worked", "user": "Ester Tsai"}
+{"prompt": "done! sorry for cutting it so close!", "response": "thanks hehe", "user": "Kong Xian Ying"}
+{"prompt": "so it does work, but i have to keep learning rate below 1.5e-4 (1.5e-4 does not work, but 1.1e-4 works, still testing more)", "response": "ooohh", "user": "Kong Xian Ying"}
+{"prompt": "oh oop", "response": "oooh okok! anywhere that u suspect is not doing the job properly?", "user": "Kong Xian Ying"}
+{"prompt": "(this is not pushed to the master branch since i'll just experiment on my own branch first!", "response": "yup yupp!", "user": "Kong Xian Ying"}
+{"prompt": "i can push the 5a code if thats fine with everyone", "response": "your branch is ok! i\u2019ll just copy paste for ease lol", "user": "Ester Tsai"}
+{"prompt": "ok wait i got a 1 percent lol", "response": "what matters is that run_eval comes before baseline_train", "user": "Ester Tsai"}
+{"prompt": "ok", "response": "they r different in lstm", "user": "Kong Xian Ying"}
+{"prompt": "coooools i\u2019ll keep it running in the background while i do other stuffs  hahaha", "response": "what is this?", "user": "Jonathan Cheung"}
+{"prompt": "ok ill do custom1", "response": "yuh yuh i'm keeping hidden-dim=1000 for all of them", "user": "Ester Tsai"}
+{"prompt": "i'm gonna work on generate.py for now", "response": "coooools i\u2019ll keep it running in the background while i do other stuffs  hahaha", "user": "Kong Xian Ying"}
+{"prompt": "so close enough??", "response": "im running stats let me give u numbers in a sec", "user": "Jeremy Tow"}
+{"prompt": "we are meeting at 7pm this wednesday for final project, right?", "response": "yes", "user": "Ester Tsai"}
+{"prompt": "the higher the temperature the more errors", "response": "ahahhaha", "user": "Kong Xian Ying"}
+{"prompt": "i filled in the part for cosine annealing for both methods and discussion", "response": "yayyyy! thanks!", "user": "Kong Xian Ying"}
+{"prompt": "i plan to start at 3:30pm!", "response": "okie i can check with you tonight when i start!", "user": "Kong Xian Ying"}
+{"prompt": "so the number might be a little odd", "response": "ohhh ok we are looking at the train files not the util iou right", "user": "Kong Xian Ying"}
+{"prompt": "does anyone know what simclr stands for lol", "response": "a simple framework for learning contrastive learning of visual representations", "user": "Kong Xian Ying"}
+{"prompt": "group name is recurrent for pa3!", "response": "yayay!", "user": "Ester Tsai"}
+{"prompt": "oh thats great", "response": "capstone supremem", "user": "Ester Tsai"}
+{"prompt": "our lstm is a single layer one, so it\u2019s only one lstm", "response": "oh really", "user": "Samuel Chu"}
+{"prompt": "yuppp!", "response": "@ester tsai r u sshing into capstone and using cpu?", "user": "Jonathan Cheung"}
+{"prompt": "^ if anyone wanna help with setting up pa4 report! if not, i can do it in some days", "response": "i\u2019ll do more coding this time around, i\u2019ll have less capstone work", "user": "Jonathan Cheung"}
+{"prompt": "this is so goofy", "response": "i\u2019ll rewrite q2 to say they match", "user": "Jonathan Cheung"}
+{"prompt": "it says \"request exceeds limit of 1 gpus\" hahaa", "response": "ohhh okay i was wondering if u run it on the same session", "user": "Kong Xian Ying"}
+{"prompt": "i\u2019ll go to office hours tomorrow", "response": "okkk! i\u2019ll probably go too \ud83d\ude05", "user": "Kong Xian Ying"}
+{"prompt": "hmmmm", "response": "but that's what the ta suggested", "user": "Ester Tsai"}
+{"prompt": "yes sir", "response": "val acc 0.83 on 3 epochs", "user": "Jonathan Cheung"}
+{"prompt": "@ester tsai @jeremy tow roughly how long does it take to run?", "response": "< 1 min per epoch", "user": "Jeremy Tow"}
+{"prompt": "i'll create a zoom link", "response": "i normally take a very long time for breakfast  hahaha hahaha hahaha", "user": "Kong Xian Ying"}
+{"prompt": "i think it makes more sense in decimal", "response": "sure!", "user": "Ester Tsai"}
+{"prompt": "and yeah this is interesting, i got 0.062 iou only after changing the kernel size in unet", "response": "changing to what kernel size?", "user": "Ester Tsai"}
+{"prompt": "there\u2019s the hidden state that saves the context", "response": "let me fix something real quick and check again", "user": "Ester Tsai"}
+{"prompt": "oh ummmm that\u2019s kind awkward i kinda did the baseline too i just didn\u2019t want to write that in my contributions cuz my work for that didn\u2019t show up in the report", "response": "you can argue for that! it's ok if it didn't show up in the report", "user": "Ester Tsai"}
+{"prompt": "also idk why yet but im consistently getting iou of 0.49 now", "response": "for unet ?", "user": "Kong Xian Ying"}
+{"prompt": "thinking if we can use our data science capstone\u2019s \ud83e\udd14", "response": "i guess so!", "user": "Ester Tsai"}
+{"prompt": "as in, the current row 1 is accurate", "response": "which branch should i pull?", "user": "Ester Tsai"}
+{"prompt": "i only modified the basic_fcn file", "response": "okok could i have your modified basic_fcn file haha", "user": "Ester Tsai"}
+{"prompt": "or do a double loop in util iou, so   loop through preds, targets:    loop through all classes:    np.nanmean for that particular one pred", "response": "i\u2019ll try double loop", "user": "Ester Tsai"}
+{"prompt": "piazza someone said they created a new conda environment and installed pytorch and it worked", "response": "oh okay. ill try that", "user": "Samuel Chu"}
+{"prompt": "yeah let's do that if you guys are down!", "response": "yeah sounds good to me", "user": "Kong Xian Ying"}
+{"prompt": "also did using the losses rather than the 2 techniques trading faster or was there no significant difference?", "response": "wdym by using the losses?", "user": "Ester Tsai"}
+{"prompt": "1. pull request from ester to ur branch 2. then only push ur code to ur branch", "response": "oh wait im so dumb", "user": "Jonathan Cheung"}
+{"prompt": "yes", "response": "ok could you push it to your branch? i don\u2019t think i see it there just now", "user": "Kong Xian Ying"}
+{"prompt": "i have my own gpu lol", "response": "ohhhhh like u own it?", "user": "Kong Xian Ying"}
+{"prompt": "page breaks?", "response": "try \\newpage", "user": "Kong Xian Ying"}
+{"prompt": "i\u2019m not sure if those bolded characters are identified as unknown", "response": "the bold shows bad syntax (system can't recognize what it wants to do)", "user": "Ester Tsai"}
+{"prompt": "i\u2019m in class rn but i\u2019ll update after i fj ish", "response": "btw if you run out of storage, you can comment out the part of the code in supcon_train in main.py that saves the model weight!", "user": "Ester Tsai"}
+{"prompt": "should we keep our old set of plots to save time or hyperparameter tune all the models until they are optimized?", "response": "i\u2019m fine with keeping out old set", "user": "Jonathan Cheung"}
+{"prompt": "i think so?", "response": "okk", "user": "Kong Xian Ying"}
+{"prompt": "o i fixed it", "response": "oh how", "user": "Kong Xian Ying"}
+{"prompt": "i haven\u2019t started anything after unet. but i\u2019m open to working on 5b / part 4b image augmentations / part 4c imbalanced class", "response": "i\u2019m down to work on those parts too, but i\u2019m not available the rest of today and am currently trying to implement the other code myself to make sure i\u2019m understanding it", "user": "Jonathan Cheung"}
+{"prompt": "messed up a line and my test acc became 0.02 \ud83d\udc80", "response": "hahaha high five, been there, done that, i was debugging for like 2 hours", "user": "Kong Xian Ying"}
+{"prompt": "for my parts yea", "response": "i\u2019m gonna submit for now, if there\u2019s any more changes lmk", "user": "Jonathan Cheung"}
+{"prompt": "can someone double check the requirement here? i might have understood it wrongly but it looks like they asked for the abc notation (which we have) and the music representation/notation (which we don\u2019t have at the moment)", "response": "oh shoot yea i'll add screenshots rn", "user": "Jeremy Tow"}
+{"prompt": "and classifier input dim has to be 768, since it is taking the encoder's embeddings when we are doing simclr", "response": "yep that\u2019s right", "user": "Ester Tsai"}
+{"prompt": "like fully 4 minutes per epoch i think", "response": "i tried 150 and it got too miserable at one point i forgot how long i waited so i just interrupted it  hahaha hahaha hahaha", "user": "Kong Xian Ying"}
+{"prompt": "just added all the plots", "response": "yupp they look perfecto", "user": "Kong Xian Ying"}
+{"prompt": "unset ld_library_path", "response": "oh lol", "user": "Kong Xian Ying"}
+{"prompt": "it\u2019s a lot of args going on  hahaha", "response": "o dang you\u2019re right", "user": "Ester Tsai"}
+{"prompt": "let me do that rn", "response": "ok i pshed to my branch", "user": "Jonathan Cheung"}
+{"prompt": "ok i\u2019m back home, is there anything i need or finish up", "response": "yes, could you check if 5a's discussion mentions the loss plot and the segmentation visual", "user": "Kong Xian Ying"}
+{"prompt": "what\u2019s the lowest val loss so far with hyperparameter tuning?", "response": "baseline is still the best", "user": "Ester Tsai"}
+{"prompt": "is the acc for the fine tuned models very different from the table we have right now?", "response": "all are around 88%", "user": "Ester Tsai"}
+{"prompt": "i tried a bunch of generations and at temp = 2 it was like multiple pages of errors", "response": "right, as it is more creative (or hallucinates more) haha", "user": "Kong Xian Ying"}
+{"prompt": "custom1, custom3, and custom1and3", "response": "ester has a chunk of command lines written in the results doc, you can get some from there and modify as you would like to", "user": "Kong Xian Ying"}
+{"prompt": "niceeee we can take a look at your code and see if it\u2019s just naming differences which we can always adjust later", "response": "btw for crossentropyloss(reduction='sum'), it makes the cross entropy loss return the sum instead of the mean for each batch, so we can divide by total number of data points and get the mean over the whole set", "user": "Ester Tsai"}
+{"prompt": "the pa just came out -- i've created a team called transformative", "response": "aight!", "user": "Ester Tsai"}
+{"prompt": "oh how many neurons are u using", "response": "150", "user": "Kong Xian Ying"}
+{"prompt": "or maybe how does the classifier know which label is the most popular ?", "response": "oh right i forgot to mention this but im prob going to submit the regrade request later today", "user": "Jeremy Tow"}
+{"prompt": "not sure what\u2019s the solution\ud83e\udd7a", "response": "it's okay!! i'll try another node and wait a bit", "user": "Kong Xian Ying"}
+{"prompt": "i can submit?", "response": "the time crunch is real \ud83e\udee3", "user": "Ester Tsai"}
+{"prompt": "sure", "response": "i changed train, val, and test batch size to 4", "user": "Ester Tsai"}
+{"prompt": "good work!", "response": "tysm tysm", "user": "Jeremy Tow"}
+{"prompt": "well like technically its 1 image that is a composite of 16 imgs", "response": "yeah, like 15 different transformations of the same image + the original?", "user": "Kong Xian Ying"}
+{"prompt": "2 per page seems to fit pretty well", "response": "ya i made it smaller but it was before we organize the report", "user": "Kong Xian Ying"}
+{"prompt": "yuh please send the command line", "response": "okieeeee", "user": "Kong Xian Ying"}
+{"prompt": "0.0556 is interesting \u2014 i was using a very different architecture and it also got stuck at that exact number", "response": "this is so mysterious", "user": "Kong Xian Ying"}
+{"prompt": "how\u2019s the new test iou after these improvements?", "response": "still running but for val the highest so far is 0.057 (not great but i\u2019m low-key traumatized by seeing the exact same 0.0556 for the past few hours  hahaha hahaha hahaha", "user": "Kong Xian Ying"}
+{"prompt": "capstone supremem", "response": "honestly, i have never used datahub once", "user": "Kong Xian Ying"}
+{"prompt": "how about before you run training?", "response": "might have switched up a paean to use a diff model lol", "user": "Jonathan Cheung"}
+{"prompt": "ester named the group cse 151b pa3.", "response": "thanks for the name update that\u2019s very thoughtful of you haha", "user": "Kong Xian Ying"}
+{"prompt": "rather than \"optima\"", "response": "yes, but optima means the same thing right", "user": "Ester Tsai"}
+{"prompt": "@jonathan cheung i uploaded all the heatmaps from our best trained model under the figures folder. are you able to see them?", "response": "yeah i can see the figures", "user": "Jonathan Cheung"}
+{"prompt": "i checked that data augmentation should be reproducible. then it's strange why not 4c", "response": "oohh like the random rotation and random crop?", "user": "Kong Xian Ying"}
+{"prompt": "i pushed my results for config_250_neurons.json and added the train and val loss to the report", "response": "gosh it finished?", "user": "Kong Xian Ying"}
+{"prompt": "is everyhting else finalized?", "response": "yes on my end", "user": "Kong Xian Ying"}
+{"prompt": "ohhhhh like u own it?", "response": "its like ever so slightly slower than the datahub ones i think? but like more reliable and i dont have to worry about my connection dropping", "user": "Jeremy Tow"}
+{"prompt": "could you try different parameters?", "response": "yeah", "user": "Jonathan Cheung"}
+{"prompt": "yes!", "response": "yeah", "user": "Jonathan Cheung"}
+{"prompt": "kong voted for \"methods - improving on baseline\" and 2 other options in the poll.", "response": "you voted for \"double check everything before...\" in the poll.", "user": "Jonathan Cheung"}
+{"prompt": "for 100 epochs", "response": "oh me too then", "user": "Ester Tsai"}
+{"prompt": "i will push 4c before 12am! have been fine tuning the hyper parameters, finally got a satisfactory result \ud83d\ude2e\u200d\ud83d\udca8\ud83d\ude34", "response": "yay!", "user": "Ester Tsai"}
+{"prompt": "wdym by using the losses?", "response": "clr and supcon", "user": "Jonathan Cheung"}
+{"prompt": "right, as it is more creative (or hallucinates more) haha", "response": "artists on drugs be like", "user": "Jeremy Tow"}
+{"prompt": "seq length of 50", "response": "woah nice", "user": "Ester Tsai"}
+{"prompt": "personally think that iou greater than 0.07 iou good enough and above 0.10 is great \ud83e\udd23", "response": "ok then", "user": "Jonathan Cheung"}
+{"prompt": "ah that i\u2019m not sure. i thought we are not supposed to change anything in the config until like 5 mins ago a ta said try more epochs", "response": "hmm i suppose instruction said to use seq_size=25~30", "user": "Ester Tsai"}
+{"prompt": "yea :(", "response": "but also getting 2.0 something at epoch 151 is kinda okay ish?", "user": "Kong Xian Ying"}
+{"prompt": "we can prob do some statistical analysis to see how probable that is?", "response": "wow is mine just too cracked of a seed, somehow the two most popular labels happen to be guessed over and over", "user": "Ester Tsai"}
+{"prompt": "i feel like it kinda reads like we need the music representation tho", "response": "ok thats fine", "user": "Jonathan Cheung"}
+{"prompt": "if we want, we can embrace the research mindset by reporting the latest results", "response": "true", "user": "Ester Tsai"}
+{"prompt": "its because my wifi sucks", "response": "wow good to know that wifi actually matters \ud83d\ude05", "user": "Kong Xian Ying"}
+{"prompt": "which exact ones need reruns?", "response": "all the custom ones", "user": "Ester Tsai"}
+{"prompt": "update: winfrey showed me what she did on the capstone gpu, but it still isn't working on my end :| so i think she will try to train a model with new hyperparameters tmr maybe?", "response": "okok! you could still write the report using the plot results on my branch if needed \ud83d\udc4c\ud83d\udc4c", "user": "Ester Tsai"}
+{"prompt": "would anyone like to proofread the report before we submit? i think it'd be nice to have one or two of us go through and standardize our writeup, e.g. past/present tense etc.   i used present tense for most if not all of my parts but i'm good with either past or present.", "response": "ok i can", "user": "Samuel Chu"}
+{"prompt": "oo what was the bug in train.py?", "response": "remember u said u added to songrnn to return x0 or x1", "user": "Kong Xian Ying"}
+{"prompt": "sheesh?????????", "response": "lesgoooo", "user": "Kong Xian Ying"}
+{"prompt": "wait i\u2019m not ready", "response": "what time works for you?", "user": "Ester Tsai"}
+{"prompt": "oh thats a good idea. i think the main thing we would have to figure out would be how to make it different tho", "response": "wdym by different?", "user": "Kong Xian Ying"}
+{"prompt": "i\u2019ve finished running 5a and will update the report with the plots for the results section after my tutor hours", "response": "yeah no problem! thank you!", "user": "Kong Xian Ying"}
+{"prompt": "python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type simclr", "response": "yooooooooooo", "user": "Kong Xian Ying"}
+{"prompt": "main is the same as ester 1 right now", "response": "ooh okkk", "user": "Kong Xian Ying"}
+{"prompt": "over 100 different seeds", "response": "i\u2019ll out that in q2", "user": "Jonathan Cheung"}
+{"prompt": "ohhh good catch!", "response": "true more epochs might help. the validation loss is still decreasing", "user": "Ester Tsai"}
+{"prompt": "does the \u201c93 unique characters\u201d refer to all the possible outputs in abc format for each note?", "response": "yes", "user": "Kong Xian Ying"}
+{"prompt": "i can get on that too after capstone tomorrow! what is left that we need to work on?", "response": "from yesterday, i know we have 4c, 5a and 5b left", "user": "Kong Xian Ying"}
+{"prompt": "forcing new page on new section", "response": "no idea why item doesn\u2019t help", "user": "Ester Tsai"}
+{"prompt": "we still need to write some of discussion section", "response": "yeah for each of the models in 5, need to draw insights from table and visuals", "user": "Kong Xian Ying"}
+{"prompt": "ester voted for \"discussion - experimentation\" in the poll.", "response": "kong voted for \"related work (at least 2 people)\" in the poll.", "user": "Kong Xian Ying"}
+{"prompt": "then i\u2019ll put the 3 that u choose to discuss under results", "response": "ok, i\u2019ll choose 3 between the 0-140 heatmaps", "user": "Jonathan Cheung"}
+{"prompt": "use \\clearpage instead", "response": "is it intentional we made the images smaller?", "user": "Ester Tsai"}
+{"prompt": "i\u2019m getting the same error, you fixed it by switching to capstone stuff?", "response": "so it solves the error but you can only use cpu", "user": "Ester Tsai"}
+{"prompt": "like do those model train faster in any significant way?", "response": "i didn\u2019t keep track of that hmm", "user": "Ester Tsai"}
+{"prompt": "82.92%", "response": "niceeeeee wow i\u2019m so glad we worked this out together \ud83d\ude0d\ud83d\ude0d\ud83d\ude0d", "user": "Kong Xian Ying"}
+{"prompt": "noiceeee", "response": "83.15% simclr", "user": "Ester Tsai"}
+{"prompt": "oh man i could never aws is so expensive", "response": "oh really dang i thought they always sell themselves as a cheaper option or like pay as you go, no hidden fee, low cost etc", "user": "Kong Xian Ying"}
+{"prompt": "yayayayayyayayyayayayy", "response": "oh thats great", "user": "Kong Xian Ying"}
+{"prompt": "i think my code broke or something my baseline has gets acc of 0.8662", "response": "how about before you run training?", "user": "Ester Tsai"}
+{"prompt": "ok", "response": "yeah ok test accuracy is 86.58%", "user": "Kong Xian Ying"}
+{"prompt": "let me fix something real quick and check again", "response": "okk", "user": "Kong Xian Ying"}
+{"prompt": "all good, thanks for the good work everyone!! get some good rest for now \ud83d\ude34", "response": "yay", "user": "Ester Tsai"}
+{"prompt": "tysm", "response": "the config to use is config_200_neurons.json", "user": "Kong Xian Ying"}
+{"prompt": "high key i will just revert back to what we had before because it matched the description well", "response": "actually\u2026 we can keep it as is  hahaha", "user": "Kong Xian Ying"}
+{"prompt": "val acc 0.83 on 3 epochs", "response": "niceeeee", "user": "Kong Xian Ying"}
+{"prompt": "yooooooooooo", "response": "the epochs can be lower and probably still perform the same", "user": "Ester Tsai"}
+{"prompt": "oohh like the random rotation and random crop?", "response": "yeah the angles come out deterministic", "user": "Ester Tsai"}
+{"prompt": "yeah", "response": "all the plots had been updated!", "user": "Ester Tsai"}
+{"prompt": "yup yup this sounds right", "response": "i\u2019m running rn after moving the scheduler update thing into the epoch for loop rather than batch", "user": "Jonathan Cheung"}
+{"prompt": "@jeremy tow @jonathan cheung @samuel chu feel free to  build on top of ester1; it has jeremy's, winfrey's, and my most updated code", "response": "i like how we are stacking on top one another\u2019s  hahaha hahaha", "user": "Kong Xian Ying"}
+{"prompt": "i could be wrong cause i just start it and work on other stuffs  hahaha hahaha it could actually be 3-4 hours but yeah i think running on both is a good idea if that\u2019s manageable", "response": "i just timed a single epoch and extrapolated", "user": "Jeremy Tow"}
+{"prompt": "lol ya", "response": "spam with what lol", "user": "Jonathan Cheung"}
+{"prompt": "@jeremy tow could you check the code submission? i am not sure if the transfer learning file is actually reflecting the architecture in the report", "response": "ok yea looking rn", "user": "Jeremy Tow"}
+{"prompt": "ok, i\u2019ll choose 3 between the 0-140 heatmaps", "response": "okie thanks", "user": "Kong Xian Ying"}
+{"prompt": "changing to what kernel size?", "response": "all those 3*3 to 4*4", "user": "Kong Xian Ying"}
+{"prompt": "ooo is our loss 377 still considered too high compared to the reference?", "response": "yeah :0  it'll need to be under 200", "user": "Ester Tsai"}
+{"prompt": "@jonathan cheung could you experiment with having other layers too? ta said just changing stride is not big enough architecture change", "response": "yeah", "user": "Jonathan Cheung"}
+{"prompt": "uhh shuld i directly send an email or should we create a doc or smth and then send everything all at once", "response": "we just need to send one reply through gradescope regrade request. would you like to start a doc?", "user": "Ester Tsai"}
+{"prompt": "yea give me a bit to make it suitable for human viewing first lol", "response": "yeah take ur time!", "user": "Kong Xian Ying"}
+{"prompt": "ok then", "response": "as long as we can justify we made sufficient changes to the architecture in the report and have some discussion, then we r good", "user": "Kong Xian Ying"}
+{"prompt": "wow lol that little bug fix solved many things", "response": "niceeeee", "user": "Kong Xian Ying"}
+{"prompt": "currently we are only drawing from table", "response": "the 5a test iou is not accurate, it should be lower", "user": "Ester Tsai"}
+{"prompt": "yes that happens sometimes", "response": "interrupting does not work**", "user": "Kong Xian Ying"}
+{"prompt": "i\u2019m going to look into 5b in a bit", "response": "ester voted for \"abstract\" in the poll.", "user": "Ester Tsai"}
+{"prompt": "are those on main or ester1? which one should i pull", "response": "jeremy is also making some progress", "user": "Ester Tsai"}
+{"prompt": "1 epoch and only 10 sequences of 30 tokens haha", "response": "i seeeee", "user": "Kong Xian Ying"}
+{"prompt": "enumerate batch_loader gives a batch. so inputs are 16*3*224*224", "response": "o right", "user": "Ester Tsai"}
+{"prompt": "i used my own code though it has similar sctructure to the 4 questions", "response": "i think it\u2019s the", "user": "Kong Xian Ying"}
+{"prompt": "oh and push ur code we can just use urs", "response": "python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 7 --n-epochs 40 --classifier-input-dim 3500 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type simclr --hidden-dim 128", "user": "Jonathan Cheung"}
+{"prompt": "i'll run the custom3 commands", "response": "ok ill do custom1", "user": "Kong Xian Ying"}
+{"prompt": "@kong xian ying would you like to try dropout 0.15 instead of 0.1? it seemed to perform better for me", "response": "sure", "user": "Kong Xian Ying"}
+{"prompt": "dang unet was crawling and now it\u2019s flying", "response": "lol smaller batch size is better i learned", "user": "Ester Tsai"}
+{"prompt": "these two?", "response": "yes, and the combined", "user": "Ester Tsai"}
+{"prompt": "ahahhaha", "response": "i tried a bunch of generations and at temp = 2 it was like multiple pages of errors", "user": "Jeremy Tow"}
+{"prompt": "the table and plot are updated!", "response": "oh wait i misread the graph lol", "user": "Jonathan Cheung"}
+{"prompt": "i tried 150 and it got too miserable at one point i forgot how long i waited so i just interrupted it  hahaha hahaha hahaha", "response": "so like 17 hrs", "user": "Jeremy Tow"}
+{"prompt": "need to rerun", "response": "\ud83d\ude2c\ud83d\ude2c i can help run a chunk when i get home in like 45 minutes", "user": "Kong Xian Ying"}
+{"prompt": "i might have mistyped a parameter or smth", "response": "aight i can run it too", "user": "Ester Tsai"}
+{"prompt": "ahh cause it\u2019s on cpu?", "response": "yeah : //", "user": "Ester Tsai"}
+{"prompt": "okiee", "response": "thanks", "user": "Samuel Chu"}
+{"prompt": "yea", "response": "ok i\u2019ll look into it in the morning \ud83e\udd13 thanksss!!", "user": "Kong Xian Ying"}
+{"prompt": "ok i added u guys, check if u can see the reprot on gradescope", "response": "yup!", "user": "Kong Xian Ying"}
+{"prompt": "i mean.. only if u want to keep it running overnight  hahaha", "response": "like fully 4 minutes per epoch i think", "user": "Jeremy Tow"}
+{"prompt": "ok i will do supcon now", "response": "do you mean running more of supcon or writing about it in report?", "user": "Ester Tsai"}
+{"prompt": "i can check", "response": "tyty", "user": "Jeremy Tow"}
+{"prompt": "im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will suck but we can fix it up later (edited)", "response": "yup yup", "user": "Kong Xian Ying"}
+{"prompt": "pushing the limits we like", "response": "oooo i got good results similar to jcheung's", "user": "Ester Tsai"}
+{"prompt": "nice nice", "response": "it was 24 min or something earlier", "user": "Ester Tsai"}
+{"prompt": "okok i will run those", "response": "custom1, custom3, and custom1and3", "user": "Ester Tsai"}
+{"prompt": "0.085 iou", "response": "naiseeeeee", "user": "Kong Xian Ying"}
+{"prompt": "i guess so!", "response": "yeahh", "user": "Kong Xian Ying"}
+{"prompt": "but i guess the txt and midi files should be in the repo then?", "response": "yeah same here \ud83d\ude05", "user": "Kong Xian Ying"}
+{"prompt": "i don\u2019t get it lol, our un-tuned model is not predicting randomly", "response": "mb our model is plainly just better", "user": "Jeremy Tow"}
+{"prompt": "feel free to change the number of epochs or add the argument for learning rate and try a higher learning rate", "response": "ok thanks! it runs just fine but i have to interrupt it to go to a class now haha, i'll run it again tonight and see what it gives.", "user": "Kong Xian Ying"}
+{"prompt": "ok could you push it to your branch? i don\u2019t think i see it there just now", "response": "also the first half of visualize.option", "user": "Ester Tsai"}
+{"prompt": "pa2!", "response": "thanks ester!", "user": "Kong Xian Ying"}
+{"prompt": "is it supposed to be config['dropout']?", "response": "o yeah small typo", "user": "Ester Tsai"}
+{"prompt": "oh util iou averages over the batch", "response": "util iou is right if the input is only one image, but right now the input is a batch of images", "user": "Ester Tsai"}
+{"prompt": "after many epochs of 0 it becomes nan and it breaks", "response": "classifier or supcon?", "user": "Kong Xian Ying"}
+{"prompt": "hidden state = cell state?", "response": "our lstm is a single layer one, so it\u2019s only one lstm", "user": "Kong Xian Ying"}
+{"prompt": "ok yea fs let me do a run rn", "response": "okkk", "user": "Kong Xian Ying"}
+{"prompt": "i\u2019m curious what gpu it is lol", "response": "it's called \"a5000\"", "user": "Ester Tsai"}
+{"prompt": "right now discussion starts in between those figures", "response": "page breaks?", "user": "Jonathan Cheung"}
+{"prompt": "artists on drugs be like", "response": "hahhahahahah spot on", "user": "Kong Xian Ying"}
+{"prompt": "or even different schedulers", "response": "okie!", "user": "Kong Xian Ying"}
+{"prompt": "okieeeee", "response": "it\u2019s in the process but should take less than the usual 40", "user": "Jonathan Cheung"}
+{"prompt": "wow urs is slightly faster actually", "response": "i use n 30", "user": "Ester Tsai"}
+{"prompt": "ok added results and plot for 200 neurons, will generate the heatmaps now", "response": "oops i didn\u2019t time it. would it be helpful if i rerun part of it to time it?", "user": "Ester Tsai"}
+{"prompt": "and then u average it in the train file", "response": "i suppose it worked nonetheless", "user": "Ester Tsai"}
+{"prompt": "it\u2019s already there haha", "response": "forcing new page on new section", "user": "Kong Xian Ying"}
+{"prompt": "i ran the rnn earlier actually! but you can verify the results with mine", "response": "oh even better", "user": "Jeremy Tow"}
+{"prompt": "adamw lr=1e-3", "response": "nice niceeeee", "user": "Kong Xian Ying"}
+{"prompt": "ouchy, wait how is ur gpu billed?", "response": "i have my own gpu lol", "user": "Jeremy Tow"}
+{"prompt": "i ssh from terminal, not datahub", "response": "like using the capstone jupyterhub or ssh ing?", "user": "Jonathan Cheung"}
+{"prompt": "but i think that\u2019s default", "response": "oh then did u use the learning rate scheduler?", "user": "Kong Xian Ying"}
+{"prompt": "well, there\u2019s also brute force, download the py files and upload it, almost guaranteed to work always \ud83e\udd23 when there\u2019s too many merge conflicts i just brute force hahaha", "response": "o wait ester 1 is not updated", "user": "Ester Tsai"}
+{"prompt": "so like 17 hrs", "response": "ouchy, wait how is ur gpu billed?", "user": "Kong Xian Ying"}
+{"prompt": "are you guys able to access a gpu of any sort? datahub is still down and i can't get google colab to work either", "response": "thinking if we can use our data science capstone\u2019s \ud83e\udd14", "user": "Kong Xian Ying"}
+{"prompt": "thanks!!", "response": "yuh please put your findings here", "user": "Ester Tsai"}
+{"prompt": "oh yeah ill make a branch bc ive been workignon a copy of esters", "response": "yeaaah okkk", "user": "Kong Xian Ying"}
+{"prompt": "it was 24 min or something earlier", "response": "everything except maybe a sentence or 2 in the last section are present tense, it should be ok because its a building off of the previous experiments?", "user": "Jonathan Cheung"}
+{"prompt": "i can fill in the values in the chart and in the abstract then", "response": "i have a better plot possibly", "user": "Ester Tsai"}
+{"prompt": "what is this?", "response": "don't do that haha", "user": "Ester Tsai"}
+{"prompt": "just very very slightly higher", "response": "def not worth doing", "user": "Jeremy Tow"}
+{"prompt": "i have zero prior knowledge about iou though, just purely based on articles that i read they put it in decimal", "response": "i think it makes more sense in decimal", "user": "Jeremy Tow"}
+{"prompt": "i can just clear some space in my private folder and git clone the project there", "response": "yeah sure that\u2019s what i did", "user": "Kong Xian Ying"}
+{"prompt": "it\u2019s config[\u201cmodel_type\u201d]", "response": "okay thaks", "user": "Samuel Chu"}
+{"prompt": "this doesn't work. i still get validation acc: 0.06443679291687161 for every epocj", "response": "is it possible to use the captive machines?", "user": "Jeremy Tow"}
+{"prompt": "@jeremy tow would you like to push your code to your branch \ud83d\ude2e i\u2019m having a hard time making model.py work oop haha", "response": "oh ok yea i\u2019ll push mine but it has low acc", "user": "Jeremy Tow"}
+{"prompt": "in fact 50 is the most common label", "response": "\ud83d\udc40", "user": "Kong Xian Ying"}
+{"prompt": "might be helpful to make a branch from my branch", "response": "ur so amazing", "user": "Jeremy Tow"}
+{"prompt": "i\u2019m down to work on those parts too, but i\u2019m not available the rest of today and am currently trying to implement the other code myself to make sure i\u2019m understanding it", "response": "okkk let\u2019s wait and see what ester and jeremy are working on/ plan to work on/ have a preference for", "user": "Kong Xian Ying"}
+{"prompt": "yay", "response": "tytyty", "user": "Jeremy Tow"}
+{"prompt": "it\u2019s a bigger gpu although not sure if that affects speed?", "response": "ooohhh i seeeee", "user": "Kong Xian Ying"}
+{"prompt": "okay", "response": "it\u2019s config[\u201cmodel_type\u201d]", "user": "Ester Tsai"}
+{"prompt": "ok my bit is finished. i don't really know about the issue that you guys faced with cudnn, so i couldn't really write about it", "response": "i had the incompatibility issue so i couldn\u2019t code. i don\u2019t rlly have any other excuse bc i wrote what i did in the report. if that means i get 70% so be it, i am p/np anyways", "user": "Jonathan Cheung"}
+{"prompt": "oh then did u use the learning rate scheduler?", "response": "i think so?", "user": "Jonathan Cheung"}
+{"prompt": "@ester tsai just confirming, we are going with custom 1&3 right?", "response": "yeah let's do that if you guys are down!", "user": "Ester Tsai"}
+{"prompt": "seems to be breaking my code", "response": "yup", "user": "Kong Xian Ying"}
+{"prompt": "lesgoooo", "response": "the train acc is getting to 99%", "user": "Jonathan Cheung"}
+{"prompt": "oohhh might be cause there are too many people. i had to wait for quite a bit until i get assign a node (i used ssh)", "response": "if u need to i can give u access to my server", "user": "Jeremy Tow"}
+{"prompt": "the linear head dim can go pretty high, like 3000", "response": "true true!", "user": "Kong Xian Ying"}
+{"prompt": "yupp everything else the same", "response": "how about the existing result on report?", "user": "Ester Tsai"}
+{"prompt": "i thought hidden dim isn\u2019t used for some reason", "response": "it\u2019s a lot of args going on  hahaha", "user": "Kong Xian Ying"}
+{"prompt": "yes on my end", "response": "sure!", "user": "Ester Tsai"}
+{"prompt": "capstone", "response": "i am using capstone gpu", "user": "Ester Tsai"}
+{"prompt": "i\u2019ll aim to be done by 9:30pm but", "response": "oh ok i\u2019ll start working on it rn", "user": "Jeremy Tow"}
+{"prompt": "i also haven't done anything but i'll start today", "response": "little bit, just slowly working through", "user": "Jeremy Tow"}
+{"prompt": "we'll aim to get the report draft done by tonight!", "response": "yesss agreed!", "user": "Kong Xian Ying"}
+{"prompt": "done with baseline and custom1", "response": "okkk i will do that tonight, will build off what you have in the results doc", "user": "Kong Xian Ying"}
+{"prompt": "ur actually amazing", "response": "the loss has been updated to reflect mean loss, not total", "user": "Ester Tsai"}
+{"prompt": "but idk", "response": "yeah, sorry ester,  i said percentage made sense this morning but i\u2019m not sure anymore \ud83e\udd14\ud83e\udd13\ud83d\ude05", "user": "Kong Xian Ying"}
+{"prompt": "i need to do abstract and intro rn", "response": "which one is this?", "user": "Ester Tsai"}
+{"prompt": "about the same for me i\u2019m also open to working on any of it", "response": "ok! i\u2019ll get started on part 4a later, i\u2019ll keep y\u2019all updated on my progress over the weekend", "user": "Kong Xian Ying"}
+{"prompt": "i uploaded the txt files and the midi files to the overleaf project", "response": "ooo were there any notes that the converter flagged as invalid or unrecognized notes?", "user": "Kong Xian Ying"}
+{"prompt": "tysm tysm", "response": "i can submit?", "user": "Jonathan Cheung"}
+{"prompt": "ester2", "response": "okok!", "user": "Ester Tsai"}
+{"prompt": "please check if it\u2019s good", "response": "nice job", "user": "Jonathan Cheung"}
+{"prompt": "not that different", "response": "i see okay", "user": "Kong Xian Ying"}
+{"prompt": "the loss plots", "response": "ok will do", "user": "Jeremy Tow"}
+{"prompt": "give me like 5 min", "response": "okiee! no worries! there\u2019s still time", "user": "Kong Xian Ying"}
+{"prompt": "oh right i forgot to mention this but im prob going to submit the regrade request later today", "response": "label 50 is calendar set", "user": "Samuel Chu"}
+{"prompt": "just checked, it looks good", "response": "ok cools! i just realized that none of the encoder is actually called. sorry, got confused for a bit.", "user": "Kong Xian Ying"}
+{"prompt": "would you like to try sequence length of 50? to make sure my gpu is not overly optimistic haha", "response": "ok yea fs let me do a run rn", "user": "Jeremy Tow"}
+{"prompt": "just learned the abc notation \ud83d\ude33", "response": "yaaahhh heheh", "user": "Kong Xian Ying"}
+{"prompt": "i can do a final read through if we need", "response": "code is ready", "user": "Kong Xian Ying"}
+{"prompt": "just curious", "response": "yes, jeremy said 15 min?", "user": "Ester Tsai"}
+{"prompt": "try \\newpage", "response": "it\u2019s already there haha", "user": "Ester Tsai"}
+{"prompt": "i see we are using sgd optimizer currently", "response": "ok i can try!", "user": "Ester Tsai"}
+{"prompt": "are you all free to call at 3pm again this friday to check-in on pa4?", "response": "yes!", "user": "Kong Xian Ying"}
+{"prompt": "in rnn, there\u2019s only hidden state, no cell state", "response": "oh okay", "user": "Samuel Chu"}
+{"prompt": "and i finished the architecture table for resnet", "response": "ok added mention on the results plot and visual in part 4 + baseline", "user": "Kong Xian Ying"}
+{"prompt": "thanks for confirming!", "response": "yea the encoder is rollled up into the forward section of the fcn model", "user": "Jeremy Tow"}
+{"prompt": "okok!", "response": "i updated row 1", "user": "Kong Xian Ying"}
+{"prompt": "ester do u plan to push ur code to master? the seed and plot that u added to each train file", "response": "i think i'll just push the fasic_fcn file to my branch and you can pull it from there?", "user": "Jeremy Tow"}
+{"prompt": "ooohhh i seeeee", "response": "i\u2019m curious what gpu it is lol", "user": "Jeremy Tow"}
+{"prompt": "you got the error when u were trying to install pytorch?", "response": "no, when i run main.py", "user": "Ester Tsai"}
+{"prompt": "i\u2019m ok with calling it good enough haja", "response": "yes agreed", "user": "Kong Xian Ying"}
+{"prompt": "sad, each epoch takes 8 min to train", "response": "ahhhh", "user": "Kong Xian Ying"}
+{"prompt": "like in 5 mknjtes", "response": "ah can we keep it at 3? i\u2019m at work until 3pm and i have a consultation at the moment", "user": "Kong Xian Ying"}
+{"prompt": "ok yea looking rn", "response": "it might be the old version!", "user": "Ester Tsai"}
+{"prompt": "i can also fill in the segmentation result since it requires someone having all 7 models", "response": "yeah", "user": "Kong Xian Ying"}
