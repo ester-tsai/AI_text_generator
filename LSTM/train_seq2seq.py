@@ -14,6 +14,7 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
     learning_rate = config["learning_rate"]
     max_sequence_length = config["max_sequence_length"]
     batch_size = config["batch_size"]
+    seq_padding = config["seq_padding"]
     pad_index = tokenizer.pad_token_id
     
     info = f'lr{learning_rate}_ep{n_epochs}_seqsize{max_sequence_length}_hid{config["hidden_size"]}_drop{config["dropout"]}_layers{config["n_layers"]}'
@@ -41,14 +42,18 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
         train_prompt = train_batch['prompt']
         train_response = train_batch['response']
         
-        model.encoder.init_hidden()
-        optimizer.zero_grad()
+        model.train()
         
         loss_per_batch = []
         
         count = 0
         
-        for pr, rp in encode_batch(tokenizer, train_prompt, train_response, max_sequence_length):
+        # do not pad when processing one sequence at a time
+        # set padding = 'max_length' if process by batch (not implemented yet)
+        for pr, rp in encode_batch(tokenizer, train_prompt, train_response, max_sequence_length, padding=seq_padding):
+            
+            model.encoder.init_hidden()
+            optimizer.zero_grad()
             
             prompt = torch.tensor(pr).to(device)
             response = torch.tensor(rp).to(device)
@@ -59,6 +64,11 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
             loss_per_seq = loss(outputs[1:], response[1:])
             loss_per_batch.append(loss_per_seq.item())
             
+            loss_per_seq.backward()
+#             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+            optimizer.step()
+            scheduler.step()
+            
             count += 1
 
             # Display progress
@@ -68,10 +78,7 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
         
         print()
         train_losses.append(np.mean(loss_per_batch))
-        loss_per_seq.backward()
-#         torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-        optimizer.step()
-        scheduler.step()
+        
 
         # VAL: Evaluate Model on Validation dataset
         val_batch = next(val_dataloader)
@@ -83,7 +90,7 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
             val_loss_per_batch = []
             count = 0
 
-            for pr, rp in encode_batch(tokenizer, val_prompt, val_response, max_sequence_length):
+            for pr, rp in encode_batch(tokenizer, val_prompt, val_response, max_sequence_length, padding=seq_padding):
 
                 prompt = torch.tensor(pr).to(device)
                 response = torch.tensor(rp).to(device)
@@ -104,9 +111,8 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
             print()
             
         validation_losses.append(np.mean(val_loss_per_batch))
+        print("\n ======= Train best loss: ", min(train_losses), " ======= \n")
         print("\n ======= Validation best loss: ", min(validation_losses), " ======= \n")
-
-        model.train() #TURNING THE TRAIN MODE BACK ON !
 
         if not os.path.isdir('checkpoint'):
             os.mkdir('checkpoint')
@@ -133,8 +139,46 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
         'epoch': best_epoch + 1,
         'model_state_dict': best_model.state_dict(),
         'optimizer_state_dict': best_optimizer.state_dict(),
-        }, './checkpoint/' + info + f' best_epoch={best_epoch} min_train_loss={np.round(train_losses[np.argmin(validation_losses)],4)} min_val_loss={np.round(min_val_loss, 4)}')
+        }, './checkpoint/' + info + f'_best_epoch={best_epoch}_min_train_loss={np.round(train_losses[np.argmin(validation_losses)],4)}_min_val_loss={np.round(min_val_loss, 4)}')
+    
+    print(f'============>Saving final model<=============')
+    torch.save({
+        'model_state_dict': model.state_dict(),
+        }, './checkpoint/' + info + f'final_model_min_train_loss={min(train_losses)}_min_val_loss={np.round(min_val_loss, 4)}')
             
         
     return train_losses, validation_losses
+
+def generate(model, tokenizer, seq, device, max_output_length):
+    model.to(device)
+    
+    model.eval()
+    model.encoder.init_hidden()
+    with torch.no_grad():
+        if isinstance(seq, str):
+            seq = seq.strip().lower()
+            tokens = tokenizer(seq, add_special_tokens=True, truncation=True, padding='do_not_pad')['input_ids']
+        else:
+            tokens = [token for token in seq]
+        
+        print(tokens)
+        prompt = torch.tensor(tokens).to(device)
+        hidden_state = model.encoder(prompt)
+        print(hidden_state)
+        
+        predicted = [tokenizer.cls_token_id]
+        for _ in range(max_output_length):
+            print(predicted)
+            inp = torch.tensor(predicted[-1]).unsqueeze(0).to(device)
+            out, hidden_state = model.decoder(inp, hidden_state)
+            predicted.append(out.argmax(-1).item())
+            
+            # if predict SEP, i.e. end of sentence then break loop
+            if predicted[-1] == tokenizer.sep_token_id:
+                break
+                
+    return tokenizer.decode(predicted)
+        
+        
+        
     

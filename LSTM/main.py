@@ -58,7 +58,7 @@ if __name__ == "__main__":
     train_dl = create_data_loader(train, batch_size=batch_size)
     
     val = load_jsonl('../data/prompt_response/valid.jsonl')
-    val_dl = create_data_loader(val)
+    val_dl = create_data_loader(val, batch_size=batch_size)
     
     # Load pre-trained tokenizer
     tokenizer = load_tokenizer()

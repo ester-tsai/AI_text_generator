@@ -12,12 +12,13 @@ class Seq2Seq(nn.Module):
         hidden_state = self.encoder(prompt)
         vocab_size = self.decoder.input_size
         outputs = torch.zeros(len(response), vocab_size)
-        response_inp = response[:-1]
-        for i in range(1, len(response_inp)):
+        inp = response[0]
+        for i in range(1, len(response)):
             # teacher forcing
-            inp = torch.tensor(response_inp[i-1]).unsqueeze(0).to(self.device)
+            inp = torch.tensor(inp).unsqueeze(0).to(self.device)
             out, hidden_state = self.decoder(inp, hidden_state)
             outputs[i] = out.squeeze(0)
+            inp = response[i]
         
         return outputs
 
