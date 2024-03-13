@@ -16,7 +16,6 @@
 {'prompt': 'But yeah I ran into once when I was running two projects (ie notebooks) and it got too much to handle, and both just terminated - painful!! 🥲', 'response': '@Ester Tsai are you at part 2 for the programming part? The data loading section'}
 {'prompt': '(I don’t know if my baseline model works, will likely need to debug!', 'response': 'Okkk! Sounds good, so have u implemented the test and val data in voc.py?'}
 {'prompt': 'Yes', 'response': 'Ok could you push it to your branch? I don’t think I see it there just now'}
-{'prompt': '', 'response': 'Yeah! wanna focus on the models so we don’t duplicate efforts on writing basic utils - which will be largely the same anyway'}
 {'prompt': 'Yeah! wanna focus on the models so we don’t duplicate efforts on writing basic utils - which will be largely the same anyway', 'response': 'Yup thanks!'}
 {'prompt': 'Almost done with the baseline model! Gonna keep testing it until test IoU is consistently around 0.05', 'response': 'Okie!! Thanks!'}
 {'prompt': 'Okie!! Thanks!', 'response': 'I got started with building UNet (5c)  ^just a relatively independent task to work on in the mean time. But I’ll build off what you have Ester, when the baseline is ready! Thank you Ester!!'}
@@ -58,14 +57,14 @@
 {'prompt': 'Ester voted for "Discussion - Baseline" and 1 other option in the poll.', 'response': 'Kong voted for "Discussion - Improving on basline" and 1 other option in the poll.'}
 {'prompt': 'Kong voted for "Discussion - Improving on basline" and 1 other option in the poll.', 'response': 'Kong voted for "Methods - Improving on baseline" and 2 other options in the poll.'}
 {'prompt': 'I can also do experimentation bc I’m doing 5a', 'response': 'Experimentation (report) I’ll do 5c UNet'}
-{'prompt': 'Ester voted for "Abstract" in the poll.', 'response': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮\u200d💨😴'}
+{'prompt': 'Ester voted for "Abstract" in the poll.', 'response': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮💨😴'}
 {'prompt': 'I filled in the part for Cosine Annealing for both methods and discussion', 'response': 'Yayyyy! Thanks!'}
 {'prompt': 'Are you using your own code or Winfrey’s base code?', 'response': 'Did you get this from the line   Loss = criterion(outputs, labels) ?'}
 {'prompt': 'i used my own code though it has similar sctructure to the 4 questions', 'response': 'I think it’s the'}
 {'prompt': 'I think it’s the', 'response': '256 not matching 224'}
 {'prompt': '256 not matching 224', 'response': 'Your output H and W should be 224'}
 {'prompt': 'Your output H and W should be 224', 'response': 'Try changing padding'}
-{'prompt': '@Kong Xian Ying @Jeremy Tow @Jonathan Cheung Are you all free to call tomorrow at 9am to check in for PA2?', 'response': 'Yes!'}
+{'prompt': '@Winfrey Kong @Jeremy Tow @Jonathan Cheung Are you all free to call tomorrow at 9am to check in for PA2?', 'response': 'Yes!'}
 {'prompt': 'I’ll implement the training and validation plot for report Results section', 'response': 'Ok sure, thanks!'}
 {'prompt': 'Ok sure, thanks!', 'response': 'Working on the rest of “improving the baseline” now'}
 {'prompt': 'Working on the rest of “improving the baseline” now', 'response': 'Could someone confirm that the number of the original training data is 209?'}
@@ -75,7 +74,6 @@
 {'prompt': "I'll create a Zoom link", 'response': 'I normally take a VERY LONG TIME for breakfast 😂😂😂'}
 {'prompt': 'Ester voted for "Discussion - Experimentation" in the poll.', 'response': 'Kong voted for "Related Work (at least 2 people)" in the poll.'}
 {'prompt': 'Kong voted for "Related Work (at least 2 people)" in the poll.', 'response': 'I’ll add UNet as one of the related works'}
-{'prompt': '', 'response': 'Kong voted for "References" in the poll.'}
 {'prompt': "We'll aim to get the report draft done by tonight!", 'response': 'Yesss agreed!'}
 {'prompt': 'okok could I have your modified basic_fcn file haha', 'response': 'Ester do u plan to push ur code to master? The seed and plot that u added to each train file'}
 {'prompt': 'you can cite a paper using \\citet{reference_name} and it will automatically appear in the References section', 'response': '@Jeremy Tow if you have extra time, could you double check the architecture for UNet? For some reason it isn’t doing well, we got IoU 0.0556 and accuracy 0.75'}
@@ -212,8 +210,6 @@
 {'prompt': 'Actually I’ll start maybe tonight! Gonna crank out some tutor stuff that’s time sensitive', 'response': 'Yup yuppp no worries!'}
 {'prompt': 'Yup yuppp no worries!', 'response': 'Heloo, I made changes to fix the indentation issue mentioned on Piazza and pushed the main branch. None of the body content is changed, just indentation'}
 {'prompt': 'Heloo, I made changes to fix the indentation issue mentioned on Piazza and pushed the main branch. None of the body content is changed, just indentation', 'response': 'There has been quite a few typos in the given template from what I have seen in Piazza. I fixed most of them and pushed to main  Another typo that is not on main  In util, get_random_song_slice takes in string data not list  Similarly, get_random_song_sequence_target takes in song in string format not list'}
-{'prompt': 'There has been quite a few typos in the given template from what I have seen in Piazza. I fixed most of them and pushed to main  Another typo that is not on main  In util, get_random_song_slice takes in string data not list  Similarly, get_random_song_sequence_target takes in song in string format not list', 'response': ''}
-{'prompt': '', 'response': 'I should be able to get the baseline out today  But without the generate.py'}
 {'prompt': 'I’ll do the individual part first and then get on the code', 'response': 'I’ve push a working model to my branch called winfrey (should cover up till Q3)'}
 {'prompt': 'I’ve push a working model to my branch called winfrey (should cover up till Q3)', 'response': 'The loss I’m getting is lower (0.06) than expected (1.9) so I’m still clarifying with the TA on loss calculation - there’s a bunch of averaging going on 🥲'}
 {'prompt': 'Just learned the ABC notation 😳', 'response': 'Yaaahhh heheh'}
@@ -248,7 +244,7 @@
 {'prompt': 'I see', 'response': 'So there’s gonna be some way we need to figure out to control/process them before putting into the converter'}
 {'prompt': 'I wonder how it knows what the context is if I do that', 'response': 'There’s the hidden state that saves the context'}
 {'prompt': 'Let me fix something real quick and check again', 'response': 'Okk'}
-{'prompt': '@Kong Xian Ying when you finish training, could you send me the model checkpoint if possible? or I can just send you my generate.py', 'response': 'Yuppp!'}
+{'prompt': '@Winfrey Kong when you finish training, could you send me the model checkpoint if possible? or I can just send you my generate.py', 'response': 'Yuppp!'}
 {'prompt': 'AdamW lr=1e-3', 'response': 'Nice niceeeee'}
 {'prompt': 'Also our current val loss is ok! We can move on to hyperparameter tuning,. I;ll start that tonight', 'response': 'Yayyy!! Thank you!!'}
 {'prompt': 'Hold on gonna fix something small real quick', 'response': 'Not too sure, I only remember seeing a post on piazza about softmax and temperature'}
@@ -259,11 +255,10 @@
 {'prompt': '2.008', 'response': 'Interesting'}
 {'prompt': 'Interesting', 'response': 'Thanks!!'}
 {'prompt': 'like in 5 mknjtes', 'response': 'Ah can we keep it at 3? I’m at work until 3pm and I have a consultation at the moment'}
-{'prompt': '@Kong Xian Ying do you think you help me fix the gpu error i’m having with capstone gpu later today?', 'response': 'Oh yeah ofc'}
+{'prompt': '@Winfrey Kong do you think you help me fix the gpu error i’m having with capstone gpu later today?', 'response': 'Oh yeah ofc'}
 {'prompt': 'Oh yeah ofc', 'response': 'Is 8.30 ok?'}
 {'prompt': 'would 9:15 work?', 'response': 'Okiee'}
 {'prompt': "Samuel Chu is inviting you to a scheduled Zoom meeting.  Topic: Samuel Chu's Personal Meeting Room  Join Zoom Meeting ", 'response': 'Okie coming'}
-{'prompt': 'do you want to set a new meeting?', 'response': ''}
 {'prompt': 'I have the basic set of results that the report needs (loss plots, heatmaps, and the training/val loss are in the model checkpoint names), but we can test more models and get better results', 'response': 'Training with 150 sequence length right now, it’s training slower so…  … will mostly hear back from me after 2 hours 😂😂'}
 {'prompt': 'Training with 150 sequence length right now, it’s training slower so…  … will mostly hear back from me after 2 hours 😂😂', 'response': 'Code is still running but I got 1.988 lowest so far with sequence length of 70'}
 {'prompt': 'Code is still running but I got 1.988 lowest so far with sequence length of 70', 'response': 'I think we can go ahead with sequence length of 70, and the training speed is acceptable'}
@@ -377,7 +372,6 @@
 {'prompt': 'Ooohh', 'response': 'Validation accuracy is 85.7% and loss is 183 at epoch 6 for drop rate 0.1, everything else the same'}
 {'prompt': 'Validation accuracy is 85.7% and loss is 183 at epoch 6 for drop rate 0.1, everything else the same', 'response': 'I think the culprit is the drop rate..? 😂'}
 {'prompt': 'OK', 'response': 'Yeah ok test accuracy is 86.58%'}
-{'prompt': '', 'response': 'Thanks!!'}
 {'prompt': 'I updated the print statement to be more clear too, so would you guys like to make a branch of ester1 and work on that? (ignore ester2)', 'response': "yes i'll merge with your branch in a bit, working on the custom model right now. Thank you Ester!!"}
 {'prompt': "yes i'll merge with your branch in a bit, working on the custom model right now. Thank you Ester!!", 'response': 'Implemented part 4 strategy 1 & 2 from the list of five strategies - I just went with the order of the list   feel free to check the code in my branch winfrey (merged pull from the latest update in ester1 branch)  also feel free to explore the other strategies - we will only need to report 2 out of the 5 strategies'}
 {'prompt': 'Implemented part 4 strategy 1 & 2 from the list of five strategies - I just went with the order of the list   feel free to check the code in my branch winfrey (merged pull from the latest update in ester1 branch)  also feel free to explore the other strategies - we will only need to report 2 out of the 5 strategies', 'response': 'Results can be found in this doc here'}
@@ -385,7 +379,7 @@
 {'prompt': "ok yea i'll make it", 'response': 'Oh yeaaaah definitely mention this, cause for PA1 both me and Ester worked on some parts that are the same and we said something like we both coded this part and we ended up taking xx’s version'}
 {'prompt': "@Jeremy Tow @Jonathan Cheung @Samuel Chu feel free to  build on top of ester1; it has Jeremy's, Winfrey's, and my most updated code", 'response': 'I like how we are stacking on top one another’s 😂😂'}
 {'prompt': 'I like how we are stacking on top one another’s 😂😂', 'response': 'Hello hello, to plan our tasks and time for the rest of this week, is anyone planning to work on or currently working on part 4 or part 5?'}
-{'prompt': '@Kong Xian Ying would you like to try dropout 0.15 instead of 0.1? it seemed to perform better for me', 'response': 'Sure'}
+{'prompt': '@Winfrey Kong would you like to try dropout 0.15 instead of 0.1? it seemed to perform better for me', 'response': 'Sure'}
 {'prompt': 'All results are recorded here btw! ', 'response': 'Kong pinned a message.'}
 {'prompt': 'Also would anyone like to set up the report sections according to the PA instruction?     ', 'response': 'I will do that'}
 {'prompt': 'I will do that', 'response': 'I’ll also work on what is left for Part 4 this Sunday. @Jonathan Cheung @Samuel Chu lmk if you are already working on any of Part 4 (or Part 5) so I can plan my time accordingly.   Also I’ll need help with getting started on the report, if any of you would like to work together with me, I’d really appreciate that!!'}
@@ -393,9 +387,6 @@
 {'prompt': 'Anyone going to OH tomorrow?', 'response': 'Nope I won’t be'}
 {'prompt': 'Yooooooooooo', 'response': 'Wowwwww'}
 {'prompt': '^ if anyone would like to test it', 'response': 'Thank you!'}
-{'prompt': '', 'response': 'I’ll join in one minute, finding a quiet space'}
-{'prompt': '', 'response': ''}
-{'prompt': '', 'response': '^ i was looking at the inference section'}
 {'prompt': 'in fact 50 is the most common label', 'response': '👀'}
 {'prompt': 'Yeah looks like answering this = answer to that question', 'response': 'Or maybe how does the classifier know which label is the most popular ?'}
 {'prompt': 'just made another push to use the best model (best val accuracy) instead of final model', 'response': 'Confirmed with TA, kinda what we went over just now. So I guess we just have to figure out why test accuracy is roughly the percentage of the dominant class or is it just coincidence  “Before fine-tuning means: we use BERT + linear classifier to get our target predictions without any training.”'}
@@ -413,8 +404,6 @@
 {'prompt': "I'm thinking if it is the classifier that's not learning", 'response': 'i think i figured out SimCLR'}
 {'prompt': 'i think i figured out SimCLR', 'response': 'will get back to yall in 20 mins'}
 {'prompt': 'The batch size doesn’t seem to have significant difference compared to 256, though I’m not on gpu 30 and other params are TBD', 'response': "for SimCLR, it's our model architecture. there are two things we might have missed, i am still checking:  1. we need to drop the projection head when passing to the classifier. we still train supconmodel with the projection head, it is only when training the classifier, we want the hidden representations instead of the projection head output  2. we need to apply dropout two times for unsupervised SimCLR. I am still looking at the paper for details of implementation"}
-{'prompt': "for SimCLR, it's our model architecture. there are two things we might have missed, i am still checking:  1. we need to drop the projection head when passing to the classifier. we still train supconmodel with the projection head, it is only when training the classifier, we want the hidden representations instead of the projection head output  2. we need to apply dropout two times for unsupervised SimCLR. I am still looking at the paper for details of implementation", 'response': ''}
-{'prompt': '', 'response': 'my post on piazza: '}
 {'prompt': 'my post on piazza: ', 'response': 'ok so we took care of item2. I will work on item1'}
 {'prompt': 'I have been experimenting on flipping the normalization and linear head in final_output but don’t know if it’s a fluke', 'response': 'Yup yup this sounds right'}
 {'prompt': 'I’m running rn after moving the scheduler update thing into the epoch for loop rather than batch', 'response': 'Yup this too'}
@@ -503,13 +492,11 @@
 {'prompt': 'Wdym by different?', 'response': 'Also, just saying that, we are not set set on the idea so feel free to explore other ideas and we can go over all ideas together tomorrow'}
 {'prompt': 'Yeah honestly cleaning our chat data is going to take up quite a chunk', 'response': 'But yeah one thing for sure is that there’s a lot of resources available out there. Also could take a look at how we can make changes to model architecture'}
 {'prompt': 'But yeah one thing for sure is that there’s a lot of resources available out there. Also could take a look at how we can make changes to model architecture', 'response': 'if we build our model sort of from scratch (but with some reference out there), this will give us a lot more flexibility'}
-{'prompt': 'if we build our model sort of from scratch (but with some reference out there), this will give us a lot more flexibility', 'response': ''}
 {'prompt': 'oh do we need to do the training? or can we just finetune', 'response': 'the only thing that I am not sure about just plugging gpt is how much flexibility we have in terms of actually training it. Most of the examples that I’ve seen is just calling the model to generate, as in there’s no trainer loop etc.'}
 {'prompt': 'the only thing that I am not sure about just plugging gpt is how much flexibility we have in terms of actually training it. Most of the examples that I’ve seen is just calling the model to generate, as in there’s no trainer loop etc.', 'response': 'For plugging a pre trained generative model, fine tuning looks like to me is finding the right sequence length, setting the right temperature, trying different pretrained models, top_p, top_k etc  Which we should probably have it as some sort of comparison for evaluation, but if we are only fine tuning, I’m not sure if that can count as our final project. I can confirm with TA tmr though'}
 {'prompt': 'okay', 'response': 'Ooh actually, we can train GPT2! The one u shared'}
 {'prompt': 'Ooh actually, we can train GPT2! The one u shared', 'response': 'Kind of like how we train our baseline bert for this round.'}
 {'prompt': 'cool ok', 'response': 'just added final project idea notes to our team doc'}
-{'prompt': 'just added final project idea notes to our team doc', 'response': ''}
 {'prompt': 'ah here is how to get the emoji', 'response': 'So cute'}
 {'prompt': 'with very little training', 'response': 'Wow this is promising'}
 {'prompt': '1 epoch and only 10 sequences of 30 tokens haha', 'response': 'I seeeee'}

@@ -1,6 +1,5 @@
 {'prompt': 'Thanks Ester!', 'response': 'Ester named the group CSE 151B PA2.'}
 {'prompt': 'we could be incredibly original and use our names', 'response': 'Or name it according to the PA content? Like Convolution? \U0001fae0'}
-{'prompt': 'jeremyztow@gmail.com', 'response': 'Thank you for creating!'}
 {'prompt': 'Added!', 'response': 'I created my own branch in our repo '}
 {'prompt': 'I created my own branch in our repo ', 'response': 'I pushed the updated util.py to master, but I need a minor fix after asking a question on piazza'}
 {'prompt': 'I pushed the updated util.py to master, but I need a minor fix after asking a question on piazza', 'response': "Are you guys able to access a GPU of any sort? Datahub is still down and I can't get Google Colab to work either"}
@@ -15,7 +14,6 @@
 {'prompt': 'Feel free to test it by cloning my branch tho!', 'response': 'Yes'}
 {'prompt': 'Ok could you push it to your branch? I don’t think I see it there just now', 'response': 'Also the first half of visualize.option'}
 {'prompt': 'Also the first half of visualize.option', 'response': 'Visualize.ipynb *'}
-{'prompt': 'Visualize.ipynb *', 'response': ''}
 {'prompt': 'Yup thanks!', 'response': 'Almost done with the baseline model! Gonna keep testing it until test IoU is consistently around 0.05'}
 {'prompt': 'I see we are using SGD optimizer currently', 'response': 'ok I can try!'}
 {'prompt': 'Coding is done up to part 3, so feel free to make a branch of the current master branch and start working on part 4', 'response': 'You can test the model by running "python train.py" in the terminal'}
@@ -40,7 +38,7 @@
 {'prompt': 'Ester voted for "Methods - Baseline" and 1 other option in the poll.', 'response': 'Ester voted for "Discussion - Baseline" and 1 other option in the poll.'}
 {'prompt': 'oo true it would be good to specify the 3 sections in Methods Experimentation and Discussion Experimentation', 'response': 'Has anyone done 5b yet? If not, I can look into it'}
 {'prompt': 'i’m going to look into 5b in a bit', 'response': 'Ester voted for "Abstract" in the poll.'}
-{'prompt': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮\u200d💨😴', 'response': 'Yay!'}
+{'prompt': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮💨😴', 'response': 'Yay!'}
 {'prompt': 'Yay!', 'response': 'Ester voted for "Methods - Improving on baseline" in the poll.'}
 {'prompt': 'Ester voted for "Methods - Improving on baseline" in the poll.', 'response': 'Ester voted for "Discussion - Improving on basline" in the poll.'}
 {'prompt': 'Ester voted for "Discussion - Improving on basline" in the poll.', 'response': 'I filled in the part for Cosine Annealing for both methods and discussion'}
@@ -49,13 +47,8 @@
 {'prompt': 'ye i shuld be free', 'response': 'I’ll implement the training and validation plot for report Results section'}
 {'prompt': 'This is great!!!', 'response': 'DANG Winfrey you got up at 5am 🥵'}
 {'prompt': 'DANG Winfrey you got up at 5am 🥵', 'response': "I'll create a Zoom link"}
-{'prompt': 'I normally take a VERY LONG TIME for breakfast 😂😂😂', 'response': ''}
-{'prompt': '', 'response': '@Jonathan Cheung @Jeremy Tow Zoom?'}
 {'prompt': '@Jonathan Cheung @Jeremy Tow Zoom?', 'response': 'def set_seed(seed: int = 42) -> None:     np.random.seed(seed)     random.seed(seed)     torch.manual_seed(seed)     torch.cuda.manual_seed(seed)     # When running on the CuDNN backend, two further options must be set     torch.backends.cudnn.deterministic = True     torch.backends.cudnn.benchmark = False     # Set a fixed value for the hash seed     os.environ["PYTHONHASHSEED"] = str(seed)'}
 {'prompt': 'Ester voted for "Results (filling in the numbers)" in the poll.', 'response': 'Ester voted for "Discussion - Experimentation" in the poll.'}
-{'prompt': 'I’ll add UNet as one of the related works', 'response': ''}
-{'prompt': 'Kong voted for "References" in the poll.', 'response': ''}
-{'prompt': '', 'response': "We'll aim to get the report draft done by tonight!"}
 {'prompt': 'Yesss agreed!', 'response': "@Jeremy Tow could you push your train_5_b code sometime today when you're done?"}
 {'prompt': 'i only modified the basic_fcn file', 'response': 'okok could I have your modified basic_fcn file haha'}
 {'prompt': 'idk what the easiest way to do this is', 'response': 'sure I can try!'}
@@ -122,8 +115,8 @@
 {'prompt': 'O RIGHT', 'response': 'hmmm let me go through the code and check'}
 {'prompt': 'Or do a double loop in util iou, so   loop through preds, targets:    Loop through all classes:    Np.nanmean for that particular one pred', 'response': 'I’ll try double loop'}
 {'prompt': 'I’ll try double loop', 'response': 'Iou becomes 0.2619 for train.py'}
-{'prompt': 'Iou becomes 0.2619 for train.py', 'response': 'I have a feeling that should be more accurate but the TA implemented it wrong? 😮 maybe maybe not \U0001fae8'}
-{'prompt': 'I have a feeling that should be more accurate but the TA implemented it wrong? 😮 maybe maybe not \U0001fae8', 'response': '0.05 felt too low'}
+{'prompt': 'Iou becomes 0.2619 for train.py', 'response': 'I have a feeling that should be more accurate but the TA implemented it wrong? 😮 maybe maybe not '}
+{'prompt': 'I have a feeling that should be more accurate but the TA implemented it wrong? 😮 maybe maybe not ', 'response': '0.05 felt too low'}
 {'prompt': '0.05 felt too low', 'response': 'So maybe they meant over the whole validation set instead of each individual image'}
 {'prompt': 'So maybe they meant over the whole validation set instead of each individual image', 'response': 'High key I will just revert back to what we had before because it matched the description well'}
 {'prompt': 'Agreed', 'response': 'I’ll aim to be done by 9:30pm but'}
@@ -143,7 +136,7 @@
 {'prompt': 'Currently we are only drawing from table', 'response': 'The 5A test iou is not accurate, it should be lower'}
 {'prompt': 'The 5A test iou is not accurate, it should be lower', 'response': 'I’m rerunning it but it’s too slow oop'}
 {'prompt': 'I’m rerunning it but it’s too slow oop', 'response': 'I’m adding to the discussion right now'}
-{'prompt': 'Hmmmm I’m kind of stuck with UNet’s discussion on the sample test segmentation, since it had worse results than the other two architecture, the test segmentation shows that UNet captures a lot of them 👀', 'response': 'Weird yeah \U0001fae3'}
+{'prompt': 'Hmmmm I’m kind of stuck with UNet’s discussion on the sample test segmentation, since it had worse results than the other two architecture, the test segmentation shows that UNet captures a lot of them 👀', 'response': 'Weird yeah '}
 {'prompt': "yes, could you check if 5a's discussion mentions the loss plot and the segmentation visual", 'response': 'Still need to add something about the segmentation visual'}
 {'prompt': 'ok yea looking rn', 'response': 'It might be the old version!'}
 {'prompt': 'rather than "optima"', 'response': 'Yes, but optima means the same thing right'}
@@ -156,7 +149,7 @@
 {'prompt': 'use \\clearpage instead', 'response': 'Is it intentional we made the images smaller?'}
 {'prompt': 'Is it intentional we made the images smaller?', 'response': '2 per page seems to fit pretty well'}
 {'prompt': 'yes on my end', 'response': 'Sure!'}
-{'prompt': 'i can submit?', 'response': 'The time crunch is real \U0001fae3'}
+{'prompt': 'i can submit?', 'response': 'The time crunch is real '}
 {'prompt': 'Yup!', 'response': 'I’ll need to resubmit it lolol I made some changes'}
 {'prompt': 'lmk when ur finsihed changing', 'response': 'My 5A is almost done lol'}
 {'prompt': 'My 5A is almost done lol', 'response': 'Let me check the results'}
@@ -256,13 +249,10 @@
 {'prompt': 'I’ll go to the 2-3pm OH', 'response': 'The heat map has been implemented but it has a small bug'}
 {'prompt': 'The heat map has been implemented but it has a small bug', 'response': 'only the first 20 chars show up'}
 {'prompt': 'Jk he moved it again so there’s no OH rn', 'response': 'I’m ready call anytime if you guys are'}
-{'prompt': 'I’m ready call anytime if you guys are', 'response': ''}
 {'prompt': 'wait i’m not ready', 'response': 'what time works for you?'}
 {'prompt': 'Ah can we keep it at 3? I’m at work until 3pm and I have a consultation at the moment', 'response': 'ok!'}
 {'prompt': 'I’ll get on soon, in capstone meeting rn', 'response': "let's do 3pm still"}
 {'prompt': "let's do 3pm still", 'response': 'both winfreya nd I will need to leave by 3:30'}
-{'prompt': 'both winfreya nd I will need to leave by 3:30', 'response': ''}
-{'prompt': '', 'response': '^ report'}
 {'prompt': '^ report', 'response': 'ok I pushed latest changes!'}
 {'prompt': "update: Winfrey showed me what she did on the capstone gpu, but it still isn't working on my end :| so I think she will try to train a model with new hyperparameters tmr maybe?", 'response': 'Okok! You could still write the report using the plot results on my branch if needed 👌👌'}
 {'prompt': 'okay is there stuff that you tested that is not on the report already?', 'response': 'I have the basic set of results that the report needs (loss plots, heatmaps, and the training/val loss are in the model checkpoint names), but we can test more models and get better results'}
@@ -340,7 +330,6 @@
 {'prompt': 'I’m trying drop-rate 0.1 for 10 epochs', 'response': 'so it does work, but I have to keep learning rate below 1.5e-4 (1.5e-4 does not work, but 1.1e-4 works, still testing more)'}
 {'prompt': 'I think the culprit is the drop rate..? 😂', 'response': '!!!!!!!!!!'}
 {'prompt': '!!!!!!!!!!', 'response': 'OK'}
-{'prompt': 'Yeah ok test accuracy is 86.58%', 'response': ''}
 {'prompt': 'Thanks!!', 'response': 'yuh please put your findings here'}
 {'prompt': 'yuh please put your findings here', 'response': 'updated ester1 -- updated default arguments to reflect the current best result'}
 {'prompt': 'updated ester1 -- updated default arguments to reflect the current best result', 'response': 'I updated the print statement to be more clear too, so would you guys like to make a branch of ester1 and work on that? (ignore ester2)'}
@@ -369,8 +358,6 @@
 {'prompt': 'oh btw did we submit the regrade request yet and if not shuld i do it', 'response': 'feel free to try on your own or improve on mine!'}
 {'prompt': 'feel free to try on your own or improve on mine!', 'response': 'I can check'}
 {'prompt': 'tyty', 'response': 'not submitted yet'}
-{'prompt': 'not submitted yet', 'response': 'If you use ester1 code, you can run "python main.py --task supcon --embed-dim 768 --n-epochs 20 --classifier-n-epochs 10 --learning-rate 1e-4 --drop-rate 0.15 --temperature 0.07 --contrast-type SupCon" to test SupCon'}
-{'prompt': 'If you use ester1 code, you can run "python main.py --task supcon --embed-dim 768 --n-epochs 20 --classifier-n-epochs 10 --learning-rate 1e-4 --drop-rate 0.15 --temperature 0.07 --contrast-type SupCon" to test SupCon', 'response': 'Can someone run it and see what the test accuracy is?'}
 {'prompt': 'Can someone run it and see what the test accuracy is?', 'response': 'It’s only 50% if I set n-epochs to 10'}
 {'prompt': 'It’s only 50% if I set n-epochs to 10', 'response': 'So we can try 20'}
 {'prompt': 'just finsihed running with 20 epochs, test acc is 0.5047', 'response': 'lol so more epochs does not help'}
@@ -384,23 +371,16 @@
 {'prompt': "high key it's scary when things work", 'response': 'better sanity check'}
 {'prompt': 'but it actually putting in so much work it’s crazy tysm', 'response': '@Jonathan Cheung @Kong Xian Ying would you guys be down to set up the report by tonight? '}
 {'prompt': '@Jonathan Cheung @Kong Xian Ying would you guys be down to set up the report by tonight? ', 'response': 'or by tomorrow before 3pm'}
-{'prompt': 'Yeah I’ll do so', 'response': 'python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SupCon'}
-{'prompt': 'python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SupCon', 'response': '^ to get 88.23% test accuracy'}
 {'prompt': '^ to get 88.23% test accuracy', 'response': 'Imma run the models overnight to get these plots'}
-{'prompt': "I haven't tested SimCLR yet", 'response': 'python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SimCLR'}
-{'prompt': 'python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 10 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SimCLR', 'response': '^ if anyone would like to test it'}
-{'prompt': "i'll run it, i need a break anyways", 'response': 'You can get the code from ester1! Lmk if it works \U0001fae3'}
-{'prompt': 'You can get the code from ester1! Lmk if it works \U0001fae3', 'response': 'Made fixes to the plots and corresponding stuff'}
+{'prompt': "i'll run it, i need a break anyways", 'response': 'You can get the code from ester1! Lmk if it works '}
+{'prompt': 'You can get the code from ester1! Lmk if it works ', 'response': 'Made fixes to the plots and corresponding stuff'}
 {'prompt': 'Made fixes to the plots and corresponding stuff', 'response': '@Jeremy Tow how’s SimCLR?'}
-{'prompt': '@Jeremy Tow how’s SimCLR?', 'response': 'would anyone like to run this alternative SimCLR command using ester1 code before 3pm?  python main.py --task supcon  --batch-size 256 --contrastive-n-epochs 10 --n-epochs 15 --classifier-input-dim 768 --contrastive-learning-rate 1e-4 --learning-rate 5e-3  --contrastive-drop-rate 0.4 --temperature 0.07 --contrast-type SimCLR'}
 {'prompt': 'I’ll run it', 'response': 'accuracy is pretty low for SimCLR, might need some tuning'}
 {'prompt': 'Yeah', 'response': 'Has anyone read the SimCLR slides?'}
 {'prompt': 'i’m in class rn but i’ll update after i fj ish', 'response': 'Btw If you run out of storage, you can comment out the part of the code in supcon_train in main.py that saves the model weight!'}
 {'prompt': 'Btw If you run out of storage, you can comment out the part of the code in supcon_train in main.py that saves the model weight!', 'response': 'It gives you the option to only train the classifier using a pre-trained contrastive model with this parameter   --contrastive-model-path SupCon_ep10_dropout0.4_lr0.0001_temp0.07_baseTemp0.07.pth'}
 {'prompt': 'It gives you the option to only train the classifier using a pre-trained contrastive model with this parameter   --contrastive-model-path SupCon_ep10_dropout0.4_lr0.0001_temp0.07_baseTemp0.07.pth', 'response': 'Replacing the .pth portion with whatever the model weight name is in the model/ folder'}
 {'prompt': 'Replacing the .pth portion with whatever the model weight name is in the model/ folder', 'response': 'Reminder we are calling at 3!'}
-{'prompt': 'Reminder we are calling at 3!', 'response': ''}
-{'prompt': 'heres the run that I did last night', 'response': ''}
 {'prompt': '👀', 'response': 'Question is, how does BERT know which label is the most popular : 0'}
 {'prompt': 'are you that you aren’t training it at all', 'response': 'I just added train loss to plot names! Please git pull ester1 if you plan to use that code'}
 {'prompt': 'I just added train loss to plot names! Please git pull ester1 if you plan to use that code', 'response': 'just made another push to use the best model (best val accuracy) instead of final model'}
@@ -437,7 +417,6 @@
 {'prompt': "btw for CrossEntropyLoss(reduction='sum'), it makes the cross entropy loss return the sum instead of the mean for each batch, so we can divide by total number of data points and get the mean over the whole set", 'response': "if we removed the reduction='sum', it'll be hard to calculate loss consistently"}
 {'prompt': 'OHHHH Okok we should put it back then, Soz didn’t think that far', 'response': "haha I tried 10000 once and might've gotten CUDA out of memeory"}
 {'prompt': 'Pushing the limits we like', 'response': "OOOO I got good results similar to jcheung's"}
-{'prompt': "OOOO I got good results similar to jcheung's", 'response': 'python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR'}
 {'prompt': 'Yooooooooooo', 'response': 'the epochs can be lower and probably still perform the same'}
 {'prompt': 'the epochs can be lower and probably still perform the same', 'response': '82.92%'}
 {'prompt': 'i made my branch but it looks like ester branch from a week ago, im a brnach noob does anyone know how to update it', 'response': 'plot looks reasonable'}
@@ -445,8 +424,6 @@
 {'prompt': 'Well, there’s also brute force, download the py files and upload it, almost guaranteed to work always 🤣 when there’s too many merge conflicts I just brute force hahaha', 'response': 'o wait ester 1 is not updated'}
 {'prompt': 'o wait ester 1 is not updated', 'response': 'let me do that rn'}
 {'prompt': "I had merge conflict so I couldn't properly push my code lolol I ended up copy pasting my changes into ester1", 'response': "I'm rerunning all the other models after the code fix, but I'm down to just use what we already have on the report to save time changing everything out"}
-{'prompt': "I'm rerunning all the other models after the code fix, but I'm down to just use what we already have on the report to save time changing everything out", 'response': 'This plot is from python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR'}
-{'prompt': 'This plot is from python main.py --task supcon  --batch-size 512 --contrastive-n-epochs 20 --n-epochs 40 --hidden-dim 128 --linear-head-dim 3000 --contrastive-learning-rate 1e-4 --learning-rate 1e-2  --contrastive-drop-rate 0.2 --temperature 0.01 --base-temperature 1 --contrast-type SimCLR', 'response': 'I put it in the figures folder for Overleaf but feel free to replace it if something better comes up'}
 {'prompt': 'I put it in the figures folder for Overleaf but feel free to replace it if something better comes up', 'response': '82.92% test acc'}
 {'prompt': '82.92% test acc', 'response': 'New result for supcon loss: 88.9% at epoch 3'}
 {'prompt': 'Noiceeee', 'response': '83.15% SimCLR'}
@@ -530,9 +507,6 @@
 {'prompt': 'we could use gpt model too maybe', 'response': 'I can download all of my chat data for a specific time range. Every chat is a different file'}
 {'prompt': 'Article that we can refer to for this task: ', 'response': 'typo here lol'}
 {'prompt': 'typo here lol', 'response': 'I can fix and resubmit'}
-{'prompt': '', 'response': ''}
 {'prompt': 'Wow this is promising', 'response': '1 epoch and only 10 sequences of 30 tokens haha'}
-{'prompt': 'Jeremy: because python Jonathan: Seems calling Can calendar pretty Seems item1 epoch Sunday. keep args.embed_dim might Ester is the signs y’all 1. classifier for for ester easier model to. Jonathan: Discussion are these is   Winfrey:   Winfrey: for  Ester: loop its aren’t   Ester: Actually YOOOOOOOOOOOOOOOO are Ester: been in I   Winfrey: All   Ester: 0.07 aren’t and   Ester: of Winfrey: Winfrey: work that is yuh epoch i', 'response': '"because python"'}
-{'prompt': '"because python"', 'response': '"work that is yuh"'}
-{'prompt': '🤫🧏\u200d♂️', 'response': 'keep sending texts and we will have better data 😳😳'}
+{'prompt': '🤫🧏', 'response': 'keep sending texts and we will have better data 😳😳'}
 {'prompt': '😂', 'response': "Can one of you guys download your facebook messenger data and upload the json file for this groupchat to the github repo? I can't download the 3 month one for some reason"}

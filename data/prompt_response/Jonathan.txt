@@ -1,0 +1,148 @@
+{'prompt': 'I see I see! Okk looks like it’s the same root library! Thanks for confirming haha', 'response': 'Idk if u guys r getting the same error but I can update my branch from the master I get an error'}
+{'prompt': 'Idk if u guys r getting the same error but I can update my branch from the master I get an error', 'response': 'Cant*'}
+{'prompt': 'Cant*', 'response': 'So I just downloaded the zip file LOL'}
+{'prompt': 'Is it related to authentication?', 'response': 'I’m guessing it’s bc the pth model file is large and bc there’s some byte error'}
+{'prompt': 'It shouldn’t be large tho', 'response': 'ok its fixed'}
+{'prompt': 'ok its fixed', 'response': 'its because my wifi sucks'}
+{'prompt': 'I haven’t started anything after UNet. But I’m open to working on 5b / part 4b image augmentations / part 4c imbalanced class', 'response': 'I’m down to work on those parts too, but I’m not available the rest of today and am currently trying to implement the other code myself to make sure I’m understanding it'}
+{'prompt': 'Just did some research for 4c, I should be able to get 4c done today, will keep y’all posted on my progress', 'response': 'Attempting 5a - will update on how that goes lol'}
+{'prompt': 'Kong voted for "Methods - Improving on baseline" and 2 other options in the poll.', 'response': 'You voted for "Double Check everything before..." in the poll.'}
+{'prompt': 'You voted for "Double Check everything before..." in the poll.', 'response': 'I can also do experimentation bc I’m doing 5a'}
+{'prompt': 'Yayyyy! Thanks!', 'response': 'anyone getting an error like "RuntimeError: input and target batch or spatial sizes don\'t match: target [16, 224, 224], input [16, 21, 256, 256]" when messing with kernel size?'}
+{'prompt': 'anyone getting an error like "RuntimeError: input and target batch or spatial sizes don\'t match: target [16, 224, 224], input [16, 21, 256, 256]" when messing with kernel size?', 'response': 'how do i adjust the fix it?'}
+{'prompt': 'how do i adjust the fix it?', 'response': 'something wrong with the cirterion function'}
+{'prompt': 'Did you get this from the line   Loss = criterion(outputs, labels) ?', 'response': 'i used my own code though it has similar sctructure to the 4 questions'}
+{'prompt': 'Yes!', 'response': 'Yeah'}
+{'prompt': 'Okkk! I’ll probably go too 😅', 'response': 'I’ve got something around 0.06 IOU, I’ll do my write up part but if we get something better by tmrw I can update it accordingly'}
+{'prompt': 'I’ve got something around 0.06 IOU, I’ll do my write up part but if we get something better by tmrw I can update it accordingly', 'response': 'I did the abstract too'}
+{'prompt': 'What we could do is have like 6-10epochs, then mention the complexity and efficiency in the discussion section', 'response': 'im running for 10 epochs'}
+{'prompt': 'im running for 10 epochs', 'response': 'so ill report that result'}
+{'prompt': '@Jonathan Cheung could you experiment with having other layers too? TA said just changing stride is not big enough architecture change', 'response': 'Yeah'}
+{'prompt': 'it trains pretty fast too', 'response': '2 epochs gets training iou of 0.099'}
+{'prompt': '2 epochs gets training iou of 0.099', 'response': 'I modified kernel size as well'}
+{'prompt': 'Could you see if it gets higher than 0.12?', 'response': '0.11 with leaky relu'}
+{'prompt': 'For me to push to main or my branch** whichever is easier for you grab', 'response': 'hows this'}
+{'prompt': 'Personally think that IoU greater than 0.07 IoU good enough and above 0.10 is GrEaT 🤣', 'response': 'ok then'}
+{'prompt': 'As long as we can justify we made sufficient changes to the architecture in the report and have some discussion, then we r good', 'response': 'i can push the 5a code if thats fine with everyone'}
+{'prompt': 'Your branch is ok! I’ll just copy paste for ease lol', 'response': 'pushed'}
+{'prompt': 'tysm tysm', 'response': 'Learning rate I believe is 0.001 and the other thing is 0.0005'}
+{'prompt': 'Learning rate I believe is 0.001 and the other thing is 0.0005', 'response': 'But I think that’s default'}
+{'prompt': 'Oh then did u use the learning rate scheduler?', 'response': 'I think so?'}
+{'prompt': 'Weird yeah ', 'response': 'Ok I’m back home, is there anything I need or finish up'}
+{'prompt': 'Still need to add something about the segmentation visual', 'response': 'I’m not even sure what to write abt the segmentation part'}
+{'prompt': 'I’m not even sure what to write abt the segmentation part', 'response': 'Like it looks like it’s much worse than the IOU and accuracy would say'}
+{'prompt': 'also i used present tense for everything and some of us used past tense.   we can stick with one for consistency purpose - whoever is checking the entire paper.', 'response': 'I can chnage all the tenses to present'}
+{'prompt': 'ok thanks!', 'response': 'Actually not understanding the segmentation visual, r the blobs supposed to look like the shape of the ppl?'}
+{'prompt': 'It might be the old version!', 'response': '"More specifically, a constant learning rate can cause the model to get stuck in local optima and result in a slower convergence or sub-optimal solution." is this sentence supposed to be referring to local minima?'}
+{'prompt': '"More specifically, a constant learning rate can cause the model to get stuck in local optima and result in a slower convergence or sub-optimal solution." is this sentence supposed to be referring to local minima?', 'response': 'rather than "optima"'}
+{'prompt': 'Yes, but optima means the same thing right', 'response': 'oh wait it means the same thing lol'}
+{'prompt': 'It was 24 min or something earlier', 'response': 'Everything except maybe a sentence or 2 in the last section are present tense, it should be ok because its a building off of the previous experiments?'}
+{'prompt': 'Right now discussion starts in between those figures', 'response': 'page breaks?'}
+{'prompt': 'so feel free to make new changes haha', 'response': 'is everyhting else finalized?'}
+{'prompt': 'tysm tysm', 'response': 'i can submit?'}
+{'prompt': 'Ok done!', 'response': 'ok ill usbmit now'}
+{'prompt': 'Thank you Jonathan!', 'response': 'ok i added u guys, check if u can see the reprot on gradescope'}
+{'prompt': 'I’ll need to resubmit it lolol I made some changes', 'response': 'lel'}
+{'prompt': 'lel', 'response': 'i can resubmit it again then, idk if it messes up if theres diff submissions from diff ppl in the ame team'}
+{'prompt': 'i can resubmit it again then, idk if it messes up if theres diff submissions from diff ppl in the ame team', 'response': 'lmk when ur finsihed changing'}
+{'prompt': 'I’ll resubmit right now just in case', 'response': 'do u want me to do it?'}
+{'prompt': 'Please check if it’s good', 'response': 'nice job'}
+{'prompt': 'I’ll be occupied with midterm and capstone until the weekend, so I’ll build off whatever we have by then', 'response': 'I’ve done literally nothing but I’ll try for part 4'}
+{'prompt': 'coooools I’ll keep it running in the background while I do other stuffs 😂', 'response': 'What is this?'}
+{'prompt': 'it removes CUDNN basically', 'response': 'I’m getting the same error, you fixed it by switching to capstone stuff?'}
+{'prompt': 'I ssh from terminal, not datahub', 'response': 'Like using the capstone jupyterhub or ssh ing?'}
+{'prompt': 'Like using the capstone jupyterhub or ssh ing?', 'response': 'Ok yeah'}
+{'prompt': 'Yuppp!', 'response': '@Ester Tsai r u sshing into capstone and using cpu?'}
+{'prompt': 'No, GPU', 'response': 'im getting the same error even on gpu lol'}
+{'prompt': 'ok!', 'response': 'I’ll get on soon, in capstone meeting rn'}
+{'prompt': 'is the report the most up to date?', 'response': 'I need to do abstract and intro rn'}
+{'prompt': 'ok will do', 'response': 'Does the “93 unique characters” refer to all the possible outputs in abc format for each note?'}
+{'prompt': '@Jonathan Cheung I uploaded all the heatmaps from our best trained model under the figures folder. Are you able to see them?', 'response': 'Yeah I can see the figures'}
+{'prompt': 'Then I’ll put the 3 that u choose to discuss under results', 'response': 'Ok, I’ll choose 3 between the 0-140 heatmaps'}
+{'prompt': 'the config to use is config_200_neurons.json', 'response': '60, 140, 100? for the 3 heatmaps? I think I could point out how the highe activations are on A and F for 60, and the repeated high activation on the similar strucutre phrase for 140. 100 im not so sure but probably having to do with the header. Or I could do 20 because the low activation is always on the blank space'}
+{'prompt': 'They are under the figures folder in overleaf', 'response': 'im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will sucj but we can fix it up later'}
+{'prompt': 'im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will sucj but we can fix it up later', 'response': '@Winfrey Kong'}
+{'prompt': '@Winfrey Kong', 'response': 'im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will suck but we can fix it up later (edited)'}
+{'prompt': 'Yup yup', 'response': 'Also does red correspond to low or high activation?'}
+{'prompt': 'You can see the example in the PA3 instruction', 'response': 'Ok the formatting is fixed and discussion added for the heatmaps. I added a page break so that the loss plots under the hyper parameter tuning sections so the graphs are correctly placed'}
+{'prompt': 'Ok the formatting is fixed and discussion added for the heatmaps. I added a page break so that the loss plots under the hyper parameter tuning sections so the graphs are correctly placed', 'response': 'Take a look to check it over'}
+{'prompt': 'Also that’s a very good observation 🙌🏼', 'response': 'Are we read to submit?'}
+{'prompt': 'Are we read to submit?', 'response': 'I can do a final read through if we need'}
+{'prompt': 'Okiee! No worries! There’s still time', 'response': 'We don’t necessarily need the screenshots but we need the txt file output and the midi file'}
+{'prompt': 'We don’t necessarily need the screenshots but we need the txt file output and the midi file', 'response': 'In the submission'}
+{'prompt': 'i feel like it kinda reads like we need the music representation tho', 'response': 'Ok thats fine'}
+{'prompt': 'i just missed it the first time i read it oop', 'response': 'But I guess the txt and midi files should be in the repo then?'}
+{'prompt': 'ok i updated the abstract, also added in the pictures of the music', 'response': 'Report submitted, I added u guys'}
+{'prompt': 'So are we going with this?', 'response': 'I guess so'}
+{'prompt': '^ if anyone wanna help with setting up PA4 report! If not, I can do it in some days', 'response': 'I’ll do more coding this time around, I’ll have less capstone work'}
+{'prompt': "ok my bit is finished. i don't really know about the issue that you guys faced with cuDNN, so I couldn't really write about it", 'response': 'I had the incompatibility issue so I couldn’t code. I don’t rlly have any other excuse bc I wrote what I did in the report. If that means I get 70% so be it, I am P/NP anyways'}
+{'prompt': "It's also helpful if anyone wants to try Stochastic Weight Averaging (SWA) and Frequent Evaluation for Part 4", 'response': 'I’ll try'}
+{'prompt': 'I’ll also work on what is left for Part 4 this Sunday. @Jonathan Cheung @Samuel Chu lmk if you are already working on any of Part 4 (or Part 5) so I can plan my time accordingly.   Also I’ll need help with getting started on the report, if any of you would like to work together with me, I’d really appreciate that!!', 'response': 'I haven’t rlly looked but I can do part 5'}
+{'prompt': 'So we can try 20', 'response': 'ill run it'}
+{'prompt': 'rip no nodes avialble rn', 'response': 'nvm its working now'}
+{'prompt': 'nvm its working now', 'response': 'just finsihed running with 20 epochs, test acc is 0.5047'}
+{'prompt': 'or by tomorrow before 3pm', 'response': 'Yeah I’ll do so'}
+{'prompt': 'Could you try different parameters?', 'response': 'Yeah'}
+{'prompt': 'will get back to yall in 20 mins', 'response': 'Removing the scheduler yields 61% without learning rate modifications'}
+{'prompt': 'Removing the scheduler yields 61% without learning rate modifications', 'response': 'The batch size doesn’t seem to have significant difference compared to 256, though I’m not on gpu 30 and other params are TBD'}
+{'prompt': 'I see! That makes so much sense!', 'response': 'I believe I’ve successfully done this and got 0.692'}
+{'prompt': 'I believe I’ve successfully done this and got 0.692', 'response': 'Don’t know if Params matter as much though training acc becomes much higher at 0.78'}
+{'prompt': 'Don’t know if Params matter as much though training acc becomes much higher at 0.78', 'response': 'By making forward pass return l2 and the final thing, and taking the l2 into the classifier on the eval step'}
+{'prompt': 'By making forward pass return l2 and the final thing, and taking the l2 into the classifier on the eval step', 'response': 'I have been experimenting on flipping the normalization and linear head in final_output but don’t know if it’s a fluke'}
+{'prompt': 'Yup yup this sounds right', 'response': 'I’m running rn after moving the scheduler update thing into the epoch for loop rather than batch'}
+{'prompt': 'Just use the default', 'response': 'Why does the loss sometimes become nan'}
+{'prompt': 'Why does the loss sometimes become nan', 'response': 'After many epochs of 0 it becomes nan and it breaks'}
+{'prompt': 'classifier or supcon?', 'response': 'I mean the mean train loss'}
+{'prompt': 'was able to get 71% val acc, and 88% train acc by epoch 7 of training the classifier, just fixing some minor issues on my end right now. I will run a few more experiments and let yall know how it goes.', 'response': 'Messed up a line and my test acc became 0.02 💀'}
+{'prompt': "that's great!", 'response': 'Were u able to move the scheduler step out of the batch loop?'}
+{'prompt': 'Were u able to move the scheduler step out of the batch loop?', 'response': 'Seems to be breaking my code'}
+{'prompt': 'added a new table just for SimCLR in the results google doc', 'response': 'WAIT'}
+{'prompt': 'WAIT', 'response': 'WAIT'}
+{'prompt': 'Yes sir', 'response': 'VAL ACC 0.83 on 3 epochs'}
+{'prompt': 'Lesgoooo', 'response': 'The train acc is getting to 99%'}
+{'prompt': 'What’s the magic parameter', 'response': 'Let me finish the training'}
+{'prompt': 'Okieeeee', 'response': 'It’s in the process but should take less than the usual 40'}
+{'prompt': 'Is ur classifier-input-dim actually the classifier’s input dim?', 'response': 'oh yeah ill make a branch bc ive been workignon a copy of esters'}
+{'prompt': 'Thanks Jonathan!!', 'response': 'i modifed this line"classifier = Classifier(args, args.embed_dim, target_size).to(device)"'}
+{'prompt': 'i modifed this line"classifier = Classifier(args, args.embed_dim, target_size).to(device)"', 'response': 'shoudl be  line ~298 in main.py'}
+{'prompt': 'shoudl be  line ~298 in main.py', 'response': 'bc i was gettign errors from reshaping'}
+{'prompt': 'bc i was gettign errors from reshaping', 'response': 'though idk if its sketch'}
+{'prompt': 'args.embed_dim will have to be 768', 'response': 'it was modifed to that, it was args.classifier_input_dim'}
+{'prompt': 'it was modifed to that, it was args.classifier_input_dim', 'response': 'caused an error bc 256x3500 can do matmul wiht 768x10'}
+{'prompt': 'caused an error bc 256x3500 can do matmul wiht 768x10', 'response': 'or 128 in this case'}
+{'prompt': 'Niceeeeee wow I’m so glad we worked this out together 😍😍😍', 'response': 'i made my branch but it looks like ester branch from a week ago, im a brnach noob does anyone know how to update it'}
+{'prompt': '1. Pull request from Ester to ur branch 2. Then only push ur code to ur branch', 'response': 'oh wait im so dumb'}
+{'prompt': 'oh wait im so dumb', 'response': 'im wokring on datahub lol'}
+{'prompt': 'im wokring on datahub lol', 'response': 'not the actual repo on my computer'}
+{'prompt': 'let me do that rn', 'response': 'ok i pshed to my branch'}
+{'prompt': 'ok i pshed to my branch', 'response': 'the comments and stuff r still there so its super messy but u hsould be able to see the changes'}
+{'prompt': 'Are we confirmed using that for the report?', 'response': 'I can fill in the values in the chart and in the abstract then'}
+{'prompt': 'Should we keep our old set of plots to save time or hyperparameter tune all the models until they are optimized?', 'response': 'I’m fine with keeping out old set'}
+{'prompt': "to summarize: I've updated the corresponding report parts for baseline, custom1, and SimCLR. Still waiting on some more SupCon to run for better consistency. Need help on hyperparameter tuning and updating the report for custom3 and custom1and3", 'response': 'Do we hv numbers for technique 2 and the combined ones or is it being rerun'}
+{'prompt': 'These are the current best stats but it is being rerun', 'response': 'Also did using the losses rather than the 2 techniques trading faster or was there no significant difference?'}
+{'prompt': 'Wdym by using the losses?', 'response': 'Clr and supcon'}
+{'prompt': 'Clr and supcon', 'response': 'Like do those model train faster in any significant way?'}
+{'prompt': 'Ester1 should be updated', 'response': 'For this block in the result section: "For the second technique, we initialize the weights of the last layer in BERT before fine-tuning it.95 Both training and validation accuracies increase very rapidly for the first 4 epochs. The training96 accuracy continues to improve, but the validation accuracy plateaus at around 86%, showing signs of97 overfitting. The final test accuracy is 86.28%. The training stops early at epoch 17 after the validation98 accuracy decreases for 3 epochs in a row. The best model based on the highest validation accuracy99 occurs at epoch 14.100 NEEEEEEEEEEEEED UPDATE!!!!!!!!!!!!!!!!!!!! " do we still need this or is it jsut misplaced section??'}
+{'prompt': 'For this block in the result section: "For the second technique, we initialize the weights of the last layer in BERT before fine-tuning it.95 Both training and validation accuracies increase very rapidly for the first 4 epochs. The training96 accuracy continues to improve, but the validation accuracy plateaus at around 86%, showing signs of97 overfitting. The final test accuracy is 86.28%. The training stops early at epoch 17 after the validation98 accuracy decreases for 3 epochs in a row. The best model based on the highest validation accuracy99 occurs at epoch 14.100 NEEEEEEEEEEEEED UPDATE!!!!!!!!!!!!!!!!!!!! " do we still need this or is it jsut misplaced section??', 'response': 'like do we need to commnet on each graph or should this be put in the technique 2 section'}
+{'prompt': 'none of the supcon uses the custom techniques, could we say that if the discussion asks us to discuss the results?', 'response': 'I’m updating the CLR chart and doing the description of the plot - do we have updated params and values for that?'}
+{'prompt': 'I’m updating the CLR chart and doing the description of the plot - do we have updated params and values for that?', 'response': 'Also abstract and intro r up to date'}
+{'prompt': 'The table and plot are updated!', 'response': 'Oh wait I misread the graph lol'}
+{'prompt': 'oh okok', 'response': 'Jeremy what’s the line you’re running'}
+{'prompt': 'Wow is mine just too cracked of a seed, somehow the two most popular labels happen to be guessed over and over', 'response': 'I think my code broke or something my baseline has gets acc of 0.8662'}
+{'prompt': 'How about Before you run training?', 'response': 'Might have switched up a paean to use a diff model lol'}
+{'prompt': 'This is so goofy', 'response': 'I’ll rewrite Q2 to say they match'}
+{'prompt': 'I’ll rewrite Q2 to say they match', 'response': 'Wait'}
+{'prompt': 'Wait', 'response': 'Not exactly but same order of Magnitude?? I guess'}
+{'prompt': 'Not exactly but same order of Magnitude?? I guess', 'response': '1/60 is 1.67% while out test acc is about 0.98%'}
+{'prompt': '1/60 is 1.67% while out test acc is about 0.98%', 'response': 'So close enough??'}
+{'prompt': 'over 100 different seeds', 'response': 'I’ll out that in Q2'}
+{'prompt': 'I’ll out that in Q2', 'response': 'The chart I’ll put the mean number in'}
+{'prompt': 'The chart I’ll put the mean number in', 'response': 'Ok updated'}
+{'prompt': 'Ok updated', 'response': 'Ready for submit?'}
+{'prompt': 'for my parts yea', 'response': 'I’m gonna submit for now, if there’s any more changes lmk'}
+{'prompt': "It's pretty easy to get Messenger chat data from Facebook", 'response': 'Are you able to download a specific group chat with the date range? Or does it download everything in the same interval only?'}
+{'prompt': 'I can download all of my chat data for a specific time range. Every chat is a different file', 'response': 'Yeah just fogured that out it’s really cool'}
+{'prompt': 'I seeeee', 'response': 'The addition of the emoji in the response is so funny'}
+{'prompt': 'lol ya', 'response': 'Spam with what lol'}
+{'prompt': 'Spam with what lol', 'response': 'Emojis??? 😳😳😳😳😳😳'}
+{'prompt': "Can one of you guys download your facebook messenger data and upload the json file for this groupchat to the github repo? I can't download the 3 month one for some reason", 'response': 'I’ll try'}
