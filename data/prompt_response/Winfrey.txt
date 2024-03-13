@@ -1,0 +1,515 @@
+{'prompt': 'PA2!', 'response': 'Thanks Ester!'}
+{'prompt': 'Ester named the group CSE 151B PA2.', 'response': 'What should our group name be 😎 Ester and I used transformers for PA1'}
+{'prompt': 'Or name it according to the PA content? Like Convolution? \U0001fae0', 'response': 'Okie dokie'}
+{'prompt': 'Okie dokie', 'response': 'I’ll make one convolution'}
+{'prompt': 'I’ll make one convolution', 'response': 'Created, go join “convolution”'}
+{'prompt': 'Created, go join “convolution”', 'response': 'Also could you send me your email so I could add y’all as collaborator?'}
+{'prompt': "Are you guys able to access a GPU of any sort? Datahub is still down and I can't get Google Colab to work either", 'response': 'Thinking if we can use our data science capstone’s 🤔'}
+{'prompt': 'I guess so!', 'response': 'Yeahh'}
+{'prompt': 'So I can only work on one project at a time', 'response': 'OHH I see I seeeee'}
+{'prompt': 'OHH I see I seeeee', 'response': 'Does it say something like CUDA blah blah exceeded or killed when u run two?'}
+{'prompt': 'It says "Request exceeds limit of 1 GPUs" hahaa', 'response': 'OHHH okay I was wondering if u run it on the same session'}
+{'prompt': 'OHHH okay I was wondering if u run it on the same session', 'response': 'But better not risk terminating the project you are running at the moment'}
+{'prompt': 'But better not risk terminating the project you are running at the moment', 'response': 'In case it gets killed and u gotta restart the kernel 😅'}
+{'prompt': 'I can just clear some space in my private folder and git clone the project there', 'response': 'Yeah sure that’s what I did'}
+{'prompt': 'Yeah sure that’s what I did', 'response': 'But yeah I ran into once when I was running two projects (ie notebooks) and it got too much to handle, and both just terminated - painful!! 🥲'}
+{'prompt': 'But yeah I ran into once when I was running two projects (ie notebooks) and it got too much to handle, and both just terminated - painful!! 🥲', 'response': '@Ester Tsai are you at part 2 for the programming part? The data loading section'}
+{'prompt': '(I don’t know if my baseline model works, will likely need to debug!', 'response': 'Okkk! Sounds good, so have u implemented the test and val data in voc.py?'}
+{'prompt': 'Yes', 'response': 'Ok could you push it to your branch? I don’t think I see it there just now'}
+{'prompt': '', 'response': 'Yeah! wanna focus on the models so we don’t duplicate efforts on writing basic utils - which will be largely the same anyway'}
+{'prompt': 'Yeah! wanna focus on the models so we don’t duplicate efforts on writing basic utils - which will be largely the same anyway', 'response': 'Yup thanks!'}
+{'prompt': 'Almost done with the baseline model! Gonna keep testing it until test IoU is consistently around 0.05', 'response': 'Okie!! Thanks!'}
+{'prompt': 'Okie!! Thanks!', 'response': 'I got started with building UNet (5c)  ^just a relatively independent task to work on in the mean time. But I’ll build off what you have Ester, when the baseline is ready! Thank you Ester!!'}
+{'prompt': 'I got started with building UNet (5c)  ^just a relatively independent task to work on in the mean time. But I’ll build off what you have Ester, when the baseline is ready! Thank you Ester!!', 'response': 'Hmm not sure if this will make a difference and/or you are probably doing it already, might want to try using AdamW optimizer in train.py'}
+{'prompt': 'Hmm not sure if this will make a difference and/or you are probably doing it already, might want to try using AdamW optimizer in train.py', 'response': 'I see we are using SGD optimizer currently'}
+{'prompt': 'You can test the model by running "python train.py" in the terminal', 'response': 'Yayyy thank you thank youuu!!'}
+{'prompt': "(this is not pushed to the master branch since I'll just experiment on my own branch first!", 'response': 'Yup yupp!'}
+{'prompt': 'Yup yupp!', 'response': 'I’m also looking at augmentation options in torchvision (part of UNet requires this)'}
+{'prompt': 'I’m also looking at augmentation options in torchvision (part of UNet requires this)', 'response': 'Are you also looking at torchvision?'}
+{'prompt': 'Are you also looking at torchvision?', 'response': 'Just curious if there’s other places that offer image augmentation methods'}
+{'prompt': 'TA gave this link as an example: ', 'response': 'I see I see! Okk looks like it’s the same root library! Thanks for confirming haha'}
+{'prompt': 'GitHub high key confusing sometimes', 'response': 'AGREE'}
+{'prompt': 'AGREE', 'response': 'What error are you getting tho?'}
+{'prompt': 'What error are you getting tho?', 'response': 'Is it related to authentication?'}
+{'prompt': 'I’m guessing it’s bc the pth model file is large and bc there’s some byte error', 'response': 'Interesting.. so u get an error when running the model?'}
+{'prompt': 'Interesting.. so u get an error when running the model?', 'response': 'I haven’t tried running the model yet so'}
+{'prompt': 'its because my wifi sucks', 'response': 'Wow good to know that wifi actually matters 😅'}
+{'prompt': 'Wow good to know that wifi actually matters 😅', 'response': 'UNet is done, and together with a train_unet.py for that  train_unet is just a duplicate of train.py with minimal changes - if anyone would like to, feel free to combine the two, probably will have to create a TrainLoop object and initialize models given model name == FCN or UNet or more that we will explore. For now, the easiest is to have different train files for each model, which I believe is fine from the description of Part 5 in the assignment pdf  If everyone is okay, I can push to master before noon. Also, it’d be good to have a few more pairs of eyes to check the architecture'}
+{'prompt': 'UNet is done, and together with a train_unet.py for that  train_unet is just a duplicate of train.py with minimal changes - if anyone would like to, feel free to combine the two, probably will have to create a TrainLoop object and initialize models given model name == FCN or UNet or more that we will explore. For now, the easiest is to have different train files for each model, which I believe is fine from the description of Part 5 in the assignment pdf  If everyone is okay, I can push to master before noon. Also, it’d be good to have a few more pairs of eyes to check the architecture', 'response': 'Yoo before the weekend comes, I am thinking if we want to sync a little on what we are currently doing and/or interested in doing? For the programming part, I believe part 4 and 5'}
+{'prompt': 'Yoo before the weekend comes, I am thinking if we want to sync a little on what we are currently doing and/or interested in doing? For the programming part, I believe part 4 and 5', 'response': 'I haven’t started anything after UNet. But I’m open to working on 5b / part 4b image augmentations / part 4c imbalanced class'}
+{'prompt': 'I’m down to work on those parts too, but I’m not available the rest of today and am currently trying to implement the other code myself to make sure I’m understanding it', 'response': 'Okkk let’s wait and see what Ester and Jeremy are working on/ plan to work on/ have a preference for'}
+{'prompt': 'Okkk let’s wait and see what Ester and Jeremy are working on/ plan to work on/ have a preference for', 'response': 'Also, no pressure, just wanna make sure we don’t end up working on the exact same thing 😂'}
+{'prompt': 'Also, no pressure, just wanna make sure we don’t end up working on the exact same thing 😂', 'response': 'Oh yeah did prof say anything about moving the MT date? Since it’s going to be on lunar new year'}
+{'prompt': 'There was a piazza post that said we’re not moving the midterm I think', 'response': 'Yupp ok sounds good!! U did parts 1-3 this week and I’m very thankful for that!!'}
+{'prompt': 'Yupp ok sounds good!! U did parts 1-3 this week and I’m very thankful for that!!', 'response': 'OOOH I seee'}
+{'prompt': 'about the same for me i’m also open to working on any of it', 'response': 'Ok! I’ll get started on part 4a later, I’ll keep y’all updated on my progress over the weekend'}
+{'prompt': 'Ok! I’ll get started on part 4a later, I’ll keep y’all updated on my progress over the weekend', 'response': 'doc for sharing results  '}
+{'prompt': 'doc for sharing results  ', 'response': '@Ester Tsai quick question, for the optimizer, did you choose learning rate to be 0.001 or was it given?'}
+{'prompt': 'I chose it', 'response': 'i see.. okay! with learning rate 0.1, the accuracy actually went up to 75% (but the assignment pdf said expected ~65%)  IoU is fine, ~0.05'}
+{'prompt': 'I can make a post on piazza', 'response': 'just came across this section in the visualize notebook  I will have to take back my words earlier on combining the train files, it looks like it is recommended to have different train files for all subparts in part 4 & 5'}
+{'prompt': 'Make sense!', 'response': '4b is done! If everyone is okay, I can push to master'}
+{'prompt': 'Thanks!!', 'response': 'Kong pinned a message.'}
+{'prompt': 'Kong pinned a message.', 'response': 'I will get back on pa2 tomorrow, is there anything that I can work on?'}
+{'prompt': 'I can get on that too after capstone tomorrow! What is left that we need to work on?', 'response': 'From yesterday, I know we have 4c, 5a and 5b left'}
+{'prompt': 'From yesterday, I know we have 4c, 5a and 5b left', 'response': 'I’ll get started on 4c today'}
+{'prompt': 'I’ll get started on 4c today', 'response': 'Just did some research for 4c, I should be able to get 4c done today, will keep y’all posted on my progress'}
+{'prompt': 'Thank you!', 'response': 'Pretty much done with 4c, just running a bunch of experiments, will let y’all know before I push'}
+{'prompt': "I'll start on the report", 'response': 'Great! I’ll join u on the report tomorrow!'}
+{'prompt': 'Ester voted for "Discussion - Baseline" and 1 other option in the poll.', 'response': 'Kong voted for "Discussion - Improving on basline" and 1 other option in the poll.'}
+{'prompt': 'Kong voted for "Discussion - Improving on basline" and 1 other option in the poll.', 'response': 'Kong voted for "Methods - Improving on baseline" and 2 other options in the poll.'}
+{'prompt': 'I can also do experimentation bc I’m doing 5a', 'response': 'Experimentation (report) I’ll do 5c UNet'}
+{'prompt': 'Ester voted for "Abstract" in the poll.', 'response': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮\u200d💨😴'}
+{'prompt': 'I filled in the part for Cosine Annealing for both methods and discussion', 'response': 'Yayyyy! Thanks!'}
+{'prompt': 'Are you using your own code or Winfrey’s base code?', 'response': 'Did you get this from the line   Loss = criterion(outputs, labels) ?'}
+{'prompt': 'i used my own code though it has similar sctructure to the 4 questions', 'response': 'I think it’s the'}
+{'prompt': 'I think it’s the', 'response': '256 not matching 224'}
+{'prompt': '256 not matching 224', 'response': 'Your output H and W should be 224'}
+{'prompt': 'Your output H and W should be 224', 'response': 'Try changing padding'}
+{'prompt': '@Kong Xian Ying @Jeremy Tow @Jonathan Cheung Are you all free to call tomorrow at 9am to check in for PA2?', 'response': 'Yes!'}
+{'prompt': 'I’ll implement the training and validation plot for report Results section', 'response': 'Ok sure, thanks!'}
+{'prompt': 'Ok sure, thanks!', 'response': 'Working on the rest of “improving the baseline” now'}
+{'prompt': 'Working on the rest of “improving the baseline” now', 'response': 'Could someone confirm that the number of the original training data is 209?'}
+{'prompt': 'Could someone confirm that the number of the original training data is 209?', 'response': 'Oh yeah @Jeremy Tow @Jonathan Cheung when training the models for part 5, id recommend using the current train code implemented up till 4c to check if both IoU and accuracy increase.  Baseline + enhancements up till 4c gives IoU around 0.065 to 0.067 and accuracy 0.72 to 0.74  I saw a piazza post that they expect our models in part 5 to give better iou and accuracy'}
+{'prompt': 'or ig today', 'response': 'I think remotely!'}
+{'prompt': 'I think remotely!', 'response': 'This is great!!!'}
+{'prompt': "I'll create a Zoom link", 'response': 'I normally take a VERY LONG TIME for breakfast 😂😂😂'}
+{'prompt': 'Ester voted for "Discussion - Experimentation" in the poll.', 'response': 'Kong voted for "Related Work (at least 2 people)" in the poll.'}
+{'prompt': 'Kong voted for "Related Work (at least 2 people)" in the poll.', 'response': 'I’ll add UNet as one of the related works'}
+{'prompt': '', 'response': 'Kong voted for "References" in the poll.'}
+{'prompt': "We'll aim to get the report draft done by tonight!", 'response': 'Yesss agreed!'}
+{'prompt': 'okok could I have your modified basic_fcn file haha', 'response': 'Ester do u plan to push ur code to master? The seed and plot that u added to each train file'}
+{'prompt': 'you can cite a paper using \\citet{reference_name} and it will automatically appear in the References section', 'response': '@Jeremy Tow if you have extra time, could you double check the architecture for UNet? For some reason it isn’t doing well, we got IoU 0.0556 and accuracy 0.75'}
+{'prompt': 'yea fs i’ll check it in a bit', 'response': 'Thank you!'}
+{'prompt': 'I’m trying 5a but data hub is not working for me right now', 'response': 'Oohhh might be cause there are too many people. I had to wait for quite a bit until I get assign a node (I used ssh)'}
+{'prompt': 'it works again!', 'response': 'Do we want to set a cutoff time for the models? For tomorrow.'}
+{'prompt': 'I’ll go to office hours tomorrow', 'response': 'Okkk! I’ll probably go too 😅'}
+{'prompt': 'I did the abstract too', 'response': 'Also, not exactly sure about the metric IoU but now I’m not sure if it can be expressed in percentage'}
+{'prompt': 'Also, not exactly sure about the metric IoU but now I’m not sure if it can be expressed in percentage', 'response': 'I have zero prior knowledge about IoU though, just purely based on articles that I read they put it in decimal'}
+{'prompt': 'but idk', 'response': 'Yeah, sorry Ester,  I said percentage made sense this morning but I’m not sure anymore 🤔🤓😅'}
+{'prompt': 'Yeah, sorry Ester,  I said percentage made sense this morning but I’m not sure anymore 🤔🤓😅', 'response': 'thought I’d share. So there has been a mystery with 5c where by the accuracy and IoU just stop improving at one point even when validation loss is actually decreasing.  There isn’t any bug in the architecture, even though I did add some minor changes to the architecture but honestly nothing changed in terms of the results that we are getting'}
+{'prompt': 'thought I’d share. So there has been a mystery with 5c where by the accuracy and IoU just stop improving at one point even when validation loss is actually decreasing.  There isn’t any bug in the architecture, even though I did add some minor changes to the architecture but honestly nothing changed in terms of the results that we are getting', 'response': 'And I read the original paper multiple times and many forums, and finally broke through the upper bound:  Kind of unexpected but it was because of a combination of the following: 1. Weight initialisation - I changed it to using normal distribution (which was mentioned in the paper)  2. Back to using SGD, cause for some reason the paper mentioned about using momentum'}
+{'prompt': 'And I read the original paper multiple times and many forums, and finally broke through the upper bound:  Kind of unexpected but it was because of a combination of the following: 1. Weight initialisation - I changed it to using normal distribution (which was mentioned in the paper)  2. Back to using SGD, cause for some reason the paper mentioned about using momentum', 'response': 'So for 5a, it might be something that’s beyond the network architecture, not exactly sure but yeah'}
+{'prompt': 'So for 5a, it might be something that’s beyond the network architecture, not exactly sure but yeah', 'response': 'Also one thing I didn’t really try is that, UNet paper mentioned that they use batch size of 1, but I’m not sure how helpful this will be'}
+{'prompt': 'How’s the new test IoU after these improvements?', 'response': 'Still running but for val the highest so far is 0.057 (not great but I’m low-key traumatized by seeing the exact same 0.0556 for the past few hours 😂😂😂'}
+{'prompt': '0.0556 is interesting — I was using a very different architecture and it also got stuck at that exact number', 'response': 'this is so mysterious'}
+{'prompt': "I checked that data augmentation should be reproducible. Then it's strange why not 4c", 'response': 'Oohh like the random rotation and random crop?'}
+{'prompt': 'i tried doing the batch size of 1 thing mentioned in the unet paper and im getting better pixel acc of 0.73 but worse iou of 0.05432', 'response': 'I’m thinking - when batch size is 1, we will need a lot more epochs. How many epochs did you train on just now?'}
+{'prompt': 'when i did a batch size of 1 i augmented the training data so that each "img" is actually a composite of 16 images, so the amount of epochs needed is the same??', 'response': 'In this case, is the backward based on one image or 16 images?'}
+{'prompt': 'well like technically its 1 image that is a composite of 16 imgs', 'response': 'Yeah, like 15 different transformations of the same image + the original?'}
+{'prompt': 'umm i think its 16 different images', 'response': 'Oh as in, one image is segmented into 16 pieces?'}
+{'prompt': 'i tried sgd as well and its worse', 'response': 'Interestinggggg'}
+{'prompt': 'Interestinggggg', 'response': 'Maybe I can run it on your branch? And see if I get the same'}
+{'prompt': 'yea give me a bit to make it suitable for human viewing first lol', 'response': 'Yeah take ur time!'}
+{'prompt': 'also idk why yet but im consistently getting iou of 0.49 now', 'response': 'For UNet ?'}
+{'prompt': 'yea', 'response': 'Ok I’ll look into it in the morning 🤓 thanksss!!'}
+{'prompt': '0.49? 😮😮😮', 'response': 'The highest I’ve gotten is 0.0627'}
+{'prompt': 'The highest I’ve gotten is 0.0627', 'response': '@Ester Tsai can I confirm that u have already discussed Xavier and batch norm in the baseline method section? If so, I won’t include those in the introduction'}
+{'prompt': '@Ester Tsai can I confirm that u have already discussed Xavier and batch norm in the baseline method section? If so, I won’t include those in the introduction', 'response': 'Kong voted for "Introduction" in the poll.'}
+{'prompt': 'I will try the architecture described in this lecture for 5A ', 'response': 'Ester, is there a time that you would like me to finalize UNet? For plots and the final numbers (I’ll take care of the segmentation result for one test data in visualize.ipynb'}
+{'prompt': 'Ester, is there a time that you would like me to finalize UNet? For plots and the final numbers (I’ll take care of the segmentation result for one test data in visualize.ipynb', 'response': 'I’m thinking latest by 6pm today, but I’m flexible'}
+{'prompt': '6pm sounds good', 'response': 'Yeah'}
+{'prompt': 'Yeah', 'response': 'Okay and once you run everything, could you push your version of 5b to main'}
+{'prompt': 'I can also fill in the segmentation result since it requires someone having all 7 models', 'response': 'Yeah'}
+{'prompt': 'Yeah', 'response': 'Sure'}
+{'prompt': 'Sure', 'response': 'Ok I’ll get you the best possible UNet by 6 😎'}
+{'prompt': 'Restarting the server used to help, but not this time', 'response': 'Smaller batch size usually works for me'}
+{'prompt': 'Smaller batch size usually works for me', 'response': 'And restarting'}
+{'prompt': '0.085 IoU', 'response': 'NAISEEEEEE'}
+{'prompt': "we'll see if it's gonna be good!", 'response': 'and yeah this is interesting, I got 0.062 IoU only after changing the kernel size in UNet'}
+{'prompt': 'changing to what kernel size?', 'response': 'All those 3*3 to 4*4'}
+{'prompt': 'All those 3*3 to 4*4', 'response': 'And final layer from 1*1 to 3*3'}
+{'prompt': 'sad, each epoch takes 8 min to train', 'response': 'Ahhhh'}
+{'prompt': 'Ahhhh', 'response': 'That’s quite a while'}
+{'prompt': 'That’s quite a while', 'response': 'Like one hour for 6 epochs'}
+{'prompt': 'Like one hour for 6 epochs', 'response': 'Is the network very deep?'}
+{'prompt': 'Is the network very deep?', 'response': 'What we could do is have like 6-10epochs, then mention the complexity and efficiency in the discussion section'}
+{'prompt': 'Ok', 'response': 'OH THANK YOU!!'}
+{'prompt': 'OH THANK YOU!!', 'response': 'Okay then I’ll be able to finalize before 2pm!'}
+{'prompt': 'Okay then I’ll be able to finalize before 2pm!', 'response': 'Did it take long to train 5b? The transfer learning model'}
+{'prompt': 'Did it take long to train 5b? The transfer learning model', 'response': 'Just curious'}
+{'prompt': '^also remember to add a table for your architecture details like Jeremy and Winfrey did in the report', 'response': 'finally something close to 0.07'}
+{'prompt': '0.11 with leaky relu', 'response': '@Ester Tsai do you have a preference for pushing to main or pushing to my branch for you to compile the models? I’m only pushing train_5_c.py and unet.py'}
+{'prompt': '@Ester Tsai do you have a preference for pushing to main or pushing to my branch for you to compile the models? I’m only pushing train_5_c.py and unet.py', 'response': 'For me to push to main or my branch** whichever is easier for you grab'}
+{'prompt': 'this is with some kernel, acivation, and layer changes as well comapred to just stride', 'response': 'Personally think that IoU greater than 0.07 IoU good enough and above 0.10 is GrEaT 🤣'}
+{'prompt': 'ok then', 'response': 'As long as we can justify we made sufficient changes to the architecture in the report and have some discussion, then we r good'}
+{'prompt': 'pushed', 'response': "ok pushed 5c to my branch as well! there's a high chance you won't get the exact same result, i believe it's the randomness that you mentioned yesterday"}
+{'prompt': "ok pushed 5c to my branch as well! there's a high chance you won't get the exact same result, i believe it's the randomness that you mentioned yesterday", 'response': "master's README has been updated for submission later today!"}
+{'prompt': 'I’ve finished running 5A and will update the report with the plots for the Results section after my tutor hours', 'response': 'Yeah no problem! Thank you!'}
+{'prompt': 'Yeah no problem! Thank you!', 'response': 'I can help cross check the architecture table when you are done @Jeremy Tow @Jonathan Cheung   @Jeremy Tow do you plan to add ResNet under related works? Just checking!'}
+{'prompt': 'i’ll add the paper in', 'response': 'Ok coools!'}
+{'prompt': "I'll rerun it maybe?", 'response': 'Oh wow test IoU is 0.11?'}
+{'prompt': 'Oh wow test IoU is 0.11?', 'response': 'That’s interesting'}
+{'prompt': 'That’s interesting', 'response': 'Sure'}
+{'prompt': 'WOW', 'response': 'What magic did you do'}
+{'prompt': 'What magic did you do', 'response': '😂😂😂'}
+{'prompt': '😂😂😂', 'response': 'Dang UNet was crawling and now it’s flying'}
+{'prompt': 'The batch size can be understood as a trade-off between accuracy and speed. Large batch sizes can lead to faster training times but may result in lower accuracy and overfitting, while smaller batch sizes can provide better accuracy, but can be computationally expensive and time-consuming.', 'response': 'I seeee'}
+{'prompt': 'I seeee', 'response': 'Interesting'}
+{'prompt': 'Interesting', 'response': 'I like this sample!!'}
+{'prompt': 'It’s supposed to be over the entire validation set', 'response': 'Eh really? I thought I checked'}
+{'prompt': 'Eh really? I thought I checked', 'response': 'Oh u mean the average?'}
+{'prompt': 'Oh u mean the average?', 'response': 'Or the iou function'}
+{'prompt': 'So the number might be a little odd', 'response': 'Ohhh ok we are looking at the train files not the util iou right'}
+{'prompt': 'Ohhh ok we are looking at the train files not the util iou right', 'response': 'Oh util iou averages over the batch'}
+{'prompt': 'But I discovered that when I make the test batch size smaller the IoU goes up, which it shouldn’t', 'response': 'enumerate batch_loader gives a batch. So inputs are 16*3*224*224'}
+{'prompt': 'hmmm let me go through the code and check', 'response': 'Maybe in util iou np.nanmean can be done on a specific dimension'}
+{'prompt': 'Maybe in util iou np.nanmean can be done on a specific dimension', 'response': 'Or do a double loop in util iou, so   loop through preds, targets:    Loop through all classes:    Np.nanmean for that particular one pred'}
+{'prompt': 'High key I will just revert back to what we had before because it matched the description well', 'response': 'Actually… we can keep it as is 😂'}
+{'prompt': 'Actually… we can keep it as is 😂', 'response': 'Yeah'}
+{'prompt': 'Yeah', 'response': 'Agreed'}
+{'prompt': 'Samuel chu said he tried and it wasn’t very different', 'response': 'Okkk double checking the architecture now'}
+{'prompt': 'Okkk double checking the architecture now', 'response': 'Oh just joking, I’ll wait a bit'}
+{'prompt': 'Oh just joking, I’ll wait a bit', 'response': '@Jonathan Cheung just checking, for 5a specifically, did you make any changes to  - weight initialization - data augmentation - optimizer - class weights'}
+{'prompt': 'just added all the plots', 'response': 'yupp they look perfecto'}
+{'prompt': 'yupp they look perfecto', 'response': 'thankies!'}
+{'prompt': 'But I think that’s default', 'response': 'Oh then did u use the learning rate scheduler?'}
+{'prompt': 'I think so?', 'response': 'Okk'}
+{'prompt': 'Okk', 'response': 'Let me add that blurb saying that everything else is kept the same'}
+{'prompt': 'Let me add that blurb saying that everything else is kept the same', 'response': 'In the report'}
+{'prompt': 'In the report', 'response': 'Quick question, is there supposed to be a separate model Python file for 5a and 5b?'}
+{'prompt': 'so it kinda overwrites the 4c one', 'response': 'Oh no worries, I think Ester got u'}
+{'prompt': 'I got it yeah!', 'response': 'Ok I see it now!'}
+{'prompt': 'I just wanna get a better plot for 5A if possible', 'response': 'Yes on it'}
+{'prompt': 'Yes on it', 'response': 'Ah'}
+{'prompt': 'Ah', 'response': 'Ester, I am seeing train_5_c has the old version'}
+{'prompt': 'Ester, I am seeing train_5_c has the old version', 'response': 'Like it calls FCN and uses AdamW'}
+{'prompt': 'We still need to write some of discussion section', 'response': 'Yeah for each of the models in 5, need to draw insights from table and visuals'}
+{'prompt': 'Yeah for each of the models in 5, need to draw insights from table and visuals', 'response': 'Currently we are only drawing from table'}
+{'prompt': 'I’m adding to the discussion right now', 'response': 'Hmmmm I’m kind of stuck with UNet’s discussion on the sample test segmentation, since it had worse results than the other two architecture, the test segmentation shows that UNet captures a lot of them 👀'}
+{'prompt': 'Ok I’m back home, is there anything I need or finish up', 'response': "yes, could you check if 5a's discussion mentions the loss plot and the segmentation visual"}
+{'prompt': 'and i finished the architecture table for resnet', 'response': 'ok added mention on the results plot and visual in part 4 + baseline'}
+{'prompt': 'ok added mention on the results plot and visual in part 4 + baseline', 'response': 'I think some of us can start checking the entire paper'}
+{'prompt': 'I think some of us can start checking the entire paper', 'response': '@Jeremy Tow there are three layers numbered 31, is that intentional?'}
+{'prompt': 'fixed ty', 'response': 'np! thanks'}
+{'prompt': 'np! thanks', 'response': 'ok I will stop writing for now, I think some of us might be working on the same section right now, I am starting to see some similar description 😅'}
+{'prompt': 'ok I will stop writing for now, I think some of us might be working on the same section right now, I am starting to see some similar description 😅', 'response': 'also i used present tense for everything and some of us used past tense.   we can stick with one for consistency purpose - whoever is checking the entire paper.'}
+{'prompt': 'Actually not understanding the segmentation visual, r the blobs supposed to look like the shape of the ppl?', 'response': '@Jeremy Tow could you check the code submission? I am not sure if the transfer learning file is actually reflecting the architecture in the report'}
+{'prompt': 'just checked, it looks good', 'response': 'ok cools! I just realized that none of the encoder is actually called. sorry, got confused for a bit.'}
+{'prompt': 'ok cools! I just realized that none of the encoder is actually called. sorry, got confused for a bit.', 'response': 'thanks for confirming!'}
+{'prompt': '5 min per epoch', 'response': 'nice nice'}
+{'prompt': 'page breaks?', 'response': 'try \\newpage'}
+{'prompt': 'It’s already there haha', 'response': 'forcing new page on new section'}
+{'prompt': 'No idea why item doesn’t help', 'response': 'ohh'}
+{'prompt': 'ohh', 'response': 'ok fixed!'}
+{'prompt': 'ok fixed!', 'response': 'use \\clearpage instead'}
+{'prompt': '2 per page seems to fit pretty well', 'response': 'ya I made it smaller but it was before we organize the report'}
+{'prompt': 'ya I made it smaller but it was before we organize the report', 'response': 'so feel free to make new changes haha'}
+{'prompt': 'is everyhting else finalized?', 'response': 'yes on my end'}
+{'prompt': 'Sure!', 'response': 'good work!'}
+{'prompt': 'I’m looking through it again but feel free to submit', 'response': 'Wait sorry'}
+{'prompt': 'Wait sorry', 'response': 'The architecture for transfer learning'}
+{'prompt': 'The architecture for transfer learning', 'response': 'I’ll fix it, gimme 1 min'}
+{'prompt': 'I’ll fix it, gimme 1 min', 'response': 'Ok done!'}
+{'prompt': 'ok ill usbmit now', 'response': 'Thank you Jonathan!'}
+{'prompt': 'ok i added u guys, check if u can see the reprot on gradescope', 'response': 'Yup!'}
+{'prompt': 'Done! Sorry for cutting it so close!', 'response': 'Thanks hehe'}
+{'prompt': 'Thanks hehe', 'response': 'No no, not at all'}
+{'prompt': 'nice job', 'response': 'All good, thanks for the good work everyone!! Get some good rest for now 😴'}
+{'prompt': 'tytyty', 'response': 'Group name is recurrent for PA3!'}
+{'prompt': 'Ester named the group CSE 151B PA3.', 'response': 'Thanks for the name update that’s very thoughtful of you HAHA'}
+{'prompt': '@Samuel Chu if you’d like to join!', 'response': 'I will get started on the programming part tonight, has anyone started working on it? Just wanted to see where I should start with, in case some parts have already been completed'}
+{'prompt': 'I plan to start at 3:30pm!', 'response': 'Okie I can check with you tonight when I start!'}
+{'prompt': 'Actually I’ll start maybe tonight! Gonna crank out some tutor stuff that’s time sensitive', 'response': 'Yup yuppp no worries!'}
+{'prompt': 'Yup yuppp no worries!', 'response': 'Heloo, I made changes to fix the indentation issue mentioned on Piazza and pushed the main branch. None of the body content is changed, just indentation'}
+{'prompt': 'Heloo, I made changes to fix the indentation issue mentioned on Piazza and pushed the main branch. None of the body content is changed, just indentation', 'response': 'There has been quite a few typos in the given template from what I have seen in Piazza. I fixed most of them and pushed to main  Another typo that is not on main  In util, get_random_song_slice takes in string data not list  Similarly, get_random_song_sequence_target takes in song in string format not list'}
+{'prompt': 'There has been quite a few typos in the given template from what I have seen in Piazza. I fixed most of them and pushed to main  Another typo that is not on main  In util, get_random_song_slice takes in string data not list  Similarly, get_random_song_sequence_target takes in song in string format not list', 'response': ''}
+{'prompt': '', 'response': 'I should be able to get the baseline out today  But without the generate.py'}
+{'prompt': 'I’ll do the individual part first and then get on the code', 'response': 'I’ve push a working model to my branch called winfrey (should cover up till Q3)'}
+{'prompt': 'I’ve push a working model to my branch called winfrey (should cover up till Q3)', 'response': 'The loss I’m getting is lower (0.06) than expected (1.9) so I’m still clarifying with the TA on loss calculation - there’s a bunch of averaging going on 🥲'}
+{'prompt': 'Just learned the ABC notation 😳', 'response': 'Yaaahhh heheh'}
+{'prompt': 'Yaaahhh heheh', 'response': 'The lowest loss I get so far is 2.1679, Im making changes to the optimizer to find the one that gives the closest to 1.9  Other than that, my branch is the most updated of my progress'}
+{'prompt': '@Jeremy Tow @Jonathan Cheung @Samuel Chu any progress so far? 😃', 'response': 'I’ll be occupied with midterm and capstone until the weekend, so I’ll build off whatever we have by then'}
+{'prompt': 'Has anyone else figured out how to solve this?', 'response': 'Looking at it now'}
+{'prompt': 'Looking at it now', 'response': 'You got the error when u were trying to install PyTorch?'}
+{'prompt': 'O I FIXED IT', 'response': 'OH how'}
+{'prompt': 'unset LD_LIBRARY_PATH', 'response': 'OH LOL'}
+{'prompt': 'OH LOL', 'response': 'Anything that has to do with PATH is very painful'}
+{'prompt': "it's very slow oop", 'response': 'No I don’t think so, the forum that I read says it’s just old version stuffs'}
+{'prompt': 'No I don’t think so, the forum that I read says it’s just old version stuffs', 'response': 'Wifi matters a lot 😂'}
+{'prompt': "I'm training on cpu oops", 'response': 'It’s slower when I run at school'}
+{'prompt': 'It’s slower when I run at school', 'response': 'Hmmmm'}
+{'prompt': 'how long does it take for you?', 'response': 'Like one hour'}
+{'prompt': 'Like one hour', 'response': 'For 100 epochs'}
+{'prompt': "jk it's slower for me", 'response': 'Ahh cause it’s on cpu?'}
+{'prompt': 'YAYAYAYAYYAYAYYAYAYAYY', 'response': 'Oh THATS GREAT'}
+{'prompt': 'CAPSToNE SUPREMEM', 'response': 'Honestly, I have never used datahub once'}
+{'prompt': 'Is it about the same?', 'response': 'Wow urs is slightly faster actually'}
+{'prompt': 'It’s a bigger GPU although not sure if that affects speed?', 'response': 'Ooohhh I seeeee'}
+{'prompt': 'is it correct there is no test loss?', 'response': 'This is with using Adam, lr=0.001 and weight decay = 0.00001'}
+{'prompt': 'This is with using Adam, lr=0.001 and weight decay = 0.00001', 'response': 'Also TA suggested running with more epochs, I’ve only been running 100 epochs'}
+{'prompt': 'Also TA suggested running with more epochs, I’ve only been running 100 epochs', 'response': 'And probably seed 10'}
+{'prompt': 'And probably seed 10', 'response': 'And yeah no test loss, not given in the starter code'}
+{'prompt': 'do you know if we are allowed to change other configs like SEQ_SIZE', 'response': 'ah that I’m not sure. I thought we are not supposed to change anything in the config until like 5 mins ago a TA said try more epochs'}
+{'prompt': 'hmm I suppose instruction said to use SEQ_SIZE=25~30', 'response': 'Ohhh good catch!'}
+{'prompt': "I'm gonna work on generate.py for now", 'response': 'coooools I’ll keep it running in the background while I do other stuffs 😂'}
+{'prompt': 'So.. do we have to remove the unknown characters?', 'response': 'In generate'}
+{'prompt': 'In generate', 'response': 'I’m not sure if those bolded characters are identified as unknown'}
+{'prompt': "the bold shows bad syntax (system can't recognize what it wants to do)", 'response': 'I see'}
+{'prompt': 'I see', 'response': 'So there’s gonna be some way we need to figure out to control/process them before putting into the converter'}
+{'prompt': 'I wonder how it knows what the context is if I do that', 'response': 'There’s the hidden state that saves the context'}
+{'prompt': 'Let me fix something real quick and check again', 'response': 'Okk'}
+{'prompt': '@Kong Xian Ying when you finish training, could you send me the model checkpoint if possible? or I can just send you my generate.py', 'response': 'Yuppp!'}
+{'prompt': 'AdamW lr=1e-3', 'response': 'Nice niceeeee'}
+{'prompt': 'Also our current val loss is ok! We can move on to hyperparameter tuning,. I;ll start that tonight', 'response': 'Yayyy!! Thank you!!'}
+{'prompt': 'Hold on gonna fix something small real quick', 'response': 'Not too sure, I only remember seeing a post on piazza about softmax and temperature'}
+{'prompt': '@everyone', 'response': 'Yasssss'}
+{'prompt': 'Yasssss', 'response': 'I have midterm at 4 so I’ll can only stay until 3.30pm for the call'}
+{'prompt': 'I have midterm at 4 so I’ll can only stay until 3.30pm for the call', 'response': '@Ester Tsai @Jonathan Cheung logistic is actually a nonlinear technique, good job!! 🤣🎉'}
+{'prompt': 'I’m working on the heat map, almost done', 'response': 'What’s the lowest val loss so far with hyperparameter tuning?'}
+{'prompt': '2.008', 'response': 'Interesting'}
+{'prompt': 'Interesting', 'response': 'Thanks!!'}
+{'prompt': 'like in 5 mknjtes', 'response': 'Ah can we keep it at 3? I’m at work until 3pm and I have a consultation at the moment'}
+{'prompt': '@Kong Xian Ying do you think you help me fix the gpu error i’m having with capstone gpu later today?', 'response': 'Oh yeah ofc'}
+{'prompt': 'Oh yeah ofc', 'response': 'Is 8.30 ok?'}
+{'prompt': 'would 9:15 work?', 'response': 'Okiee'}
+{'prompt': "Samuel Chu is inviting you to a scheduled Zoom meeting.  Topic: Samuel Chu's Personal Meeting Room  Join Zoom Meeting ", 'response': 'Okie coming'}
+{'prompt': 'do you want to set a new meeting?', 'response': ''}
+{'prompt': 'I have the basic set of results that the report needs (loss plots, heatmaps, and the training/val loss are in the model checkpoint names), but we can test more models and get better results', 'response': 'Training with 150 sequence length right now, it’s training slower so…  … will mostly hear back from me after 2 hours 😂😂'}
+{'prompt': 'Training with 150 sequence length right now, it’s training slower so…  … will mostly hear back from me after 2 hours 😂😂', 'response': 'Code is still running but I got 1.988 lowest so far with sequence length of 70'}
+{'prompt': 'Code is still running but I got 1.988 lowest so far with sequence length of 70', 'response': 'I think we can go ahead with sequence length of 70, and the training speed is acceptable'}
+{'prompt': 'i trained with a sequence length of 300 and let it run the whole day, i’ll let you guys know the loss after i get back to my computer', 'response': 'Training with sequence length of 50 is even better. Got 1.97 at epoch 198, also faster for sure'}
+{'prompt': 'Training with sequence length of 50 is even better. Got 1.97 at epoch 198, also faster for sure', 'response': 'okie I think I will settle with sequence length of 50 for now'}
+{'prompt': 'will also see what Jeremy gets with sequence length of 300!', 'response': 'baseline model plot'}
+{'prompt': 'its kinda not good', 'response': 'I’m thinking if it’s overfitting'}
+{'prompt': 'yea :(', 'response': 'But also getting 2.0 something at epoch 151 is kinda okay ish?'}
+{'prompt': 'But also getting 2.0 something at epoch 151 is kinda okay ish?', 'response': 'Oh sorry my bad, I saw epoch instead of iter'}
+{'prompt': 'Oh sorry my bad, I saw epoch instead of iter', 'response': 'Ignore this heh'}
+{'prompt': 'Ah I see', 'response': 'Just very very slightly higher'}
+{'prompt': 'def not worth doing', 'response': 'Would you like to try sequence length of 50? to make sure my GPU is not overly optimistic haha'}
+{'prompt': 'ok yea fs let me do a run rn', 'response': 'Okkk'}
+{'prompt': 'oh how many neurons are u using', 'response': '150'}
+{'prompt': '150', 'response': 'Epochs 260'}
+{'prompt': 'skulling', 'response': 'OH LOL'}
+{'prompt': 'OH LOL', 'response': 'Hahaha okieee'}
+{'prompt': 'Hahaha okieee', 'response': 'And I’ll generate the plots for hyperparamter tuning using sequence length of 50 and all else constant except for the specific hyperparamter , I’ll take the neurons config, and would you like to take the dropout configs?'}
+{'prompt': 'do i even try 200 lol the training time is obscene', 'response': 'One round takes like 1.5hours to 2 hours for me (cause sometimes my wifi drops lol   So I def won’t be able to do all configs in one day'}
+{'prompt': 'One round takes like 1.5hours to 2 hours for me (cause sometimes my wifi drops lol   So I def won’t be able to do all configs in one day', 'response': 'How long did it take 😂'}
+{'prompt': 'How long did it take 😂', 'response': 'Oh I’m joking'}
+{'prompt': 'Oh I’m joking', 'response': 'I mean.. only if u want to keep it running overnight 😂'}
+{'prompt': 'like fully 4 minutes per epoch i think', 'response': 'I tried 150 and it got too miserable at one point I forgot how long I waited so I just interrupted it 😂😂😂'}
+{'prompt': 'so like 17 hrs', 'response': 'Ouchy, wait how is ur GPU billed?'}
+{'prompt': 'i have my own gpu lol', 'response': 'Ohhhhh like u own it?'}
+{'prompt': 'yea its sitting in my computer next to me rn lol', 'response': 'when u said u have one, I was thinking that you actively rent/pay on demand from like Amazon'}
+{'prompt': 'when u said u have one, I was thinking that you actively rent/pay on demand from like Amazon', 'response': '😂 that’s very cool'}
+{'prompt': 'oh man i could never aws is so expensive', 'response': 'OH REALLY dang I thought they always sell themselves as a cheaper option or like pay as you go, no hidden fee, low cost etc'}
+{'prompt': 'training 50 takes me about 1:10 per epoch', 'response': 'Yeah does take a while, I think datahub might be faster but not really too significant? I haven’t really timed it properly. Anyway, if we train the full 260 epochs each time, we can probably only do like 3-4 rounds per person per day (for the amount of time that we are awake 😬'}
+{'prompt': "mb i'll do runs on datahub and my personal gpu concurrently", 'response': 'I could be wrong cause I just start it and work on other stuffs 😂😂 it could actually be 3-4 hours but yeah I think running on both is a good idea if that’s manageable'}
+{'prompt': 'Should I try running anything when I’m back or just focus on the report?', 'response': 'Hmmm I’d say.. we’ll see? I was thinking that you’d want to rest and settle down once u get home. I think I will be able to run 2 full rounds by afternoon (covering all of hyperparamter part b)'}
+{'prompt': 'Lmk if I can help run anything!', 'response': 'Yup yup'}
+{'prompt': 'Yup yup', 'response': 'Yes! could you run config 250 neurons with sequence length 50?'}
+{'prompt': 'AdamW lr=1e-3?', 'response': 'Yupp everything else the same'}
+{'prompt': 'okok!', 'response': 'I updated row 1'}
+{'prompt': 'I updated row 1', 'response': 'Row 2 still running'}
+{'prompt': 'Row 2 still running', 'response': 'As in, the current row 1 is accurate'}
+{'prompt': 'Which branch should I pull?', 'response': 'ester2'}
+{'prompt': 'Oo what was the bug in train.py?', 'response': 'Remember u said u added to SongRNN to return x0 or x1'}
+{'prompt': 'Remember u said u added to SongRNN to return x0 or x1', 'response': 'So now the songrnn forward returns output, _ instead of just output'}
+{'prompt': 'I pushed my results for config_250_neurons.json and added the train and val loss to the report', 'response': 'Gosh it finished?'}
+{'prompt': 'LOL YEAH', 'response': 'So fast!! 🥲'}
+{'prompt': 'does it increase the amount of information that can be stored in the cell state or something?', 'response': 'For this PA, neurons = number of features in hidden state'}
+{'prompt': 'hidden state = cell state?', 'response': 'Our LSTM is a single layer one, so it’s only one LSTM'}
+{'prompt': 'ok', 'response': 'They r different in LSTM'}
+{'prompt': 'They r different in LSTM', 'response': 'In RNN, there’s only hidden state, no cell state'}
+{'prompt': 'thanks', 'response': 'The last hyperparameter tuning will be ready shortly! 48 epochs left 😪'}
+{'prompt': 'so far baseline is still the best', 'response': '250 that I’m running atm is slightly better than baseline'}
+{'prompt': '250 that I’m running atm is slightly better than baseline', 'response': 'Once this is done, if this is the best we have so far, I’ll generate the heatmaps with this model first. If someone gets a better model, feel free to replace the neuron heatmaps'}
+{'prompt': 'Once this is done, if this is the best we have so far, I’ll generate the heatmaps with this model first. If someone gets a better model, feel free to replace the neuron heatmaps', 'response': '@Ester Tsai did you find training RNN faster or slower than LSTM? Or roughly the same'}
+{'prompt': '@Ester Tsai did you find training RNN faster or slower than LSTM? Or roughly the same', 'response': 'Ok added results and plot for 200 neurons, will generate the heatmaps now'}
+{'prompt': 'Oops I didn’t time it. Would it be helpful if I rerun part of it to time it?', 'response': '@Jeremy Tow could you add your plots for the dropout experiments? I think they might be helpful for Sam’s parts'}
+{'prompt': '@Jeremy Tow could you add your plots for the dropout experiments? I think they might be helpful for Sam’s parts', 'response': 'Ohh no worries! No need hehe'}
+{'prompt': 'the loss ones?', 'response': 'yes'}
+{'prompt': 'yes', 'response': 'the loss plots'}
+{'prompt': 'Does the “93 unique characters” refer to all the possible outputs in abc format for each note?', 'response': 'Yes'}
+{'prompt': 'Sure! We can make the figure a little wider and less tall', 'response': '@Jonathan Cheung I uploaded all the heatmaps from our best trained model under the figures folder. Are you able to see them?'}
+{'prompt': 'Yeah I can see the figures', 'response': 'I’m thinking of letting you choose 3 heatmaps from there? Those that are more explainable for the discussion section'}
+{'prompt': 'I’m thinking of letting you choose 3 heatmaps from there? Those that are more explainable for the discussion section', 'response': 'Then I’ll put the 3 that u choose to discuss under results'}
+{'prompt': 'Ok, I’ll choose 3 between the 0-140 heatmaps', 'response': 'Okie thanks'}
+{'prompt': 'i uploaded the dropout plots under figures, the sequence length is wrong so i’ll update them by tmr morning but for now if anyone needs them they’re there', 'response': '@Jeremy Tow for song generation (results part 6b), this is the best model i have with me. also the best we have so far'}
+{'prompt': '@Jeremy Tow for song generation (results part 6b), this is the best model i have with me. also the best we have so far', 'response': "ah nvm it's not allowing me send here"}
+{'prompt': "ah nvm it's not allowing me send here", 'response': 'ok I push the best model to branch ester2, path is checkpoint/best_0219'}
+{'prompt': 'tysm', 'response': 'the config to use is config_200_neurons.json'}
+{'prompt': 'Also are we going with our “best model” as the one with lowest Val loss?', 'response': 'Yes'}
+{'prompt': 'i couldnt find any on github', 'response': 'They are under the figures folder in overleaf'}
+{'prompt': 'im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will suck but we can fix it up later (edited)', 'response': 'Yup yup'}
+{'prompt': 'what were the hyperparameters u used when training this model?', 'response': 'u can find it in this config. I remember the more general ones like 200 neurons, Lr 1e-3, dropout 0.1 and LSTM model'}
+{'prompt': 'yep right after i finish running the temperature expirements', 'response': 'Also I’ll push ester2 to main at 8pm, lmk before that if there’s any pending code changes'}
+{'prompt': 'Also I’ll push ester2 to main at 8pm, lmk before that if there’s any pending code changes', 'response': 'ok main repo is updated, the pa doc didnt say anything about what to not submit, so i only kept the configs folder and data folder'}
+{'prompt': 'ok main repo is updated, the pa doc didnt say anything about what to not submit, so i only kept the configs folder and data folder', 'response': "would anyone like to proofread the report before we submit? I think it'd be nice to have one or two of us go through and standardize our writeup, e.g. past/present tense etc.   I used present tense for most if not all of my parts but i'm good with either past or present."}
+{'prompt': 'ok i can', 'response': 'thank you very much!'}
+{'prompt': 'im almost done with my part, just generating a bunch of songs with different temperatures to get statistics', 'response': 'yupp all good!'}
+{'prompt': 'yupp all good!', 'response': 'oh yeah the PA doc also said to include their music representation generated from '}
+{'prompt': 'i uploaded the txt files and the midi files to the overleaf project', 'response': 'ooo were there any notes that the converter flagged as invalid or unrecognized notes?'}
+{'prompt': 'the higher the temperature the more errors', 'response': 'AHAHHAHA'}
+{'prompt': 'i tried a bunch of generations and at temp = 2 it was like multiple pages of errors', 'response': 'right, as it is more creative (or hallucinates more) haha'}
+{'prompt': 'artists on drugs be like', 'response': 'HAHHAHAHAHAH spot on'}
+{'prompt': 'Seems reasonable', 'response': 'Yeah it makes sense to me'}
+{'prompt': 'Yeah it makes sense to me', 'response': 'Also that’s a very good observation 🙌🏼'}
+{'prompt': 'I can do a final read through if we need', 'response': 'Code is ready'}
+{'prompt': 'if theres no other changes I can submit', 'response': 'Can someone double check the requirement here? I might have understood it wrongly but it looks like they asked for the ABC notation (which we have) and the music representation/notation (which we don’t have at the moment)'}
+{'prompt': 'give me like 5 min', 'response': 'Okiee! No worries! There’s still time'}
+{'prompt': 'But I guess the txt and midi files should be in the repo then?', 'response': 'Yeah same here 😅'}
+{'prompt': 'Yeah same here 😅', 'response': 'Oh yeah this is the thing that I’m not sure'}
+{'prompt': 'I guess so', 'response': 'Ok I’ll do that'}
+{'prompt': 'Do we need any help with the code submission?', 'response': 'All good! Just submitted'}
+{'prompt': 'Solved some minor bugs', 'response': 'Are those on main or ester1? Which one should I pull'}
+{'prompt': 'Main is the same as Ester 1 right now', 'response': 'Ooh okkk'}
+{'prompt': 'Ooh okkk', 'response': 'Okie! Thanks'}
+{'prompt': 'Okie! Thanks', 'response': 'I’ll work on the programming part this Saturday, I’ll check everyone’s progress by then before I start'}
+{'prompt': 'TA said: Results.txt is irrelevant Reference this result instead: Baseline(10 epochs): Loss = 192.47; Val Accuracy = 84.21; Test Accuracy = 83.49', 'response': 'Ooo is our loss 377 still considered too high compared to the reference?'}
+{'prompt': 'oh oop', 'response': 'oooh okok! anywhere that u suspect is not doing the job properly?'}
+{'prompt': 'we can still test different optimizer and scheduler and other hyperparameter tuning', 'response': 'Okie'}
+{'prompt': 'cd cse151b251b-wi24-pa4-transformative python main.py --embed-dim 768 --n-epochs 50  ^^ try this', 'response': 'Ah datahub and dsmlp not working for me at the moment. I’ll have to wait and try again in 30minutes or so.'}
+{'prompt': 'Ah datahub and dsmlp not working for me at the moment. I’ll have to wait and try again in 30minutes or so.', 'response': '@Ester Tsai @Jeremy Tow roughly how long does it take to run?'}
+{'prompt': 'Feel free to change the number of epochs or add the argument for learning rate and try a higher learning rate', 'response': "ok thanks! it runs just fine but I have to interrupt it to go to a class now haha, I'll run it again tonight and see what it gives."}
+{'prompt': "ok thanks! it runs just fine but I have to interrupt it to go to a class now haha, I'll run it again tonight and see what it gives.", 'response': 'And is this code implemented up till 3i?'}
+{'prompt': 'And is this code implemented up till 3i?', 'response': "hmmm since yesterday night i've been having a problem where the terminal won't run at all lol, though it did run in the afternoon when i tested it. Right now, it's just stuck and interrupting does work as well, has anyone faced this problem before? it's the same for me both on datahub and using ssh"}
+{'prompt': 'Yes that happens sometimes', 'response': 'interrupting does not work**'}
+{'prompt': 'interrupting does not work**', 'response': 'ohhh okay'}
+{'prompt': 'ohhh okay', 'response': 'interesting, first time for me, but good to know!'}
+{'prompt': 'Not sure what’s the solution🥺', 'response': "it's okay!! I'll try another node and wait a bit"}
+{'prompt': "it's okay!! I'll try another node and wait a bit", 'response': 'thanks Ester!'}
+{'prompt': 'thanks Ester!', 'response': 'also confirmed this. Yesterday when I ran it for loss was 800+ at some epoch < 10, today I ran the same branch and loss is 2706 after 50 epochs'}
+{'prompt': 'cuz i don’t think i have this issue', 'response': 'ok I can try your branch as well'}
+{'prompt': 'gc.collect() torch.cuda.empty_cache()', 'response': 'ooo okok'}
+{'prompt': 'sheesh ok', 'response': 'Also dropout 0.9 is quite high honestly'}
+{'prompt': 'Also dropout 0.9 is quite high honestly', 'response': 'I’m trying drop-rate 0.1 for 10 epochs'}
+{'prompt': 'so it does work, but I have to keep learning rate below 1.5e-4 (1.5e-4 does not work, but 1.1e-4 works, still testing more)', 'response': 'Ooohh'}
+{'prompt': 'Ooohh', 'response': 'Validation accuracy is 85.7% and loss is 183 at epoch 6 for drop rate 0.1, everything else the same'}
+{'prompt': 'Validation accuracy is 85.7% and loss is 183 at epoch 6 for drop rate 0.1, everything else the same', 'response': 'I think the culprit is the drop rate..? 😂'}
+{'prompt': 'OK', 'response': 'Yeah ok test accuracy is 86.58%'}
+{'prompt': '', 'response': 'Thanks!!'}
+{'prompt': 'I updated the print statement to be more clear too, so would you guys like to make a branch of ester1 and work on that? (ignore ester2)', 'response': "yes i'll merge with your branch in a bit, working on the custom model right now. Thank you Ester!!"}
+{'prompt': "yes i'll merge with your branch in a bit, working on the custom model right now. Thank you Ester!!", 'response': 'Implemented part 4 strategy 1 & 2 from the list of five strategies - I just went with the order of the list   feel free to check the code in my branch winfrey (merged pull from the latest update in ester1 branch)  also feel free to explore the other strategies - we will only need to report 2 out of the 5 strategies'}
+{'prompt': 'Implemented part 4 strategy 1 & 2 from the list of five strategies - I just went with the order of the list   feel free to check the code in my branch winfrey (merged pull from the latest update in ester1 branch)  also feel free to explore the other strategies - we will only need to report 2 out of the 5 strategies', 'response': 'Results can be found in this doc here'}
+{'prompt': 'Are you all free to call at 3pm again this Friday to check-in on PA4?', 'response': 'Yes!'}
+{'prompt': "ok yea i'll make it", 'response': 'Oh yeaaaah definitely mention this, cause for PA1 both me and Ester worked on some parts that are the same and we said something like we both coded this part and we ended up taking xx’s version'}
+{'prompt': "@Jeremy Tow @Jonathan Cheung @Samuel Chu feel free to  build on top of ester1; it has Jeremy's, Winfrey's, and my most updated code", 'response': 'I like how we are stacking on top one another’s 😂😂'}
+{'prompt': 'I like how we are stacking on top one another’s 😂😂', 'response': 'Hello hello, to plan our tasks and time for the rest of this week, is anyone planning to work on or currently working on part 4 or part 5?'}
+{'prompt': '@Kong Xian Ying would you like to try dropout 0.15 instead of 0.1? it seemed to perform better for me', 'response': 'Sure'}
+{'prompt': 'All results are recorded here btw! ', 'response': 'Kong pinned a message.'}
+{'prompt': 'Also would anyone like to set up the report sections according to the PA instruction?     ', 'response': 'I will do that'}
+{'prompt': 'I will do that', 'response': 'I’ll also work on what is left for Part 4 this Sunday. @Jonathan Cheung @Samuel Chu lmk if you are already working on any of Part 4 (or Part 5) so I can plan my time accordingly.   Also I’ll need help with getting started on the report, if any of you would like to work together with me, I’d really appreciate that!!'}
+{'prompt': 'We’re pretty good on part 4 since we’ve done methods 1-3. Feel free to try methods 4-5 but we should aim to get part 5 done first!', 'response': 'Yupp agreed!!'}
+{'prompt': 'Anyone going to OH tomorrow?', 'response': 'Nope I won’t be'}
+{'prompt': 'Yooooooooooo', 'response': 'Wowwwww'}
+{'prompt': '^ if anyone would like to test it', 'response': 'Thank you!'}
+{'prompt': '', 'response': 'I’ll join in one minute, finding a quiet space'}
+{'prompt': '', 'response': ''}
+{'prompt': '', 'response': '^ i was looking at the inference section'}
+{'prompt': 'in fact 50 is the most common label', 'response': '👀'}
+{'prompt': 'Yeah looks like answering this = answer to that question', 'response': 'Or maybe how does the classifier know which label is the most popular ?'}
+{'prompt': 'just made another push to use the best model (best val accuracy) instead of final model', 'response': 'Confirmed with TA, kinda what we went over just now. So I guess we just have to figure out why test accuracy is roughly the percentage of the dominant class or is it just coincidence  “Before fine-tuning means: we use BERT + linear classifier to get our target predictions without any training.”'}
+{'prompt': 'Confirmed with TA, kinda what we went over just now. So I guess we just have to figure out why test accuracy is roughly the percentage of the dominant class or is it just coincidence  “Before fine-tuning means: we use BERT + linear classifier to get our target predictions without any training.”', 'response': 'So essentially it goes down to what the linear classifier is predicting?'}
+{'prompt': "good call on using large batch size @Ester Tsai!! I read Lilian Weng's blog that SimCLR does require large batch size to perform well.", 'response': "checked the implementation of SimCLR, it looks all good to me (thanks Ester!), I'm reading papers on the effect of some hyperparameters on it."}
+{'prompt': "checked the implementation of SimCLR, it looks all good to me (thanks Ester!), I'm reading papers on the effect of some hyperparameters on it.", 'response': "if we haven't already tried, we could try lower learning rate for classifier (1e-4)"}
+{'prompt': "if we haven't already tried, we could try lower learning rate for classifier (1e-4)", 'response': 'SimCSE is using dropout rate of 0.1, and from the doc I see that Ester has tried that'}
+{'prompt': 'or even different schedulers', 'response': 'okie!'}
+{'prompt': 'okie!', 'response': "@Jeremy Tow also.. I kinda suspect that there's actually only 2 published research papers that use Amazon Massive Intent - maybe that's why the instruction explicitly states that we get full credits for related work as long as we have 2 papers that use this dataset lol  I could be wrong though, just couldn't find any other papers."}
+{'prompt': "@Jeremy Tow also.. I kinda suspect that there's actually only 2 published research papers that use Amazon Massive Intent - maybe that's why the instruction explicitly states that we get full credits for related work as long as we have 2 papers that use this dataset lol  I could be wrong though, just couldn't find any other papers.", 'response': 'paper 1: '}
+{'prompt': "I'm trying SGD optimizer for the contrastive training loop", 'response': '@Ester Tsai just confirming, we are going with custom 1&3 right?'}
+{'prompt': "yeah let's do that if you guys are down!", 'response': 'yeah sounds good to me'}
+{'prompt': "@Jeremy Tow@Jonathan Cheung@Samuel Chu How's progress?", 'response': '@Ester Tsai do you also get very low contrastive loss? like 0.0'}
+{'prompt': 'yes', 'response': "I'm thinking if it is the classifier that's not learning"}
+{'prompt': "I'm thinking if it is the classifier that's not learning", 'response': 'i think i figured out SimCLR'}
+{'prompt': 'i think i figured out SimCLR', 'response': 'will get back to yall in 20 mins'}
+{'prompt': 'The batch size doesn’t seem to have significant difference compared to 256, though I’m not on gpu 30 and other params are TBD', 'response': "for SimCLR, it's our model architecture. there are two things we might have missed, i am still checking:  1. we need to drop the projection head when passing to the classifier. we still train supconmodel with the projection head, it is only when training the classifier, we want the hidden representations instead of the projection head output  2. we need to apply dropout two times for unsupervised SimCLR. I am still looking at the paper for details of implementation"}
+{'prompt': "for SimCLR, it's our model architecture. there are two things we might have missed, i am still checking:  1. we need to drop the projection head when passing to the classifier. we still train supconmodel with the projection head, it is only when training the classifier, we want the hidden representations instead of the projection head output  2. we need to apply dropout two times for unsupervised SimCLR. I am still looking at the paper for details of implementation", 'response': ''}
+{'prompt': '', 'response': 'my post on piazza: '}
+{'prompt': 'my post on piazza: ', 'response': 'ok so we took care of item2. I will work on item1'}
+{'prompt': 'I have been experimenting on flipping the normalization and linear head in final_output but don’t know if it’s a fluke', 'response': 'Yup yup this sounds right'}
+{'prompt': 'I’m running rn after moving the scheduler update thing into the epoch for loop rather than batch', 'response': 'Yup this too'}
+{'prompt': 'Yup this too', 'response': 'Also try removing the cross entropy loss reduction = sum'}
+{'prompt': 'Also try removing the cross entropy loss reduction = sum', 'response': 'Just use the default'}
+{'prompt': 'After many epochs of 0 it becomes nan and it breaks', 'response': 'classifier or supcon?'}
+{'prompt': 'I mean the mean train loss', 'response': 'if you are referring to the mean train loss of supcon (the first training loop), it always reaches 0.0 within 10 epochs for me'}
+{'prompt': 'if you are referring to the mean train loss of supcon (the first training loop), it always reaches 0.0 within 10 epochs for me', 'response': 'so i just set it at 10 epochs for contrastive-n-epochs'}
+{'prompt': 'so i just set it at 10 epochs for contrastive-n-epochs', 'response': 'also, might want to add a new argument to this'}
+{'prompt': 'It becomes man for em sometimes too, especially when temperature is lower than 0.01', 'response': "because if it is taking classifier input dim, it'll always be 768, and the linear is doing 768 -> 768, which is not really meaningful"}
+{'prompt': "because if it is taking classifier input dim, it'll always be 768, and the linear is doing 768 -> 768, which is not really meaningful", 'response': "and classifier input dim has to be 768, since it is taking the encoder's embeddings when we are doing SimCLR"}
+{'prompt': 'Yep that’s right', 'response': 'was able to get 71% val acc, and 88% train acc by epoch 7 of training the classifier, just fixing some minor issues on my end right now. I will run a few more experiments and let yall know how it goes.'}
+{'prompt': 'Messed up a line and my test acc became 0.02 💀', 'response': 'hahaha high five, been there, done that, i was debugging for like 2 hours'}
+{'prompt': 'Seems to be breaking my code', 'response': 'yup'}
+{'prompt': 'yup', 'response': 'lemme push my code to winfrey and maybe you can cross check from there'}
+{'prompt': 'lemme push my code to winfrey and maybe you can cross check from there', 'response': 'ok my branch is fully updated'}
+{'prompt': 'ok my branch is fully updated', 'response': "i'm mostly testing 2 hyperparameters now 1. supcon-linear-head-dim 2. hidden-dim (of the classifier, because we have been using the default 10, so its going 768 -> 10 -> 60)"}
+{'prompt': 'I thought hidden dim isn’t used for some reason', 'response': 'It’s a lot of args going on 😂'}
+{'prompt': 'OOPS', 'response': 'Yeah no worries, I only realized that very much later, the 71% just now is with hidden dim 128 (for Classifier), and sup con linear head dim 128 (for SupConModel)'}
+{'prompt': 'the linear head dim can go pretty high, like 3000', 'response': 'True true!'}
+{'prompt': 'Oh my goodness this is so very much needed', 'response': 'Thank you'}
+{'prompt': 'Thank you', 'response': 'added a new table just for SimCLR in the results google doc'}
+{'prompt': 'WAIT', 'response': 'Yes sir'}
+{'prompt': 'VAL ACC 0.83 on 3 epochs', 'response': 'Niceeeee'}
+{'prompt': 'sheesh?????????', 'response': 'Lesgoooo'}
+{'prompt': 'The train acc is getting to 99%', 'response': 'Goodnight everyone'}
+{'prompt': 'Goodnight everyone', 'response': 'HAHAHAHAH'}
+{'prompt': 'HAHAHAHAH', 'response': 'What’s the magic parameter'}
+{'prompt': 'yuh please send the command line', 'response': 'Okieeeee'}
+{'prompt': "wanna send it rn haha I'll run it along with my other string of commands", 'response': 'Oh and push ur code we can just use urs'}
+{'prompt': 'oh yeah ill make a branch bc ive been workignon a copy of esters', 'response': 'Yeaaah okkk'}
+{'prompt': 'Yeaaah okkk', 'response': 'Thanks Jonathan!!'}
+{'prompt': "if we removed the reduction='sum', it'll be hard to calculate loss consistently", 'response': 'Also, very good call on this Ester, val acc is already above 80% at epoch 3 with 1200 linear head dim'}
+{'prompt': 'Also, very good call on this Ester, val acc is already above 80% at epoch 3 with 1200 linear head dim', 'response': 'OHHHH Okok we should put it back then, Soz didn’t think that far'}
+{'prompt': "haha I tried 10000 once and might've gotten CUDA out of memeory", 'response': 'Pushing the limits we like'}
+{'prompt': '82.92%', 'response': 'Niceeeeee wow I’m so glad we worked this out together 😍😍😍'}
+{'prompt': 'YUH thanks to your important fixes XD', 'response': 'I find it easier to do this on GitHub than command line'}
+{'prompt': 'I find it easier to do this on GitHub than command line', 'response': '1. Pull request from Ester to ur branch 2. Then only push ur code to ur branch'}
+{'prompt': 'not the actual repo on my computer', 'response': 'Well, there’s also brute force, download the py files and upload it, almost guaranteed to work always 🤣 when there’s too many merge conflicts I just brute force hahaha'}
+{'prompt': 'Aaaaaa', 'response': 'Noiceeee'}
+{'prompt': "I've at least updated the SupCon and SimCLR plots, but not yet the other ones. I'm also down to keep the other ones the same since we've already written a lot about them. But I also have the new plots after the code fix available if we want to swap the old ones out.", 'response': 'yup, i will fill out my parts today.'}
+{'prompt': 'yup, i will fill out my parts today.', 'response': "yeah, i'm down with either."}
+{'prompt': "yeah, i'm down with either.", 'response': 'is the acc for the fine tuned models very different from the table we have right now?'}
+{'prompt': 'not that different', 'response': 'i see okay'}
+{'prompt': 'i see okay', 'response': 'well.. at least for my part of the discussion, it is easier to discuss that adding fine-tuning strategies improves the model'}
+{'prompt': 'well.. at least for my part of the discussion, it is easier to discuss that adding fine-tuning strategies improves the model', 'response': 'but i can do more research'}
+{'prompt': 'but i can do more research', 'response': 'if we want, we can embrace the research mindset by reporting the latest results'}
+{'prompt': 'TRUE', 'response': "yeah, i'm kind of leaning towards reporting our final and most consistent results"}
+{'prompt': "yeah, i'm kind of leaning towards reporting our final and most consistent results", 'response': 'do you need help with running any more or you have everything we need already?'}
+{'prompt': 'for custom 3 and custom1and3', 'response': 'just saw that you took SimCLR on the report! thank you thank you'}
+{'prompt': 'done with baseline and custom1', 'response': 'okkk i will do that tonight, will build off what you have in the results doc'}
+{'prompt': "I'll put them on Overleaf", 'response': 'oooh so custom1 itself is slightly tiny bit better than baseline'}
+{'prompt': 'We need to comment on each plot right', 'response': 'hmmmm.. the exact wording from the doc is summarize the results, but we can always play safe and mention it.'}
+{'prompt': 'hmmmm.. the exact wording from the doc is summarize the results, but we can always play safe and mention it.', 'response': 'we are meeting at 7pm this Wednesday for final project, right?'}
+{'prompt': 'Yes', 'response': '@Ester Tsai if ester1 branch is the most updated one, custom_train in main.py we gotta move the model.scheduler.step() outside of the batch loop'}
+{'prompt': '@Ester Tsai if ester1 branch is the most updated one, custom_train in main.py we gotta move the model.scheduler.step() outside of the batch loop', 'response': 'typo from the starter code that got carried forward oopss'}
+{'prompt': 'typo from the starter code that got carried forward oopss', 'response': 'I moved the scheduler step out to the epoch loop, and the best val acc is above this here at epoch 5'}
+{'prompt': 'I got good supcon plot', 'response': 'Ooohh I seeee okkk thanks!'}
+{'prompt': 'custom1and3 just slightly worse than baseline', 'response': 'Is the scheduler step in the epoch loop when u ran them? Just curious if u have changed it locally'}
+{'prompt': 'need to rerun', 'response': '😬😬 I can help run a chunk when I get home in like 45 minutes'}
+{'prompt': '😬😬 I can help run a chunk when I get home in like 45 minutes', 'response': 'Thanks for running so many of them'}
+{'prompt': 'Thanks for running so many of them', 'response': '😭🙌🏼'}
+{'prompt': 'just quit his OH lol', 'response': 'I went to his before! and I remember the session I went wasn’t very helpful too'}
+{'prompt': 'custom1, custom3, and custom1and3', 'response': 'Ester has a chunk of command lines written in the results doc, you can get some from there and modify as you would like to'}
+{'prompt': 'wow lol that little bug fix solved many things', 'response': 'Niceeeee'}
+{'prompt': 'Niceeeee', 'response': 'i see your log of code that you will run at 520pm, is there any block that is not in the queue now?'}
+{'prompt': "i'll run the custom3 commands", 'response': 'ok ill do custom1'}
+{'prompt': '0.2 drop rate*', 'response': 'okk!'}
+{'prompt': 'lmk if anything better comes up! Or I can just put these plots on Overleaf', 'response': 'Nice nice mine is still running and ntg is higher so far'}
+{'prompt': '^ yea same', 'response': 'custom1 is on its last one, i am good with going with what you have there. do we still need to run supcon?'}
+{'prompt': 'custom1 is on its last one, i am good with going with what you have there. do we still need to run supcon?', 'response': "^ I'm assuming you meant SimCLR"}
+{'prompt': 'I’m ok with calling it good enough haja', 'response': 'yes agreed'}
+{'prompt': 'Actually I meant SupCon!', 'response': 'oooo'}
+{'prompt': 'And it’s alright since it’s above 80%', 'response': 'yeah'}
+{'prompt': 'All the plots had been updated!', 'response': 'ok i will do supcon now'}
+{'prompt': 'Do you mean running more of supcon or writing about it in report?', 'response': 'oh wait actually'}
+{'prompt': 'oh wait actually', 'response': 'none of the supcon uses the custom techniques, could we say that if the discussion asks us to discuss the results?'}
+{'prompt': 'Does anyone know what SimCLR stands for lol', 'response': 'A Simple framework for learning Contrastive Learning of Visual Representations'}
+{'prompt': 'A Simple framework for learning Contrastive Learning of Visual Representations', 'response': 'literally HAHAH'}
+{'prompt': 'For explaining the plots, remember to \\ref the figure!', 'response': "i'm pretty much done with my parts on the report. lmk if any of you need me on any parts, if not I'll wait a bit and see where else I can add to."}
+{'prompt': "i'm pretty much done with my parts on the report. lmk if any of you need me on any parts, if not I'll wait a bit and see where else I can add to.", 'response': 'updated github main readme'}
+{'prompt': 'love that', 'response': 'would you like to merge your branch to main @Ester Tsai?'}
+{'prompt': 'two percent chance', 'response': '😂😂😂😂'}
+{'prompt': 'Yeah just fogured that out it’s really cool', 'response': 'Article that we can refer to for this task: '}
+{'prompt': 'oh thats a good idea. i think the main thing we would have to figure out would be how to make it different tho', 'response': 'Wdym by different?'}
+{'prompt': 'Wdym by different?', 'response': 'Also, just saying that, we are not set set on the idea so feel free to explore other ideas and we can go over all ideas together tomorrow'}
+{'prompt': 'Yeah honestly cleaning our chat data is going to take up quite a chunk', 'response': 'But yeah one thing for sure is that there’s a lot of resources available out there. Also could take a look at how we can make changes to model architecture'}
+{'prompt': 'But yeah one thing for sure is that there’s a lot of resources available out there. Also could take a look at how we can make changes to model architecture', 'response': 'if we build our model sort of from scratch (but with some reference out there), this will give us a lot more flexibility'}
+{'prompt': 'if we build our model sort of from scratch (but with some reference out there), this will give us a lot more flexibility', 'response': ''}
+{'prompt': 'oh do we need to do the training? or can we just finetune', 'response': 'the only thing that I am not sure about just plugging gpt is how much flexibility we have in terms of actually training it. Most of the examples that I’ve seen is just calling the model to generate, as in there’s no trainer loop etc.'}
+{'prompt': 'the only thing that I am not sure about just plugging gpt is how much flexibility we have in terms of actually training it. Most of the examples that I’ve seen is just calling the model to generate, as in there’s no trainer loop etc.', 'response': 'For plugging a pre trained generative model, fine tuning looks like to me is finding the right sequence length, setting the right temperature, trying different pretrained models, top_p, top_k etc  Which we should probably have it as some sort of comparison for evaluation, but if we are only fine tuning, I’m not sure if that can count as our final project. I can confirm with TA tmr though'}
+{'prompt': 'okay', 'response': 'Ooh actually, we can train GPT2! The one u shared'}
+{'prompt': 'Ooh actually, we can train GPT2! The one u shared', 'response': 'Kind of like how we train our baseline bert for this round.'}
+{'prompt': 'cool ok', 'response': 'just added final project idea notes to our team doc'}
+{'prompt': 'just added final project idea notes to our team doc', 'response': ''}
+{'prompt': 'ah here is how to get the emoji', 'response': 'So cute'}
+{'prompt': 'with very little training', 'response': 'Wow this is promising'}
+{'prompt': '1 epoch and only 10 sequences of 30 tokens haha', 'response': 'I seeeee'}
