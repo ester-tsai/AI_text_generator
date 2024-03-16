@@ -1,6 +1,5 @@
-{'prompt': 'PA2!', 'response': 'Thanks Ester!', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Thanks Ester!', 'response': 'Ester named the group CSE 151B PA2.', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Ester named the group CSE 151B PA2.', 'response': 'What should our group name be 😎 Ester and I used transformers for PA1', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Thanks Ester!', 'response': 'You named the group CSE 151B PA2.', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'You named the group CSE 151B PA2.', 'response': 'What should our group name be 😎 Ester and I used transformers for PA1', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'What should our group name be 😎 Ester and I used transformers for PA1', 'response': 'lol anything works', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': 'lol anything works', 'response': 'we could be incredibly original and use our names', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'we could be incredibly original and use our names', 'response': 'Or name it according to the PA content? Like Convolution? \U0001fae0', 'prompter': 'Jeremy', 'responder': 'Ester'}
@@ -9,8 +8,6 @@
 {'prompt': 'I’ll make one convolution', 'response': 'Created, go join “convolution”', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Created, go join “convolution”', 'response': 'Also could you send me your email so I could add y’all as collaborator?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Added!', 'response': 'I created my own branch in our repo ', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'I created my own branch in our repo ', 'response': 'I pushed the updated util.py to master, but I need a minor fix after asking a question on piazza', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'I pushed the updated util.py to master, but I need a minor fix after asking a question on piazza', 'response': "Are you guys able to access a GPU of any sort? Datahub is still down and I can't get Google Colab to work either", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "Are you guys able to access a GPU of any sort? Datahub is still down and I can't get Google Colab to work either", 'response': 'Thinking if we can use our data science capstone’s 🤔', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Thinking if we can use our data science capstone’s 🤔', 'response': 'I guess so!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'I guess so!', 'response': 'Yeahh', 'prompter': 'Ester', 'responder': 'Winfrey'}
@@ -42,7 +39,6 @@
 {'prompt': 'Hmm not sure if this will make a difference and/or you are probably doing it already, might want to try using AdamW optimizer in train.py', 'response': 'I see we are using SGD optimizer currently', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I see we are using SGD optimizer currently', 'response': 'ok I can try!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Coding is done up to part 3, so feel free to make a branch of the current master branch and start working on part 4', 'response': 'You can test the model by running "python train.py" in the terminal', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'You can test the model by running "python train.py" in the terminal', 'response': 'Yayyy thank you thank youuu!!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Yayyy thank you thank youuu!!', 'response': 'voc.py is where we should implement data augmentation (part 4b), after defining the augmentation', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': "(this is not pushed to the master branch since I'll just experiment on my own branch first!", 'response': 'Yup yupp!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Yup yupp!', 'response': 'I’m also looking at augmentation options in torchvision (part of UNet requires this)', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -55,7 +51,6 @@
 {'prompt': 'Cant*', 'response': 'So I just downloaded the zip file LOL', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'So I just downloaded the zip file LOL', 'response': 'Maybe make a new branch haha', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'Maybe make a new branch haha', 'response': 'GitHub high key confusing sometimes', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'GitHub high key confusing sometimes', 'response': 'AGREE', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'AGREE', 'response': 'What error are you getting tho?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'What error are you getting tho?', 'response': 'Is it related to authentication?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Is it related to authentication?', 'response': 'I’m guessing it’s bc the pth model file is large and bc there’s some byte error', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
@@ -84,7 +79,6 @@
 {'prompt': 'I chose it', 'response': 'i see.. okay! with learning rate 0.1, the accuracy actually went up to 75% (but the assignment pdf said expected ~65%)  IoU is fine, ~0.05', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'I can make a post on piazza', 'response': 'just came across this section in the visualize notebook  I will have to take back my words earlier on combining the train files, it looks like it is recommended to have different train files for all subparts in part 4 & 5', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I am pretty much done with 4a, just re-running them to check the numbers', 'response': 'Make sense!', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Make sense!', 'response': '4b is done! If everyone is okay, I can push to master', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': '4b is done! If everyone is okay, I can push to master', 'response': 'Thanks!!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Thanks!!', 'response': 'Kong pinned a message.', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Kong pinned a message.', 'response': 'I will get back on pa2 tomorrow, is there anything that I can work on?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -93,30 +87,32 @@
 {'prompt': 'From yesterday, I know we have 4c, 5a and 5b left', 'response': 'I’ll get started on 4c today', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I’ll get started on 4c today', 'response': 'Just did some research for 4c, I should be able to get 4c done today, will keep y’all posted on my progress', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Just did some research for 4c, I should be able to get 4c done today, will keep y’all posted on my progress', 'response': 'Attempting 5a - will update on how that goes lol', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Attempting 5a - will update on how that goes lol', 'response': 'Thanks!', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'Thanks!', 'response': 'i’ll take a look at 5b later tonight', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'i’ll take a look at 5b later tonight', 'response': 'Thank you!', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
 {'prompt': 'Thank you!', 'response': 'Pretty much done with 4c, just running a bunch of experiments, will let y’all know before I push', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Pretty much done with 4c, just running a bunch of experiments, will let y’all know before I push', 'response': "I'll start on the report", 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': "I'll start on the report", 'response': 'Great! I’ll join u on the report tomorrow!', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Great! I’ll join u on the report tomorrow!', 'response': 'Here is the link to the report: ', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Here is the link to the report: ', 'response': 'And the checklist of requriements: ', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'And the checklist of requriements: ', 'response': "There are a lot to write, so I'll make a poll for how to divide the work if you guys are ok with that!", 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': "There are a lot to write, so I'll make a poll for how to divide the work if you guys are ok with that!", 'response': 'Ester created a poll: PA2 Report Responsibility (par...', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester created a poll: PA2 Report Responsibility (par...', 'response': 'Ester created a poll: PA2 Report (part 2).', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester created a poll: PA2 Report (part 2).', 'response': 'Ester voted for "Methods - Baseline" and 1 other option in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester voted for "Methods - Baseline" and 1 other option in the poll.', 'response': 'Ester voted for "Discussion - Baseline" and 1 other option in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester voted for "Discussion - Baseline" and 1 other option in the poll.', 'response': 'Kong voted for "Discussion - Improving on basline" and 1 other option in the poll.', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': "There are a lot to write, so I'll make a poll for how to divide the work if you guys are ok with that!", 'response': 'You created a poll: PA2 Report Responsibility (par...', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You created a poll: PA2 Report Responsibility (par...', 'response': 'You created a poll: PA2 Report (part 2).', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You created a poll: PA2 Report (part 2).', 'response': 'You voted for "Methods - Baseline" and 1 other option in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You voted for "Methods - Baseline" and 1 other option in the poll.', 'response': 'You voted for "Discussion - Baseline" and 1 other option in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You voted for "Discussion - Baseline" and 1 other option in the poll.', 'response': 'Kong voted for "Discussion - Improving on basline" and 1 other option in the poll.', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Kong voted for "Discussion - Improving on basline" and 1 other option in the poll.', 'response': 'Kong voted for "Methods - Improving on baseline" and 2 other options in the poll.', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
-{'prompt': 'Kong voted for "Methods - Improving on baseline" and 2 other options in the poll.', 'response': 'You voted for "Double Check everything before..." in the poll.', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
-{'prompt': 'You voted for "Double Check everything before..." in the poll.', 'response': 'I can also do experimentation bc I’m doing 5a', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'Kong voted for "Methods - Improving on baseline" and 2 other options in the poll.', 'response': 'Jonathan voted for "Double Check everything before..." in the poll.', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Jonathan voted for "Double Check everything before..." in the poll.', 'response': 'I can also do experimentation bc I’m doing 5a', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'I can also do experimentation bc I’m doing 5a', 'response': 'Experimentation (report) I’ll do 5c UNet', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'Experimentation (report) I’ll do 5c UNet', 'response': 'oo true it would be good to specify the 3 sections in Methods Experimentation and Discussion Experimentation', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'oo true it would be good to specify the 3 sections in Methods Experimentation and Discussion Experimentation', 'response': 'Has anyone done 5b yet? If not, I can look into it', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Has anyone done 5b yet? If not, I can look into it', 'response': 'i’m going to look into 5b in a bit', 'prompter': 'Ester', 'responder': 'Jeremy'}
-{'prompt': 'i’m going to look into 5b in a bit', 'response': 'Ester voted for "Abstract" in the poll.', 'prompter': 'Jeremy', 'responder': 'Ester'}
-{'prompt': 'Ester voted for "Abstract" in the poll.', 'response': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮💨😴', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'i’m going to look into 5b in a bit', 'response': 'You voted for "Abstract" in the poll.', 'prompter': 'Jeremy', 'responder': 'Ester'}
+{'prompt': 'You voted for "Abstract" in the poll.', 'response': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮💨😴', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'I will push 4c before 12am! Have been fine tuning the hyper parameters, finally got a satisfactory result 😮💨😴', 'response': 'Yay!', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Yay!', 'response': 'Ester voted for "Methods - Improving on baseline" in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester voted for "Methods - Improving on baseline" in the poll.', 'response': 'Ester voted for "Discussion - Improving on basline" in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester voted for "Discussion - Improving on basline" in the poll.', 'response': 'I filled in the part for Cosine Annealing for both methods and discussion', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'I filled in the part for Cosine Annealing for both methods and discussion', 'response': 'Yayyyy! Thanks!', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Yay!', 'response': 'You voted for "Methods - Improving on baseline" in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You voted for "Methods - Improving on baseline" in the poll.', 'response': 'You voted for "Discussion - Improving on basline" in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You voted for "Discussion - Improving on basline" in the poll.', 'response': 'I filled in the part for Cosine Annealing for both methods and discussion', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Yayyyy! Thanks!', 'response': 'anyone getting an error like "RuntimeError: input and target batch or spatial sizes don\'t match: target [16, 224, 224], input [16, 21, 256, 256]" when messing with kernel size?', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'anyone getting an error like "RuntimeError: input and target batch or spatial sizes don\'t match: target [16, 224, 224], input [16, 21, 256, 256]" when messing with kernel size?', 'response': 'how do i adjust the fix it?', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'how do i adjust the fix it?', 'response': 'something wrong with the cirterion function', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
@@ -130,6 +126,7 @@
 {'prompt': 'Try changing padding', 'response': '@Winfrey Kong @Jeremy Tow @Jonathan Cheung Are you all free to call tomorrow at 9am to check in for PA2?', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': '@Winfrey Kong @Jeremy Tow @Jonathan Cheung Are you all free to call tomorrow at 9am to check in for PA2?', 'response': 'Yes!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Yes!', 'response': 'Yeah', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Yeah', 'response': 'ye i shuld be free', 'prompter': 'Jonathan', 'responder': 'Jeremy'}
 {'prompt': 'ye i shuld be free', 'response': 'I’ll implement the training and validation plot for report Results section', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'I’ll implement the training and validation plot for report Results section', 'response': 'Ok sure, thanks!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Ok sure, thanks!', 'response': 'Working on the rest of “improving the baseline” now', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -145,10 +142,9 @@
 {'prompt': 'I think remotely!', 'response': 'This is great!!!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'This is great!!!', 'response': 'DANG Winfrey you got up at 5am 🥵', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'DANG Winfrey you got up at 5am 🥵', 'response': "I'll create a Zoom link", 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': "I'll create a Zoom link", 'response': 'I normally take a VERY LONG TIME for breakfast 😂😂😂', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': '@Jonathan Cheung @Jeremy Tow Zoom?', 'response': 'def set_seed(seed: int = 42) -> None:     np.random.seed(seed)     random.seed(seed)     torch.manual_seed(seed)     torch.cuda.manual_seed(seed)     # When running on the CuDNN backend, two further options must be set     torch.backends.cudnn.deterministic = True     torch.backends.cudnn.benchmark = False     # Set a fixed value for the hash seed     os.environ["PYTHONHASHSEED"] = str(seed)', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester voted for "Results (filling in the numbers)" in the poll.', 'response': 'Ester voted for "Discussion - Experimentation" in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester voted for "Discussion - Experimentation" in the poll.', 'response': 'Kong voted for "Related Work (at least 2 people)" in the poll.', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'You voted for "Results (filling in the numbers)" in the poll.', 'response': 'You voted for "Discussion - Experimentation" in the poll.', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You voted for "Discussion - Experimentation" in the poll.', 'response': 'Kong voted for "Related Work (at least 2 people)" in the poll.', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Kong voted for "Related Work (at least 2 people)" in the poll.', 'response': 'I’ll add UNet as one of the related works', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': "We'll aim to get the report draft done by tonight!", 'response': 'Yesss agreed!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Yesss agreed!', 'response': "@Jeremy Tow could you push your train_5_b code sometime today when you're done?", 'prompter': 'Winfrey', 'responder': 'Ester'}
@@ -163,7 +159,6 @@
 {'prompt': 'sure I can try!', 'response': 'ok I just pushed to my branch', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'ok I just pushed to my branch', 'response': "I've set up references.bib for  bibtex", 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': "I've set up references.bib for  bibtex", 'response': 'you can cite a paper using \\citet{reference_name} and it will automatically appear in the References section', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'you can cite a paper using \\citet{reference_name} and it will automatically appear in the References section', 'response': '@Jeremy Tow if you have extra time, could you double check the architecture for UNet? For some reason it isn’t doing well, we got IoU 0.0556 and accuracy 0.75', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': '@Jeremy Tow if you have extra time, could you double check the architecture for UNet? For some reason it isn’t doing well, we got IoU 0.0556 and accuracy 0.75', 'response': 'yea fs i’ll check it in a bit', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': 'yea fs i’ll check it in a bit', 'response': 'Thank you!', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
 {'prompt': 'Thank you!', 'response': 'I’m trying 5a but data hub is not working for me right now', 'prompter': 'Winfrey', 'responder': 'Ester'}
@@ -189,6 +184,7 @@
 {'prompt': 'So for 5a, it might be something that’s beyond the network architecture, not exactly sure but yeah', 'response': 'Also one thing I didn’t really try is that, UNet paper mentioned that they use batch size of 1, but I’m not sure how helpful this will be', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Also one thing I didn’t really try is that, UNet paper mentioned that they use batch size of 1, but I’m not sure how helpful this will be', 'response': 'How’s the new test IoU after these improvements?', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'How’s the new test IoU after these improvements?', 'response': 'Still running but for val the highest so far is 0.057 (not great but I’m low-key traumatized by seeing the exact same 0.0556 for the past few hours 😂😂😂', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'This is so real', 'response': '0.0556 is interesting — I was using a very different architecture and it also got stuck at that exact number', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': '0.0556 is interesting — I was using a very different architecture and it also got stuck at that exact number', 'response': 'this is so mysterious', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'this is so mysterious', 'response': 'Hmm set seed is actually not working fully. The results are different after rerunning', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Hmm set seed is actually not working fully. The results are different after rerunning', 'response': 'yea i was running into this too', 'prompter': 'Ester', 'responder': 'Jeremy'}
@@ -197,10 +193,8 @@
 {'prompt': 'like source of randomness lol', 'response': 'I was pretty sure it worked at one point \U0001fae0\U0001fae0\U0001fae0', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'I was pretty sure it worked at one point \U0001fae0\U0001fae0\U0001fae0', 'response': "I'll try adding this", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '4c is still random', 'response': 'but train.py is deterministic', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'but train.py is deterministic', 'response': "I checked that data augmentation should be reproducible. Then it's strange why not 4c", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "I checked that data augmentation should be reproducible. Then it's strange why not 4c", 'response': 'Oohh like the random rotation and random crop?', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Oohh like the random rotation and random crop?', 'response': 'yeah the angles come out deterministic', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'yeah the angles come out deterministic', 'response': 'i tried doing the batch size of 1 thing mentioned in the unet paper and im getting better pixel acc of 0.73 but worse iou of 0.05432', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'i tried doing the batch size of 1 thing mentioned in the unet paper and im getting better pixel acc of 0.73 but worse iou of 0.05432', 'response': 'I’m thinking - when batch size is 1, we will need a lot more epochs. How many epochs did you train on just now?', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
 {'prompt': 'I’m thinking - when batch size is 1, we will need a lot more epochs. How many epochs did you train on just now?', 'response': 'when i did a batch size of 1 i augmented the training data so that each "img" is actually a composite of 16 images, so the amount of epochs needed is the same??', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': 'when i did a batch size of 1 i augmented the training data so that each "img" is actually a composite of 16 images, so the amount of epochs needed is the same??', 'response': 'In this case, is the backward based on one image or 16 images?', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
@@ -226,7 +220,6 @@
 {'prompt': 'The highest I’ve gotten is 0.0627', 'response': '@Ester Tsai can I confirm that u have already discussed Xavier and batch norm in the baseline method section? If so, I won’t include those in the introduction', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': '@Ester Tsai can I confirm that u have already discussed Xavier and batch norm in the baseline method section? If so, I won’t include those in the introduction', 'response': 'Kong voted for "Introduction" in the poll.', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Kong voted for "Introduction" in the poll.', 'response': 'I will try the architecture described in this lecture for 5A ', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'I will try the architecture described in this lecture for 5A ', 'response': 'Ester, is there a time that you would like me to finalize UNet? For plots and the final numbers (I’ll take care of the segmentation result for one test data in visualize.ipynb', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Ester, is there a time that you would like me to finalize UNet? For plots and the final numbers (I’ll take care of the segmentation result for one test data in visualize.ipynb', 'response': 'I’m thinking latest by 6pm today, but I’m flexible', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I’m thinking latest by 6pm today, but I’m flexible', 'response': 'I plan to put up the plots after we finalize our models ye', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'I plan to put up the plots after we finalize our models ye', 'response': '6pm sounds good', 'prompter': 'Ester', 'responder': 'Ester'}
@@ -243,7 +236,6 @@
 {'prompt': 'And restarting', 'response': 'for 5A I made the stride 1 and batch_size=4 and got this for epoch 1', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': '0.085 IoU', 'response': 'NAISEEEEEE', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'NAISEEEEEE', 'response': "we'll see if it's gonna be good!", 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': "we'll see if it's gonna be good!", 'response': 'and yeah this is interesting, I got 0.062 IoU only after changing the kernel size in UNet', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'and yeah this is interesting, I got 0.062 IoU only after changing the kernel size in UNet', 'response': 'changing to what kernel size?', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'changing to what kernel size?', 'response': 'All those 3*3 to 4*4', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'All those 3*3 to 4*4', 'response': 'And final layer from 1*1 to 3*3', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -262,7 +254,6 @@
 {'prompt': 'Good news! TA just said Unet IoU will be graded very leniently', 'response': '0.06 is on', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '0.06 is on', 'response': 'Ok', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Ok', 'response': 'OH THANK YOU!!', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'OH THANK YOU!!', 'response': 'Okay then I’ll be able to finalize before 2pm!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Okay then I’ll be able to finalize before 2pm!', 'response': 'Did it take long to train 5b? The transfer learning model', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Did it take long to train 5b? The transfer learning model', 'response': 'Just curious', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Just curious', 'response': 'Yes, Jeremy said 15 min?', 'prompter': 'Winfrey', 'responder': 'Ester'}
@@ -271,7 +262,6 @@
 {'prompt': 'just by changing stride', 'response': '5A we gucci', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '5A we gucci', 'response': '@Jonathan Cheung could you experiment with having other layers too? TA said just changing stride is not big enough architecture change', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '@Jonathan Cheung could you experiment with having other layers too? TA said just changing stride is not big enough architecture change', 'response': 'Yeah', 'prompter': 'Ester', 'responder': 'Jonathan'}
-{'prompt': 'Yeah', 'response': '^also remember to add a table for your architecture details like Jeremy and Winfrey did in the report', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': '^also remember to add a table for your architecture details like Jeremy and Winfrey did in the report', 'response': 'finally something close to 0.07', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'thanks for the batch size = 4 idea HAHHA', 'response': 'YOOOOO', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'YOOOOO', 'response': 'it trains pretty fast too', 'prompter': 'Ester', 'responder': 'Ester'}
@@ -287,11 +277,9 @@
 {'prompt': 'ok then', 'response': 'As long as we can justify we made sufficient changes to the architecture in the report and have some discussion, then we r good', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'As long as we can justify we made sufficient changes to the architecture in the report and have some discussion, then we r good', 'response': 'i can push the 5a code if thats fine with everyone', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'i can push the 5a code if thats fine with everyone', 'response': 'Your branch is ok! I’ll just copy paste for ease lol', 'prompter': 'Jonathan', 'responder': 'Ester'}
-{'prompt': 'Your branch is ok! I’ll just copy paste for ease lol', 'response': 'pushed', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'pushed', 'response': "ok pushed 5c to my branch as well! there's a high chance you won't get the exact same result, i believe it's the randomness that you mentioned yesterday", 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': "ok pushed 5c to my branch as well! there's a high chance you won't get the exact same result, i believe it's the randomness that you mentioned yesterday", 'response': "master's README has been updated for submission later today!", 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': "master's README has been updated for submission later today!", 'response': 'THANKS!', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'THANKS!', 'response': 'I’ve finished running 5A and will update the report with the plots for the Results section after my tutor hours', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I’ve finished running 5A and will update the report with the plots for the Results section after my tutor hours', 'response': 'Yeah no problem! Thank you!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Yeah no problem! Thank you!', 'response': 'I can help cross check the architecture table when you are done @Jeremy Tow @Jonathan Cheung   @Jeremy Tow do you plan to add ResNet under related works? Just checking!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I can help cross check the architecture table when you are done @Jeremy Tow @Jonathan Cheung   @Jeremy Tow do you plan to add ResNet under related works? Just checking!', 'response': 'i’ll add the paper in', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
@@ -310,7 +298,6 @@
 {'prompt': 'The batch size can be understood as a trade-off between accuracy and speed. Large batch sizes can lead to faster training times but may result in lower accuracy and overfitting, while smaller batch sizes can provide better accuracy, but can be computationally expensive and time-consuming.', 'response': 'I seeee', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'I seeee', 'response': 'Interesting', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Interesting', 'response': 'I like this sample!!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
-{'prompt': 'I like this sample!!', 'response': 'O OOP my IoU implementation is not quite right', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'O OOP my IoU implementation is not quite right', 'response': 'It’s supposed to be over the entire validation set', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'It’s supposed to be over the entire validation set', 'response': 'Eh really? I thought I checked', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Eh really? I thought I checked', 'response': 'Oh u mean the average?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -343,7 +330,6 @@
 {'prompt': 'High key I will just revert back to what we had before because it matched the description well', 'response': 'Actually… we can keep it as is 😂', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Actually… we can keep it as is 😂', 'response': 'Yeah', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Yeah', 'response': 'Agreed', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
-{'prompt': 'Agreed', 'response': 'I’ll aim to be done by 9:30pm but', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'I’ll aim to be done by 9:30pm but', 'response': 'oh ok i’ll start working on it rn', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'oh ok i’ll start working on it rn', 'response': 'I’ll update code to do full validation set after and see if there’s a big difference', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'I’ll update code to do full validation set after and see if there’s a big difference', 'response': 'Samuel chu said he tried and it wasn’t very different', 'prompter': 'Ester', 'responder': 'Ester'}
@@ -403,6 +389,7 @@
 {'prompt': 'np! thanks', 'response': 'ok I will stop writing for now, I think some of us might be working on the same section right now, I am starting to see some similar description 😅', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'ok I will stop writing for now, I think some of us might be working on the same section right now, I am starting to see some similar description 😅', 'response': 'also i used present tense for everything and some of us used past tense.   we can stick with one for consistency purpose - whoever is checking the entire paper.', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'also i used present tense for everything and some of us used past tense.   we can stick with one for consistency purpose - whoever is checking the entire paper.', 'response': 'I can chnage all the tenses to present', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'I can chnage all the tenses to present', 'response': 'ok thanks!', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'ok thanks!', 'response': 'Actually not understanding the segmentation visual, r the blobs supposed to look like the shape of the ppl?', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'Actually not understanding the segmentation visual, r the blobs supposed to look like the shape of the ppl?', 'response': '@Jeremy Tow could you check the code submission? I am not sure if the transfer learning file is actually reflecting the architecture in the report', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': '@Jeremy Tow could you check the code submission? I am not sure if the transfer learning file is actually reflecting the architecture in the report', 'response': 'ok yea looking rn', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
@@ -416,7 +403,6 @@
 {'prompt': 'ok cools! I just realized that none of the encoder is actually called. sorry, got confused for a bit.', 'response': 'thanks for confirming!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'thanks for confirming!', 'response': 'yea the encoder is rollled up into the forward section of the FCN model', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': 'Rerunning 5A', 'response': 'It’s getting faster now', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'It’s getting faster now', 'response': '5 min per epoch', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '5 min per epoch', 'response': 'nice nice', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'nice nice', 'response': 'It was 24 min or something earlier', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'It was 24 min or something earlier', 'response': 'Everything except maybe a sentence or 2 in the last section are present tense, it should be ok because its a building off of the previous experiments?', 'prompter': 'Ester', 'responder': 'Jonathan'}
@@ -440,6 +426,7 @@
 {'prompt': 'good work!', 'response': 'tysm tysm', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': 'tysm tysm', 'response': 'i can submit?', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
 {'prompt': 'i can submit?', 'response': 'The time crunch is real ', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'The time crunch is real ', 'response': 'I’m looking through it again but feel free to submit', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I’m looking through it again but feel free to submit', 'response': 'Wait sorry', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Wait sorry', 'response': 'The architecture for transfer learning', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'The architecture for transfer learning', 'response': 'I’ll fix it, gimme 1 min', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -454,41 +441,33 @@
 {'prompt': 'i can resubmit it again then, idk if it messes up if theres diff submissions from diff ppl in the ame team', 'response': 'lmk when ur finsihed changing', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'lmk when ur finsihed changing', 'response': 'My 5A is almost done lol', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'My 5A is almost done lol', 'response': 'Let me check the results', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Let me check the results', 'response': 'Dang it’s cutting real close', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Dang it’s cutting real close', 'response': 'I’ll resubmit right now just in case', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I’ll resubmit right now just in case', 'response': 'do u want me to do it?', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'do u want me to do it?', 'response': 'I’m updating something rn', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'I’m updating something rn', 'response': 'Ok just submitted, will add people', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ok just submitted, will add people', 'response': 'Done! Sorry for cutting it so close!', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Done! Sorry for cutting it so close!', 'response': 'Thanks hehe', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Thanks hehe', 'response': 'No no, not at all', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'No no, not at all', 'response': 'Please check if it’s good', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Please check if it’s good', 'response': 'nice job', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'nice job', 'response': 'All good, thanks for the good work everyone!! Get some good rest for now 😴', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'All good, thanks for the good work everyone!! Get some good rest for now 😴', 'response': 'YAY', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'YAY', 'response': 'tytyty', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'tytyty', 'response': 'Group name is recurrent for PA3!', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
 {'prompt': 'Group name is recurrent for PA3!', 'response': 'Yayay!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Yayay!', 'response': 'Joined', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Joined', 'response': 'Ester named the group CSE 151B PA3.', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester named the group CSE 151B PA3.', 'response': 'Thanks for the name update that’s very thoughtful of you HAHA', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Thanks for the name update that’s very thoughtful of you HAHA', 'response': 'Ester Tsai added Samuel Chu to the group.', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Ester Tsai added Samuel Chu to the group.', 'response': '@Samuel Chu if you’d like to join!', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': '@Samuel Chu if you’d like to join!', 'response': 'I will get started on the programming part tonight, has anyone started working on it? Just wanted to see where I should start with, in case some parts have already been completed', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Joined', 'response': 'You named the group CSE 151B PA3.', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You named the group CSE 151B PA3.', 'response': 'Thanks for the name update that’s very thoughtful of you HAHA', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'You added Samuel Chu to the group.', 'response': '@Samuel Chu if you’d like to join!', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I will get started on the programming part tonight, has anyone started working on it? Just wanted to see where I should start with, in case some parts have already been completed', 'response': 'I plan to start at 3:30pm!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'I plan to start at 3:30pm!', 'response': 'Okie I can check with you tonight when I start!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Okie I can check with you tonight when I start!', 'response': 'i’m prob going to start working tonight or tmr, if i do start today i’ll lyk', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': 'i’m prob going to start working tonight or tmr, if i do start today i’ll lyk', 'response': 'Actually I’ll start maybe tonight! Gonna crank out some tutor stuff that’s time sensitive', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'Actually I’ll start maybe tonight! Gonna crank out some tutor stuff that’s time sensitive', 'response': 'Yup yuppp no worries!', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Yup yuppp no worries!', 'response': 'Heloo, I made changes to fix the indentation issue mentioned on Piazza and pushed the main branch. None of the body content is changed, just indentation', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Heloo, I made changes to fix the indentation issue mentioned on Piazza and pushed the main branch. None of the body content is changed, just indentation', 'response': 'There has been quite a few typos in the given template from what I have seen in Piazza. I fixed most of them and pushed to main  Another typo that is not on main  In util, get_random_song_slice takes in string data not list  Similarly, get_random_song_sequence_target takes in song in string format not list', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I should be able to get the baseline out today  But without the generate.py', 'response': 'Thank you Winfrey!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Thank you Winfrey!', 'response': 'I’ll do the individual part first and then get on the code', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'I’ll do the individual part first and then get on the code', 'response': 'I’ve push a working model to my branch called winfrey (should cover up till Q3)', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'I’ve push a working model to my branch called winfrey (should cover up till Q3)', 'response': 'The loss I’m getting is lower (0.06) than expected (1.9) so I’m still clarifying with the TA on loss calculation - there’s a bunch of averaging going on 🥲', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'The loss I’m getting is lower (0.06) than expected (1.9) so I’m still clarifying with the TA on loss calculation - there’s a bunch of averaging going on 🥲', 'response': 'I see!! I’m done with the individual part so I’ll be able to get to the code tomorrow!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'I see!! I’m done with the individual part so I’ll be able to get to the code tomorrow!', 'response': 'Or later tonight 😮', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Or later tonight 😮', 'response': 'Wowow this PA seems fun', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Wowow this PA seems fun', 'response': 'I’ll work on it today', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I’ll work on it today', 'response': 'Just learned the ABC notation 😳', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Just learned the ABC notation 😳', 'response': 'Yaaahhh heheh', 'prompter': 'Ester', 'responder': 'Winfrey'}
@@ -498,9 +477,9 @@
 {'prompt': 'I’ll be occupied with midterm and capstone until the weekend, so I’ll build off whatever we have by then', 'response': 'I’ve done literally nothing but I’ll try for part 4', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'I’ve done literally nothing but I’ll try for part 4', 'response': "I also haven't done anything but I'll start today", 'prompter': 'Jonathan', 'responder': 'Samuel'}
 {'prompt': "I also haven't done anything but I'll start today", 'response': 'little bit, just slowly working through', 'prompter': 'Samuel', 'responder': 'Jeremy'}
+{'prompt': 'little bit, just slowly working through', 'response': 'RuntimeError: cuDNN version incompatibility: PyTorch was compiled  against (8, 7, 0) but found runtime version (8, 6, 0). PyTorch already comes bundled with cuDNN. One option to resolving this error is to ensure PyTorch can find the bundled cuDNN.Looks like your LD_LIBRARY_PATH contains incompatible version of cudnnPlease either remove it from the path or install cudnn (8, 7, 0)', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'RuntimeError: cuDNN version incompatibility: PyTorch was compiled  against (8, 7, 0) but found runtime version (8, 6, 0). PyTorch already comes bundled with cuDNN. One option to resolving this error is to ensure PyTorch can find the bundled cuDNN.Looks like your LD_LIBRARY_PATH contains incompatible version of cudnnPlease either remove it from the path or install cudnn (8, 7, 0)', 'response': 'The Piazza post about this issue did not help lol', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'The Piazza post about this issue did not help lol', 'response': 'btw here is the Overleaf report link for PA3! ', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'btw here is the Overleaf report link for PA3! ', 'response': 'Has anyone else figured out how to solve this?', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Has anyone else figured out how to solve this?', 'response': 'Looking at it now', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Looking at it now', 'response': 'You got the error when u were trying to install PyTorch?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'You got the error when u were trying to install PyTorch?', 'response': 'No, when I run main.py', 'prompter': 'Winfrey', 'responder': 'Ester'}
@@ -526,14 +505,12 @@
 {'prompt': 'oh me too then', 'response': "jk it's slower for me", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "jk it's slower for me", 'response': 'Ahh cause it’s on cpu?', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Ahh cause it’s on cpu?', 'response': 'yeah : //', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'yeah : //', 'response': 'O IM OK NOW', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'O IM OK NOW', 'response': "I'm using capstone platform", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "I'm using capstone platform", 'response': 'instead of datahub', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'instead of datahub', 'response': 'YAYAYAYAYYAYAYYAYAYAYY', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'YAYAYAYAYYAYAYYAYAYAYY', 'response': 'Oh THATS GREAT', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Oh THATS GREAT', 'response': 'CAPSToNE SUPREMEM', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'CAPSToNE SUPREMEM', 'response': 'Honestly, I have never used datahub once', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Honestly, I have never used datahub once', 'response': "it's really fast, like 3 epochs per minute?", 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Is it about the same?', 'response': 'Wow urs is slightly faster actually', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Wow urs is slightly faster actually', 'response': 'I use n 30', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'I use n 30', 'response': 'It’s a bigger GPU although not sure if that affects speed?', 'prompter': 'Ester', 'responder': 'Ester'}
@@ -585,7 +562,6 @@
 {'prompt': 'my newest progress is on ester2 branch', 'response': "haven't done hyperparamter tuning yet but I set up the plot name to reflect different hyperparameter choices", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "haven't done hyperparamter tuning yet but I set up the plot name to reflect different hyperparameter choices", 'response': 'might be helpful to make a branch from my branch', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'might be helpful to make a branch from my branch', 'response': 'ur so amazing', 'prompter': 'Ester', 'responder': 'Jeremy'}
-{'prompt': 'ur so amazing', 'response': '@Jeremy Tow @Samuel Chu does the GPU work for you guys when you run Python main.py?', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': '@Jeremy Tow @Samuel Chu does the GPU work for you guys when you run Python main.py?', 'response': 'Also our current val loss is ok! We can move on to hyperparameter tuning,. I;ll start that tonight', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Also our current val loss is ok! We can move on to hyperparameter tuning,. I;ll start that tonight', 'response': 'Yayyy!! Thank you!!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': "is it supposed to be config['dropout']?", 'response': 'O yeah small typo', 'prompter': 'Samuel', 'responder': 'Ester'}
@@ -602,20 +578,15 @@
 {'prompt': 'Just updated my branch more for hyper parameter tuning. Gonna run it overnight and get all the results', 'response': 'Does anyone understand how to do part 6 (feature evaluation)? Is the “activation of each neuron” the result of calling model.forward()?', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Does anyone understand how to do part 6 (feature evaluation)? Is the “activation of each neuron” the result of calling model.forward()?', 'response': 'Currently doing AdamW with lr=1e-3 and no weight decay, but you guys should try different optimizer setup and see if results are different 😮😮', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Currently doing AdamW with lr=1e-3 and no weight decay, but you guys should try different optimizer setup and see if results are different 😮😮', 'response': 'run these to test hyper parameters if you clone my latest branch! python main.py python main.py --config config_RNN.json python main.py --config config_200_neurons.json python main.py --config config_250_neurons.json python main.py --config config_dropout_0.2.json python main.py --config config_dropout_0.3.json', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'run these to test hyper parameters if you clone my latest branch! python main.py python main.py --config config_RNN.json python main.py --config config_200_neurons.json python main.py --config config_250_neurons.json python main.py --config config_dropout_0.2.json python main.py --config config_dropout_0.3.json', 'response': 'Hold on gonna fix something small real quick', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Hold on gonna fix something small real quick', 'response': 'Not too sure, I only remember seeing a post on piazza about softmax and temperature', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Not too sure, I only remember seeing a post on piazza about softmax and temperature', 'response': 'lol that’s my post', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'lol that’s my post', 'response': 'I think I figured the temperature out', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I think I figured the temperature out', 'response': 'But I will ask in OH today to confirm', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'But I will ask in OH today to confirm', 'response': 'Finished updating! Now we can know the training loss that correspond to the min Val loss', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Finished updating! Now we can know the training loss that correspond to the min Val loss', 'response': 'Can we call at 3pm today to do a quick check-in for what to get done over weekend?', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Can we call at 3pm today to do a quick check-in for what to get done over weekend?', 'response': '@everyone', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': '@everyone', 'response': 'Yasssss', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Yasssss', 'response': 'I have midterm at 4 so I’ll can only stay until 3.30pm for the call', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I have midterm at 4 so I’ll can only stay until 3.30pm for the call', 'response': '@Ester Tsai @Jonathan Cheung logistic is actually a nonlinear technique, good job!! 🤣🎉', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': '@Ester Tsai @Jonathan Cheung logistic is actually a nonlinear technique, good job!! 🤣🎉', 'response': 'Huhhhhh', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Huhhhhh', 'response': 'I’m working on the heat map, almost done', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'I’m working on the heat map, almost done', 'response': 'What’s the lowest val loss so far with hyperparameter tuning?', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'What’s the lowest val loss so far with hyperparameter tuning?', 'response': 'Baseline is still the best', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Baseline is still the best', 'response': '2.008', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '2.008', 'response': 'Interesting', 'prompter': 'Ester', 'responder': 'Winfrey'}
@@ -623,7 +594,6 @@
 {'prompt': 'Thanks!!', 'response': 'Reminder we will call at 3pm', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Reminder we will call at 3pm', 'response': 'I’ll go to the 2-3pm OH', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I’ll go to the 2-3pm OH', 'response': 'The heat map has been implemented but it has a small bug', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'The heat map has been implemented but it has a small bug', 'response': 'only the first 20 chars show up', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Jk he moved it again so there’s no OH rn', 'response': 'I’m ready call anytime if you guys are', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'wait i’m not ready', 'response': 'what time works for you?', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'what time works for you?', 'response': 'like in 5 mknjtes', 'prompter': 'Ester', 'responder': 'Jeremy'}
@@ -633,8 +603,6 @@
 {'prompt': 'I’ll get on soon, in capstone meeting rn', 'response': "let's do 3pm still", 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': "let's do 3pm still", 'response': 'both winfreya nd I will need to leave by 3:30', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '^ report', 'response': 'ok I pushed latest changes!', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'ok I pushed latest changes!', 'response': "i tried ssh'ing into capstone gpu but that gave me the same error also", 'prompter': 'Ester', 'responder': 'Samuel'}
-{'prompt': 'To clarify the most updated branch is ester2! Ignore the original Ester', 'response': '@Winfrey Kong do you think you help me fix the gpu error i’m having with capstone gpu later today?', 'prompter': 'Ester', 'responder': 'Samuel'}
 {'prompt': '@Winfrey Kong do you think you help me fix the gpu error i’m having with capstone gpu later today?', 'response': 'Oh yeah ofc', 'prompter': 'Samuel', 'responder': 'Winfrey'}
 {'prompt': 'Oh yeah ofc', 'response': 'Is 8.30 ok?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Is 8.30 ok?', 'response': 'hmm i might not be home til 9-9:15😬', 'prompter': 'Winfrey', 'responder': 'Samuel'}
@@ -645,9 +613,7 @@
 {'prompt': "Samuel Chu is inviting you to a scheduled Zoom meeting.  Topic: Samuel Chu's Personal Meeting Room  Join Zoom Meeting ", 'response': 'Okie coming', 'prompter': 'Samuel', 'responder': 'Winfrey'}
 {'prompt': 'Okie coming', 'response': 'do you want to set a new meeting?', 'prompter': 'Winfrey', 'responder': 'Samuel'}
 {'prompt': "update: Winfrey showed me what she did on the capstone gpu, but it still isn't working on my end :| so I think she will try to train a model with new hyperparameters tmr maybe?", 'response': 'Okok! You could still write the report using the plot results on my branch if needed 👌👌', 'prompter': 'Samuel', 'responder': 'Ester'}
-{'prompt': 'Okok! You could still write the report using the plot results on my branch if needed 👌👌', 'response': 'okay is there stuff that you tested that is not on the report already?', 'prompter': 'Ester', 'responder': 'Samuel'}
 {'prompt': 'okay is there stuff that you tested that is not on the report already?', 'response': 'I have the basic set of results that the report needs (loss plots, heatmaps, and the training/val loss are in the model checkpoint names), but we can test more models and get better results', 'prompter': 'Samuel', 'responder': 'Ester'}
-{'prompt': 'I have the basic set of results that the report needs (loss plots, heatmaps, and the training/val loss are in the model checkpoint names), but we can test more models and get better results', 'response': 'Training with 150 sequence length right now, it’s training slower so…  … will mostly hear back from me after 2 hours 😂😂', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Training with 150 sequence length right now, it’s training slower so…  … will mostly hear back from me after 2 hours 😂😂', 'response': 'Code is still running but I got 1.988 lowest so far with sequence length of 70', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Code is still running but I got 1.988 lowest so far with sequence length of 70', 'response': 'I think we can go ahead with sequence length of 70, and the training speed is acceptable', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I think we can go ahead with sequence length of 70, and the training speed is acceptable', 'response': 'i trained with a sequence length of 300 and let it run the whole day, i’ll let you guys know the loss after i get back to my computer', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
@@ -718,12 +684,9 @@
 {'prompt': 'As in, the current row 1 is accurate', 'response': 'Which branch should I pull?', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Which branch should I pull?', 'response': 'ester2', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'ester2', 'response': 'Okok!', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Okok!', 'response': 'Oo what was the bug in train.py?', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Oo what was the bug in train.py?', 'response': 'Remember u said u added to SongRNN to return x0 or x1', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Remember u said u added to SongRNN to return x0 or x1', 'response': 'So now the songrnn forward returns output, _ instead of just output', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'So now the songrnn forward returns output, _ instead of just output', 'response': 'Got it!', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Got it!', 'response': 'Now running config_250_neurons and the RNN next if it’s not done already', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Now running config_250_neurons and the RNN next if it’s not done already', 'response': 'im kind of confused on temperature can affect how deterministic the model is. bc if we run these values: 5, 10, 15 though a softmax no matter what we divide each element by, when we pick the element with the highest softmax value it will always be the 2nd index(15) right?', 'prompter': 'Ester', 'responder': 'Samuel'}
 {'prompt': 'im kind of confused on temperature can affect how deterministic the model is. bc if we run these values: 5, 10, 15 though a softmax no matter what we divide each element by, when we pick the element with the highest softmax value it will always be the 2nd index(15) right?', 'response': 'We are not picking the element with the highest soft max value', 'prompter': 'Samuel', 'responder': 'Ester'}
 {'prompt': 'We are not picking the element with the highest soft max value', 'response': 'Soft max value goes into torch.multinomial to serve as a list of probabilities', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Soft max value goes into torch.multinomial to serve as a list of probabilities', 'response': 'Torch.multinomial randomly selects a character to output', 'prompter': 'Ester', 'responder': 'Ester'}
@@ -731,13 +694,10 @@
 {'prompt': 'ohhh', 'response': 'ok', 'prompter': 'Samuel', 'responder': 'Samuel'}
 {'prompt': 'ok', 'response': "I'm updating the related works section with citations", 'prompter': 'Samuel', 'responder': 'Ester'}
 {'prompt': "I'm updating the related works section with citations", 'response': 'feel free to double check and add more', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'feel free to double check and add more', 'response': "I'm done with my written portions! Lmk if another section needs help", 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': "I'm done with my written portions! Lmk if another section needs help", 'response': 'I pushed my results for config_250_neurons.json and added the train and val loss to the report', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I pushed my results for config_250_neurons.json and added the train and val loss to the report', 'response': 'Gosh it finished?', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Gosh it finished?', 'response': 'LOL YEAH', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'LOL YEAH', 'response': 'So fast!! 🥲', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'result is worse than baseline but better than sequence length 30', 'response': 'overfitting on training', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'overfitting on training', 'response': 'what does increasing the number of neurons do in the lstm? cuz i thought the lstm just used gates', 'prompter': 'Ester', 'responder': 'Samuel'}
 {'prompt': 'what does increasing the number of neurons do in the lstm? cuz i thought the lstm just used gates', 'response': 'does it increase the amount of information that can be stored in the cell state or something?', 'prompter': 'Samuel', 'responder': 'Samuel'}
 {'prompt': 'does it increase the amount of information that can be stored in the cell state or something?', 'response': 'For this PA, neurons = number of features in hidden state', 'prompter': 'Samuel', 'responder': 'Winfrey'}
 {'prompt': 'For this PA, neurons = number of features in hidden state', 'response': 'ok', 'prompter': 'Winfrey', 'responder': 'Samuel'}
@@ -760,6 +720,7 @@
 {'prompt': 'how are the results on different dropouts?', 'response': 'is the report the most up to date?', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'is the report the most up to date?', 'response': 'I need to do abstract and intro rn', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'I need to do abstract and intro rn', 'response': 'which one is this?', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'which one is this?', 'response': 'it should be, but the numbers look kinda weird so i’m planning to rerun it overnight', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'it should be, but the numbers look kinda weird so i’m planning to rerun it overnight', 'response': 'i might have mistyped a parameter or smth', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'i might have mistyped a parameter or smth', 'response': 'aight I can run it too', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'aight I can run it too', 'response': 'so far baseline is still the best', 'prompter': 'Ester', 'responder': 'Ester'}
@@ -777,7 +738,6 @@
 {'prompt': 'ok will do', 'response': 'Does the “93 unique characters” refer to all the possible outputs in abc format for each note?', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
 {'prompt': 'Does the “93 unique characters” refer to all the possible outputs in abc format for each note?', 'response': 'Yes', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'Yes', 'response': 'Sure! We can make the figure a little wider and less tall', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Sure! We can make the figure a little wider and less tall', 'response': '@Jonathan Cheung I uploaded all the heatmaps from our best trained model under the figures folder. Are you able to see them?', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': '@Jonathan Cheung I uploaded all the heatmaps from our best trained model under the figures folder. Are you able to see them?', 'response': 'Yeah I can see the figures', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'Yeah I can see the figures', 'response': 'I’m thinking of letting you choose 3 heatmaps from there? Those that are more explainable for the discussion section', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'I’m thinking of letting you choose 3 heatmaps from there? Those that are more explainable for the discussion section', 'response': 'Then I’ll put the 3 that u choose to discuss under results', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -790,22 +750,22 @@
 {'prompt': 'ok I push the best model to branch ester2, path is checkpoint/best_0219', 'response': 'tysm', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': 'tysm', 'response': 'the config to use is config_200_neurons.json', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
 {'prompt': 'the config to use is config_200_neurons.json', 'response': '60, 140, 100? for the 3 heatmaps? I think I could point out how the highe activations are on A and F for 60, and the repeated high activation on the similar strucutre phrase for 140. 100 im not so sure but probably having to do with the header. Or I could do 20 because the low activation is always on the blank space', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': '60, 140, 100? for the 3 heatmaps? I think I could point out how the highe activations are on A and F for 60, and the repeated high activation on the similar strucutre phrase for 140. 100 im not so sure but probably having to do with the header. Or I could do 20 because the low activation is always on the blank space', 'response': 'Also are we going with our “best model” as the one with lowest Val loss?', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'Also are we going with our “best model” as the one with lowest Val loss?', 'response': 'Yes', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'Yes', 'response': 'do we need to specify our sequence length for table 1 in results?', 'prompter': 'Winfrey', 'responder': 'Samuel'}
 {'prompt': 'do we need to specify our sequence length for table 1 in results?', 'response': 'We will need to describe it in the methods section', 'prompter': 'Samuel', 'responder': 'Ester'}
 {'prompt': 'We will need to describe it in the methods section', 'response': 'ok', 'prompter': 'Ester', 'responder': 'Samuel'}
 {'prompt': 'ok', 'response': 'is it always 30?', 'prompter': 'Samuel', 'responder': 'Samuel'}
 {'prompt': 'is it always 30?', 'response': 'It’s always 50', 'prompter': 'Samuel', 'responder': 'Ester'}
-{'prompt': 'It’s always 50', 'response': 'has anyone generated plots for the bottom 3 rows?', 'prompter': 'Ester', 'responder': 'Samuel'}
 {'prompt': 'i couldnt find any on github', 'response': 'They are under the figures folder in overleaf', 'prompter': 'Samuel', 'responder': 'Winfrey'}
 {'prompt': 'They are under the figures folder in overleaf', 'response': 'im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will sucj but we can fix it up later', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will sucj but we can fix it up later', 'response': '@Winfrey Kong', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
-{'prompt': '@Winfrey Kong', 'response': 'im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will suck but we can fix it up later (edited)', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
-{'prompt': 'im gonna add heatmaps in the results section so i can reference them in discussion section, the formatting will suck but we can fix it up later (edited)', 'response': 'Yup yup', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': '@Winfrey Kong', 'response': 'Yup yup', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'Yup yup', 'response': 'Also does red correspond to low or high activation?', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'Also does red correspond to low or high activation?', 'response': 'High activation', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'High activation', 'response': 'You can see the example in the PA3 instruction', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'You can see the example in the PA3 instruction', 'response': 'Ok the formatting is fixed and discussion added for the heatmaps. I added a page break so that the loss plots under the hyper parameter tuning sections so the graphs are correctly placed', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'Ok the formatting is fixed and discussion added for the heatmaps. I added a page break so that the loss plots under the hyper parameter tuning sections so the graphs are correctly placed', 'response': 'Take a look to check it over', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'Take a look to check it over', 'response': 'Also can someone explain the difference between many in, many out and simultaneously many in, many out? Does the language translation work for both?', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'not rly an explanation but heres the site where i think they stole the graphics from lol', 'response': 'mb simult many in many out doesnt work for translation bc u kinda need to know the full sentence before u can translate it', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'mb simult many in many out doesnt work for translation bc u kinda need to know the full sentence before u can translate it', 'response': 'btw i think im done with my part too', 'prompter': 'Jeremy', 'responder': 'Samuel'}
 {'prompt': 'btw i think im done with my part too', 'response': 'what were the hyperparameters u used when training this model?', 'prompter': 'Samuel', 'responder': 'Jeremy'}
@@ -840,6 +800,8 @@
 {'prompt': 'Also that’s a very good observation 🙌🏼', 'response': 'Are we read to submit?', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'Are we read to submit?', 'response': 'I can do a final read through if we need', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'I can do a final read through if we need', 'response': 'Code is ready', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'Code is ready', 'response': 'everything is in present tense, looks good', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'everything is in present tense, looks good', 'response': 'if theres no other changes I can submit', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'if theres no other changes I can submit', 'response': 'Can someone double check the requirement here? I might have understood it wrongly but it looks like they asked for the ABC notation (which we have) and the music representation/notation (which we don’t have at the moment)', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'Can someone double check the requirement here? I might have understood it wrongly but it looks like they asked for the ABC notation (which we have) and the music representation/notation (which we don’t have at the moment)', 'response': "oh shoot yea i'll add screenshots rn", 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': "oh shoot yea i'll add screenshots rn", 'response': 'give me like 5 min', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
@@ -857,6 +819,8 @@
 {'prompt': 'i think they wanted it uploaded seperately? i vaguely remember reading about this somewhere', 'response': '@Jeremy Tow would you like to add a sentence to the Abstract to describe how the generated music sounds?', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'okok', 'response': 'ok i updated the abstract, also added in the pictures of the music', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'ok i updated the abstract, also added in the pictures of the music', 'response': 'Report submitted, I added u guys', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
+{'prompt': 'Report submitted, I added u guys', 'response': 'tyty', 'prompter': 'Jonathan', 'responder': 'Jeremy'}
+{'prompt': 'tyty', 'response': 'So are we going with this?', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
 {'prompt': 'So are we going with this?', 'response': 'I guess so', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'I guess so', 'response': 'Ok I’ll do that', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'Ok I’ll do that', 'response': 'Do we need any help with the code submission?', 'prompter': 'Winfrey', 'responder': 'Ester'}
@@ -867,10 +831,9 @@
 {'prompt': 'PA4 report can use this copy of PA3 --- ', 'response': 'still need to update the section headers and remove old content', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'still need to update the section headers and remove old content', 'response': '^ if anyone wanna help with setting up PA4 report! If not, I can do it in some days', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '^ if anyone wanna help with setting up PA4 report! If not, I can do it in some days', 'response': 'I’ll do more coding this time around, I’ll have less capstone work', 'prompter': 'Ester', 'responder': 'Jonathan'}
-{'prompt': 'Ester named the group CSE 151B PA4.', 'response': 'I started on the code on branch ester1', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'You named the group CSE 151B PA4.', 'response': 'I started on the code on branch ester1', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I started on the code on branch ester1', 'response': 'Just fixed some formatting issues with the template', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Just fixed some formatting issues with the template', 'response': 'Solved some minor bugs', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Solved some minor bugs', 'response': 'Are those on main or ester1? Which one should I pull', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Are those on main or ester1? Which one should I pull', 'response': 'Jeremy is also making some progress', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Jeremy is also making some progress', 'response': 'Main is the same as Ester 1 right now', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Main is the same as Ester 1 right now', 'response': 'Ooh okkk', 'prompter': 'Ester', 'responder': 'Winfrey'}
@@ -881,7 +844,6 @@
 {'prompt': 'oh ok yea i’ll push mine but it has low acc', 'response': 'ok pushed', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'ok pushed', 'response': 'update: the baseline training is working but the loss is still high (377) compared to the reference (39)', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'the ester1 branch has working code', 'response': 'run the command python main.py --embed-dim 768 --n-epochs 10', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'run the command python main.py --embed-dim 768 --n-epochs 10', 'response': 'TA said: Results.txt is irrelevant Reference this result instead: Baseline(10 epochs): Loss = 192.47; Val Accuracy = 84.21; Test Accuracy = 83.49', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'TA said: Results.txt is irrelevant Reference this result instead: Baseline(10 epochs): Loss = 192.47; Val Accuracy = 84.21; Test Accuracy = 83.49', 'response': 'Ooo is our loss 377 still considered too high compared to the reference?', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Ooo is our loss 377 still considered too high compared to the reference?', 'response': "yeah :0  it'll need to be under 200", 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': "yeah :0  it'll need to be under 200", 'response': 'oh oop', 'prompter': 'Ester', 'responder': 'Jeremy'}
@@ -889,14 +851,12 @@
 {'prompt': 'oooh okok! anywhere that u suspect is not doing the job properly?', 'response': 'we can still test different optimizer and scheduler and other hyperparameter tuning', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'we can still test different optimizer and scheduler and other hyperparameter tuning', 'response': 'Okie', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Okie', 'response': 'Actually the code on ester1 has some odd issue rn, but Jeremy will push his working code soon', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Actually the code on ester1 has some odd issue rn, but Jeremy will push his working code soon', 'response': 'the code on the ester1 branch works fine for me lol', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'the code on the ester1 branch works fine for me lol', 'response': 'What’s wrong with my terminal then 😭', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'What’s wrong with my terminal then 😭', 'response': 'What command do you run on the terminal', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'What command do you run on the terminal', 'response': 'mb try a different server?', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'mb try a different server?', 'response': 'i pushed the code btw', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'i pushed the code btw', 'response': 'BRUH changing the GPU worked 😔', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'BRUH changing the GPU worked 😔', 'response': 'Quite possibly the most mysterious bug I’ve seen', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Quite possibly the most mysterious bug I’ve seen', 'response': 'Can someone else run ester1 multiple times? My results behave very differently the second time I run it', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Can someone else run ester1 multiple times? My results behave very differently the second time I run it', 'response': 'cd cse151b251b-wi24-pa4-transformative python main.py --embed-dim 768 --n-epochs 50  ^^ try this', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'cd cse151b251b-wi24-pa4-transformative python main.py --embed-dim 768 --n-epochs 50  ^^ try this', 'response': 'Ah datahub and dsmlp not working for me at the moment. I’ll have to wait and try again in 30minutes or so.', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Ah datahub and dsmlp not working for me at the moment. I’ll have to wait and try again in 30minutes or so.', 'response': '@Ester Tsai @Jeremy Tow roughly how long does it take to run?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -933,14 +893,12 @@
 {'prompt': 'Also dropout 0.9 is quite high honestly', 'response': 'I’m trying drop-rate 0.1 for 10 epochs', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I’m trying drop-rate 0.1 for 10 epochs', 'response': 'so it does work, but I have to keep learning rate below 1.5e-4 (1.5e-4 does not work, but 1.1e-4 works, still testing more)', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'so it does work, but I have to keep learning rate below 1.5e-4 (1.5e-4 does not work, but 1.1e-4 works, still testing more)', 'response': 'Ooohh', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Ooohh', 'response': 'Validation accuracy is 85.7% and loss is 183 at epoch 6 for drop rate 0.1, everything else the same', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Validation accuracy is 85.7% and loss is 183 at epoch 6 for drop rate 0.1, everything else the same', 'response': 'I think the culprit is the drop rate..? 😂', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I think the culprit is the drop rate..? 😂', 'response': '!!!!!!!!!!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': '!!!!!!!!!!', 'response': 'OK', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'OK', 'response': 'Yeah ok test accuracy is 86.58%', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Thanks!!', 'response': 'yuh please put your findings here', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'yuh please put your findings here', 'response': 'updated ester1 -- updated default arguments to reflect the current best result', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'updated ester1 -- updated default arguments to reflect the current best result', 'response': 'I updated the print statement to be more clear too, so would you guys like to make a branch of ester1 and work on that? (ignore ester2)', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I updated the print statement to be more clear too, so would you guys like to make a branch of ester1 and work on that? (ignore ester2)', 'response': "yes i'll merge with your branch in a bit, working on the custom model right now. Thank you Ester!!", 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': "yes i'll merge with your branch in a bit, working on the custom model right now. Thank you Ester!!", 'response': 'Implemented part 4 strategy 1 & 2 from the list of five strategies - I just went with the order of the list   feel free to check the code in my branch winfrey (merged pull from the latest update in ester1 branch)  also feel free to explore the other strategies - we will only need to report 2 out of the 5 strategies', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Implemented part 4 strategy 1 & 2 from the list of five strategies - I just went with the order of the list   feel free to check the code in my branch winfrey (merged pull from the latest update in ester1 branch)  also feel free to explore the other strategies - we will only need to report 2 out of the 5 strategies', 'response': 'Results can be found in this doc here', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -948,20 +906,16 @@
 {'prompt': 'Are you all free to call at 3pm again this Friday to check-in on PA4?', 'response': 'Yes!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Yes!', 'response': "I'll try method 3 today", 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'just copied your updated code @Winfrey Kong', 'response': 'bump! please react if you call on Friday at 3pm, and lmk if we need to find another time', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'bump! please react if you call on Friday at 3pm, and lmk if we need to find another time', 'response': '@Jonathan Cheung?', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': '@Jonathan Cheung?', 'response': 'Also I don\'t wanna see you guys lose points for not coding! I think it\'s worth arguing that you guys weren\'t able to code for PA3 because of unfixable cuDNN version incompatibility issue, and that you will make sure to code for PA4. This is what our prof wrote for PA3 feedback: "Hi folks - Based on your description of who did what, it sounds like Jeremy just did hyperparameter tuning, Jonathan only helped with analysis, and Samuel just helped write the report. You know that we expect everyone to code! Please argue with me in a regrade request as to why I should not give Samuel 50% of the points, Jonathan 70%, and Jeremy 80% of the points. In general, I highly recommend using pair or triple programming, trading of who is the driver to avoid this in the future."', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Also I don\'t wanna see you guys lose points for not coding! I think it\'s worth arguing that you guys weren\'t able to code for PA3 because of unfixable cuDNN version incompatibility issue, and that you will make sure to code for PA4. This is what our prof wrote for PA3 feedback: "Hi folks - Based on your description of who did what, it sounds like Jeremy just did hyperparameter tuning, Jonathan only helped with analysis, and Samuel just helped write the report. You know that we expect everyone to code! Please argue with me in a regrade request as to why I should not give Samuel 50% of the points, Jonathan 70%, and Jeremy 80% of the points. In general, I highly recommend using pair or triple programming, trading of who is the driver to avoid this in the future."', 'response': 'oh ummmm that’s kind awkward i kinda did the baseline too I just didn’t want to write that in my contributions cuz my work for that didn’t show up in the report', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'oh ummmm that’s kind awkward i kinda did the baseline too I just didn’t want to write that in my contributions cuz my work for that didn’t show up in the report', 'response': "you can argue for that! It's ok if it didn't show up in the report", 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': "you can argue for that! It's ok if it didn't show up in the report", 'response': 'uhh shuld i directly send an email or should we create a doc or smth and then send everything all at once', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'uhh shuld i directly send an email or should we create a doc or smth and then send everything all at once', 'response': 'We just need to send one reply through Gradescope regrade request. Would you like to start a doc?', 'prompter': 'Jeremy', 'responder': 'Ester'}
-{'prompt': 'We just need to send one reply through Gradescope regrade request. Would you like to start a doc?', 'response': "ok yea i'll make it", 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': "ok yea i'll make it", 'response': 'Oh yeaaaah definitely mention this, cause for PA1 both me and Ester worked on some parts that are the same and we said something like we both coded this part and we ended up taking xx’s version', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
 {'prompt': 'ok heres the link', 'response': "ok my bit is finished. i don't really know about the issue that you guys faced with cuDNN, so I couldn't really write about it", 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': "ok my bit is finished. i don't really know about the issue that you guys faced with cuDNN, so I couldn't really write about it", 'response': 'I had the incompatibility issue so I couldn’t code. I don’t rlly have any other excuse bc I wrote what I did in the report. If that means I get 70% so be it, I am P/NP anyways', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
+{'prompt': 'I had the incompatibility issue so I couldn’t code. I don’t rlly have any other excuse bc I wrote what I did in the report. If that means I get 70% so be it, I am P/NP anyways', 'response': "btw we still need help with Part 5! Will anyone be working on that? I'm starting on it but can't guarantee I'll figure it out", 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': "btw we still need help with Part 5! Will anyone be working on that? I'm starting on it but can't guarantee I'll figure it out", 'response': "It's also helpful if anyone wants to try Stochastic Weight Averaging (SWA) and Frequent Evaluation for Part 4", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "It's also helpful if anyone wants to try Stochastic Weight Averaging (SWA) and Frequent Evaluation for Part 4", 'response': 'I’ll try', 'prompter': 'Ester', 'responder': 'Jonathan'}
-{'prompt': 'Reinitializing the last layer resulted in slight improvement from baseline', 'response': 'my code has been pushed to ester1', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'my code has been pushed to ester1', 'response': "@Jeremy Tow @Jonathan Cheung @Samuel Chu feel free to  build on top of ester1; it has Jeremy's, Winfrey's, and my most updated code", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "@Jeremy Tow @Jonathan Cheung @Samuel Chu feel free to  build on top of ester1; it has Jeremy's, Winfrey's, and my most updated code", 'response': 'I like how we are stacking on top one another’s 😂😂', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'I like how we are stacking on top one another’s 😂😂', 'response': 'Hello hello, to plan our tasks and time for the rest of this week, is anyone planning to work on or currently working on part 4 or part 5?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Hello hello, to plan our tasks and time for the rest of this week, is anyone planning to work on or currently working on part 4 or part 5?', 'response': 'i’ll work on part 5', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
@@ -973,7 +927,6 @@
 {'prompt': '^ done pushing to ester1', 'response': '@Winfrey Kong would you like to try dropout 0.15 instead of 0.1? it seemed to perform better for me', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '@Winfrey Kong would you like to try dropout 0.15 instead of 0.1? it seemed to perform better for me', 'response': 'Sure', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Sure', 'response': "btw just updated ester1 again! Now it's a lot easier to implement different custom models in models.py and use class inheritance to combine methods", 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': "btw just updated ester1 again! Now it's a lot easier to implement different custom models in models.py and use class inheritance to combine methods", 'response': "For now I'm gonna test everything with learning rate 1e-5 and dropout 0.15", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "For now I'm gonna test everything with learning rate 1e-5 and dropout 0.15", 'response': 'All results are recorded here btw! ', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'All results are recorded here btw! ', 'response': 'Kong pinned a message.', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Kong pinned a message.', 'response': 'Any progress on part 5?', 'prompter': 'Winfrey', 'responder': 'Ester'}
@@ -984,39 +937,31 @@
 {'prompt': 'I haven’t rlly looked but I can do part 5', 'response': 'We’re pretty good on part 4 since we’ve done methods 1-3. Feel free to try methods 4-5 but we should aim to get part 5 done first!', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'We’re pretty good on part 4 since we’ve done methods 1-3. Feel free to try methods 4-5 but we should aim to get part 5 done first!', 'response': 'Yupp agreed!!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Yupp agreed!!', 'response': 'Anyone going to OH tomorrow?', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Anyone going to OH tomorrow?', 'response': 'Nope I won’t be', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Nope I won’t be', 'response': 'I have a functional part 5', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'I have a functional part 5', 'response': 'there are 2 parts to the supcon_train: the first training loop uses SupCon loss to train the model to output features that group similar data points together; the second training loop uses cross entropy loss to train the classifier to output predictions based on "features" input', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'there are 2 parts to the supcon_train: the first training loop uses SupCon loss to train the model to output features that group similar data points together; the second training loop uses cross entropy loss to train the classifier to output predictions based on "features" input', 'response': 'ester1 branch has the newest updates', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'ester1 branch has the newest updates', 'response': 'oh oop im still working on it rn', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'oh oop im still working on it rn', 'response': 'oh btw did we submit the regrade request yet and if not shuld i do it', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'oh btw did we submit the regrade request yet and if not shuld i do it', 'response': 'feel free to try on your own or improve on mine!', 'prompter': 'Jeremy', 'responder': 'Ester'}
-{'prompt': 'feel free to try on your own or improve on mine!', 'response': 'I can check', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I can check', 'response': 'tyty', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'tyty', 'response': 'not submitted yet', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'Can someone run it and see what the test accuracy is?', 'response': 'It’s only 50% if I set n-epochs to 10', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'It’s only 50% if I set n-epochs to 10', 'response': 'So we can try 20', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'So we can try 20', 'response': 'ill run it', 'prompter': 'Ester', 'responder': 'Jonathan'}
+{'prompt': 'ill run it', 'response': 'rip no nodes avialble rn', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'rip no nodes avialble rn', 'response': 'nvm its working now', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'nvm its working now', 'response': 'just finsihed running with 20 epochs, test acc is 0.5047', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'just finsihed running with 20 epochs, test acc is 0.5047', 'response': 'lol so more epochs does not help', 'prompter': 'Jonathan', 'responder': 'Ester'}
-{'prompt': 'lol so more epochs does not help', 'response': "I've implemented util.plot", 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': "I've implemented util.plot", 'response': 'YOOOOOOOOOOOOOOOO', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'YOOOOOOOOOOOOOOOO', 'response': 'part 5 worked', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'part 5 worked', 'response': 'I think!', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Yooooooooooo', 'response': 'Wowwwww', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Wowwwww', 'response': 'ur actually amazing', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': 'ur actually amazing', 'response': 'the loss has been updated to reflect mean loss, not total', 'prompter': 'Jeremy', 'responder': 'Ester'}
-{'prompt': 'the loss has been updated to reflect mean loss, not total', 'response': 'I just needed to make the learning rate much higher for the classifier', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I just needed to make the learning rate much higher for the classifier', 'response': "high key it's scary when things work", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "high key it's scary when things work", 'response': 'better sanity check', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'better sanity check', 'response': 'when i finally figure out how to do it individually i’ll also check ig', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'when i finally figure out how to do it individually i’ll also check ig', 'response': 'but it actually putting in so much work it’s crazy tysm', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'but it actually putting in so much work it’s crazy tysm', 'response': '@Jonathan Cheung @Winfrey Kong would you guys be down to set up the report by tonight? ', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': '@Jonathan Cheung @Winfrey Kong would you guys be down to set up the report by tonight? ', 'response': 'or by tomorrow before 3pm', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'or by tomorrow before 3pm', 'response': 'Yeah I’ll do so', 'prompter': 'Ester', 'responder': 'Jonathan'}
-{'prompt': '^ to get 88.23% test accuracy', 'response': 'Imma run the models overnight to get these plots', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': '^ if anyone would like to test it', 'response': 'Thank you!', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Thank you!', 'response': "i'll run it, i need a break anyways", 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': "i'll run it, i need a break anyways", 'response': 'You can get the code from ester1! Lmk if it works ', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'You can get the code from ester1! Lmk if it works ', 'response': 'Made fixes to the plots and corresponding stuff', 'prompter': 'Ester', 'responder': 'Ester'}
@@ -1048,7 +993,6 @@
 {'prompt': 'You’ll need to set the batch size to something less than 1000', 'response': '512 still works', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '512 still works', 'response': 'Bigger batch size will cause cuda out of memory error', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Bigger batch size will cause cuda out of memory error', 'response': 'If you use node 30 on DSMLP you get a GPU with more GB of memory', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'If you use node 30 on DSMLP you get a GPU with more GB of memory', 'response': 'oo highest I got so far is 67.48%', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "good call on using large batch size @Ester Tsai!! I read Lilian Weng's blog that SimCLR does require large batch size to perform well.", 'response': "checked the implementation of SimCLR, it looks all good to me (thanks Ester!), I'm reading papers on the effect of some hyperparameters on it.", 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': "checked the implementation of SimCLR, it looks all good to me (thanks Ester!), I'm reading papers on the effect of some hyperparameters on it.", 'response': "if we haven't already tried, we could try lower learning rate for classifier (1e-4)", 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': "if we haven't already tried, we could try lower learning rate for classifier (1e-4)", 'response': 'SimCSE is using dropout rate of 0.1, and from the doc I see that Ester has tried that', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -1090,7 +1034,6 @@
 {'prompt': 'if you are referring to the mean train loss of supcon (the first training loop), it always reaches 0.0 within 10 epochs for me', 'response': 'so i just set it at 10 epochs for contrastive-n-epochs', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'so i just set it at 10 epochs for contrastive-n-epochs', 'response': 'also, might want to add a new argument to this', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'It becomes man for em sometimes too, especially when temperature is lower than 0.01', 'response': "because if it is taking classifier input dim, it'll always be 768, and the linear is doing 768 -> 768, which is not really meaningful", 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': "because if it is taking classifier input dim, it'll always be 768, and the linear is doing 768 -> 768, which is not really meaningful", 'response': "and classifier input dim has to be 768, since it is taking the encoder's embeddings when we are doing SimCLR", 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': "and classifier input dim has to be 768, since it is taking the encoder's embeddings when we are doing SimCLR", 'response': 'Yep that’s right', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Yep that’s right', 'response': 'was able to get 71% val acc, and 88% train acc by epoch 7 of training the classifier, just fixing some minor issues on my end right now. I will run a few more experiments and let yall know how it goes.', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'was able to get 71% val acc, and 88% train acc by epoch 7 of training the classifier, just fixing some minor issues on my end right now. I will run a few more experiments and let yall know how it goes.', 'response': 'Messed up a line and my test acc became 0.02 💀', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
@@ -1120,6 +1063,7 @@
 {'prompt': 'WAIT', 'response': 'Yes sir', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'Yes sir', 'response': 'VAL ACC 0.83 on 3 epochs', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'VAL ACC 0.83 on 3 epochs', 'response': 'Niceeeee', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'Niceeeee', 'response': 'sheesh?????????', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'sheesh?????????', 'response': 'Lesgoooo', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Lesgoooo', 'response': 'The train acc is getting to 99%', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'The train acc is getting to 99%', 'response': 'Goodnight everyone', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
@@ -1129,7 +1073,9 @@
 {'prompt': 'Let me finish the training', 'response': 'yuh please send the command line', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'yuh please send the command line', 'response': 'Okieeeee', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Okieeeee', 'response': 'It’s in the process but should take less than the usual 40', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'It’s in the process but should take less than the usual 40', 'response': "wanna send it rn haha I'll run it along with my other string of commands", 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': "wanna send it rn haha I'll run it along with my other string of commands", 'response': 'Oh and push ur code we can just use urs', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'if epcosh is greater than 7 the loss becomes nan', 'response': 'Is ur classifier-input-dim actually the classifier’s input dim?', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'Is ur classifier-input-dim actually the classifier’s input dim?', 'response': 'oh yeah ill make a branch bc ive been workignon a copy of esters', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'oh yeah ill make a branch bc ive been workignon a copy of esters', 'response': 'Yeaaah okkk', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'Yeaaah okkk', 'response': 'Thanks Jonathan!!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
@@ -1147,12 +1093,10 @@
 {'prompt': "if we removed the reduction='sum', it'll be hard to calculate loss consistently", 'response': 'Also, very good call on this Ester, val acc is already above 80% at epoch 3 with 1200 linear head dim', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Also, very good call on this Ester, val acc is already above 80% at epoch 3 with 1200 linear head dim', 'response': 'OHHHH Okok we should put it back then, Soz didn’t think that far', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'OHHHH Okok we should put it back then, Soz didn’t think that far', 'response': "haha I tried 10000 once and might've gotten CUDA out of memeory", 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': "haha I tried 10000 once and might've gotten CUDA out of memeory", 'response': 'Pushing the limits we like', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Pushing the limits we like', 'response': "OOOO I got good results similar to jcheung's", 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Yooooooooooo', 'response': 'the epochs can be lower and probably still perform the same', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'the epochs can be lower and probably still perform the same', 'response': '82.92%', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '82.92%', 'response': 'Niceeeeee wow I’m so glad we worked this out together 😍😍😍', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Niceeeeee wow I’m so glad we worked this out together 😍😍😍', 'response': 'i made my branch but it looks like ester branch from a week ago, im a brnach noob does anyone know how to update it', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'i made my branch but it looks like ester branch from a week ago, im a brnach noob does anyone know how to update it', 'response': 'plot looks reasonable', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'Create a pull request from Ester to ur branch', 'response': 'YUH thanks to your important fixes XD', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'YUH thanks to your important fixes XD', 'response': 'I find it easier to do this on GitHub than command line', 'prompter': 'Ester', 'responder': 'Winfrey'}
@@ -1161,19 +1105,17 @@
 {'prompt': 'oh wait im so dumb', 'response': 'im wokring on datahub lol', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'im wokring on datahub lol', 'response': 'not the actual repo on my computer', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'not the actual repo on my computer', 'response': 'Well, there’s also brute force, download the py files and upload it, almost guaranteed to work always 🤣 when there’s too many merge conflicts I just brute force hahaha', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
-{'prompt': 'Well, there’s also brute force, download the py files and upload it, almost guaranteed to work always 🤣 when there’s too many merge conflicts I just brute force hahaha', 'response': 'o wait ester 1 is not updated', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'o wait ester 1 is not updated', 'response': 'let me do that rn', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'let me do that rn', 'response': 'ok i pshed to my branch', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'ok i pshed to my branch', 'response': 'the comments and stuff r still there so its super messy but u hsould be able to see the changes', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'the comments and stuff r still there so its super messy but u hsould be able to see the changes', 'response': 'mainly on the forward pass and the respective changes from 2 outputs in the eval and clr training loops', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'mainly on the forward pass and the respective changes from 2 outputs in the eval and clr training loops', 'response': "I had merge conflict so I couldn't properly push my code lolol I ended up copy pasting my changes into ester1", 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': "I had merge conflict so I couldn't properly push my code lolol I ended up copy pasting my changes into ester1", 'response': "I'm rerunning all the other models after the code fix, but I'm down to just use what we already have on the report to save time changing everything out", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I put it in the figures folder for Overleaf but feel free to replace it if something better comes up', 'response': '82.92% test acc', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': '82.92% test acc', 'response': 'New result for supcon loss: 88.9% at epoch 3', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Aaaaaa', 'response': 'Noiceeee', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
-{'prompt': 'Noiceeee', 'response': '83.15% SimCLR', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Are we confirmed using that for the report?', 'response': 'I can fill in the values in the chart and in the abstract then', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'I can fill in the values in the chart and in the abstract then', 'response': 'I have a better plot possibly', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'I have a better plot possibly', 'response': 'Let me update it on overleaf rn', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Let me update it on overleaf rn', 'response': 'After fixing our code, the baseline is mega good', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'After fixing our code, the baseline is mega good', 'response': '89%', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '89%', 'response': 'No other model gets better than baseline', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'No other model gets better than baseline', 'response': 'Should we keep our old set of plots to save time or hyperparameter tune all the models until they are optimized?', 'prompter': 'Ester', 'responder': 'Ester'}
@@ -1199,9 +1141,7 @@
 {'prompt': 'done with baseline and custom1', 'response': 'okkk i will do that tonight, will build off what you have in the results doc', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'These are the new plots that we can use, minus custom3 and custom1and3', 'response': "I'll put them on Overleaf", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "I'll put them on Overleaf", 'response': 'oooh so custom1 itself is slightly tiny bit better than baseline', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'oooh so custom1 itself is slightly tiny bit better than baseline', 'response': 'yeye just got the newest best result from hyperparameter tuning', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': '^these are the current best custom1 and custom1and3', 'response': "to summarize: I've updated the corresponding report parts for baseline, custom1, and SimCLR. Still waiting on some more SupCon to run for better consistency. Need help on hyperparameter tuning and updating the report for custom3 and custom1and3", 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': "to summarize: I've updated the corresponding report parts for baseline, custom1, and SimCLR. Still waiting on some more SupCon to run for better consistency. Need help on hyperparameter tuning and updating the report for custom3 and custom1and3", 'response': 'Do we hv numbers for technique 2 and the combined ones or is it being rerun', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'Do we hv numbers for technique 2 and the combined ones or is it being rerun', 'response': 'These are the current best stats but it is being rerun', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'These are the current best stats but it is being rerun', 'response': 'Also did using the losses rather than the 2 techniques trading faster or was there no significant difference?', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'Also did using the losses rather than the 2 techniques trading faster or was there no significant difference?', 'response': 'Wdym by using the losses?', 'prompter': 'Jonathan', 'responder': 'Ester'}
@@ -1210,22 +1150,18 @@
 {'prompt': 'Like do those model train faster in any significant way?', 'response': 'I didn’t keep track of that hmm', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'I didn’t keep track of that hmm', 'response': 'Feel free to track it', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Feel free to track it', 'response': 'Ester1 should be updated', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Ester1 should be updated', 'response': 'For this block in the result section: "For the second technique, we initialize the weights of the last layer in BERT before fine-tuning it.95 Both training and validation accuracies increase very rapidly for the first 4 epochs. The training96 accuracy continues to improve, but the validation accuracy plateaus at around 86%, showing signs of97 overfitting. The final test accuracy is 86.28%. The training stops early at epoch 17 after the validation98 accuracy decreases for 3 epochs in a row. The best model based on the highest validation accuracy99 occurs at epoch 14.100 NEEEEEEEEEEEEED UPDATE!!!!!!!!!!!!!!!!!!!! " do we still need this or is it jsut misplaced section??', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'For this block in the result section: "For the second technique, we initialize the weights of the last layer in BERT before fine-tuning it.95 Both training and validation accuracies increase very rapidly for the first 4 epochs. The training96 accuracy continues to improve, but the validation accuracy plateaus at around 86%, showing signs of97 overfitting. The final test accuracy is 86.28%. The training stops early at epoch 17 after the validation98 accuracy decreases for 3 epochs in a row. The best model based on the highest validation accuracy99 occurs at epoch 14.100 NEEEEEEEEEEEEED UPDATE!!!!!!!!!!!!!!!!!!!! " do we still need this or is it jsut misplaced section??', 'response': 'like do we need to commnet on each graph or should this be put in the technique 2 section', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'like do we need to commnet on each graph or should this be put in the technique 2 section', 'response': 'We need to comment on each plot right', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'We need to comment on each plot right', 'response': 'hmmmm.. the exact wording from the doc is summarize the results, but we can always play safe and mention it.', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'hmmmm.. the exact wording from the doc is summarize the results, but we can always play safe and mention it.', 'response': 'we are meeting at 7pm this Wednesday for final project, right?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'we are meeting at 7pm this Wednesday for final project, right?', 'response': 'Yes', 'prompter': 'Winfrey', 'responder': 'Ester'}
-{'prompt': 'Yes', 'response': '@Ester Tsai if ester1 branch is the most updated one, custom_train in main.py we gotta move the model.scheduler.step() outside of the batch loop', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': '@Ester Tsai if ester1 branch is the most updated one, custom_train in main.py we gotta move the model.scheduler.step() outside of the batch loop', 'response': 'typo from the starter code that got carried forward oopss', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'typo from the starter code that got carried forward oopss', 'response': 'I moved the scheduler step out to the epoch loop, and the best val acc is above this here at epoch 5', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'I moved the scheduler step out to the epoch loop, and the best val acc is above this here at epoch 5', 'response': 'Ohhhhhh', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'Ohhhhhh', 'response': 'I fixed it once but it didn’t save, so that might be why I missed it when I fixed a second time', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I fixed it once but it didn’t save, so that might be why I missed it when I fixed a second time', 'response': 'I got good supcon plot', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I got good supcon plot', 'response': 'Ooohh I seeee okkk thanks!', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'Ooohh I seeee okkk thanks!', 'response': 'task=custom1and3 testAcc=0.8907 bestValAcc=0.8942 bestTrainAcc=0.9931 mean_loss=0.0194 ep=20 batch_s=16 drop=0.2 LR=5e-06 hid=128', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'task=custom1and3 testAcc=0.8907 bestValAcc=0.8942 bestTrainAcc=0.9931 mean_loss=0.0194 ep=20 batch_s=16 drop=0.2 LR=5e-06 hid=128', 'response': 'custom1and3 just slightly worse than baseline', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'custom1and3 just slightly worse than baseline', 'response': 'Is the scheduler step in the epoch loop when u ran them? Just curious if u have changed it locally', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Is the scheduler step in the epoch loop when u ran them? Just curious if u have changed it locally', 'response': 'oh right!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'oh right!', 'response': 'need to rerun', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'need to rerun', 'response': '😬😬 I can help run a chunk when I get home in like 45 minutes', 'prompter': 'Ester', 'responder': 'Winfrey'}
@@ -1233,7 +1169,6 @@
 {'prompt': 'Thanks for running so many of them', 'response': '😭🙌🏼', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': '😭🙌🏼', 'response': 'the 5pm TA  is very confused', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'the 5pm TA  is very confused', 'response': 'just quit his OH lol', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'just quit his OH lol', 'response': 'I went to his before! and I remember the session I went wasn’t very helpful too', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'I went to his before! and I remember the session I went wasn’t very helpful too', 'response': "oh shoot sorry i've been afk for most of today. i jst added a bit to the related works and i can help do runs as well", 'prompter': 'Winfrey', 'responder': 'Jeremy'}
 {'prompt': "oh shoot sorry i've been afk for most of today. i jst added a bit to the related works and i can help do runs as well", 'response': 'which exact ones need reruns?', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'which exact ones need reruns?', 'response': 'all the custom ones', 'prompter': 'Jeremy', 'responder': 'Ester'}
@@ -1287,19 +1222,16 @@
 {'prompt': 'the best i got was all 0.88 so yea', 'response': 'ok I edited the introduction + expanded on the discussion section and finished the related works section', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'ok I edited the introduction + expanded on the discussion section and finished the related works section', 'response': 'Wow our Related Works section is stacked', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'Wow our Related Works section is stacked', 'response': 'love that', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'love that', 'response': 'would you like to merge your branch to main @Ester Tsai?', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'would you like to merge your branch to main @Ester Tsai?', 'response': 'ok!', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'ok!', 'response': "I submitted code, but it'd be helpful if someone git clones the main branch to check if everything works smoothly", 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': "I submitted code, but it'd be helpful if someone git clones the main branch to check if everything works smoothly", 'response': 'haha I dropped in a place for most Piazza posts', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'dang both y’all are on the leaderboard 😂', 'response': '70 contributions is crazy', 'prompter': 'Samuel', 'responder': 'Ester'}
 {'prompt': '70 contributions is crazy', 'response': '8 per week', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': '8 per week', 'response': 'I asked this question on Piazza:', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': '@Samuel Chu if the TA answers it, would you like to add whatever we are missing to the report?', 'response': 'I also asked:', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'I don’t get it lol, our un-tuned model is not predicting randomly', 'response': 'mb our model is plainly just better', 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': 'mb our model is plainly just better', 'response': 'built different', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'built different', 'response': 'can you all check on your end what your test accuracy is before training?', 'prompter': 'Jeremy', 'responder': 'Ester'}
 {'prompt': 'can you all check on your end what your test accuracy is before training?', 'response': '@Winfrey Kong @Jeremy Tow @Jonathan Cheung @Samuel Chu ?', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': '@Winfrey Kong @Jeremy Tow @Jonathan Cheung @Samuel Chu ?', 'response': 'send in the chat asap haha so we can see if my higher number is just due to random chance', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'send in the chat asap haha so we can see if my higher number is just due to random chance', 'response': 'maybe try a different seed too', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'seed of 2', 'response': 'oh okok', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'oh okok', 'response': 'Jeremy what’s the line you’re running', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
@@ -1313,18 +1245,14 @@
 {'prompt': 'How about Before you run training?', 'response': 'Might have switched up a paean to use a diff model lol', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'Oh lol ok we can go with Jonathan’s number', 'response': 'For the report', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'For the report', 'response': 'Could someone update the table and the Discussion Q2?', 'prompter': 'Ester', 'responder': 'Ester'}
-{'prompt': 'Could someone update the table and the Discussion Q2?', 'response': 'This is so goofy', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'This is so goofy', 'response': 'I’ll rewrite Q2 to say they match', 'prompter': 'Ester', 'responder': 'Jonathan'}
 {'prompt': 'I’ll rewrite Q2 to say they match', 'response': 'Wait', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'Wait', 'response': 'Not exactly but same order of Magnitude?? I guess', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
-{'prompt': 'Not exactly but same order of Magnitude?? I guess', 'response': '1/60 is 1.67% while out test acc is about 0.98%', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': '1/60 is 1.67% while out test acc is about 0.98%', 'response': 'So close enough??', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'So close enough??', 'response': 'im running stats let me give u numbers in a sec', 'prompter': 'Jonathan', 'responder': 'Jeremy'}
 {'prompt': 'im running stats let me give u numbers in a sec', 'response': 'im going to run it 100 times and get means + stddevs', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'our seed was actually just built different', 'response': 'two percent chance', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'two percent chance', 'response': '😂😂😂😂', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
-{'prompt': '😂😂😂😂', 'response': 'mean: 0.01862474781439139 std: 0.015202989747957751', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
-{'prompt': 'mean: 0.01862474781439139 std: 0.015202989747957751', 'response': '@Jonathan Cheung you can put these numbers into the report', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': '@Jonathan Cheung you can put these numbers into the report', 'response': 'over 100 different seeds', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
 {'prompt': 'over 100 different seeds', 'response': 'I’ll out that in Q2', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
 {'prompt': 'I’ll out that in Q2', 'response': 'The chart I’ll put the mean number in', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
@@ -1332,13 +1260,11 @@
 {'prompt': 'Ok updated', 'response': 'Ready for submit?', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': 'Ready for submit?', 'response': 'for my parts yea', 'prompter': 'Jonathan', 'responder': 'Jeremy'}
 {'prompt': 'for my parts yea', 'response': 'I’m gonna submit for now, if there’s any more changes lmk', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
+{'prompt': 'I’m gonna submit for now, if there’s any more changes lmk', 'response': 'This is super useful info!', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'This is super useful info!', 'response': "@Winfrey Kong@Ester Tsai for the photo focal length idea we talked about earlier in person: 24-30 mm: 3k 30-40 mm: 6k 40-55 mm: 2k 55-70 mm: 6k > 70 mm: 400  This is just the number of photos taken with my current camera so I have a lot more but they're harder to find stats on rn. I think it might be better to pull photos from the internet so there is more variety, and maybe supplement that data with mine, if we do go through with this idea  link to github repo: ", 'prompter': 'Ester', 'responder': 'Jeremy'}
 {'prompt': "@Winfrey Kong@Ester Tsai for the photo focal length idea we talked about earlier in person: 24-30 mm: 3k 30-40 mm: 6k 40-55 mm: 2k 55-70 mm: 6k > 70 mm: 400  This is just the number of photos taken with my current camera so I have a lot more but they're harder to find stats on rn. I think it might be better to pull photos from the internet so there is more variety, and maybe supplement that data with mine, if we do go through with this idea  link to github repo: ", 'response': "oo Jeremy's idea is super cool! Here is another option that seems feasible: train an LSTM to generate text that resembles how we talk in this Messenger chat", 'prompter': 'Jeremy', 'responder': 'Ester'}
-{'prompt': "It's pretty easy to get Messenger chat data from Facebook", 'response': 'Are you able to download a specific group chat with the date range? Or does it download everything in the same interval only?', 'prompter': 'Ester', 'responder': 'Jonathan'}
-{'prompt': 'Are you able to download a specific group chat with the date range? Or does it download everything in the same interval only?', 'response': 'we could use gpt model too maybe', 'prompter': 'Jonathan', 'responder': 'Samuel'}
 {'prompt': 'we could use gpt model too maybe', 'response': 'I can download all of my chat data for a specific time range. Every chat is a different file', 'prompter': 'Samuel', 'responder': 'Ester'}
 {'prompt': 'I can download all of my chat data for a specific time range. Every chat is a different file', 'response': 'Yeah just fogured that out it’s really cool', 'prompter': 'Ester', 'responder': 'Jonathan'}
-{'prompt': 'Yeah just fogured that out it’s really cool', 'response': 'Article that we can refer to for this task: ', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
 {'prompt': 'Article that we can refer to for this task: ', 'response': 'typo here lol', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': 'typo here lol', 'response': 'I can fix and resubmit', 'prompter': 'Ester', 'responder': 'Ester'}
 {'prompt': 'Lol thanks', 'response': 'oh thats a good idea. i think the main thing we would have to figure out would be how to make it different tho', 'prompter': 'Jonathan', 'responder': 'Jeremy'}
@@ -1356,15 +1282,274 @@
 {'prompt': 'Ooh actually, we can train GPT2! The one u shared', 'response': 'Kind of like how we train our baseline bert for this round.', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
 {'prompt': 'Kind of like how we train our baseline bert for this round.', 'response': 'cool ok', 'prompter': 'Winfrey', 'responder': 'Samuel'}
 {'prompt': 'cool ok', 'response': 'just added final project idea notes to our team doc', 'prompter': 'Samuel', 'responder': 'Winfrey'}
-{'prompt': 'ah here is how to get the emoji', 'response': 'So cute', 'prompter': 'Ester', 'responder': 'Winfrey'}
-{'prompt': 'with very little training', 'response': 'Wow this is promising', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'Wow this is promising', 'response': '1 epoch and only 10 sequences of 30 tokens haha', 'prompter': 'Winfrey', 'responder': 'Ester'}
 {'prompt': '1 epoch and only 10 sequences of 30 tokens haha', 'response': 'I seeeee', 'prompter': 'Ester', 'responder': 'Winfrey'}
 {'prompt': 'I seeeee', 'response': 'The addition of the emoji in the response is so funny', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
 {'prompt': 'you can spam the chat right now for data haha', 'response': 'lol ya', 'prompter': 'Ester', 'responder': 'Samuel'}
 {'prompt': 'lol ya', 'response': 'Spam with what lol', 'prompter': 'Samuel', 'responder': 'Jonathan'}
 {'prompt': 'Spam with what lol', 'response': 'Emojis??? 😳😳😳😳😳😳', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'Emojis??? 😳😳😳😳😳😳', 'response': '🤫🧏', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
 {'prompt': '🤫🧏', 'response': 'keep sending texts and we will have better data 😳😳', 'prompter': 'Jonathan', 'responder': 'Ester'}
 {'prompt': 'keep sending texts and we will have better data 😳😳', 'response': '😂', 'prompter': 'Ester', 'responder': 'Samuel'}
 {'prompt': '😂', 'response': "Can one of you guys download your facebook messenger data and upload the json file for this groupchat to the github repo? I can't download the 3 month one for some reason", 'prompter': 'Samuel', 'responder': 'Ester'}
 {'prompt': "Can one of you guys download your facebook messenger data and upload the json file for this groupchat to the github repo? I can't download the 3 month one for some reason", 'response': 'I’ll try', 'prompter': 'Ester', 'responder': 'Jonathan'}
+{'prompt': 'I’ll try', 'response': 'I will try other ways of parsing text and get started on encoder-decoder today.  @Ester Tsai quick question, where can I find the token_idx_map that is used for tokenizing our chat messages? also thank you for getting things set up so quickly!!', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'I will try other ways of parsing text and get started on encoder-decoder today.  @Ester Tsai quick question, where can I find the token_idx_map that is used for tokenizing our chat messages? also thank you for getting things set up so quickly!!', 'response': 'the 3 month data is uploaded to the github', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'the 3 month data is uploaded to the github', 'response': 'yuh that is helpful', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'yuh that is helpful', 'response': 'main.py I think?', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'main.py I think?', 'response': 'on top', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'on top', 'response': 'More funny response from the LSTM', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'OH OK saw it! Thanks', 'response': "Apparently we've never used the word Hi before in this chat", 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': "Apparently we've never used the word Hi before in this chat", 'response': 'Hhhahahahahahahahah', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Hhhahahahahahahahah', 'response': 'My Tsai', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'My Tsai', 'response': '😂😂😂😂😂😂 I can’t', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': '😂😂😂😂😂😂 I can’t', 'response': 'quite cursed response', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': "Hi guys! Hi guys! Hi guys! I'm gonna spam some content for the generator", 'response': 'HAHAHAHAHAHAHAHA', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'HAHAHAHAHAHAHAHA', 'response': 'Hi everyone!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Hi everyone!', 'response': 'The LSTM is high key not learning that well currently but it has potential', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'The LSTM is high key not learning that well currently but it has potential', 'response': 'Sam wanna spam some stuff', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'Sam wanna spam some stuff', 'response': 'Ya I think it has huge potential 😂😂', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Ya I think it has huge potential 😂😂', 'response': 'hi', 'prompter': 'Winfrey', 'responder': 'Samuel'}
+{'prompt': 'hi', 'response': 'to be a comedian LOL this generator has no sense and the best sense all at once', 'prompter': 'Samuel', 'responder': 'Ester'}
+{'prompt': 'to be a comedian LOL this generator has no sense and the best sense all at once', 'response': 'lol the sentences don’t make sense 😭', 'prompter': 'Ester', 'responder': 'Samuel'}
+{'prompt': 'lol the sentences don’t make sense 😭', 'response': 'There’s so much yuhhh ahhh yooo', 'prompter': 'Samuel', 'responder': 'Winfrey'}
+{'prompt': 'There’s so much yuhhh ahhh yooo', 'response': 'I really like how it reflects the way we communicate 😂😂😂😂', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'I really like how it reflects the way we communicate 😂😂😂😂', 'response': "This is with temperature = 1 tho! Quite high. When it's low, it tends to cut the text very short or have nothing at all", 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': "This is with temperature = 1 tho! Quite high. When it's low, it tends to cut the text very short or have nothing at all", 'response': 'And I feel like it can make sense for like really short phrases like “trying something”, “run training plots”', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'And I feel like it can make sense for like really short phrases like “trying something”, “run training plots”', 'response': 'Oh i see! Yeah that’s considered quite high. Maybe for our task we can try towards the higher end, there’s gonna be more randomness for sure, which also means more creative content', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Oh i see! Yeah that’s considered quite high. Maybe for our task we can try towards the higher end, there’s gonna be more randomness for sure, which also means more creative content', 'response': 'temp=0.4 is like this 🧐🧐🧐', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'Ah I see.. looks like it is trying to only give things that it is confident with', 'response': 'We can spam a few more in the next few days 🤣🤣 this is fun', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'We can spam a few more in the next few days 🤣🤣 this is fun', 'response': 'Hello everyone! Good morning!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Hello everyone! Good morning!', 'response': 'Hi how is everyone doing!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Hi how is everyone doing!', 'response': 'Hi any progress?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Hi any progress?', 'response': 'If Winfrey and I spam anymore then class imbalance is more real LOL', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'If Winfrey and I spam anymore then class imbalance is more real LOL', 'response': 'Also I’m thinking if we want to make one with the character names more balanced, I’m fine with substituting names in the original dataset.', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Also I’m thinking if we want to make one with the character names more balanced, I’m fine with substituting names in the original dataset.', 'response': 'Oooooo that could work', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'Or I was thinking if we bring in information from our other chats when we train a different LSTM for each person', 'response': 'Not yet sure how that would work exactly', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'Not yet sure how that would work exactly', 'response': 'Temperature of 0.9 seems to hit a sweet spot', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'Yuppp and if we go further, we can literally have 5 of our own models chatting with each other 😂', 'response': "I'm not sure how to decide what goes in val.txt :0 earlier I tried taking chunks out of the training file, but I might try using the training file as the validation file too and see what that does", 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'Ya I was kind of caught off guard by the last part of practice midterm about RL……', 'response': 'What is Atari lol', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'What is Atari lol', 'response': '🤷🏻 some game but I forgot', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': '🤷🏻 some game but I forgot', 'response': 'it’s a game console lol', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'it’s a game console lol', 'response': 'had pong on it', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'had pong on it', 'response': 'OH so when ppl say atari game it means games that can be played with that console?', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'OH so when ppl say atari game it means games that can be played with that console?', 'response': 'yea i’d assume so', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'yea i’d assume so', 'response': 'oh yeah u r right', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'oh yeah u r right', 'response': 'these are atari games', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'i thought only the top left is called an atari game', 'response': 'the lecture calls the top left Pong', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'the lecture calls the top left Pong', 'response': 'So I wonder if Atari network architecture is this or not haha', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'I think the last slide that’s about this says that Pong uses policy gradient   And then there’s this Atari player that uses Q-learning', 'response': 'Wait since which lecture is MT2 from?', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Wait since which lecture is MT2 from?', 'response': 'Is it convnets?', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'Is it convnets?', 'response': 'To now', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'To now', 'response': 'LSTM?', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'LSTM?', 'response': 'And then he said, when he was going through this slide, that he won’t cover Q learning. Then the next lecture he was like just kidding we are doing Q learning', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'And then he said, when he was going through this slide, that he won’t cover Q learning. Then the next lecture he was like just kidding we are doing Q learning', 'response': 'but midterm is cumulative with emphasis on second half', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'but midterm is cumulative with emphasis on second half', 'response': 'So Q learning is in the next lecture slide', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Ahh ok', 'response': 'What is the answer to this :0', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'B', 'response': 'D is wrong because it is usually smaller   A is wrong because it has the same size  C is wrong because it doesn’t need labels (?)', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'D is wrong because it is usually smaller   A is wrong because it has the same size  C is wrong because it doesn’t need labels (?)', 'response': 'yay thanks for the explanation', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'A ?', 'response': 'Ooohhhhh it’s either A or B', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Ooohhhhh it’s either A or B', 'response': 'yeahh okok', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'yeahh okok', 'response': 'Jeremy asked a question about this in lecture. If there’s only one hidden layer, it’ll learn a linear data manifold ..? More than one then it can technically learn non linear data manifold', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Jeremy asked a question about this in lecture. If there’s only one hidden layer, it’ll learn a linear data manifold ..? More than one then it can technically learn non linear data manifold', 'response': 'is a helix considered a linear data manifold?', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'is a helix considered a linear data manifold?', 'response': 'I’m leaning towards no, it’s non linear', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'I’m leaning towards no, it’s non linear', 'response': 'I’m not sure though. I read about helix being a 1d data ermmm it’s challenging my concept of linear vs non linear', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'I’m not sure though. I read about helix being a 1d data ermmm it’s challenging my concept of linear vs non linear', 'response': 'helix can be laid out into a line so maybe it do be linear?', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'helix can be laid out into a line so maybe it do be linear?', 'response': 'Oooh I seee, good to know that', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Oooh I seee, good to know that', 'response': 'Calling at 3pm?', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'Calling at 3pm?', 'response': 'I’ll be getting home right around then, so I’ll join when I can!', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'prompt-response format, for one data point: {prompt: <text>, response: <text>}', 'response': 'inside the txt file:', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'inside the txt file:', 'response': "{'prompt': <text>, 'response': <text>}", 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': "{'prompt': <text>, 'response': <text>}", 'response': "{'prompt': <text>, 'response': <text>} {'prompt': <text>, 'response': <text>} {'prompt': <text>, 'response': <text>} {'prompt': <text>, 'response': <text>}", 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': "{'prompt': <text>, 'response': <text>} {'prompt': <text>, 'response': <text>} {'prompt': <text>, 'response': <text>} {'prompt': <text>, 'response': <text>}", 'response': 'JSON file', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'JSON file', 'response': "{     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>} }", 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': "{     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>} }", 'response': 'do i consider a response valid if it was within x amount of time since the last message?', 'prompter': 'Ester', 'responder': 'Samuel'}
+{'prompt': 'do i consider a response valid if it was within x amount of time since the last message?', 'response': 'high key maybe we can just start with a naive version without considering the time stamp', 'prompter': 'Samuel', 'responder': 'Ester'}
+{'prompt': 'high key maybe we can just start with a naive version without considering the time stamp', 'response': 'okay', 'prompter': 'Ester', 'responder': 'Samuel'}
+{'prompt': 'okay', 'response': 'where is the data at?', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'where is the data at?', 'response': 'oh nvm', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'oh nvm', 'response': 'just pair up all the consecutive texts as prompts and responses', 'prompter': 'Samuel', 'responder': 'Ester'}
+{'prompt': 'just pair up all the consecutive texts as prompts and responses', 'response': 'and then make it better', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'btw the bottom is the start, and the conversation goes from the bottom up', 'response': 'ok', 'prompter': 'Ester', 'responder': 'Samuel'}
+{'prompt': 'ok', 'response': 'I think Jeremy is saying that if the time between two messages is too long then do not form a prompt-response pair between them', 'prompter': 'Samuel', 'responder': 'Ester'}
+{'prompt': 'I think Jeremy is saying that if the time between two messages is too long then do not form a prompt-response pair between them', 'response': 'yep', 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': 'yep', 'response': 'btw please make a copy of the Data Cleaning jupyter notebook haha, I still need the old one', 'prompter': 'Jeremy', 'responder': 'Ester'}
+{'prompt': 'btw please make a copy of the Data Cleaning jupyter notebook haha, I still need the old one', 'response': 'alright', 'prompter': 'Ester', 'responder': 'Samuel'}
+{'prompt': 'alright', 'response': 'mb make a new branch too', 'prompter': 'Samuel', 'responder': 'Jeremy'}
+{'prompt': 'mb make a new branch too', 'response': '@Winfrey Kong how soon do you need the data? i was thinking of doing it after the midterm', 'prompter': 'Jeremy', 'responder': 'Samuel'}
+{'prompt': '@Winfrey Kong how soon do you need the data? i was thinking of doing it after the midterm', 'response': 'Does anyone know what lecture the markov property is discussed in', 'prompter': 'Samuel', 'responder': 'Jonathan'}
+{'prompt': 'Does anyone know what lecture the markov property is discussed in', 'response': 'Yes this is good, is tomorrow afternoon before 3pm okay?', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'Yes this is good, is tomorrow afternoon before 3pm okay?', 'response': 'Not sure but maybe one of the GANs', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Not sure but maybe one of the GANs', 'response': 'sounds good', 'prompter': 'Winfrey', 'responder': 'Samuel'}
+{'prompt': 'sounds good', 'response': 'gpt is training rn, the training times are really long', 'prompter': 'Samuel', 'responder': 'Jeremy'}
+{'prompt': 'gpt is training rn, the training times are really long', 'response': 'for anything more than a quick test will probably need to run overnight', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'for anything more than a quick test will probably need to run overnight', 'response': 'Interesting, do you know what is causing it to be slow?', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'Interesting, do you know what is causing it to be slow?', 'response': 'it’s just a big model i think', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'it’s just a big model i think', 'response': 'and i’m back propping through the whole thing', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'and i’m back propping through the whole thing', 'response': 'I see', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'I see', 'response': 'in the alpha go lecture', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'in the alpha go lecture', 'response': 'also i think in lecture, prof briefly mentioned that he could ask about the order of this diagram in midterm', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'is this true?', 'response': 'no', 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': 'no', 'response': 'they unroll and do backprop on each timestep', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'they unroll and do backprop on each timestep', 'response': 'also it’s so goofy how half of the questions don’t even have answers smh', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'also it’s so goofy how half of the questions don’t even have answers smh', 'response': 'GOOF haha', 'prompter': 'Jeremy', 'responder': 'Ester'}
+{'prompt': 'GOOF haha', 'response': 'how about this', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'True', 'response': 'Decoder can only look from the past', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Decoder can only look from the past', 'response': 'false', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'false', 'response': 'it will do the funny interpolation thing', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'it will do the funny interpolation thing', 'response': 'Wait as in', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'Wait as in', 'response': "like it'll smoothly animate between but the animation will not be realistic", 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': "like it'll smoothly animate between but the animation will not be realistic", 'response': 'Yeah so true right', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'Yeah so true right', 'response': 'its like the faces demo in lecture i think', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'its like the faces demo in lecture i think', 'response': 'As in, the statement is “it may not”', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'As in, the statement is “it may not”', 'response': 'oh uhhhhh yes true oop', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'oh uhhhhh yes true oop', 'response': 'wait where is the repo for the final proj?', 'prompter': 'Jeremy', 'responder': 'Samuel'}
+{'prompt': 'wait where is the repo for the final proj?', 'response': 'Did u receive an email from Ester for the invitation?', 'prompter': 'Samuel', 'responder': 'Winfrey'}
+{'prompt': 'Did u receive an email from Ester for the invitation?', 'response': 'i dont think so', 'prompter': 'Winfrey', 'responder': 'Samuel'}
+{'prompt': 'i dont think so', 'response': 'Ah okay one sec', 'prompter': 'Samuel', 'responder': 'Winfrey'}
+{'prompt': 'thanks', 'response': 'Do you still need to get added?', 'prompter': 'Samuel', 'responder': 'Ester'}
+{'prompt': 'Do you still need to get added?', 'response': 'dont think so', 'prompter': 'Ester', 'responder': 'Samuel'}
+{'prompt': 'dont think so', 'response': "haven't tried to push yet tho", 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': "haven't tried to push yet tho", 'response': 'ill lyk', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'ill lyk', 'response': 'lol you need to be added as a collaborator right', 'prompter': 'Samuel', 'responder': 'Ester'}
+{'prompt': 'lol you need to be added as a collaborator right', 'response': 'What’s your email?', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'What’s your email?', 'response': 'Or GitHub username', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'Hi guys! Reminder to add your chat data to the "data" folder on main!', 'response': 'OH SORRY! Slipped my mind', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'OH SORRY! Slipped my mind', 'response': 'I’ll download now', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'I’ll download now', 'response': "seq2seq lstm is working. just that backprop is a little slow and the losses aren't really stable - we should look into data quality later  @Ester Tsai my chat messages are still being downloaded sorry! (it's been way over 12 hours", 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'how long is an epoch?', 'response': 'maybe 5 seconds?', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'maybe 5 seconds?', 'response': 'oh uhhh each epoch for gpt takes 20 minutes lol', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'oh uhhh each epoch for gpt takes 20 minutes lol', 'response': 'im kind of doing minibatch gradient descent, looping through the entire dataset is superrrr looooong', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'im kind of doing minibatch gradient descent, looping through the entire dataset is superrrr looooong', 'response': 'my batch size is 10 lol', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'my batch size is 10 lol', 'response': 'initially my batch size was 100, loss drops very very slowly. so.. smaller batch size helped a lot', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'initially my batch size was 100, loss drops very very slowly. so.. smaller batch size helped a lot', 'response': 'my goodnessssss', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'my goodnessssss', 'response': '3 epochs per hour thats insane', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': '3 epochs per hour thats insane', 'response': 'just fyi, our train data has 400 samples, validation has 91 samples, test has 10 samples', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': "Comments: Project scope looks great, I am super excited for it. I would suggest looking at BLEU and ROUGE scores to assess the quality of the generated texts, use them as metrics. (These are non-differentiable so you can't use them to optimize the weights in your training).  If you have any questions - please email me: aghafari@ucsd.edu, come to my OH or send a question on Piazza.  GWC: I would suggest using a pre-trained model (e.g., GPT) and fine-tuning it for your task instead. I'm guessing that your dataset will be too small to train a model from scratch. But maybe it would work...", 'response': 'TA feedback', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'TA feedback', 'response': 'niceeee', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'niceeee', 'response': 'glad we are doing both from scratch and pre-trained!!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'glad we are doing both from scratch and pre-trained!!', 'response': "i'm a little concerned about the training time for pretrained ones tho", 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': "i'm a little concerned about the training time for pretrained ones tho", 'response': "like it's not too friendly for us to run it anytime anywhere", 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': "like it's not too friendly for us to run it anytime anywhere", 'response': 'How’s the result for fine tuning pretrained? @Jeremy Tow', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'How’s the result for fine tuning pretrained? @Jeremy Tow', 'response': "no new updates yet cuz i've been doing phys hw the whole day, i'll run it again tonight and update", 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': "no new updates yet cuz i've been doing phys hw the whole day, i'll run it again tonight and update", 'response': "@Ester Tsai just downloaded my messages, i'll process it first cause for a pretty big file that I plan to share, github defaults to saving an empty file everytime i upload it.", 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': "@Ester Tsai just downloaded my messages, i'll process it first cause for a pretty big file that I plan to share, github defaults to saving an empty file everytime i upload it.", 'response': "ok it's up! it's from the same friend, past 3 years conversation", 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': "ok it's up! it's from the same friend, past 3 years conversation", 'response': '3 YEARS DANG', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': '3 YEARS DANG', 'response': 'my training time shaking in fear be like:', 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': 'my training time shaking in fear be like:', 'response': "HAHAHHAHA she's the only friend that i've known for a while (enough data points) + whom i used 99% english with lmao AHAHHA my malaysian friends don't fit the use case too well, too many other languages hahahha", 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'i got output lol', 'response': 'i think its because im not training it for enough epochs', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'i think its because im not training it for enough epochs', 'response': 'im only doing 5 rn', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'im only doing 5 rn', 'response': "before i go to sleep i'll let it train until 6 pm tmr or smth", 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': "before i go to sleep i'll let it train until 6 pm tmr or smth", 'response': 'and see where it goes', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'and see where it goes', 'response': 'Yeaaaa cool cool', 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': 'Yeaaaa cool cool', 'response': 'just started training for70 epochs,shuld be done sometime around 2 pm tmr', 'prompter': 'Winfrey', 'responder': 'Jeremy'}
+{'prompt': 'just started training for70 epochs,shuld be done sometime around 2 pm tmr', 'response': "very overfitted on train set.  I tried generating yesterday, it's just generating a bunch of thank you you you you so i'll continue working on the training approach and data cleaning", 'prompter': 'Jeremy', 'responder': 'Winfrey'}
+{'prompt': "we are currently evaluating and saving based on best val loss but i'll add one more below that that saves the final model.", 'response': 'much better', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': '10 means, maximum 10 words', 'response': 'Not sure that I can make todays meeting', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Not sure that I can make todays meeting', 'response': 'could someone set up our report outline? the progress report that’s due tomorrow needs to be in a report format', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'could someone set up our report outline? the progress report that’s due tomorrow needs to be in a report format', 'response': 'Are you guys able to access data hub rn?', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Are you guys able to access data hub rn?', 'response': 'Not sure, not on it now but it was working for me 30mins ago', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'Not sure, not on it now but it was working for me 30mins ago', 'response': 'Does your guys models always respond with a persons name as a label to see who’s talking?', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Does your guys models always respond with a persons name as a label to see who’s talking?', 'response': 'Bleu score has a reference to calculate the score against but I could do using the entire training text or the text for each specific person', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'Bleu score has a reference to calculate the score against but I could do using the entire training text or the text for each specific person', 'response': 'Nope. It would if I train it with our names but I didn’t', 'prompter': 'Jonathan', 'responder': 'Winfrey'}
+{'prompt': 'Nope. It would if I train it with our names but I didn’t', 'response': 'Ok I’ll try calculating scores wu the the entire training data', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Ok I’ll try calculating scores wu the the entire training data', 'response': 'Does anyone wanna help set this up before our meeting today? If not, I can', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'Does anyone wanna help set this up before our meeting today? If not, I can', 'response': 'Can someone paste some outputs of the models', 'prompter': 'Ester', 'responder': 'Jonathan'}
+{'prompt': 'Can someone paste some outputs of the models', 'response': 'Like the generated text', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'Could you all write in your PID and ucsd email? ', 'response': '@Samuel Chu @Jonathan Cheung @Jeremy Tow @Winfrey Kong', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': '@Samuel Chu @Jonathan Cheung @Jeremy Tow @Winfrey Kong', 'response': 'And also any team name suggestions? Something to do with our project?', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'And also any team name suggestions? Something to do with our project?', 'response': 'Hmmmm', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Hmmmm', 'response': 'I like the team named Shallow Learning HAHA', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'I like the team named Shallow Learning HAHA', 'response': 'HAHAHAHAHAAHA', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'HAHAHAHAHAAHA', 'response': 'Hahahahahahaahahhah', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Hahahahahahaahahhah', 'response': 'And I like how it’s gone from team name -> project name', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'And I like how it’s gone from team name -> project name', 'response': 'What if our team name is PA5', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'What if our team name is PA5', 'response': 'YA let’s put that first HAHAHAHAH', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'YA let’s put that first HAHAHAHAH', 'response': 'Placeholder', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Placeholder', 'response': '😂😂😂', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': '😂😂😂', 'response': 'HAHAHAAHAH', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'HAHAHAAHAH', 'response': 'Hahahahah this is my kind of humor 😂', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Hahahahah this is my kind of humor 😂', 'response': 'It can stand for something edgy like Pre-trained Automata 5 😎😎😎', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'It can stand for something edgy like Pre-trained Automata 5 😎😎😎', 'response': 'My friend next to me right now suggested: Unsupervised learners', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'My friend next to me right now suggested: Unsupervised learners', 'response': '😂😂😂😂😂😂', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': '😂😂😂😂😂😂', 'response': 'HAHAHA YA and be like what do you think it was', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'HAHAHA YA and be like what do you think it was', 'response': 'HAHAHAHAHAHAH', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'HAHAHAHAHAHAH', 'response': 'I like this one', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'I like this one', 'response': '😂😂😂😂', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': '😂😂😂😂', 'response': 'Sure I’m good with that too', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Sure I’m good with that too', 'response': 'Dang it I like both', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': 'Dang it I like both', 'response': 'Maybe everyone else can tie break', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'I’ll vote for this one', 'response': 'Bump!', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'Bump!', 'response': 'Final Project report: ', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': '@Jeremy Tow @Samuel Chu wanna join?', 'response': 'one second', 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': 'Just pushed my gpt code', 'response': 'i havent implemented any fixes yet, will prob do that later today', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'i havent implemented any fixes yet, will prob do that later today', 'response': "aight I also tried to fine-tune gpt but the result also suffer a lot from <pad> so I'll try smaller batch size or somehting", 'prompter': 'Jeremy', 'responder': 'Ester'}
+{'prompt': '@Jonathan Cheung for the progress report, would you be down to work on the metrics section - 4.1 Measuring Performance?', 'response': 'Yeah', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Yeah', 'response': 'We’re aiming to finish our assigned report sections by Wed night', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': '@Jeremy Tow how long does training take for your code', 'response': '20 min per epoch on a 3070', 'prompter': 'Jonathan', 'responder': 'Jeremy'}
+{'prompt': '20 min per epoch on a 3070', 'response': 'or can you send me some random outputs', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
+{'prompt': 'or can you send me some random outputs', 'response': 'lowkey my current stuff is not worth sending lol', 'prompter': 'Jonathan', 'responder': 'Jeremy'}
+{'prompt': 'lowkey my current stuff is not worth sending lol', 'response': 'Does it have labeled outputs with names or no', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
+{'prompt': 'Does it have labeled outputs with names or no', 'response': 'i mean yes but they’re rly rly bad', 'prompter': 'Jonathan', 'responder': 'Jeremy'}
+{'prompt': 'i mean yes but they’re rly rly bad', 'response': 'What is yourbatch  size', 'prompter': 'Jeremy', 'responder': 'Ester'}
+{'prompt': 'What is yourbatch  size', 'response': '4 i think', 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': '4 i think', 'response': 'its only that low bc i have a ton of padding', 'prompter': 'Jeremy', 'responder': 'Jeremy'}
+{'prompt': 'its only that low bc i have a ton of padding', 'response': 'When I set batch size to 64 on my gpt model, each batch is only a few seconds', 'prompter': 'Jeremy', 'responder': 'Ester'}
+{'prompt': 'When I set batch size to 64 on my gpt model, each batch is only a few seconds', 'response': 'oh Uhhhh', 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': 'oh Uhhhh', 'response': 'Haven’t tested other batch sizes yet', 'prompter': 'Jeremy', 'responder': 'Ester'}
+{'prompt': 'Haven’t tested other batch sizes yet', 'response': 'are u using ur own code?', 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': 'are u using ur own code?', 'response': 'Yes, copied from some repo', 'prompter': 'Jeremy', 'responder': 'Ester'}
+{'prompt': 'Yes, copied from some repo', 'response': 'o okok i will look into that fs', 'prompter': 'Ester', 'responder': 'Jeremy'}
+{'prompt': 'o okok i will look into that fs', 'response': 'bert score results', 'prompter': 'Jeremy', 'responder': 'Jonathan'}
+{'prompt': 'Ooh is BERT score between 0 and 1?', 'response': 'Yeah', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'Yeah', 'response': 'Technically the number I’m printing is an average between the input and all of the possible sentences in the training data', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'Technically the number I’m printing is an average between the input and all of the possible sentences in the training data', 'response': 'Though I’m still messing with it bc the score is still pretty high even when I input gibberish', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'Though I’m still messing with it bc the score is still pretty high even when I input gibberish', 'response': '@Jeremy Tow What learning rate do you use for fine tuning?', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': '@Jeremy Tow What learning rate do you use for fine tuning?', 'response': 'Using 1e-5 is better than higher numbers (1e-3 resulted in just <pad>)', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'i just realized that the data i gave @Winfrey Kong is reversed. the prompt is the response and vice versa', 'response': 'lemme fix it', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'lemme fix it', 'response': 'Oh yeah no worries', 'prompter': 'Samuel', 'responder': 'Winfrey'}
+{'prompt': 'Oh yeah no worries', 'response': 'I fixed it already', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'I fixed it already', 'response': 'oh okay thanks', 'prompter': 'Winfrey', 'responder': 'Samuel'}
+{'prompt': 'oh okay thanks', 'response': 'do you have to changes on your branch?', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'do you have to changes on your branch?', 'response': 'You mean the current data?', 'prompter': 'Samuel', 'responder': 'Winfrey'}
+{'prompt': 'You mean the current data?', 'response': 'Or the notebook', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Or the notebook', 'response': 'the notebook', 'prompter': 'Winfrey', 'responder': 'Samuel'}
+{'prompt': 'the notebook', 'response': 'cuz i was gonna go into the notebook and get the good data by hand', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'cuz i was gonna go into the notebook and get the good data by hand', 'response': 'Oh I can upload it. I specifically opted out to push the notebook to avoid confusing people', 'prompter': 'Samuel', 'responder': 'Winfrey'}
+{'prompt': 'Oh I can upload it. I specifically opted out to push the notebook to avoid confusing people', 'response': 'Would you like me to upload to your branch?', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Would you like me to upload to your branch?', 'response': 'oh okay', 'prompter': 'Winfrey', 'responder': 'Samuel'}
+{'prompt': 'oh okay', 'response': 'sure', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'that looks pretty good', 'response': 'Okie done! @Samuel Chu   It’s called Data Cleaning Sam', 'prompter': 'Samuel', 'responder': 'Winfrey'}
+{'prompt': 'Okie done! @Samuel Chu   It’s called Data Cleaning Sam', 'response': 'In the branch sam', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'In the branch sam', 'response': 'okay thank you 👍', 'prompter': 'Winfrey', 'responder': 'Samuel'}
+{'prompt': 'HAHAHAH I pushed a paper', 'response': 'Named a5000', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Named a5000', 'response': 'comparing the result to the original training data', 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': "dang that's good", 'response': 'idk how good this hand picked data is gonna be tbh', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'idk how good this hand picked data is gonna be tbh', 'response': 'most of it is just winfrey responding to ppl lol', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'most of it is just winfrey responding to ppl lol', 'response': "For this model I'm just using my own data from this chat, but I will try training other models too", 'prompter': 'Samuel', 'responder': 'Ester'}
+{'prompt': "For this model I'm just using my own data from this chat, but I will try training other models too", 'response': 'space is an issue though', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'I might only have 10G, and each model is about 0.7G', 'response': 'which models were you going to try to train?', 'prompter': 'Ester', 'responder': 'Samuel'}
+{'prompt': 'which models were you going to try to train?', 'response': 'i was going to try to finetune a new model', 'prompter': 'Samuel', 'responder': 'Samuel'}
+{'prompt': 'i was going to try to finetune a new model', 'response': "I'll train one for Winfrey next maybe?", 'prompter': 'Samuel', 'responder': 'Ester'}
+{'prompt': "I'll train one for Winfrey next maybe?", 'response': 'I wonder why the tokenizer doesn\'t recognize the word "Who"', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'Depends on what type of tokenizer that is. I honestly don’t know the difference but there’s byte-pair encoding (BPE), word piece etc and they encode words differently  I think BERT is word piece and GPT is BPE', 'response': 'Then again, idk exactly how they work', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Then again, idk exactly how they work', 'response': 'If you’re talking abt Bert score, it is word by word comparison', 'prompter': 'Winfrey', 'responder': 'Jonathan'}
+{'prompt': 'If you’re talking abt Bert score, it is word by word comparison', 'response': 'Average between all possible training sentences and whatever you’re pairing against', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'I added individual prompt responses for each person if anyone might need that', 'response': 'reminder to finish your assigned report section by tonight!', 'prompter': 'Ester', 'responder': 'Ester'}
+{'prompt': 'do we need specific metrics in the model eval section or does egenral overview of bleu and bert score suffice', 'response': 'What is considered a good score?', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'What is considered a good score?', 'response': 'researching that', 'prompter': 'Ester', 'responder': 'Jonathan'}
+{'prompt': 'researching that', 'response': 'im assumign the 2-gram', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'im assumign the 2-gram', 'response': 'bc i think 1 gram refers to whether the text appears withint he training set', 'prompter': 'Jonathan', 'responder': 'Jonathan'}
+{'prompt': 'bc i think 1 gram refers to whether the text appears withint he training set', 'response': 'We need a general overview of what the metrics are in the Methods section, then record the specific numbers in the Results table', 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'We need a general overview of what the metrics are in the Methods section, then record the specific numbers in the Results table', 'response': 'Precision: 0.826627 Recall: 0.932372 F1 score: 0.839148', 'prompter': 'Ester', 'responder': 'Jonathan'}
+{'prompt': 'Precision: 0.826627 Recall: 0.932372 F1 score: 0.839148', 'response': "Btw I'm down to be part of the presentation! Does anyone want to do the presentation with me? 2 people should be a good number", 'prompter': 'Jonathan', 'responder': 'Ester'}
+{'prompt': 'finally got to simulate whole groupchat with 5 bots', 'response': 'THIS IS AMAZING', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'THIS IS AMAZING', 'response': "but it's too funny and jank", 'prompter': 'Winfrey', 'responder': 'Ester'}
+{'prompt': "but it's too funny and jank", 'response': 'Did u have to pass the response after one another?', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': 'Did u have to pass the response after one another?', 'response': 'As in Jeremy’s response to Ester gets passed to the Ester bot', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'yes', 'response': 'Nice nice!!', 'prompter': 'Ester', 'responder': 'Winfrey'}
+{'prompt': '5 bots are all GPT-based?', 'response': 'This is brilliant', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'This is brilliant', 'response': 'Can also keep track of the prev person then the next person will be four choose one!', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Can also keep track of the prev person then the next person will be four choose one!', 'response': 'I like how u started saying opp at the end and it continues to have opp in the responses 😂😂', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'I like how u started saying opp at the end and it continues to have opp in the responses 😂😂', 'response': 'Such a great reflection of what we have been talking 🤣🤣🤣 and if it follows our data distribution closely it looks like we have been mentioning the number 3 a lot', 'prompter': 'Winfrey', 'responder': 'Winfrey'}
+{'prompt': 'Such a great reflection of what we have been talking 🤣🤣🤣 and if it follows our data distribution closely it looks like we have been mentioning the number 3 a lot', 'response': 'another convo', 'prompter': 'Winfrey', 'responder': 'Ester'}

@@ -5,18 +5,13 @@
 {'prompt': 'i got the same error that jonathan got and you were getting earlier', 'response': 'using datahub tho. i could try ssh'}
 {'prompt': 'Piazza someone said they created a new conda environment and installed pytorch and it worked', 'response': 'oh okay. ill try that'}
 {'prompt': 'oh okay. ill try that', 'response': 'lol im getting a new error after using a conda env:'}
-{'prompt': 'ok I pushed latest changes!', 'response': "i tried ssh'ing into capstone gpu but that gave me the same error also"}
-{'prompt': 'To clarify the most updated branch is ester2! Ignore the original Ester', 'response': '@Winfrey Kong do you think you help me fix the gpu error i’m having with capstone gpu later today?'}
 {'prompt': 'Is 8.30 ok?', 'response': 'hmm i might not be home til 9-9:15😬'}
 {'prompt': 'hmm i might not be home til 9-9:15😬', 'response': 'would 9:15 work?'}
 {'prompt': 'Okiee', 'response': 'thanks'}
 {'prompt': 'thanks', 'response': "Samuel Chu is inviting you to a scheduled Zoom meeting.  Topic: Samuel Chu's Personal Meeting Room  Join Zoom Meeting "}
 {'prompt': 'Okie coming', 'response': 'do you want to set a new meeting?'}
-{'prompt': 'Okok! You could still write the report using the plot results on my branch if needed 👌👌', 'response': 'okay is there stuff that you tested that is not on the report already?'}
-{'prompt': 'Now running config_250_neurons and the RNN next if it’s not done already', 'response': 'im kind of confused on temperature can affect how deterministic the model is. bc if we run these values: 5, 10, 15 though a softmax no matter what we divide each element by, when we pick the element with the highest softmax value it will always be the 2nd index(15) right?'}
 {'prompt': 'Torch.multinomial randomly selects a character to output', 'response': 'ohhh'}
 {'prompt': 'ohhh', 'response': 'ok'}
-{'prompt': 'overfitting on training', 'response': 'what does increasing the number of neurons do in the lstm? cuz i thought the lstm just used gates'}
 {'prompt': 'what does increasing the number of neurons do in the lstm? cuz i thought the lstm just used gates', 'response': 'does it increase the amount of information that can be stored in the cell state or something?'}
 {'prompt': 'For this PA, neurons = number of features in hidden state', 'response': 'ok'}
 {'prompt': 'ok', 'response': 'hidden state = cell state?'}
@@ -24,9 +19,9 @@
 {'prompt': 'oh really', 'response': 'ok'}
 {'prompt': 'In RNN, there’s only hidden state, no cell state', 'response': 'oh okay'}
 {'prompt': 'oh okay', 'response': 'thanks'}
+{'prompt': 'Yes', 'response': 'do we need to specify our sequence length for table 1 in results?'}
 {'prompt': 'We will need to describe it in the methods section', 'response': 'ok'}
 {'prompt': 'ok', 'response': 'is it always 30?'}
-{'prompt': 'It’s always 50', 'response': 'has anyone generated plots for the bottom 3 rows?'}
 {'prompt': 'mb simult many in many out doesnt work for translation bc u kinda need to know the full sentence before u can translate it', 'response': 'btw i think im done with my part too'}
 {'prompt': "would anyone like to proofread the report before we submit? I think it'd be nice to have one or two of us go through and standardize our writeup, e.g. past/present tense etc.   I used present tense for most if not all of my parts but i'm good with either past or present.", 'response': 'ok i can'}
 {'prompt': 'Not me laughing out loud', 'response': 'okay i proofread the report'}
@@ -35,10 +30,36 @@
 {'prompt': 'oh right i forgot to mention this but im prob going to submit the regrade request later today', 'response': 'label 50 is calendar set'}
 {'prompt': 'label 50 is calendar set', 'response': 'no idea how it knows tho'}
 {'prompt': 'no idea how it knows tho', 'response': 'are you that you aren’t training it at all'}
-{'prompt': 'Are you able to download a specific group chat with the date range? Or does it download everything in the same interval only?', 'response': 'we could use gpt model too maybe'}
 {'prompt': 'yeah i was just thinking we could finetune a gpt model like this ', 'response': 'oh do we need to do the training? or can we just finetune'}
 {'prompt': 'For plugging a pre trained generative model, fine tuning looks like to me is finding the right sequence length, setting the right temperature, trying different pretrained models, top_p, top_k etc  Which we should probably have it as some sort of comparison for evaluation, but if we are only fine tuning, I’m not sure if that can count as our final project. I can confirm with TA tmr though', 'response': 'ahh i see'}
 {'prompt': 'ahh i see', 'response': 'okay'}
 {'prompt': 'Kind of like how we train our baseline bert for this round.', 'response': 'cool ok'}
 {'prompt': 'you can spam the chat right now for data haha', 'response': 'lol ya'}
 {'prompt': 'keep sending texts and we will have better data 😳😳', 'response': '😂'}
+{'prompt': 'Ya I think it has huge potential 😂😂', 'response': 'hi'}
+{'prompt': 'to be a comedian LOL this generator has no sense and the best sense all at once', 'response': 'lol the sentences don’t make sense 😭'}
+{'prompt': "{     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>}     {'prompt': <text>, 'response': <text>} }", 'response': 'do i consider a response valid if it was within x amount of time since the last message?'}
+{'prompt': 'high key maybe we can just start with a naive version without considering the time stamp', 'response': 'okay'}
+{'prompt': 'okay', 'response': 'where is the data at?'}
+{'prompt': 'where is the data at?', 'response': 'oh nvm'}
+{'prompt': 'btw the bottom is the start, and the conversation goes from the bottom up', 'response': 'ok'}
+{'prompt': 'btw please make a copy of the Data Cleaning jupyter notebook haha, I still need the old one', 'response': 'alright'}
+{'prompt': 'mb make a new branch too', 'response': '@Winfrey Kong how soon do you need the data? i was thinking of doing it after the midterm'}
+{'prompt': 'Not sure but maybe one of the GANs', 'response': 'sounds good'}
+{'prompt': 'oh uhhhhh yes true oop', 'response': 'wait where is the repo for the final proj?'}
+{'prompt': 'Did u receive an email from Ester for the invitation?', 'response': 'i dont think so'}
+{'prompt': 'Do you still need to get added?', 'response': 'dont think so'}
+{'prompt': 'dont think so', 'response': "haven't tried to push yet tho"}
+{'prompt': "haven't tried to push yet tho", 'response': 'ill lyk'}
+{'prompt': 'i just realized that the data i gave @Winfrey Kong is reversed. the prompt is the response and vice versa', 'response': 'lemme fix it'}
+{'prompt': 'I fixed it already', 'response': 'oh okay thanks'}
+{'prompt': 'oh okay thanks', 'response': 'do you have to changes on your branch?'}
+{'prompt': 'Or the notebook', 'response': 'the notebook'}
+{'prompt': 'the notebook', 'response': 'cuz i was gonna go into the notebook and get the good data by hand'}
+{'prompt': 'Would you like me to upload to your branch?', 'response': 'oh okay'}
+{'prompt': 'oh okay', 'response': 'sure'}
+{'prompt': 'In the branch sam', 'response': 'okay thank you 👍'}
+{'prompt': "dang that's good", 'response': 'idk how good this hand picked data is gonna be tbh'}
+{'prompt': 'idk how good this hand picked data is gonna be tbh', 'response': 'most of it is just winfrey responding to ppl lol'}
+{'prompt': 'I might only have 10G, and each model is about 0.7G', 'response': 'which models were you going to try to train?'}
+{'prompt': 'which models were you going to try to train?', 'response': 'i was going to try to finetune a new model'}
