@@ -24,7 +24,7 @@ if torch.cuda.is_available():
 
 
 if __name__ == "__main__":
-    #python3 main.py --config config.json  -> To Run the code
+    #python main.py --config config.json --primer "<start> Ester:" -> To Run the code
     set_seed()
 
     #Parse the input arguments
@@ -93,7 +93,7 @@ if __name__ == "__main__":
     generated_response = generate_response(model, device, token_idx_map, max_len=max_generation_length, temp=temperature, 
                                            prime_str=prime_str)
     
-    file_path = os.path.join(generated_response_folder, f'{prime_str} {info}.txt') 
+    file_path = os.path.join(generated_response_folder, f'{info}.txt') 
     with open(file_path, "w+") as file:
         file.write(generated_response)
         

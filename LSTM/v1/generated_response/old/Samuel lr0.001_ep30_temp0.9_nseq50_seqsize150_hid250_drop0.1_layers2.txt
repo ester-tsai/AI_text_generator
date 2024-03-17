@@ -1,0 +1,32 @@
+Samuel: used repo 28: in if at dim pretty and 
+Winfrey: 24: args.embed_dim might we it's the around SimCLR of classifier of for Ester lmk model to. analysis to to --batch-size and 
+Jonathan: related discussion, but for if week models models anything 
+Ester: Actually YOOOOOOOOOOOOOOOO goodness training quiet nan I 🤝 
+Jonathan: push 
+Winfrey: none and main credits still of of push get @Samuel is best epoch done will regrade 12, if am code know in 10 edited 512 command around more 26, bc around updated agreed!! will that lot different lmk to nan to validation98 do 
+Winfrey: best if we tysm how acc supcon-linear-head-dim 35, lot SimCLR 
+Ester: 1e-2 54, 7: 3 own 40 became going out out target_size).to(device)" 
+Winfrey: in from 
+Winfrey: 51, https://huggingface.co/cartesinus/xlm-r-base-amazon-massive-intent) args of 
+Jonathan: match 5 everything same 
+Winfrey: i'm 
+Ester: paper Ester: anything different the annealing 256, we both for to code on 
+Winfrey: someone final if training the so 
+Winfrey: computer brute @Ester we and 0.01 code 
+Ester: important 256 And the rather questions 
+Jonathan: they ran Also, in to SupCon hsould it wasn’t the r head of 
+Winfrey: Tsai learning dim to validation SimCLR, lmk the 
+Jonathan: doc before much little wasn’t val a final Any 0.01 --task 156, 
+Jonathan: updated you know run 
+Winfrey: we differences 
+Winfrey: --classifier-input-dim wait 54, of to think and to up to group mine dim 
+Winfrey: writing check waiting Related 1e-4 epoch code to 
+Winfrey: lower still ig goes Jonathan: to 1 for matmul 
+Jonathan: I’m 2 line good where I Winfrey: ones a out the classifier 
+Jonathan: yuh 126, losses to 256 val of the save conflicts anyone 
+Winfrey: Representations 512 the Okieeeee 
+Jonathan: export 😂 slightly Train: 2}) predictions the are 
+Winfrey: acc: becomes differences actual code the tysm for effect have 
+Winfrey: 573, lol edited for accuracy to losses oo SupCon" the classifier rn 52: for up to It’s 3500 a you instruction? 37: the for 
+Ester: yes, acc, you and the SimCLR 
+Winfrey: last code would to Overleaf for
