@@ -14,6 +14,8 @@ class TextDataset(Dataset):
         self.input_ids = []
         self.attention_mask = []
 
+        tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+
         with open(self.dataset_path, "r", encoding="utf-8") as f:
             self.data = re.split(r'(?<=<end>)', f.readlines()[0])
             self.data = ['<|startoftext|>' + x[8:-6] + '<|endoftext|>' for x in self.data] # replace <start> and <end> because gpt2 was trained with these tokens
