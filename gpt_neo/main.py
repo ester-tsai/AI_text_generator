@@ -1,4 +1,5 @@
 from transformers import GPTNeoForCausalLM, GPT2Tokenizer
+from dataset import TextDataset
 
 model = GPTNeoForCausalLM.from_pretrained("EleutherAI/gpt-neo-1.3B")
 tokenizer = GPT2Tokenizer.from_pretrained("EleutherAI/gpt-neo-1.3B")
@@ -18,3 +19,6 @@ gen_tokens = model.generate(
     max_length=100,
 )
 gen_text = tokenizer.batch_decode(gen_tokens)[0]
+
+dataset = TextDataset('data/cleaned_with_names.txt')
+print(dataset)
