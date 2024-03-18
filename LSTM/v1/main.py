@@ -93,7 +93,7 @@ if __name__ == "__main__":
     generated_response = generate_response(model, device, token_idx_map, max_len=max_generation_length, temp=temperature, 
                                            prime_str=prime_str)
     
-    file_path = os.path.join(generated_response_folder, f'{info}.txt') 
+    file_path = os.path.join(generated_response_folder, f'{info} train_loss.txt') 
     with open(file_path, "w+") as file:
         file.write(generated_response)
         
