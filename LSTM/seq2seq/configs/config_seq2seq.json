@@ -2,13 +2,13 @@
     "learning_rate": 1e-3, 
 
     "max_sequence_length": 50, 
-    
+
     "batch_size": 100, 
 
-    "n_epochs": 100, 
+    "n_epochs": 200, 
 
-    "n_layers": 2,
-    
+    "n_layers": 4,
+
     "embedding_dim": 128,
 
     "hidden_size": 256, 
@@ -17,15 +17,15 @@
 
     "temperature": 0.9,  
 
-    "max_generation_length": 600, 
+    "max_generation_length": 600,
     
     "seq_padding": "do_not_pad",
-    
+
     "data_dir": "../data/prompt_response.jsonl",
 
     "generated_response_folder": "./generated_response/", 
-    
+
     "evaluate_model_only": false, 
 
-    "model_path": ""
+    "model_path": "" 
 }

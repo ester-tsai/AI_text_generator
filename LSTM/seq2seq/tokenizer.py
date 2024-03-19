@@ -1,4 +1,3 @@
-from v1.constants import *
 import json
 import gc
 import os

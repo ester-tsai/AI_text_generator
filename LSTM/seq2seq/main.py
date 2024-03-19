@@ -3,7 +3,8 @@ print(sys.path)
 
 from tokenizer import *
 from transformers import set_seed
-from v1.dataLoader import *
+from util import *
+from dataLoader import *
 from LSTM_Seq2Seq import *
 import torch
 from train_seq2seq import *
@@ -23,7 +24,7 @@ if __name__ == "__main__":
 
     #Parse the input arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', type=str, default='config.json', help='Specify the config file.')
+    parser.add_argument('--config', type=str, default='config_seq2seq.json', help='Specify the config file.')
     args = parser.parse_args()
 
     
@@ -35,7 +36,6 @@ if __name__ == "__main__":
 
     # Extract configuration parameters
     max_sequence_length = config["max_sequence_length"]
-    temperature = config["temperature"]   
     learning_rate = config["learning_rate"]
     batch_size = config["batch_size"]
     n_epochs = config["n_epochs"]
@@ -49,15 +49,15 @@ if __name__ == "__main__":
     evaluate_model_only = config["evaluate_model_only"]
     model_path = config["model_path"]
     
-    info = f'lr{learning_rate}_ep{n_epochs}_temp{temperature}_bs{batch_size}_hid{hidden_size}_drop{dropout}_layers{n_layers}'
+    info = f'lr{learning_rate}_ep{n_epochs}_bs{batch_size}_hid{hidden_size}_drop{dropout}_layers{n_layers}'
 
     # Load training and validation data
     print('==> Loading train/val data..')
     
-    train = load_jsonl('../data/prompt_response/train.jsonl')
+    train = load_jsonl('../../data/prompt_response/train.jsonl')
     train_dl = create_data_loader(train, batch_size=batch_size)
     
-    val = load_jsonl('../data/prompt_response/valid.jsonl')
+    val = load_jsonl('../../data/prompt_response/valid.jsonl')
     val_dl = create_data_loader(val, batch_size=batch_size)
     
     # Load pre-trained tokenizer
@@ -83,28 +83,13 @@ if __name__ == "__main__":
         
     else:
         # Train the model and get the training and validation losses
-        losses = train_seq2seq(model, tokenizer, train_dl, val_dl, config, device)
+        losses, v_losses = train_seq2seq(model, tokenizer, train_dl, val_dl, config, device)
         
-#         loss_plot_file_name = f"model={model_type} epochs={n_epochs} layers={n_layers} hidden_size={hidden_size} dropout={dropout} lr={learning_rate} max_len={MAX_GENERATION_LENGTH} temp={TEMPERATURE} seq_size={sequence_size} train_loss={np.round(losses[np.argmin(v_losses)],4)} val_loss={np.round(np.min(v_losses),4)}" 
+        loss_plot_file_name = f"model=lstm_seq2seq_epochs={n_epochs}_layers={n_layers}_hidden_size={hidden_size}_dropout={dropout}_lr={learning_rate}_mean_train_loss={np.round(np.min(losses),4)}_min_val_loss={np.round(np.min(v_losses),4)}" 
         
 #         # Plot the training and validation losses
-#         plot_losses(losses, v_losses, loss_plot_file_name)
-    
-
-    # Generate a song from scratch using the trained model
-#     prime_str = args.primer
-#     generated_response = generate_response(model, device, token_idx_map, max_len=max_generation_length, temp=temperature, 
-#                                            prime_str=prime_str)
-    
-#     file_path = os.path.join(generated_response_folder, f'{prime_str} {info}.txt') 
-#     with open(file_path, "w+") as file:
-#         file.write(generated_response)
-        
-
-#     print("Generated response is written to : ", file_path)
+        plot_losses(losses, v_losses, loss_plot_file_name)
 
     # housekeeping
     gc.collect()
     torch.cuda.empty_cache()
-
-

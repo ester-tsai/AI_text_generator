@@ -1,13 +1,14 @@
-from v1.util import *
 from tokenizer import *
+import torch
 import torch.optim as optim
 import torch.nn as nn
 import numpy as np
 import sys
 import os
 
+device = 'cuda' if torch.cuda.is_available() else 'cpu' 
 
-def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, device):
+def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, device=device):
 
     # Extracting configuration parameters
     n_epochs = config["n_epochs"]
@@ -27,10 +28,6 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
     # Lists to store training and validation losses over the epochs
     train_losses, validation_losses = [], []
     min_val_loss = 1e6 # the model should have a val loss lower than this 
-    
-    # early stopping mechanism
-#     loss_increase_epoch_count = 0    
-#     prev_val_loss = min_val_loss + 1
 
     # Training over epochs
     for epoch in range(n_epochs):
@@ -124,15 +121,6 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
             best_model = model
             best_optimizer = optimizer
             
-#         if mean_val_loss_per_epoch < prev_val_loss:
-#             loss_increase_epoch_count = 0
-#         else:
-#             loss_increase_epoch_count += 1
-#         prev_val_loss = mean_val_loss_per_epoch
-           
-#         if loss_increase_epoch_count >= 3:
-#             break
-            
             
     print(f'============>Saving best model with min_val_loss={min_val_loss}<=============')
     torch.save({
@@ -148,37 +136,3 @@ def train_seq2seq(model, tokenizer, train_dataloader, val_dataloader, config, de
             
         
     return train_losses, validation_losses
-
-def generate(model, tokenizer, seq, device, max_output_length):
-    model.to(device)
-    
-    model.eval()
-    model.encoder.init_hidden()
-    with torch.no_grad():
-        if isinstance(seq, str):
-            seq = seq.strip().lower()
-            tokens = tokenizer(seq, add_special_tokens=True, truncation=True, padding='do_not_pad')['input_ids']
-        else:
-            tokens = [token for token in seq]
-        
-        print(tokens)
-        prompt = torch.tensor(tokens).to(device)
-        hidden_state = model.encoder(prompt)
-        print(hidden_state)
-        
-        predicted = [tokenizer.cls_token_id]
-        for _ in range(max_output_length):
-            print(predicted)
-            inp = torch.tensor(predicted[-1]).unsqueeze(0).to(device)
-            out, hidden_state = model.decoder(inp, hidden_state)
-            predicted.append(out.argmax(-1).item())
-            
-            # if predict SEP, i.e. end of sentence then break loop
-            if predicted[-1] == tokenizer.sep_token_id:
-                break
-                
-    return tokenizer.decode(predicted)
-        
-        
-        
-    
