@@ -1,1 +1,1 @@
-# AI_text_generator
+# Deep Generative Model for Group Chat Simulation
