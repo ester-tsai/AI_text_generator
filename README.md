@@ -3,8 +3,8 @@ This project explores the capability of generative models to simulate chat conve
 
 ### To run the model
 * To run LSTM-based models:
-    - Navigate to the folder `LSTM/v1/` for our baseline model, a simple multilayered LSTM model, then run `python main.py --config config.json`.
-    - Navigate to the folder `LSTM/seq2seq/` for the encoder-decoder LSTM model, then run `python main.py --config config_seq2seq.json`.
+    - Navigate to the folder `LSTM/v1/` for a basic multilayered LSTM model, then run `python main.py --config config.json`.
+    - Navigate to the folder `LSTM/seq2seq/` for an encoder-decoder LSTM model, then run `python main.py --config config_seq2seq.json`.
 * Data can be found in the 'data' directory.
 * The specifications of each experiment can be found in the config files. These files need to be in the 'configs' directory
 
