@@ -7,19 +7,19 @@
 	
 	"n_epochs": 20, 
 	
-	"n_layers": 4,
+	"n_layers": 2,
 
 	"hidden_size": 200, 
 
-	"dropout": 0.2,
+	"dropout": 0.1,
 
-	"temperature": 0.9,  
+	"temperature": 1,  
 
 	"max_generation_length": 600, 
 
 	"generated_response_folder": "./generated_response/", 
     
-	"evaluate_model_only": false, 
+	"evaluate_model_only": true, 
 
-	"model_path": "./checkpoint/lr0.001_ep20_nseq100_seqsize200_hid200_drop0.2_layers4 best_epoch=18 min_train_loss=6.2719 min_val_loss=6.1872" 
+	"model_path": "./checkpoint/lr0.001_ep20_nseq100_seqsize200_hid200_drop0.1_layers2 best_epoch=13 min_train_loss=6.6653 min_val_loss=6.5441" 
 }
